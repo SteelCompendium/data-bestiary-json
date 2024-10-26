@@ -22,7 +22,7 @@
   "intuition": 0,
   "agility": 1,
   "reason": 0,
-  "presence": 1,
+  "presence": 2,
   "traits": [
     {
       "name": "Loyalty Collar",
@@ -31,7 +31,10 @@
   ],
   "abilities": [
     {
-      "name": "Plaguecaster (Action) ◆ INU RR ◆ Signature",
+      "name": "Plaguecaster",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
       "keywords": [
         "Area",
         "Magic",
@@ -39,10 +42,10 @@
         "Resistance"
       ],
       "distance": "3 cube within 10",
-      "target": "Each creature",
-      "t1": "8 poison damage; frightened (INU ends)",
-      "t2": "5 poison damage; frightened (EoT)",
-      "t3": "2 poison damage",
+      "target": "Each creature in the cube",
+      "t1": "2 poison damage; I1 frightened (save ends)",
+      "t2": "5 poison damage; I2 frightened (save ends)",
+      "t3": "8 poison damage; I3 frightened (save ends)",
       "effects": [
         {
           "name": "Effect",

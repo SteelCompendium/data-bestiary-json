@@ -21,20 +21,20 @@
   "intuition": 0,
   "agility": 1,
   "reason": 0,
-  "presence": 1,
+  "presence": 2,
   "traits": [],
   "abilities": [
     {
       "name": "Stinky Glissando",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Magic",
         "Melee"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature or object per minion",
       "t1": "2 poison damage",
       "t2": "4 poison damage; taunted (EoT)",
@@ -47,7 +47,7 @@
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature",
       "trigger": "An ally deals damage to the target.",
       "effects": [

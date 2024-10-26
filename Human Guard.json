@@ -20,28 +20,39 @@
   "size": "1M",
   "stability": 0,
   "free_strike": 2,
-  "might": 1,
+  "might": 2,
   "intuition": 0,
   "agility": 0,
   "reason": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effect": "The guard can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
+    }
+  ],
   "abilities": [
     {
       "name": "Halberd",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 2",
+      "distance": "Melee 2",
       "target": "One creature or object per minion",
       "t1": "2 damage",
       "t2": "5 damage",
-      "t3": "6 damage"
+      "t3": "6 damage",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "If the guard is flanked, they can make a free strike against an additional target adjacent to them. "
+        }
+      ]
     }
   ]
 }

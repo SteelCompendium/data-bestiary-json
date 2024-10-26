@@ -31,24 +31,26 @@
   ],
   "abilities": [
     {
-      "name": "Caustic Detonator (Action) ◆ MGT RR ◆ Signature",
+      "name": "Caustic Detonator",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
       "keywords": [
         "Magic",
-        "Ranged",
-        "Resistance"
+        "Ranged"
       ],
       "distance": "Ranged 10",
       "target": "One creature or object",
-      "t1": "7 acid damage; bleeding (MGT ends)",
-      "t2": "5 acid damage; bleeding (EoT)",
-      "t3": "3 acid damage",
+      "t1": "3 acid damage; M1 bleeding (save ends)",
+      "t2": "5 acid damage; M2 bleeding (save ends)",
+      "t3": "7 acid damage; M3 bleeding (save ends)",
       "effects": [
         {
           "name": "Effect",
-          "effect": "A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the resistance roll. "
+          "effect": "A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the power roll. "
         },
         {
-          "name": "**Special**",
+          "name": "Special",
           "effect": "An adjacent creature can attempt an easy Agility test to remove the detonator as a maneuver. A failure does nothing, a success disarms and destroys the detonator, and a success with a reward allows the disarming creature to throw the detonator onto another target within 5 squares. "
         }
       ]

@@ -1,0 +1,66 @@
+{
+  "name": "High Elf Palinode",
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "roles": [
+    "Defender"
+  ],
+  "level": 1,
+  "ev": 7,
+  "stamina": 12,
+  "immunities": [
+    "magic 2"
+  ],
+  "weaknesses": [],
+  "speed": "5",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "might": 0,
+  "intuition": 2,
+  "agility": 0,
+  "reason": 0,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Otherworldly Grace",
+      "effect": "At the start of their turn, the palinode can turn the duration of one save ends effect they suffer from into EoT."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Instill Regret",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Resistance"
+      ],
+      "distance": "Ranged 8",
+      "target": "1 creature",
+      "t1": "3 psychic damage; I1 weakened (save ends)",
+      "t2": "5 psychic damage; I2 weakened (save ends)"
+    },
+    {
+      "name": "Recall",
+      "type": "Maneuver",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "distance": "Ranged 5",
+      "target": "2 allies",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target is teleported to an unoccupied square adjacent to the palinode. Then, the palinode and each target gain 5 temporary Stamina. "
+        }
+      ]
+    }
+  ]
+}

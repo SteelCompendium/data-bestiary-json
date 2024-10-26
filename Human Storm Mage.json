@@ -23,11 +23,15 @@
   "intuition": 0,
   "agility": 0,
   "reason": 2,
-  "presence": 0,
+  "presence": 1,
   "traits": [
     {
       "name": "Arcane Shield",
-      "effect": "Whenever the mage takes damage from an enemy adjacent to them, the damage is reduced by 3 (minimum 0), and the enemy takes 3 thunder damage and is pushed 2 squares."
+      "effect": "The mage has triple edge against melee attacks and abilities. Whenever the mage takes damage from an enemy adjacent to them, the enemy takes 1 lightning damage and is pushed 2 squares."
+    },
+    {
+      "name": "Studied Supernatural Insight",
+      "effect": "The storm mage can target supernatural creatures and objects within 10 squares, even if they don’t have line of effect."
     }
   ],
   "abilities": [
@@ -45,21 +49,21 @@
       "target": "One creature or object",
       "t1": "5 lightning damage",
       "t2": "8 lightning damage",
-      "t3": "11 lightning damage"
+      "t3": "11 lightning damage 5 Malice: The ability takes the Area keyword and becomes a 10 × 1 line that targets each creature in the area. "
     },
     {
       "name": "Gust of Wind",
       "type": "Maneuver",
       "roll": "MGT RR",
-      "cost": "3 VP",
+      "cost": "3 Malice",
       "keywords": [
         "Area",
         "Magic",
         "Resistance"
       ],
       "distance": "5 cube within 1",
-      "target": "Each creature and object",
-      "t1": "Slide 5; slowed (MGT ends)",
+      "target": "All creatures and objects",
+      "t1": "Slide 5; slowed (save ends)",
       "t2": "Slide 3; slowed (EoT)",
       "t3": "Slide 1",
       "effects": [

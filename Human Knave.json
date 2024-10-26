@@ -19,22 +19,30 @@
   "size": "1M",
   "stability": 0,
   "free_strike": 4,
-  "might": 1,
+  "might": 2,
   "intuition": 0,
   "agility": 0,
-  "reason": 0,
+  "reason": 1,
   "presence": 0,
   "traits": [
     {
+      "name": "I’m Your Enemy",
+      "effect": "The knave can make a free strike against an adjacent creature they have taunted whenever the creature deals damage to a creature other than the knave."
+    },
+    {
       "name": "Overwhelm",
-      "effect": "A creature who starts their turn adjacent to the knave can’t shift."
+      "effect": "An enemy who starts their turn adjacent to the knave can’t shift."
+    },
+    {
+      "name": "Supernatural Insight",
+      "effect": "The knave can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
     }
   ],
   "abilities": [
     {
       "name": "Morningstar & Javelin",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -42,15 +50,15 @@
         "Ranged",
         "Weapon"
       ],
-      "distance": "Reach 1 or Ranged 5",
+      "distance": "Melee 1 or Ranged 5",
       "target": "One creature or object",
-      "t1": "4 damage; taunted (EoT)",
-      "t2": "7 damage; taunted (EoT)",
-      "t3": "10 damage; taunted (EoT)",
+      "t1": "4 damage; M1 the target has a bane on their next attack",
+      "t2": "7 damage; M2 the target has a bane on their next attack",
+      "t3": "10 damage; M3 the target has a double bane on their next attack",
       "effects": [
         {
           "name": "Effect",
-          "effect": "If an adjacent target taunted by this ability harms a creature other than the knave, the knave can make a free strike against the taunted creature as a free triggered action. "
+          "effect": "Taunted (EoT). "
         }
       ]
     }

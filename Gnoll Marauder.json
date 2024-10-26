@@ -1,0 +1,69 @@
+{
+  "name": "Gnoll Marauder",
+  "ancestry": [
+    "Fiend",
+    "Gnoll"
+  ],
+  "roles": [
+    "Harrier"
+  ],
+  "level": 2,
+  "ev": 12,
+  "stamina": 25,
+  "immunities": [],
+  "weaknesses": [],
+  "speed": "7",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 3,
+  "might": 1,
+  "intuition": 0,
+  "agility": 2,
+  "reason": 0,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Death Frenzy",
+      "effect": "Whenever an ally within 7 is reduced to 0 Stamina, the marauder moves up to their speed and makes a free strike."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fury Flail",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Melee",
+        "Weapon"
+      ],
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "t1": "3 damage; A1 bleeding (save ends)",
+      "t2": "5 damage; A2 bleeding (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Shift 2. "
+        }
+      ]
+    },
+    {
+      "name": "Cackletongue",
+      "type": "Maneuver",
+      "cost": "3 Malice",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Self and 2 burst",
+      "target": "Self and all allies",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target shifts up to their speed. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost. "
+        }
+      ]
+    }
+  ]
+}

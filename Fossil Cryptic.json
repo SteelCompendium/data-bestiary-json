@@ -1,0 +1,195 @@
+{
+  "name": "Fossil Cryptic",
+  "ancestry": [
+    "Elemental"
+  ],
+  "roles": [
+    "Solo"
+  ],
+  "level": 2,
+  "ev": "",
+  "stamina": "",
+  "immunities": [
+    "weapon 5"
+  ],
+  "weaknesses": [],
+  "speed": "",
+  "size": "",
+  "stability": "",
+  "free_strike": "",
+  "might": 3,
+  "intuition": 1,
+  "agility": 2,
+  "reason": 1,
+  "presence": 0,
+  "traits": [
+    {
+      "name": "Solo Monster",
+      "effect": ""
+    },
+    {
+      "name": "Churning Trunk",
+      "effect": "The cryptic emits a 1-square aura of swirling debris that obscures their form. Any enemy who enters the aura for the first time in a round or starts their turn there takes 5 damage."
+    },
+    {
+      "name": "Seismic Step",
+      "effect": "The cryptic ignores difficult terrain. Additionally, they have line of effect to concealed creatures touching the ground."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Sand Slam",
+      "type": "Action",
+      "roll": "2d10 + 3",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Melee",
+        "Weapon"
+      ],
+      "distance": "Melee 2",
+      "target": "One creature or object",
+      "t1": "5 damage; A2 prone",
+      "t2": "9 damage; A3 prone and can’t stand (EoT)",
+      "t3": "12 damage; A4 prone and can’t stand (save ends) ",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each enemy within 1 square of the target takes 2 damage. "
+        }
+      ]
+    },
+    {
+      "name": "Stone Bone Storm",
+      "type": "Action",
+      "cost": "2d10 + 3",
+      "keywords": [
+        "Area",
+        "Resistance"
+      ],
+      "distance": "6 × 1 line within 1",
+      "target": "Each enemy in the line",
+      "t1": "2 damage; M2 push 2",
+      "t2": "3 damage; M3 prone",
+      "t3": "4 damage; M4 prone ",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The cryptic reforms their body and appears in an unoccupied space within the line. "
+        }
+      ]
+    },
+    {
+      "name": "Shatterstone",
+      "type": "Action",
+      "roll": "2d10 + 3",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "4 burst",
+      "target": "Each enemy in the burst",
+      "t1": "2 damage; push 2",
+      "t2": "3 damage; push 3; prone",
+      "t3": "4 damage; push 4; prone ",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The cryptic burrows up to half their speed, then creates the burst when they breach the surface."
+        }
+      ]
+    },
+    {
+      "name": "Stoneshift",
+      "type": "Maneuver",
+      "cost": "AGL RR",
+      "keywords": [
+        "Ranged",
+        "Resistance"
+      ],
+      "distance": "Ranged 5",
+      "target": "One creature or object on the ground",
+      "t1": "Slide 3",
+      "t2": "Slide 2",
+      "t3": "Slide 1  2 Malice: The distance of the slide is doubled. "
+    },
+    {
+      "name": "Dissipate",
+      "type": "Triggered Action",
+      "cost": "1 Malice",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The cryptic takes damage",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The cryptic halves the damage, doesn’t suffer any additional effect associated with it, and shifts up to 3 squares. "
+        }
+      ]
+    },
+    {
+      "name": "First Warning Quake",
+      "type": "Villain Action 1",
+      "cost": "MGT RR",
+      "keywords": [
+        "Area",
+        "Resistance"
+      ],
+      "distance": "5 burst",
+      "target": "Each enemy on the ground in the burst",
+      "t1": "The target is prone and can’t stand (EoT)",
+      "t2": "Prone",
+      "t3": "No effect ",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The area becomes difficult terrain. "
+        }
+      ]
+    },
+    {
+      "name": "Final Warning Fissure",
+      "type": "Villain Action 2",
+      "cost": "AGL RR",
+      "keywords": [
+        "Area",
+        "Resistance"
+      ],
+      "distance": "5 burst",
+      "target": "Each enemy on the ground in the burst",
+      "t1": "4 damage; prone",
+      "t2": "2 damage",
+      "t3": "The target moves to the nearest unoccupied space outside the area. ",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The area drops 2 squares. Each enemy in the area falls, while all allies of the fossil cryptic drop safely. The affected area then becomes difficult terrain. "
+        }
+      ]
+    },
+    {
+      "name": "No Escape",
+      "type": "Villain Action 3",
+      "cost": "2d10 + 3",
+      "keywords": [
+        "Ranged"
+      ],
+      "t1": "2 damage; vertical slide 2",
+      "t2": "3 damage; vertical slide 4",
+      "t3": "4 damage; the target is restrained against the ceiling (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The cryptic makes an initial attack that calls down stone pillars from the ceiling. Distance: Ranged 10 Target: Two creatures or objects "
+        },
+        {
+          "name": "Effect",
+          "effect": "The cryptic makes a final attack that raises stone pillars from the floor. Distance: Ranged 10 Target: Two creatures or objects on the ground "
+        }
+      ]
+    }
+  ]
+}

@@ -20,23 +20,28 @@
   "stability": 0,
   "free_strike": 4,
   "might": 0,
-  "intuition": 0,
-  "agility": 1,
+  "intuition": 1,
+  "agility": 2,
   "reason": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effect": "The trickshot can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
+    }
+  ],
   "abilities": [
     {
-      "name": "Crossbow",
+      "name": "Trick Crossbow",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Ranged",
         "Weapon"
       ],
-      "distance": "Ranged 15",
+      "distance": "Melee 1 or Ranged 15",
       "target": "One creature or object",
       "t1": "4 damage",
       "t2": "7 damage",
@@ -44,7 +49,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The trickshot doesn’t take a bane when using this ability in melee or against a target with cover or concealment."
+          "effect": "The trickshot ignores cover and concealment. 3 Malice: The trickshot attacks an additional target. "
         }
       ]
     }

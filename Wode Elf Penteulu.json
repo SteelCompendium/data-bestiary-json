@@ -1,0 +1,135 @@
+{
+  "name": "Wode Elf Penteulu",
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "roles": [
+    "Leader"
+  ],
+  "level": 3,
+  "ev": "",
+  "stamina": "",
+  "immunities": [],
+  "weaknesses": [],
+  "speed": "",
+  "size": "",
+  "stability": "",
+  "free_strike": "",
+  "might": 2,
+  "intuition": 2,
+  "agility": 3,
+  "reason": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effect": "At the end of their turn, the penteulu can take 5 damage to end one save ends effect affecting them. This damage can’t be reduced in any way."
+    },
+    {
+      "name": "Hunter’s Glamor",
+      "effect": "The penteulu immediately hides at the end of their turn, even if they are observed."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Wodeblade",
+      "type": "Action",
+      "roll": "2d10 + 3",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Melee",
+        "Weapon"
+      ],
+      "distance": "Melee 1",
+      "target": "3 creatures or objects",
+      "t1": "5 damage; M2 restrained (save ends)",
+      "t2": "9 damage; M3 restrained (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The penteulu deals damage to each target one at a time and can teleport 3 squares after damaging a target. 3 Malice: Targets restrained by this ability take an additional **+1**. "
+        }
+      ]
+    },
+    {
+      "name": "Fairness is a Human Concept",
+      "type": "Maneuver",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "10 burst",
+      "target": "All allies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target can make a free strike and then shifts 3. A target immediately hides at the end of the penteulu’s turn while in cover or concealment. "
+        }
+      ]
+    },
+    {
+      "name": "Wode Sickness",
+      "type": "Triggered Action",
+      "keywords": [
+        "—"
+      ],
+      "trigger": "An ally ends their turn.",
+      "distance": "Ranged 10",
+      "target": "1 enemy",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The target must take their turn now, if they have not already taken it. **P3** The target is bleeding and has a bane on their attacks until the end of their turn. "
+        }
+      ]
+    },
+    {
+      "name": "You Will ALL Witness my Blade",
+      "type": "Villain Action 1",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "5 burst",
+      "target": "All enemies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The penteulu makes a Wodeblade attack against each target with **+1**. "
+        }
+      ]
+    },
+    {
+      "name": "Suppressing Volley",
+      "type": "Villain Action 2",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "5 burst",
+      "target": "All allies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The penteulu makes a Wodeblade attack against a single creature or object. Each target then makes a free strike. "
+        }
+      ]
+    },
+    {
+      "name": "Is it Now or is it Then? Where are We?",
+      "type": "Villain Action 3",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "Self and 5 burst",
+      "target": "Self and all allies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target becomes invisible until the start of the next round. The penteulu then makes a Wodeblade attack."
+        }
+      ]
+    }
+  ]
+}

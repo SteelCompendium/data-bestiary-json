@@ -18,7 +18,7 @@
   "free_strike": 2,
   "might": -1,
   "intuition": 0,
-  "agility": 1,
+  "agility": 2,
   "reason": 0,
   "presence": 1,
   "traits": [
@@ -31,13 +31,13 @@
     {
       "name": "Sword",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature or object",
       "t1": "2 damage",
       "t2": "5 damage",
@@ -45,7 +45,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "One ally of the underboss adjacent to the target can make a free strike against them. "
+          "effect": "One ally adjacent to the target can make a free strike against them. "
         }
       ]
     },
@@ -53,14 +53,14 @@
       "name": "Get Reckless!",
       "type": "Maneuver",
       "keywords": [
-        "Ranged"
+        "Area"
       ],
-      "distance": "Ranged 10",
-      "target": "Each ally",
+      "distance": "5 burst",
+      "target": "All allies in the burst",
       "effects": [
         {
           "name": "Effect",
-          "effect": "Until the start of the underboss’s next turn, each target gains an edge on attacks, and attacks against them gain an edge. "
+          "effect": "Until the start of the underboss’s next turn, each target has edge on attacks, and attacks against them have edge. 3 Malice: Attacks don’t have edge against a target. "
         }
       ]
     }

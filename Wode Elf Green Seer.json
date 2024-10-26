@@ -1,0 +1,74 @@
+{
+  "name": "Wode Elf Green Seer",
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "roles": [
+    "Hexer"
+  ],
+  "level": 1,
+  "ev": "",
+  "stamina": "",
+  "immunities": [],
+  "weaknesses": [],
+  "speed": "",
+  "size": "",
+  "stability": "",
+  "free_strike": "",
+  "might": 0,
+  "intuition": 2,
+  "agility": 1,
+  "reason": 0,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Foreseen Punishment (Free Triggered Action)",
+      "effect": "Keywords: — Distance: Ranged 5 Target: 1 creature  Trigger: The triggering creature uses a triggered action targeting the green seer or an ally within distance. Effect: The green seer makes a free strike against the target."
+    },
+    {
+      "name": "Masking Glamor",
+      "effect": "The green seer immediately hides at the end of their turn while in cover or concealment, even if they are observed."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "The Forest’s Embrace",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Magic",
+        "Ranged"
+      ],
+      "distance": "Ranged 10",
+      "target": "1 creature or object",
+      "t1": "3 damage; I1 restrained (save ends)",
+      "t2": "5 damage; I2 restrained (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "A creature restrained by this ability can’t search for hidden creatures until the condition ends. "
+        }
+      ]
+    },
+    {
+      "name": "The Natural Cycle",
+      "type": "Maneuver",
+      "roll": "PRS RR",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Resistance"
+      ],
+      "distance": "Ranged 10",
+      "target": "2 creatures",
+      "t1": "Target is bleeding and has a bane on their attacks (save ends)",
+      "t2": "Target has a bane on their attacks (save ends)",
+      "t3": "No effect "
+    }
+  ]
+}

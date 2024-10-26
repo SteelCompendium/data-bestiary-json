@@ -1,0 +1,154 @@
+{
+  "name": "High Elf Ordinator",
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "roles": [
+    "Leader"
+  ],
+  "level": 3,
+  "ev": 60,
+  "stamina": 120,
+  "immunities": [],
+  "weaknesses": [],
+  "speed": "5 (fly)",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 0,
+  "intuition": 2,
+  "agility": 2,
+  "reason": 3,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Otherworldly Grace",
+      "effect": "At the start of their turn, the ordinator can turn the duration of one save ends effect they suffer from into EoT."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lightning Rod",
+      "type": "Action",
+      "roll": "2d10 + 3",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Magic",
+        "Ranged"
+      ],
+      "distance": "Ranged 20",
+      "target": "1 creature or object",
+      "t1": "5 lightning damage; R2 dazed (save ends)",
+      "t2": "8 lightning damage; R3 dazed (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "High elves have edge on attacks and abilities against the target until the start of the ordinator’s next turn. "
+        }
+      ]
+    },
+    {
+      "name": "Call Forth Elementals",
+      "type": "Maneuver",
+      "cost": "2+ Malice",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The ordinator summons 1 elemental mote for every 2 malice spent into unoccupied squares within distance. "
+        }
+      ]
+    },
+    {
+      "name": "Conjure Cradle",
+      "type": "Free Maneuver",
+      "cost": "2 Malice",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The ordinator conjures 3 dead cradle crows, 1 dead cradle horse, or 1 dead cradle credenza into unoccupied squares within distance. "
+        }
+      ]
+    },
+    {
+      "name": "Enough!",
+      "type": "Triggered Action",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Ranged 10",
+      "target": "1 enemy",
+      "trigger": "The target makes an attack against the ordinator or an ally within distance.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The ordinator uses the Lightning Rod ability against the target. "
+        }
+      ]
+    },
+    {
+      "name": "Fountains Roar, Now Free From The Earth",
+      "type": "Villain Action 1",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "distance": "10 burst",
+      "target": "All allies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target glows, ending one condition on themselves and then moving up to twice their speed. "
+        }
+      ]
+    },
+    {
+      "name": "And The Sun Forsook Her Children",
+      "type": "Villain Action 2",
+      "cost": "PRS RR",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Resistance"
+      ],
+      "distance": "5 cube within 10",
+      "target": "All enemies in the cube",
+      "t1": "8 corruption damage; pull 5 towards center of cube",
+      "t2": "5 corruption damage; pull 3 towards center of cube",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The affected area becomes darkened, and its space warps violently in every direction. "
+        }
+      ]
+    },
+    {
+      "name": "But We Will Change Her Mind.",
+      "type": "Villain Action 3",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "distance": "10 burst",
+      "target": "All allies in the burst",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target radiates wisps of magic and makes a free strike that has the Magic keyword. "
+        }
+      ]
+    }
+  ]
+}

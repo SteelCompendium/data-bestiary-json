@@ -5,7 +5,7 @@
     "Radenwight"
   ],
   "roles": [
-    "Boss"
+    "Leader"
   ],
   "level": 1,
   "ev": 38,
@@ -20,32 +20,32 @@
   "intuition": 0,
   "agility": 2,
   "reason": 0,
-  "presence": 2,
+  "presence": 3,
   "traits": [
     {
       "name": "End Effect",
-      "effect": "At the end of their turn, the maestro can take 5 damage to end one EoE effect affecting them. This damage can't be reduced in any way."
+      "effect": "At the end of their turn, the maestro can take 5 damage to end one save ends effect affecting them. This damage can’t be reduced in any way."
     }
   ],
   "abilities": [
     {
       "name": "Cacophony",
       "type": "Action",
-      "roll": "2d10 + 2",
+      "roll": "2d10 + 3",
       "cost": "Signature",
       "keywords": [
         "Area",
         "Magic"
       ],
       "distance": "5 burst",
-      "target": "Each enemy",
+      "target": "All enemies in the burst",
       "t1": "3 sonic damage; slide 1; the maestro can shift 1 square",
       "t2": "5 sonic damage; slide 3; the maestro can shift 3 squares",
       "t3": "7 sonic damage; slide 5; the maestro can shift 5 squares",
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each of the maestro's allies can use Ready Rodent as a free triggered action once before the end of the round. "
+          "effect": "Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round. "
         }
       ]
     },
@@ -60,24 +60,26 @@
       ],
       "distance": "Ranged 10",
       "target": "Two enemies",
-      "t1": "Slowed (MGT ends)",
+      "t1": "Slowed (save ends)",
       "t2": "Slowed (EoT)",
-      "t3": "No effect  5 VP: Each ally of the maestro within distance has their speed increased by 2 until the end of their next turn. "
+      "t3": "No effect 3 Malice: Each ally within 3 of a target has their speed increased by 2 until the end of their next turn. "
     },
     {
-      "name": "Ranged Ready Rodent",
-      "type": "Triggered Action",
+      "name": "Ever Ready Rodent",
+      "type": "Free Triggered Action",
+      "cost": "2 Malice",
       "keywords": [
         "Magic",
+        "Melee",
         "Ranged"
       ],
-      "distance": "Ranged 10",
+      "distance": "Ranged 5",
       "target": "One creature",
-      "trigger": "An ally deals damage to the target.",
+      "trigger": "The target deals damage to an ally or takes damage from an ally.",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The maestro makes a free strike against the target. "
+          "effect": "The maestro makes a free strike against the target. The maestro can only use this ability once per turn. "
         }
       ]
     },
@@ -88,7 +90,7 @@
         "Area"
       ],
       "distance": "10 burst",
-      "target": "Each ally",
+      "target": "All allies in the burst",
       "effects": [
         {
           "name": "Effect",
@@ -107,7 +109,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Until the end of their next turn, the target's stamina can't be reduced below 1, their speed is doubled, and their next power roll is automatically a tier 3 result. "
+          "effect": "Until the end of their next turn, the target gains invisibility, a boon, and their speed is doubled. "
         }
       ]
     },
@@ -118,7 +120,7 @@
         "Area"
       ],
       "distance": "10 burst",
-      "target": "Each dead ally",
+      "target": "All dead allies in the burst",
       "effects": [
         {
           "name": "Effect",

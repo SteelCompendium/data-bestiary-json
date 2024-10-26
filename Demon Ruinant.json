@@ -1,70 +1,70 @@
 {
   "name": "Demon Ruinant",
-  "ancestry": [
-    "Demon",
-    "Planar"
-  ],
-  "roles": [
-    "Harrier"
-  ],
-  "level": 1,
-  "ev": 10,
-  "stamina": 20,
+  "ancestry": [],
+  "roles": [],
+  "level": "",
+  "ev": "",
+  "stamina": "",
   "immunities": [],
-  "weaknesses": [
-    "Holy 3"
-  ],
-  "speed": "6",
-  "size": "1M",
-  "stability": 0,
-  "free_strike": 2,
+  "weaknesses": [],
+  "speed": "",
+  "size": "",
+  "stability": "",
+  "free_strike": "",
   "might": 0,
-  "intuition": 0,
-  "agility": 1,
+  "intuition": "",
+  "agility": 2,
   "reason": 0,
   "presence": 1,
   "traits": [
+    {
+      "name": "LEVEL 1 HARRIER",
+      "effect": ""
+    },
+    {
+      "name": "Demon, Planar EV 10",
+      "effect": "**Stamina:** 20 **Weakness:** Holy 3 **Speed:** 6 **Size:** 1M / Stability 0 **Free Strike:** 2"
+    },
     {
       "name": "Lethe",
       "effect": "While winded, the ruinant has an edge on attacks, and attacks have an edge against them."
     },
     {
       "name": "Soulsight",
-      "effect": "Each creature within 2 squares of the ruinant can’t be hidden from them."
+      "effect": "Each creature within 2 of the ruinant can’t be hidden from them."
     }
   ],
   "abilities": [
     {
       "name": "Bloodletting Claws",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "Two creatures or objects",
       "t1": "2 damage",
-      "t2": "5 damage; bleeding (EoT)",
-      "t3": "6 damage; bleeding (EoT) "
+      "t2": "5 damage; M1 bleeding (save ends)",
+      "t3": "6 damage; M2 bleeding (save ends) "
     },
     {
       "name": "Salt Wounds",
       "type": "Maneuver",
-      "roll": "MGT RR",
-      "cost": "3 VP",
+      "roll": "2d10 + 2",
+      "cost": "3 Malice",
       "keywords": [
         "Magic",
-        "Ranged",
-        "Resistance"
+        "Ranged"
       ],
       "distance": "Ranged 10",
       "target": "Three creatures without full Stamina",
-      "t1": "6 corruption damage",
+      "t1": "2 corruption damage",
       "t2": "5 corruption damage",
-      "t3": "2 corruption damage "
+      "t3": "6 corruption damage "
     }
   ]
 }

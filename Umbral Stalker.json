@@ -1,0 +1,84 @@
+{
+  "name": "Umbral Stalker",
+  "ancestry": [
+    "Incorporeal",
+    "Undead"
+  ],
+  "roles": [
+    "Ambusher"
+  ],
+  "level": 1,
+  "ev": 9,
+  "stamina": 15,
+  "immunities": [
+    "Corruption 3",
+    "Poison 3"
+  ],
+  "weaknesses": [],
+  "speed": "7 (climb)",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "might": 0,
+  "intuition": 0,
+  "agility": 2,
+  "reason": 0,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Corruptive Phasing",
+      "effect": "The umbral stalker can move through other creatures and objects at normal speed. The first time in a round that the umbral stalker passes through a creature, that creature takes 2 corruption damage."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Chilling Grasp",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Magic",
+        "Melee"
+      ],
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "t1": "2 cold damage",
+      "t2": "5 cold damage",
+      "t3": "6 cold damage",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The shadow can shift up to 2 squares before or after this attack. "
+        }
+      ]
+    },
+    {
+      "name": "Freezing Dark",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "distance": "3 cube within 1",
+      "target": "Each enemy in the cube",
+      "t1": "1 cold damage",
+      "t2": "2 cold damage",
+      "t3": "3 cold damage",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Until the end of the umbral stalker’s next turn, the area is concealed and blocks line of effect for all enemies. "
+        }
+      ]
+    },
+    {
+      "name": "Shadow Jump",
+      "type": "Free Maneuver",
+      "cost": "1 Malice"
+    }
+  ]
+}

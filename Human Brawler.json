@@ -19,53 +19,57 @@
   "size": "1M",
   "stability": 0,
   "free_strike": 4,
-  "might": 1,
+  "might": 2,
   "intuition": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "presence": 0,
   "traits": [
     {
       "name": "Shoot the Hostage",
-      "effect": "The brawler takes half damage from attacks if they have an enemy grabbed. They then apply the remaining damage to the grabbed enemy."
+      "effect": "The brawler takes half damage from attacks if they have a creature or object grabbed. The grabbed creature or object takes the other half of the damage."
+    },
+    {
+      "name": "Supernatural Insight",
+      "effect": "The brawler can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
     }
   ],
   "abilities": [
     {
       "name": "Haymaker",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature or object",
-      "t1": "4 damage",
-      "t2": "7 damage; grabbed",
-      "t3": "10 damage; grabbed",
+      "t1": "4 damage; M1 grabbed",
+      "t2": "7 damage; M2 grabbed",
+      "t3": "10 damage; M3 grabbed",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The target takes a bane on attempts to escape the grab, and the brawler gains an edge on attacks against the grabbed target. "
+          "effect": "The target has a bane on attempts to escape the grab. The brawler has edge on this attack if the target is already grabbed. "
         }
       ]
     },
     {
       "name": "Throw",
       "type": "Maneuver",
-      "cost": "1 VP",
+      "cost": "1 Malice",
       "keywords": [
-        "Melee"
+        "—"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature grabbed by the brawler",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The brawler pushes the creature they have grabbed 5 squares. This breaks the grab. "
+          "effect": "Push 5. "
         }
       ]
     }

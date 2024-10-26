@@ -1,75 +1,69 @@
 {
   "name": "Demon Remasch",
-  "ancestry": [
-    "Demon",
-    "Planar"
-  ],
-  "roles": [
-    "Ambusher"
-  ],
-  "level": 2,
-  "ev": 13,
-  "stamina": 25,
+  "ancestry": [],
+  "roles": [],
+  "level": "",
+  "ev": "",
+  "stamina": "",
   "immunities": [],
-  "weaknesses": [
-    "Holy 3"
-  ],
-  "speed": "5 (teleport)",
-  "size": "1S",
-  "stability": 0,
-  "free_strike": 3,
+  "weaknesses": [],
+  "speed": "",
+  "size": "",
+  "stability": "",
+  "free_strike": "",
   "might": 0,
-  "intuition": 0,
-  "agility": 1,
+  "intuition": "",
+  "agility": 2,
   "reason": 0,
-  "presence": 1,
+  "presence": 2,
   "traits": [
+    {
+      "name": "LEVEL 2 AMBUSHER",
+      "effect": ""
+    },
+    {
+      "name": "Demon, Planar EV 13",
+      "effect": "**Stamina:** 25 **Weakness:** Holy 3 **Speed:** 5 (teleport) **Size:** 1S / Stability 0 **Free Strike:** 4"
+    },
     {
       "name": "Lethe",
       "effect": "While winded, the remasch has an edge on attacks, and attacks have an edge against them."
     },
     {
       "name": "Soulsight",
-      "effect": "Each creature within 2 squares of the remasch can’t be hidden from them."
+      "effect": "Each creature within 2 of the remasch can’t be hidden from them."
     }
   ],
   "abilities": [
     {
       "name": "Abyssal Strike",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Melee",
         "Weapon"
       ],
-      "distance": "Reach 1",
+      "distance": "Melee 1",
       "target": "One creature or object",
       "t1": "4 damage; the remasch teleports 2 squares",
       "t2": "7 damage; the remasch teleports 3 squares",
-      "t3": "10 damage; the remasch teleports 5 squares",
-      "effects": [
-        {
-          "name": "**5 VP",
-          "effect": "** The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch’s destination. "
-        }
-      ]
+      "t3": "10 damage; the remasch teleports 5 squares 5 Malice: The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch’s destination. "
     },
     {
       "name": "Grasping Shadow",
       "type": "Maneuver",
-      "cost": "5 VP",
+      "cost": "3 Malice",
       "keywords": [
-        "Magic",
-        "Ranged"
+        "Magic"
       ],
-      "distance": "Ranged 10",
+      "distance": "Self",
       "target": "Self",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The remasch can teleport 2 squares then use Abyssal Strike. "
+          "effect": "The remasch teleports 2 squares and uses Abyssal Strike. "
         }
       ]
     }

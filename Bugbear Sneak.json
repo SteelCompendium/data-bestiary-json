@@ -1,0 +1,97 @@
+{
+  "name": "Bugbear Sneak",
+  "ancestry": [],
+  "roles": [],
+  "level": "",
+  "ev": 34,
+  "stamina": 70,
+  "immunities": [],
+  "weaknesses": [],
+  "speed": "7",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 2,
+  "intuition": 0,
+  "agility": 2,
+  "reason": 0,
+  "presence": 0,
+  "traits": [
+    {
+      "name": "LEVEL 2 AMBUSHER",
+      "effect": "*Bugbear, Goblin, Humanoid*"
+    },
+    {
+      "name": "Catcher (Free Triggered Action)",
+      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the sneak. - Effect: The target is grabbed by the sneak."
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Suckerpunch",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "Signature",
+      "keywords": [
+        "Attack",
+        "Melee",
+        "Weapon"
+      ],
+      "distance": "Melee 1",
+      "target": "1 creature or object",
+      "t1": "5 damage; A2 grabbed",
+      "t2": "9 damage; A3 grabbed",
+      "t3": "12 damage; grabbed"
+    },
+    {
+      "name": "Dirt Devil",
+      "type": "Action",
+      "roll": "2d10 + 2",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "distance": "2 burst",
+      "target": "All enemies in the burst",
+      "t1": "2 damage; I1 sneak is concealed from the target (save ends)",
+      "t2": "3 damage; I2 sneak is concealed from the target (save ends)",
+      "t3": "4 damage; I3 sneak is concealed from the target (save ends)"
+    },
+    {
+      "name": "Carving Dagger",
+      "type": "Action",
+      "cost": "2d10 + 2",
+      "keywords": [
+        "Attack",
+        "Ranged",
+        "Weapon"
+      ],
+      "distance": "Ranged 8",
+      "target": "2 creatures or objects",
+      "t1": "5 damage; M1 bleeding (save ends)",
+      "t2": "9 damage; M2 bleeding (save ends)",
+      "t3": "12 damage; M3 bleeding (save ends)"
+    },
+    {
+      "name": "Throw",
+      "type": "Maneuver",
+      "keywords": [
+        "Attack",
+        "Melee"
+      ],
+      "distance": "Melee 1",
+      "target": "1 creature or object grabbed by the sneak"
+    },
+    {
+      "name": "Misdirection",
+      "type": "Triggered Action",
+      "cost": "1 Malice",
+      "keywords": [
+        "—"
+      ],
+      "distance": "Special",
+      "target": "1 enemy",
+      "trigger": "A target attacks the sneak."
+    }
+  ]
+}

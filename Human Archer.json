@@ -22,26 +22,31 @@
   "free_strike": 2,
   "might": 0,
   "intuition": 0,
-  "agility": 1,
+  "agility": 2,
   "reason": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effect": "The archer can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
+    }
+  ],
   "abilities": [
     {
       "name": "Crossbow",
       "type": "Action",
-      "roll": "2d10 + 1",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
         "Ranged",
         "Weapon"
       ],
-      "distance": "Ranged 10",
+      "distance": "Ranged 15",
       "target": "One creature or object per minion",
       "t1": "2 damage",
       "t2": "5 damage",
-      "t3": "6 damage"
+      "t3": "6 damage "
     }
   ]
 }

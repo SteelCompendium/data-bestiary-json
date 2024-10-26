@@ -5,7 +5,7 @@
     "War Dog"
   ],
   "roles": [
-    "Boss"
+    "Leader"
   ],
   "level": 3,
   "ev": 36,
@@ -16,15 +16,15 @@
   "size": "1M",
   "stability": 2,
   "free_strike": 5,
-  "might": 2,
+  "might": 3,
   "intuition": 2,
   "agility": 2,
-  "reason": 2,
+  "reason": 3,
   "presence": 2,
   "traits": [
     {
       "name": "End Effect",
-      "effect": "At the end of their turn, the ground commander can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way."
+      "effect": "At the end of their turn, the ground commander can take 5 damage to end one save-ends effect affecting them. This damage can’t be reduced in any way."
     },
     {
       "name": "Loyalty Collar",
@@ -33,14 +33,17 @@
   ],
   "abilities": [
     {
-      "name": "Conditioning Spear (Action) ◆ 2d10 + 2 ◆ Signature",
+      "name": "Conditioning Spear",
+      "type": "Action",
+      "roll": "2d10 + 3",
+      "cost": "Signature",
       "keywords": [
         "Attack",
         "Melee",
         "Ranged",
         "Weapon"
       ],
-      "distance": "Reach 1 or Ranged 5",
+      "distance": "Melee 1 or Ranged 5",
       "target": "Two creatures or objects",
       "t1": "5 damage; pull 1",
       "t2": "8 damage; pull 2",
@@ -49,10 +52,6 @@
         {
           "name": "Effect",
           "effect": "One ally within 10 squares of the commander can make a free strike."
-        },
-        {
-          "name": "**1 VP**",
-          "effect": "A target who is adjacent to the ground commander after this ability is resolved is grabbed (INU ends). This grab can’t be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time. "
         }
       ]
     },
@@ -68,7 +67,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The target’s loyalty collar detonates, killing them instantly. "
+          "effect": "The ground commander selects any number of targets’ loyalty collars and detonates them, killing the targets instantly. "
         }
       ]
     },
@@ -81,11 +80,8 @@
       ],
       "distance": "Ranged 10",
       "target": "One ally",
+      "trigger": "The target has a condition imposed on them, is force moved, or is killed.",
       "effects": [
-        {
-          "name": "**Trigger**",
-          "effect": "The target has a condition imposed on them, is force moved, or is killed."
-        },
         {
           "name": "Effect",
           "effect": "The target can move up to their speed and make a free strike before the triggering effect happens. "
@@ -119,7 +115,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then frightened of the ground commander (INU ends). "
+          "effect": "Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then I3 frightened of the ground commander (save ends). "
         }
       ]
     },
@@ -135,7 +131,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each target can shift up to 2 squares and use the Grab maneuver. For the rest of the encounter, any enemy takes a bane on the Escape Grab maneuver."
+          "effect": "Each target can shift 2 and use the Grab maneuver. For the rest of the encounter, any enemy has a bane on the Escape Grab maneuver."
         }
       ]
     }

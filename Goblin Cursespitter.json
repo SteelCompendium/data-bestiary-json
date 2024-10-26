@@ -17,7 +17,7 @@
   "stability": 0,
   "free_strike": 2,
   "might": -2,
-  "intuition": 1,
+  "intuition": 2,
   "agility": 1,
   "reason": 0,
   "presence": 0,
@@ -31,7 +31,7 @@
     {
       "name": "Eye of Surlach",
       "type": "Action",
-      "roll": "INU RR",
+      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Magic",
@@ -40,15 +40,15 @@
       ],
       "distance": "Ranged 10",
       "target": "One creature",
-      "t1": "6 corruption damage; weakened (INU ends)",
-      "t2": "5 corruption damage; weakened (EoT)",
-      "t3": "2 corruption damage "
+      "t1": "2 corruption damage; I1 weakened (save ends)",
+      "t2": "5 corruption damage; I2 weakened (save ends)",
+      "t3": "6 corruption damage; I3 weakened (save ends) "
     },
     {
       "name": "Dizzying Hex",
       "type": "Maneuver",
       "roll": "INU RR",
-      "cost": "1 VP",
+      "cost": "1 Malice",
       "keywords": [
         "Magic",
         "Ranged",
@@ -56,7 +56,7 @@
       ],
       "distance": "Ranged 10",
       "target": "One creature",
-      "t1": "Prone and can’t stand (INU ends)",
+      "t1": "Prone and can’t stand (save ends)",
       "t2": "Prone and can’t stand (EoT)",
       "t3": "No effect "
     }
