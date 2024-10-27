@@ -44,7 +44,13 @@
       "target": "One creature",
       "t1": "2 corruption damage; P1 weakened (save ends)",
       "t2": "4 corruption damage; P2 weakened (save ends)",
-      "t3": "5 corruption damage; P3 weakened (save ends) 2 Malice: The potency of this ability increases by 1. A living creature killed by this ability becomes a specter who appears in the target’s space under the Director's control. "
+      "t3": "5 corruption damage; P3 weakened (save ends)",
+      "effects": [
+        {
+          "name": "2 Malice",
+          "effect": "The potency of this ability increases by 1. A living creature killed by this ability becomes a specter who appears in the target’s space under the Director's control. "
+        }
+      ]
     },
     {
       "name": "Hidden Movement",

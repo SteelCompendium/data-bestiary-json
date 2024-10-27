@@ -68,7 +68,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The target shifts up to their speed. 2 Malice: The ghost chooses one additional target. "
+          "effect": "The target shifts up to their speed."
+        },
+        {
+          "name": "2 Malice",
+          "effect": "The ghost chooses one additional target. "
         }
       ]
     },

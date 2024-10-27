@@ -54,7 +54,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "A target who is adjacent to the bandit chief after the attack is resolved takes double edge corruption damage. 2 Malice: The bandit chief attacks an additional target. "
+          "effect": "A target who is adjacent to the bandit chief after the attack is resolved takes double edge corruption damage."
+        },
+        {
+          "name": "2 Malice",
+          "effect": "The bandit chief attacks an additional target. "
         }
       ]
     },
@@ -71,7 +75,13 @@
       "target": "One enemy or object",
       "t1": "Push 1; M2 prone",
       "t2": "Push 2; M3 prone",
-      "t3": "Push 4; M4 prone 2 Malice: This ability targets each enemy adjacent to the bandit chief. "
+      "t3": "Push 4; M4 prone",
+      "effects": [
+        {
+          "name": "2 Malice",
+          "effect": "This ability targets each enemy adjacent to the bandit chief. "
+        }
+      ]
     },
     {
       "name": "Bloodstones",

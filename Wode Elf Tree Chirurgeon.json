@@ -48,7 +48,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The tree chirurgeon can make a ranged free strike before attacking. 5 Malice: The tree chirurgeon uses this ability again. "
+          "effect": "The tree chirurgeon can make a ranged free strike before attacking."
+        },
+        {
+          "name": "5 Malice",
+          "effect": "The tree chirurgeon uses this ability again. "
         }
       ]
     },

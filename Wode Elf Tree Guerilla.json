@@ -47,7 +47,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The tree guerilla can teleport 3 after making the attack. 5 Malice: The tree guerilla targets an additional creature or object. The tree guerilla has **+1** if both targets are adjacent to each other. "
+          "effect": "The tree guerilla can teleport 3 after making the attack."
+        },
+        {
+          "name": "5 Malice",
+          "effect": "The tree guerilla targets an additional creature or object. The tree guerilla has **+1** if both targets are adjacent to each other. "
         }
       ]
     },

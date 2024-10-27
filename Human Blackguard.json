@@ -53,7 +53,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "An ally within 10 squares of the blackguard can make a free strike. 1 Malice: The ally can use their signature action instead. "
+          "effect": "An ally within 10 squares of the blackguard can make a free strike."
+        },
+        {
+          "name": "1 Malice",
+          "effect": "The ally can use their signature action instead. "
         }
       ]
     },

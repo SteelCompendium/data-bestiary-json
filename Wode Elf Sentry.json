@@ -46,7 +46,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Allies have **+1** on attacks and abilities against marked creatures and objects. 3 Malice: The sentry targets two additional creatures or objects. "
+          "effect": "Allies have **+1** on attacks and abilities against marked creatures and objects."
+        },
+        {
+          "name": "3 Malice",
+          "effect": "The sentry targets two additional creatures or objects. "
         }
       ]
     },

@@ -42,7 +42,13 @@
       "target": "Each enemy",
       "t1": "1 poison damage; slide 1",
       "t2": "2 poison damage; slide 2",
-      "t3": "3 poison damage; slide 3 1 Malice: Increase the slide for one target by 2 squares. "
+      "t3": "3 poison damage; slide 3",
+      "effects": [
+        {
+          "name": "1 Malice",
+          "effect": "Increase the slide for one target by 2 squares. "
+        }
+      ]
     },
     {
       "name": "Swamp Gas",
