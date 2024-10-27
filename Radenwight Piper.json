@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Musical Suggestion",
-      "effect": "At the end of the piper’s turn, they can choose an adjacent creature and slide them 2, ignoring stability."
+      "effect": "At the end of the piper's turn, they can choose an adjacent creature and slide them 2, ignoring stability."
     }
   ],
   "abilities": [

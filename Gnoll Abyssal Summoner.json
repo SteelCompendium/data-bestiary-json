@@ -54,7 +54,7 @@
       "type": "Maneuver",
       "cost": "3 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Ranged 5",
       "target": "Special",
@@ -70,14 +70,14 @@
       "type": "Maneuver",
       "cost": "4 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "2 burst",
       "target": "All allies",
       "effects": [
         {
           "name": "Effect",
-          "effect": "1 abyssal hyena target turns into a gnoll marauder, keeping their Stamina. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost. "
+          "effect": "1 abyssal hyena target turns into a gnoll marauder, keeping their Stamina. Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost. "
         }
       ]
     }

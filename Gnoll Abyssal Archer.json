@@ -28,7 +28,7 @@
     },
     {
       "name": "Bloodscent",
-      "effect": "The abyssal archer can target creatures not at full Stamina with abilities, even if they don’t have line of effect."
+      "effect": "The abyssal archer can target creatures not at full Stamina with abilities, even if they don't have line of effect."
     }
   ],
   "abilities": [
@@ -58,14 +58,14 @@
       "type": "Maneuver",
       "cost": "2 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self and 2 burst",
       "target": "Self and all allies",
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each target has an edge on their next attack before the end of their next turn. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost. "
+          "effect": "Each target has an edge on their next attack before the end of their next turn. Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost. "
         }
       ]
     }

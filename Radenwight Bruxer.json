@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Lockdown",
-      "effect": "An enemy can’t shift while adjacent to the bruxer."
+      "effect": "An enemy can't shift while adjacent to the bruxer."
     }
   ],
   "abilities": [
@@ -46,7 +46,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "While the target is grabbed, they take 2 damage at the start of each of the bruxer’s turns. "
+          "effect": "While the target is grabbed, they take 2 damage at the start of each of the bruxer's turns. "
         }
       ]
     },

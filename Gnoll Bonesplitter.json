@@ -45,7 +45,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The bonesplitter can’t use three-tail flail on another target while the current target is grabbed. "
+          "effect": "The bonesplitter can't use three-tail flail on another target while the current target is grabbed. "
         }
       ]
     },
@@ -54,14 +54,14 @@
       "type": "Maneuver",
       "cost": "3 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self and 2 burst",
       "target": "Self and all allies",
       "effects": [
         {
           "name": "Effect",
-          "effect": "Each target makes a free strike. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost. "
+          "effect": "Each target makes a free strike. Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost. "
         }
       ]
     }

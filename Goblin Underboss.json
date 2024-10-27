@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Crafty",
-      "effect": "The underboss doesn’t provoke opportunity attacks by moving."
+      "effect": "The underboss doesn't provoke opportunity attacks by moving."
     }
   ],
   "abilities": [
@@ -60,11 +60,11 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Until the start of the underboss’s next turn, each target has edge on attacks, and attacks against them have edge."
+          "effect": "Until the start of the underboss's next turn, each target has edge on attacks, and attacks against them have edge."
         },
         {
           "name": "3 Malice",
-          "effect": "Attacks don’t have edge against a target. "
+          "effect": "Attacks don't have edge against a target. "
         }
       ]
     }

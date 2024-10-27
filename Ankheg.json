@@ -31,7 +31,7 @@
     },
     {
       "name": "Earthwalk",
-      "effect": "Difficult terrain composed of earth or loose rock doesn’t cost the ankheg extra movement."
+      "effect": "Difficult terrain composed of earth or loose rock doesn't cost the ankheg extra movement."
     },
     {
       "name": "Tunneler",
@@ -115,7 +115,7 @@
       "name": "Skitter",
       "type": "Triggered Action",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
@@ -151,7 +151,7 @@
       "name": "Sinkhole",
       "type": "Villain Action 2",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",

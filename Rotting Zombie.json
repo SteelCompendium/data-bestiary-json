@@ -28,7 +28,7 @@
   "traits": [
     {
       "name": "Arise Together",
-      "effect": "If the rotting zombie’s captain has the Arise trait, the zombie also gains the Arise trait."
+      "effect": "If the rotting zombie's captain has the Arise trait, the zombie also gains the Arise trait."
     }
   ],
   "abilities": [

@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "Dragon’s Eruption",
+      "name": "Dragon's Eruption",
       "type": "Action",
       "roll": "AGL RR",
       "cost": "7 Malice",
@@ -69,7 +69,7 @@
       "t3": "6 fire damage "
     },
     {
-      "name": "Lion’s Toss",
+      "name": "Lion's Toss",
       "type": "Maneuver",
       "cost": "2d10 + 3",
       "keywords": [
@@ -99,7 +99,7 @@
       "t3": "10 psychic damage; I3 frightened (save ends) "
     },
     {
-      "name": "Ram’s Defiance",
+      "name": "Ram's Defiance",
       "type": "Triggered Action",
       "cost": "2d10 + 3",
       "keywords": [
@@ -133,7 +133,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The chimera uses Bite and Lion’s Toss against each target. "
+          "effect": "The chimera uses Bite and Lion's Toss against each target. "
         }
       ]
     },
@@ -150,7 +150,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The chimera uses Dragon’s Eruption and Roar without spending malice. "
+          "effect": "The chimera uses Dragon's Eruption and Roar without spending malice. "
         }
       ]
     },
@@ -158,14 +158,14 @@
       "name": "Chorus of Destruction",
       "type": "Villain Action 3",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The chimera uses Roar. The chimera then shifts their speed and can make a free strike against each enemy who comes within 1 of them during the move. When the chimera ends this movement, they use Dragon’s Eruption."
+          "effect": "The chimera uses Roar. The chimera then shifts their speed and can make a free strike against each enemy who comes within 1 of them during the move. When the chimera ends this movement, they use Dragon's Eruption."
         }
       ]
     }

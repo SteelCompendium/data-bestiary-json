@@ -25,7 +25,7 @@
   "traits": [
     {
       "name": "Catcher (Free Triggered Action)",
-      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the channeler. Effect: The target is grabbed by the channeler."
+      "effect": "Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the channeler. Effect: The target is grabbed by the channeler."
     }
   ],
   "abilities": [
@@ -105,7 +105,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Vertical push 3; ally targets don’t take damage from being force moved. "
+          "effect": "Vertical push 3; ally targets don't take damage from being force moved. "
         }
       ]
     },

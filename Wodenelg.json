@@ -24,15 +24,15 @@
   "traits": [
     {
       "name": "Sure Footed",
-      "effect": "The wodenelg ignores all difficult terrain, including enemy squares, and doesn’t provoke opportunity attacks by moving."
+      "effect": "The wodenelg ignores all difficult terrain, including enemy squares, and doesn't provoke opportunity attacks by moving."
     },
     {
       "name": "Mounted Stability",
-      "effect": "The wodenelg’s rider has **+3** to Stability."
+      "effect": "The wodenelg's rider has **+3** to Stability."
     },
     {
       "name": "Shared Glamor",
-      "effect": "If the wodenelg’s rider has the Masking Glamor or Hunter’s Glamor trait, they also gain the trait’s benefits."
+      "effect": "If the wodenelg's rider has the Masking Glamor or Hunter's Glamor trait, they also gain the trait's benefits."
     }
   ],
   "abilities": [
@@ -54,7 +54,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The wodenelg’s rider can make a free strike at any point during the charge. "
+          "effect": "The wodenelg's rider can make a free strike at any point during the charge. "
         }
       ]
     },
@@ -63,7 +63,7 @@
       "type": "Maneuver",
       "cost": "3 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",

@@ -28,7 +28,7 @@
     },
     {
       "name": "Soulsight",
-      "effect": "Each creature within 2 of the torlas can’t be hidden from them."
+      "effect": "Each creature within 2 of the torlas can't be hidden from them."
     }
   ],
   "abilities": [
@@ -50,7 +50,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas’s next turn, the area is difficult terrain, and each creature who moves within the area takes 1 damage for each square moved. "
+          "effect": "The area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas's next turn, the area is difficult terrain, and each creature who moves within the area takes 1 damage for each square moved. "
         }
       ]
     },

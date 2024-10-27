@@ -60,7 +60,7 @@
       "type": "Triggered Action",
       "cost": "1 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
@@ -68,7 +68,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The shieldwall becomes the attack’s target and has +3 defense against it. "
+          "effect": "The shieldwall becomes the attack's target and has +3 defense against it. "
         }
       ]
     }

@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "End Effect",
-      "effect": "At the end of their turn, the marauder lord can take 5 damage to end one save-ends effect affecting them. This damage can’t be reduced in any way."
+      "effect": "At the end of their turn, the marauder lord can take 5 damage to end one save-ends effect affecting them. This damage can't be reduced in any way."
     }
   ],
   "abilities": [
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "name": "Don’t Let Them Escape!",
+      "name": "Don't Let Them Escape!",
       "type": "Villain Action 2",
       "keywords": [
         "Area"
@@ -124,7 +124,7 @@
       "name": "Test Your Metal!",
       "type": "Villain Action 3",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Ranged 10",
       "target": "special",

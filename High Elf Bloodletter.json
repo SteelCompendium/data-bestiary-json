@@ -30,7 +30,7 @@
   ],
   "abilities": [
     {
-      "name": "Razor’s Edge",
+      "name": "Razor's Edge",
       "type": "Action",
       "roll": "2d10 + 2",
       "cost": "Signature",

@@ -25,7 +25,7 @@
   "traits": [
     {
       "name": "Like the Wind",
-      "effect": "All of the zephyr’s movement is considered shifting."
+      "effect": "All of the zephyr's movement is considered shifting."
     },
     {
       "name": "Otherworldly Grace",
@@ -58,7 +58,7 @@
       "name": "Windwalk",
       "type": "Maneuver",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",

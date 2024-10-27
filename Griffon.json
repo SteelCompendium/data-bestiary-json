@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Beast of Prey",
-      "effect": "Creatures have a double bane on escaping the griffon’s grab."
+      "effect": "Creatures have a double bane on escaping the griffon's grab."
     },
     {
       "name": "Steady",
@@ -70,7 +70,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The griffon flies up to half their speed towards the ground and then sends the creature or object they’ve grappled hurtling towards the affected area."
+          "effect": "The griffon flies up to half their speed towards the ground and then sends the creature or object they've grappled hurtling towards the affected area."
         }
       ]
     },
@@ -94,7 +94,7 @@
       "type": "Triggered Action",
       "cost": "1 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "trigger": "The griffon takes damage",
       "distance": "Self",
@@ -102,7 +102,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The griffon halves the damage, doesn’t suffer any effect associated with it, and shifts 2 squares. "
+          "effect": "The griffon halves the damage, doesn't suffer any effect associated with it, and shifts 2 squares. "
         }
       ]
     }

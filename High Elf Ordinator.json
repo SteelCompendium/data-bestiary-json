@@ -46,7 +46,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "High elves have edge on attacks and abilities against the target until the start of the ordinator’s next turn. "
+          "effect": "High elves have edge on attacks and abilities against the target until the start of the ordinator's next turn. "
         }
       ]
     },
@@ -55,7 +55,7 @@
       "type": "Maneuver",
       "cost": "2+ Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Ranged 10",
       "target": "Special",
@@ -71,7 +71,7 @@
       "type": "Free Maneuver",
       "cost": "2 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Ranged 10",
       "target": "Special",
@@ -86,7 +86,7 @@
       "name": "Enough!",
       "type": "Triggered Action",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Ranged 10",
       "target": "1 enemy",

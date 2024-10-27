@@ -31,7 +31,7 @@
     },
     {
       "name": "Supernatural Insight",
-      "effect": "The brawler can target supernatural creatures and objects within 5 squares, even if they don’t have line of effect."
+      "effect": "The brawler can target supernatural creatures and objects within 5 squares, even if they don't have line of effect."
     }
   ],
   "abilities": [
@@ -62,7 +62,7 @@
       "type": "Maneuver",
       "cost": "1 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Melee 1",
       "target": "One creature grabbed by the brawler",

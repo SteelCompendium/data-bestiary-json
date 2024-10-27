@@ -27,7 +27,7 @@
   "traits": [
     {
       "name": "Trample",
-      "effect": "The tusker demon can move through enemies and objects at normal speed. When the tusker enters a creature’s space for the first time on their turn, the creature takes 2d6 damage. The tusker demon can end their turn in a prone size 1 creature’s space, preventing the creature from getting up."
+      "effect": "The tusker demon can move through enemies and objects at normal speed. When the tusker enters a creature's space for the first time on their turn, the creature takes 2d6 damage. The tusker demon can end their turn in a prone size 1 creature's space, preventing the creature from getting up."
     },
     {
       "name": "Lethe",
@@ -61,7 +61,7 @@
       "name": "Vengeful Tusker",
       "type": "Triggered Action",
       "keywords": [
-        "—"
+        "-"
       ],
       "trigger": "An enemy within 7 deals damage to the tusker.",
       "distance": "Self",

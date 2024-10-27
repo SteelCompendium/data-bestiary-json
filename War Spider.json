@@ -28,7 +28,7 @@
     },
     {
       "name": "Wide Back",
-      "effect": "Two of the spider’s size 1 allies can occupy the same space while riding the spider."
+      "effect": "Two of the spider's size 1 allies can occupy the same space while riding the spider."
     }
   ],
   "abilities": [
@@ -68,7 +68,7 @@
       "type": "Action",
       "cost": "5 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",

@@ -28,7 +28,7 @@
     },
     {
       "name": "Soulsight",
-      "effect": "Each creature within 2 of the remasch can’t be hidden from them."
+      "effect": "Each creature within 2 of the remasch can't be hidden from them."
     }
   ],
   "abilities": [
@@ -50,7 +50,7 @@
       "effects": [
         {
           "name": "5 Malice",
-          "effect": "The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch’s destination. "
+          "effect": "The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch's destination. "
         }
       ]
     },

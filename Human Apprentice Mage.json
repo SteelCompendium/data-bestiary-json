@@ -28,7 +28,7 @@
   "traits": [
     {
       "name": "Studied Supernatural Insight",
-      "effect": "The apprentice can target supernatural creatures and objects within 10 squares, even if they don’t have line of effect."
+      "effect": "The apprentice can target supernatural creatures and objects within 10 squares, even if they don't have line of effect."
     }
   ],
   "abilities": [
@@ -50,7 +50,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT). "
+          "effect": "If the apprentice mage doesn't use a maneuver or a move action this turn, the target is slowed (EoT). "
         }
       ]
     }

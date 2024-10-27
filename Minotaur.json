@@ -55,7 +55,7 @@
       "type": "Action",
       "cost": "3 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
@@ -84,7 +84,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The potency of this ability increases by 1 if it’s used while charging. "
+          "effect": "The potency of this ability increases by 1 if it's used while charging. "
         }
       ]
     },
@@ -92,7 +92,7 @@
       "name": "Retaliatory Gore",
       "type": "Triggered Action",
       "keywords": [
-        "—"
+        "-"
       ],
       "trigger": "The minotaur takes damage from a creature within 8.",
       "distance": "Self",

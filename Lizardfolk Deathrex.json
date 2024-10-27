@@ -45,7 +45,7 @@
       "effects": [
         {
           "name": "1 Malice",
-          "effect": "One target that is adjacent to the deathrex is grabbed by the deathrex’s mouth. "
+          "effect": "One target that is adjacent to the deathrex is grabbed by the deathrex's mouth. "
         }
       ]
     },
@@ -74,7 +74,7 @@
       "name": "Trundle",
       "type": "Maneuver",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
@@ -89,7 +89,7 @@
       "name": "Swat The Fly",
       "type": "Triggered Action",
       "keywords": [
-        "—"
+        "-"
       ],
       "trigger": "The target moves or shifts away from the deathrex.",
       "distance": "Melee 1",
@@ -120,14 +120,14 @@
       "name": "Shed Some Skin",
       "type": "Villain Action 2",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The deathrex shifts up to their speed, leaving behind a skin shed duplicate in the space that they started in. The duplicate has 10 Stamina, has no villain actions, shares the rest of the deathrex’s characteristics, and takes their turn at the same time as the deathrex. "
+          "effect": "The deathrex shifts up to their speed, leaving behind a skin shed duplicate in the space that they started in. The duplicate has 10 Stamina, has no villain actions, shares the rest of the deathrex's characteristics, and takes their turn at the same time as the deathrex. "
         }
       ]
     },

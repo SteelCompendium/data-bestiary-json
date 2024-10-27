@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "End Effect",
-      "effect": "At the end of their turn, the chorogaunt can take 5 damage to end one save-ends effect affecting them. This damage can’t be reduced in any way."
+      "effect": "At the end of their turn, the chorogaunt can take 5 damage to end one save-ends effect affecting them. This damage can't be reduced in any way."
     },
     {
       "name": "Lethe",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Soulsight",
-      "effect": "Each creature within 2 of the chorogaunt can’t be hidden from them."
+      "effect": "Each creature within 2 of the chorogaunt can't be hidden from them."
     }
   ],
   "abilities": [

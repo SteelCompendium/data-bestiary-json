@@ -25,7 +25,7 @@
   "traits": [
     {
       "name": "Foreseen Punishment (Free Triggered Action)",
-      "effect": "Keywords: — Distance: Ranged 5 Target: 1 creature  Trigger: The triggering creature uses a triggered action targeting the green seer or an ally within distance. Effect: The green seer makes a free strike against the target."
+      "effect": "Keywords: - Distance: Ranged 5 Target: 1 creature  Trigger: The triggering creature uses a triggered action targeting the green seer or an ally within distance. Effect: The green seer makes a free strike against the target."
     },
     {
       "name": "Masking Glamor",
@@ -34,7 +34,7 @@
   ],
   "abilities": [
     {
-      "name": "The Forest’s Embrace",
+      "name": "The Forest's Embrace",
       "type": "Action",
       "roll": "2d10 + 2",
       "cost": "Signature",
@@ -50,7 +50,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "A creature restrained by this ability can’t search for hidden creatures until the condition ends. "
+          "effect": "A creature restrained by this ability can't search for hidden creatures until the condition ends. "
         }
       ]
     },

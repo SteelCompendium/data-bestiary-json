@@ -28,7 +28,7 @@
     },
     {
       "name": "Shared Crafty",
-      "effect": "If the warg’s rider has the Crafty trait, the warg also has the Crafty trait."
+      "effect": "If the warg's rider has the Crafty trait, the warg also has the Crafty trait."
     }
   ],
   "abilities": [
@@ -54,7 +54,7 @@
       "type": "Maneuver",
       "cost": "1 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self",
       "target": "Self",

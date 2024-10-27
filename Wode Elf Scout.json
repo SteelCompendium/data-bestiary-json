@@ -25,7 +25,7 @@
   "presence": 1,
   "traits": [
     {
-      "name": "Hunter’s Glamor",
+      "name": "Hunter's Glamor",
       "effect": "The scout immediately hides at the end of their turn, even if they are observed."
     }
   ],

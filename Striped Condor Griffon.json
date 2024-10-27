@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Beast of Prey",
-      "effect": "Creatures have a double bane when using the Escape Grab maneuver to escape the griffon’s grab."
+      "effect": "Creatures have a double bane when using the Escape Grab maneuver to escape the griffon's grab."
     },
     {
       "name": "Steady",
@@ -57,7 +57,7 @@
       "type": "Action",
       "cost": "5 Malice",
       "keywords": [
-        "—"
+        "-"
       ],
       "distance": "Self (while grounded)",
       "target": "Self",
@@ -88,7 +88,7 @@
       "type": "Triggered Action",
       "cost": "2d10 + 2",
       "keywords": [
-        "—"
+        "-"
       ],
       "trigger": "The griffon flies above a creature on the ground within 10",
       "distance": "Self",
@@ -99,7 +99,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The griffon falls down upon the target, taking no damage from falling. A creature who is grabbed by the griffon is prone and can’t stand until they are no longer grabbed. "
+          "effect": "The griffon falls down upon the target, taking no damage from falling. A creature who is grabbed by the griffon is prone and can't stand until they are no longer grabbed. "
         }
       ]
     }

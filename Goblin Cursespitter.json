@@ -24,7 +24,7 @@
   "traits": [
     {
       "name": "Crafty",
-      "effect": "The cursespitter doesn’t provoke opportunity attacks by moving."
+      "effect": "The cursespitter doesn't provoke opportunity attacks by moving."
     }
   ],
   "abilities": [
@@ -56,8 +56,8 @@
       ],
       "distance": "Ranged 10",
       "target": "One creature",
-      "t1": "Prone and can’t stand (save ends)",
-      "t2": "Prone and can’t stand (EoT)",
+      "t1": "Prone and can't stand (save ends)",
+      "t2": "Prone and can't stand (EoT)",
       "t3": "No effect "
     }
   ]

@@ -91,7 +91,7 @@
       ]
     },
     {
-      "name": "Stalker’s Afterimage",
+      "name": "Stalker's Afterimage",
       "type": "Triggered Action",
       "keywords": [
         "Magic"
@@ -102,7 +102,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The lightbender halves the damage, doesn’t suffer any associated effect, and teleports 5 squares. The lightbender immediately hides if they teleport into cover or concealment. "
+          "effect": "The lightbender halves the damage, doesn't suffer any associated effect, and teleports 5 squares. The lightbender immediately hides if they teleport into cover or concealment. "
         }
       ]
     }

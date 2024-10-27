@@ -25,7 +25,7 @@
   "traits": [
     {
       "name": "Crafty",
-      "effect": "The sniper doesn’t provoke opportunity attacks by moving."
+      "effect": "The sniper doesn't provoke opportunity attacks by moving."
     }
   ],
   "abilities": [
@@ -47,7 +47,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "If the sniper doesn’t use a maneuver or a move action this turn, the ability has edge. "
+          "effect": "If the sniper doesn't use a maneuver or a move action this turn, the ability has edge. "
         }
       ]
     }
