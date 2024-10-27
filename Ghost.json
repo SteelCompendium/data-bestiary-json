@@ -49,7 +49,7 @@
       "target": "Two creatures",
       "t1": "2 cold damage; P2 slowed (save ends)",
       "t2": "5 cold damage; P3 slowed (save ends)",
-      "t3": "6 cold damage; P2 slowed (save ends) ",
+      "t3": "6 cold damage; P2 slowed (save ends)",
       "effects": [
         {
           "name": "Effect",
@@ -118,7 +118,7 @@
       "target": "Each enemy in the burst",
       "t1": "Levitated (EoE) (see effect)",
       "t2": "Levitated (EoT)",
-      "t3": "No effect ",
+      "t3": "No effect",
       "effects": [
         {
           "name": "Effect",
@@ -139,7 +139,7 @@
       "target": "Each enemy in the burst",
       "t1": "2 sonic damage",
       "t2": "5 sonic damage",
-      "t3": "5 sonic damage ",
+      "t3": "5 sonic damage",
       "effects": [
         {
           "name": "Effect",

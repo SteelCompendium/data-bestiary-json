@@ -49,7 +49,7 @@
       "target": "One creature or object",
       "t1": "2 damage; M1 grabbed",
       "t2": "5 damage; M2 grabbed",
-      "t3": "6 damage; grabbed ",
+      "t3": "6 damage; grabbed",
       "effects": [
         {
           "name": "Effect",

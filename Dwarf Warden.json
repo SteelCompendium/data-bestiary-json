@@ -44,7 +44,7 @@
       "t2": "8 damage; push 3; M2 slowed (save ends)",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "A target restrained by a dwarf can be pushed by this attack. "
         }
       ]
@@ -63,7 +63,7 @@
       "t2": "4 damage; push 4; A2 slowed (save ends)",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "A target restrained by a dwarf can be pushed by this ability. "
         }
       ]

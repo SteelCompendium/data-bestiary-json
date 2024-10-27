@@ -1,8 +1,14 @@
 {
   "name": "Bugbear Commander",
-  "ancestry": [],
-  "roles": [],
-  "level": "",
+  "ancestry": [
+    "Bugbear",
+    "Goblin",
+    "Humanoid"
+  ],
+  "roles": [
+    "SUPPORT"
+  ],
+  "level": 2,
   "ev": 32,
   "stamina": 70,
   "immunities": [],
@@ -18,12 +24,8 @@
   "presence": 0,
   "traits": [
     {
-      "name": "LEVEL 2 SUPPORT",
-      "effect": "*Bugbear, Goblin, Humanoid*"
-    },
-    {
       "name": "Catcher (Free Triggered Action)",
-      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the commander. - Effect: The target is grabbed by the commander."
+      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the commander. Effect: The target is grabbed by the commander."
     },
     {
       "name": "The Commander’s Watching",
@@ -45,7 +47,13 @@
       "target": "2 creatures or objects",
       "t1": "5 damage",
       "t2": "8 damage",
-      "t3": "11 damage; one target is grabbed"
+      "t3": "11 damage; one target is grabbed",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "1 ally within 5 of the commander has an edge on their next attack until the start of the commander’s next turn. "
+        }
+      ]
     },
     {
       "name": "You Next!",
@@ -54,7 +62,13 @@
         "—"
       ],
       "distance": "Ranged 8",
-      "target": "1 ally"
+      "target": "1 ally",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The target moves up to their speed and uses a signature action. "
+        }
+      ]
     },
     {
       "name": "Fall Back!",
@@ -64,7 +78,13 @@
         "—"
       ],
       "distance": "Self and 5 burst",
-      "target": "Self and all allies"
+      "target": "Self and all allies",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each target shifts up to their speed. One target can then use the Throw maneuver if they have it. "
+        }
+      ]
     },
     {
       "name": "Throw",
@@ -74,7 +94,13 @@
         "Melee"
       ],
       "distance": "Melee 1",
-      "target": "1 creature or object grabbed by the commander"
+      "target": "1 creature or object grabbed by the commander",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Vertical push 4; ally targets don’t take damage from being force moved. "
+        }
+      ]
     }
   ]
 }

@@ -1,8 +1,14 @@
 {
   "name": "Bugbear Channeler",
-  "ancestry": [],
-  "roles": [],
-  "level": "",
+  "ancestry": [
+    "Bugbear",
+    "Goblin",
+    "Humanoid"
+  ],
+  "roles": [
+    "CONTROLLER"
+  ],
+  "level": 2,
   "ev": 30,
   "stamina": 60,
   "immunities": [],
@@ -18,12 +24,8 @@
   "presence": 2,
   "traits": [
     {
-      "name": "LEVEL 2 CONTROLLER",
-      "effect": "*Bugbear, Goblin, Humanoid*"
-    },
-    {
       "name": "Catcher (Free Triggered Action)",
-      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the channeler. - Effect: The target is grabbed by the channeler."
+      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the channeler. Effect: The target is grabbed by the channeler."
     }
   ],
   "abilities": [
@@ -41,7 +43,13 @@
       "target": "2 creatures or objects on the ground",
       "t1": "5 damage; pull 2",
       "t2": "8 damage; pull 3",
-      "t3": "11 damage; pull 4"
+      "t3": "11 damage; pull 4",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Each square that a target is pulled through becomes difficult terrain. "
+        }
+      ]
     },
     {
       "name": "Blistering Element",
@@ -55,7 +63,13 @@
       "target": "All enemies in the burst",
       "t1": "2 damage; M1 bleeding (save ends)",
       "t2": "3 damage; M2 bleeding (save ends)",
-      "t3": "4 damage; M3 bleeding (save ends)"
+      "t3": "4 damage; M3 bleeding (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The channeler chooses one of the following damage types for the damage: cold, fire, corruption, lightning, or poison. "
+        }
+      ]
     },
     {
       "name": "Green Reshape",
@@ -71,7 +85,13 @@
       "target": "1 creature",
       "t1": "5 damage; P1 slowed (save ends)",
       "t2": "8 damage; P2 shapechanged (save ends)",
-      "t3": "11 damage; P3 shapechanged (save ends)"
+      "t3": "11 damage; P3 shapechanged (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "A shapechanged creature becomes plant-like with bark skin and leafy hair. They are slowed and have fire weakness 10 while they have this effect. "
+        }
+      ]
     },
     {
       "name": "Throw",
@@ -81,7 +101,13 @@
         "Melee"
       ],
       "distance": "Melee 1",
-      "target": "1 creature or object grabbed by the channeler"
+      "target": "1 creature or object grabbed by the channeler",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Vertical push 3; ally targets don’t take damage from being force moved. "
+        }
+      ]
     },
     {
       "name": "Brambleguard",
@@ -93,7 +119,13 @@
       ],
       "distance": "Ranged 5",
       "target": "1 ally",
-      "trigger": "The target takes non-fire damage."
+      "trigger": "The target takes non-fire damage.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The channeler covers the target in thorns and halves the damage. If the damage was caused by a melee attack, the attacker takes 5 damage."
+        }
+      ]
     }
   ]
 }

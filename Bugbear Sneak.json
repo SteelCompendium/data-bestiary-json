@@ -1,8 +1,14 @@
 {
   "name": "Bugbear Sneak",
-  "ancestry": [],
-  "roles": [],
-  "level": "",
+  "ancestry": [
+    "Bugbear",
+    "Goblin",
+    "Humanoid"
+  ],
+  "roles": [
+    "AMBUSHER"
+  ],
+  "level": 2,
   "ev": 34,
   "stamina": 70,
   "immunities": [],
@@ -18,12 +24,8 @@
   "presence": 0,
   "traits": [
     {
-      "name": "LEVEL 2 AMBUSHER",
-      "effect": "*Bugbear, Goblin, Humanoid*"
-    },
-    {
       "name": "Catcher (Free Triggered Action)",
-      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the sneak. - Effect: The target is grabbed by the sneak."
+      "effect": "Keywords: — Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the sneak. Effect: The target is grabbed by the sneak."
     }
   ],
   "abilities": [
@@ -41,7 +43,13 @@
       "target": "1 creature or object",
       "t1": "5 damage; A2 grabbed",
       "t2": "9 damage; A3 grabbed",
-      "t3": "12 damage; grabbed"
+      "t3": "12 damage; grabbed",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The target can’t use triggered actions until the start of the next round. This attack has double edge if the sneak started their turn hidden from the target. "
+        }
+      ]
     },
     {
       "name": "Dirt Devil",
@@ -55,7 +63,13 @@
       "target": "All enemies in the burst",
       "t1": "2 damage; I1 sneak is concealed from the target (save ends)",
       "t2": "3 damage; I2 sneak is concealed from the target (save ends)",
-      "t3": "4 damage; I3 sneak is concealed from the target (save ends)"
+      "t3": "4 damage; I3 sneak is concealed from the target (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The sneak shifts up to their speed and hides after using this ability. "
+        }
+      ]
     },
     {
       "name": "Carving Dagger",
@@ -70,7 +84,13 @@
       "target": "2 creatures or objects",
       "t1": "5 damage; M1 bleeding (save ends)",
       "t2": "9 damage; M2 bleeding (save ends)",
-      "t3": "12 damage; M3 bleeding (save ends)"
+      "t3": "12 damage; M3 bleeding (save ends)",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Targets can’t hide from the sneak or their allies while bleeding from this ability. "
+        }
+      ]
     },
     {
       "name": "Throw",
@@ -80,7 +100,13 @@
         "Melee"
       ],
       "distance": "Melee 1",
-      "target": "1 creature or object grabbed by the sneak"
+      "target": "1 creature or object grabbed by the sneak",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Vertical push 4. Ally targets don’t take damage from being force moved. "
+        }
+      ]
     },
     {
       "name": "Misdirection",
@@ -91,7 +117,13 @@
       ],
       "distance": "Special",
       "target": "1 enemy",
-      "trigger": "A target attacks the sneak."
+      "trigger": "A target attacks the sneak.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The sneak chooses an enemy within distance of the attack. The attack targets that enemy instead."
+        }
+      ]
     }
   ]
 }

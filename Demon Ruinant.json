@@ -1,8 +1,13 @@
 {
   "name": "Demon Ruinant",
-  "ancestry": [],
-  "roles": [],
-  "level": "",
+  "ancestry": [
+    "Demon",
+    "Planar EV 10"
+  ],
+  "roles": [
+    "HARRIER"
+  ],
+  "level": 1,
   "ev": "",
   "stamina": "",
   "immunities": [],
@@ -17,14 +22,6 @@
   "reason": 0,
   "presence": 1,
   "traits": [
-    {
-      "name": "LEVEL 1 HARRIER",
-      "effect": ""
-    },
-    {
-      "name": "Demon, Planar EV 10",
-      "effect": "**Stamina:** 20 **Weakness:** Holy 3 **Speed:** 6 **Size:** 1M / Stability 0 **Free Strike:** 2"
-    },
     {
       "name": "Lethe",
       "effect": "While winded, the ruinant has an edge on attacks, and attacks have an edge against them."

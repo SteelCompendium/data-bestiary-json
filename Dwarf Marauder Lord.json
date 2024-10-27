@@ -44,12 +44,8 @@
       "t2": "9 damage; slide 3",
       "effects": [
         {
-          "name": "**Effect**",
-          "effect": "A target restrained by a dwarf can be slid by this attack."
-        },
-        {
-          "name": "**3 Malice**",
-          "effect": "A target that is force moved adjacent to an ally with this ability is restrained (EoT). "
+          "name": "Effect",
+          "effect": "A target restrained by a dwarf can be slid by this attack. 3 Malice: A target that is force moved adjacent to an ally with this ability is restrained (EoT). "
         }
       ]
     },
@@ -64,12 +60,8 @@
       "target": "1 creature or object",
       "effects": [
         {
-          "name": "**Effect**",
-          "effect": "Vertical slide 5. A target restrained by a dwarf can be slid by this ability."
-        },
-        {
-          "name": "**5 Malice**",
-          "effect": "This ability gains the Area keyword, its distance becomes 10 burst, and it now targets restrained creatures. "
+          "name": "Effect",
+          "effect": "Vertical slide 5. A target restrained by a dwarf can be slid by this ability. 5 Malice: This ability gains the Area keyword, its distance becomes 10 burst, and it now targets restrained creatures. "
         }
       ]
     },
@@ -84,7 +76,7 @@
       "trigger": "A creature makes a weapon attack against the target.",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "The target takes half damage from the attack. The attacker takes 5 damage. "
         }
       ]
@@ -100,7 +92,7 @@
       "target": "All enemies in the cube",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "The marauder lord uses Levitating Axes against each target. The marauder lord makes one power roll against all targets. "
         }
       ]
@@ -115,7 +107,7 @@
       "target": "All allies in the burst",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "Each target shifts up to their speed. The marauder lord then uses Levitating Axes. "
         }
       ]
@@ -130,7 +122,7 @@
       "target": "special",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "The marauder lord creates three 2-square metal objects in unoccupied squares within distance. When the marauder lord uses Magnetomancy, they can additionally target one of these objects."
         }
       ]

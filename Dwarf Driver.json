@@ -42,7 +42,7 @@
       "t2": "4 damage; push 2",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "A target restrained by a dwarf can be pushed by this attack."
         }
       ]

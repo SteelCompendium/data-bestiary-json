@@ -41,7 +41,7 @@
       "t2": "5 damage; push 4",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "A target restrained by a dwarf can be pushed by this attack. "
         }
       ]
@@ -61,7 +61,7 @@
       "t2": "3 damage; slowed (EoT)",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "The snare remains until the end of the encounter. An enemy that moves into an affected square for the first time on their turn must roll resistance."
         }
       ]

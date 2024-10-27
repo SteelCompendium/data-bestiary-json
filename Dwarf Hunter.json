@@ -40,7 +40,7 @@
       "t2": "4 damage; pull 2",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "A target restrained by a dwarf can be pulled by this attack."
         }
       ]

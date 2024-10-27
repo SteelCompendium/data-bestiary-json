@@ -41,7 +41,7 @@
       "t2": "4 damage",
       "effects": [
         {
-          "name": "**Effect**",
+          "name": "Effect",
           "effect": "The target can’t use triggered actions until the start of the next round."
         }
       ]
