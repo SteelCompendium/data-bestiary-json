@@ -44,6 +44,7 @@
       "target": "1 creature or object",
       "t1": "5 damage; slide 1",
       "t2": "8 damage; slide 1",
+      "t3": "11 damage; slide 1",
       "effects": [
         {
           "name": "Effect",

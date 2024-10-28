@@ -43,6 +43,7 @@
       "target": "2 creatures or objects",
       "t1": "5 damage; 1 prone",
       "t2": "9 damage; 2 prone",
+      "t3": "12 damage; 3 prone",
       "effects": [
         {
           "name": "Effect",
@@ -62,6 +63,7 @@
       "target": "All enemies and objects in the burst",
       "t1": "2 damage; 1 dazzled (save ends)",
       "t2": "4 damage; 2 dazzled (save ends)",
+      "t3": "6 damage; 3 dazzled (save ends)",
       "effects": [
         {
           "name": "Effect",
@@ -83,6 +85,7 @@
       "target": "All enemies in the cube",
       "t1": "Dazed (save ends)",
       "t2": "Dazed (EoT)",
+      "t3": "No effect",
       "effects": [
         {
           "name": "Effect",

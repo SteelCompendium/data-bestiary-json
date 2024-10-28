@@ -47,6 +47,7 @@
       "target": "3 creatures or objects",
       "t1": "5 damage; M2 restrained (save ends)",
       "t2": "9 damage; M3 restrained (save ends)",
+      "t3": "12 damage; M4 restrained (save ends)",
       "effects": [
         {
           "name": "Effect",

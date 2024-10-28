@@ -41,7 +41,8 @@
       "distance": "Melee 1",
       "target": "1 creature or object",
       "t1": "4 fire damage",
-      "t2": "7 fire damage"
+      "t2": "7 fire damage",
+      "t3": "10 fire damage "
     },
     {
       "name": "Drangolin Plume",
@@ -73,6 +74,7 @@
       "target": "All creatures",
       "t1": "4 damage; push 1; 1 prone",
       "t2": "7 damage; push 3; 2 prone",
+      "t3": "10 damage; push 5; 3 prone",
       "effects": [
         {
           "name": "Effect",

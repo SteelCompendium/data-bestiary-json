@@ -57,6 +57,7 @@
       "target": "1 creature or object",
       "t1": "7 damage; 2 ferocity",
       "t2": "10 damage; 4 ferocity",
+      "t3": "13 damage; 5 ferocity",
       "effects": [
         {
           "name": "2 Malice",
@@ -80,7 +81,8 @@
       "distance": "Melee 1",
       "target": "4 creatures or objects",
       "t1": "3 damage",
-      "t2": "4 damage; 1 ferocity; M2 push 3"
+      "t2": "4 damage; 1 ferocity; M2 push 3",
+      "t3": "5 damage; 3 ferocity; M3 vertical slide 3 "
     },
     {
       "name": "Berserker Slash",
@@ -142,6 +144,7 @@
       "target": "All enemies in the burst",
       "t1": "Target moves up to their speed away from the werewolf; frightened (save ends)",
       "t2": "Frightened (EoT)",
+      "t3": "no effect",
       "effects": [
         {
           "name": "Effect",
@@ -177,6 +180,7 @@
       "target": "All creatures in the burst",
       "t1": "3 damage; 2 ferocity",
       "t2": "4 damage; 4 ferocity",
+      "t3": "5 damage; 8 ferocity; prone",
       "effects": [
         {
           "name": "Effect",

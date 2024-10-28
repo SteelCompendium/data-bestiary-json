@@ -41,6 +41,7 @@
       "target": "All creatures and objects",
       "t1": "3 damage; slide 1; M1 slowed (save ends)",
       "t2": "6 damage; slide 3; M2 slowed (save ends)",
+      "t3": "9 damage; slide 5; M3 restrained (save ends)",
       "effects": [
         {
           "name": "Effect",
@@ -61,6 +62,7 @@
       "target": "All enemies in the cube",
       "t1": "2 damage; push 2; R1 slowed (save ends)",
       "t2": "3 damage; push 3; R2 slowed (save ends)",
+      "t3": "4 damage; push 3; R3 slowed (save ends)",
       "effects": [
         {
           "name": "Effect",

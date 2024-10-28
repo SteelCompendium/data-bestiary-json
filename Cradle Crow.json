@@ -38,6 +38,7 @@
       "target": "1 creature or object per minion",
       "t1": "2 damage",
       "t2": "4 damage; taunted (EoT)",
+      "t3": "5 damage; taunted (EoT)",
       "effects": [
         {
           "name": "Effect",

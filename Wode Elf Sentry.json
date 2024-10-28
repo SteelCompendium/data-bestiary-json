@@ -43,6 +43,7 @@
       "target": "1 creature or object",
       "t1": "3 damage; A2 marked (save ends)",
       "t2": "5 damage; A3 marked (save ends)",
+      "t3": "7 damage; marked (save ends)",
       "effects": [
         {
           "name": "Effect",

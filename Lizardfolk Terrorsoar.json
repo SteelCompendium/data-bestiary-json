@@ -46,6 +46,7 @@
       "target": "1 creature or object",
       "t1": "3 damage",
       "t2": "5 damage",
+      "t3": "7 damage; prone",
       "effects": [
         {
           "name": "Effect",
@@ -66,6 +67,7 @@
       "target": "1 creature or object",
       "t1": "2 damage; M1 weakened (save ends)",
       "t2": "5 damage; M2 weakened (save ends)",
+      "t3": "6 damage; M3 weakened (save ends)",
       "effects": [
         {
           "name": "Effect",

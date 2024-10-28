@@ -43,6 +43,7 @@
       "target": "1 creature or object",
       "t1": "3 damage",
       "t2": "5 damage",
+      "t3": "7 damage",
       "effects": [
         {
           "name": "Effect",

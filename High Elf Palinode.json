@@ -45,6 +45,7 @@
       "target": "1 creature",
       "t1": "3 psychic damage; I1 weakened (save ends)",
       "t2": "5 psychic damage; I2 weakened (save ends)",
+      "t3": "7 psychic damage; I3 weakened (save ends)",
       "effects": [
         {
           "name": "2 Malice",

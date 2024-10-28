@@ -43,6 +43,7 @@
       "target": "2 creatures or objects",
       "t1": "6 damage; pull 1",
       "t2": "10 damage; pull 2",
+      "t3": "13 damage; pull 3",
       "effects": [
         {
           "name": "Effect",
@@ -63,6 +64,7 @@
       "target": "All enemies in the burst",
       "t1": "Frightened of the minotaur (save ends)",
       "t2": "Frightened of the minotaur (EoT)",
+      "t3": "No effect",
       "effects": [
         {
           "name": "Effect",
@@ -85,6 +87,7 @@
       "target": "1 grabbed creature",
       "t1": "6 damage; push 1; M1 bleeding (save ends)",
       "t2": "10 damage; push 3; M2 bleeding (save ends)",
+      "t3": "13 damage; push 5; M3 bleeding (save ends)",
       "effects": [
         {
           "name": "Effect",

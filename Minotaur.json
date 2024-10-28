@@ -43,6 +43,7 @@
       "target": "2 creatures or objects",
       "t1": "5 damage; push 1",
       "t2": "9 damage; push 2",
+      "t3": "12 damage; push 3",
       "effects": [
         {
           "name": "Effect",
@@ -81,6 +82,7 @@
       "target": "1 creature or object",
       "t1": "5 damage; I1 dazed (save ends)",
       "t2": "9 damage; I2 dazed (save ends)",
+      "t3": "12 damage; I3 dazed (save ends)",
       "effects": [
         {
           "name": "Effect",
