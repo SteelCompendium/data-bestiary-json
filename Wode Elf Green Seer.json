@@ -24,10 +24,6 @@
   "presence": 1,
   "traits": [
     {
-      "name": "Foreseen Punishment (Free Triggered Action)",
-      "effect": "Keywords: - Distance: Ranged 5 Target: 1 creature  Trigger: The triggering creature uses a triggered action targeting the green seer or an ally within distance. Effect: The green seer makes a free strike against the target."
-    },
-    {
       "name": "Masking Glamor",
       "effect": "The green seer immediately hides at the end of their turn while in cover or concealment, even if they are observed."
     }
@@ -70,6 +66,22 @@
       "t1": "Target is bleeding and has a bane on their attacks (save ends)",
       "t2": "Target has a bane on their attacks (save ends)",
       "t3": "No effect "
+    },
+    {
+      "name": "Foreseen Punishment",
+      "type": "Free Triggered Action",
+      "keywords": [
+        "-"
+      ],
+      "distance": "Ranged 5",
+      "target": "1 creature",
+      "trigger": "The triggering creature uses a triggered action targeting the green seer or an ally within distance.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The green seer makes a free strike against the target. "
+        }
+      ]
     }
   ]
 }

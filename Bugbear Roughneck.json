@@ -22,12 +22,7 @@
   "agility": 2,
   "reason": 0,
   "presence": 0,
-  "traits": [
-    {
-      "name": "Catcher (Free Triggered Action)",
-      "effect": "Keywords: - Distance: Melee 1 Target: 1 size 1 creature or object Trigger: The target is force moved into a square adjacent to the roughneck. Effect: The target is grabbed by the roughneck."
-    }
-  ],
+  "traits": [],
   "abilities": [
     {
       "name": "Haymaker",
@@ -101,6 +96,22 @@
         {
           "name": "Effect",
           "effect": "Vertical push 5. Ally targets don't take damage from being force moved. "
+        }
+      ]
+    },
+    {
+      "name": "Catcher",
+      "type": "Free Triggered Action",
+      "keywords": [
+        "-"
+      ],
+      "distance": "Melee 1",
+      "target": "1 size 1 creature or object",
+      "trigger": "The target is force moved into a square adjacent to the roughneck.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The target is grabbed by the roughneck. "
         }
       ]
     },
