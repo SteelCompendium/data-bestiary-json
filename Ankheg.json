@@ -74,7 +74,13 @@
       "target": "Two creatures or objects",
       "t1": "2 damage; A2 grabbed",
       "t2": "4 damage; A3 grabbed",
-      "t3": "5 damage; A4 grabbed"
+      "t3": "5 damage; A4 grabbed",
+      "effects": [
+        {
+          "name": "2 Malice",
+          "effect": "The ankheg can vertical slide one or both targets up to 5 squares. "
+        }
+      ]
     },
     {
       "name": "Earth Eruption",

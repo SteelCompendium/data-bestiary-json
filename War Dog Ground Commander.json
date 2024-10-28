@@ -52,6 +52,10 @@
         {
           "name": "Effect",
           "effect": "One ally within 10 squares of the commander can make a free strike."
+        },
+        {
+          "name": "1 Malice",
+          "effect": "A target who is adjacent to the ground commander after this ability is resolved is I3 grabbed (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time. "
         }
       ]
     },
