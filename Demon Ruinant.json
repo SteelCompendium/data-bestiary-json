@@ -2,22 +2,24 @@
   "name": "Demon Ruinant",
   "ancestry": [
     "Demon",
-    "Planar EV 10"
+    "Planar"
   ],
   "roles": [
     "HARRIER"
   ],
   "level": 1,
-  "ev": "",
-  "stamina": "",
+  "ev": 10,
+  "stamina": 20,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "6",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "intuition": "",
+  "intuition": 0,
   "agility": 2,
   "reason": 0,
   "presence": 1,

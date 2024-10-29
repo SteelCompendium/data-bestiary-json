@@ -2,22 +2,24 @@
   "name": "Demon Muceron",
   "ancestry": [
     "Demon",
-    "Planar EV 18"
+    "Planar"
   ],
   "roles": [
     "BRUTE"
   ],
   "level": 3,
-  "ev": "",
-  "stamina": "",
+  "ev": 18,
+  "stamina": 45,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "5",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 2,
-  "intuition": "",
+  "intuition": 0,
   "agility": 2,
   "reason": 0,
   "presence": 1,

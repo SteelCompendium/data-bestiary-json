@@ -2,22 +2,24 @@
   "name": "Demon Bendrak",
   "ancestry": [
     "Demon",
-    "Planar EV 11"
+    "Planar"
   ],
   "roles": [
     "HEXER"
   ],
   "level": 2,
-  "ev": "",
-  "stamina": "",
+  "ev": 11,
+  "stamina": 20,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "5",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "intuition": "",
+  "intuition": 0,
   "agility": 1,
   "reason": 0,
   "presence": 2,

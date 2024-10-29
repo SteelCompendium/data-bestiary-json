@@ -2,22 +2,24 @@
   "name": "Demon Remasch",
   "ancestry": [
     "Demon",
-    "Planar EV 13"
+    "Planar"
   ],
   "roles": [
     "AMBUSHER"
   ],
   "level": 2,
-  "ev": "",
-  "stamina": "",
+  "ev": 13,
+  "stamina": 25,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "5 (teleport)",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "intuition": "",
+  "intuition": 0,
   "agility": 2,
   "reason": 0,
   "presence": 2,

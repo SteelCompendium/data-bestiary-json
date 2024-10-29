@@ -2,21 +2,23 @@
   "name": "Demon Ensnarer",
   "ancestry": [
     "Demon",
-    "Planar EV 6"
+    "Planar"
   ],
   "roles": [
     "BRUTE",
     "MINION"
   ],
   "level": 1,
-  "ev": "",
-  "stamina": "",
+  "ev": 6,
+  "stamina": 10,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "5",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
   "might": 2,
   "intuition": -1,
   "agility": 0,

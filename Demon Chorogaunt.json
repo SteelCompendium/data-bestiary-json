@@ -2,20 +2,22 @@
   "name": "Demon Chorogaunt",
   "ancestry": [
     "Demon",
-    "Planar EV 36"
+    "Planar"
   ],
   "roles": [
     "LEADER"
   ],
   "level": 3,
-  "ev": "",
-  "stamina": "",
+  "ev": 36,
+  "stamina": 90,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "5",
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 4,
   "might": 2,
   "intuition": 2,
   "agility": 2,

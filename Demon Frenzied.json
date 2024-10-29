@@ -2,23 +2,25 @@
   "name": "Demon Frenzied",
   "ancestry": [
     "Demon",
-    "Planar EV 4"
+    "Planar"
   ],
   "roles": [
     "HARRIER",
     "MINION"
   ],
   "level": 1,
-  "ev": "",
-  "stamina": "",
+  "ev": 4,
+  "stamina": 8,
   "immunities": [],
-  "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": "6",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "intuition": "",
+  "intuition": -1,
   "agility": 2,
   "reason": -1,
   "presence": -1,

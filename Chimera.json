@@ -1,20 +1,22 @@
 {
   "name": "Chimera",
   "ancestry": [
-    "Monster EV 88"
+    "Monster"
   ],
   "roles": [
     "SOLO"
   ],
   "level": 3,
-  "ev": "",
-  "stamina": "",
-  "immunities": [],
+  "ev": 88,
+  "stamina": 240,
+  "immunities": [
+    "Fire 6"
+  ],
   "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "speed": "10 (fly)",
+  "size": "2",
+  "stability": 1,
+  "free_strike": 6,
   "might": 3,
   "intuition": 1,
   "agility": 2,
@@ -169,5 +171,6 @@
         }
       ]
     }
-  ]
+  ],
+  "end_effect": "At the end of their turn, the chimera can take 5 damage to end one save ends effect affecting them. This damage can't be reduced in any way."
 }
