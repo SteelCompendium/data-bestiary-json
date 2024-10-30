@@ -25,7 +25,7 @@
   "traits": [
     {
       "name": "Solo Monster",
-      "effect": ""
+      "effect": "- **Solo Turns:** The chimera takes 2 turns each round. They can use two actions on each of their turns and can take each turn after an enemy turn they choose. While dazed, the chimera can take one action and one maneuver per turn.  **End Effect:** At the end of their turn, the chimera can take 5 damage to end one save ends effect affecting them. This damage can't be reduced in any way."
     },
     {
       "name": "Volant",
@@ -171,6 +171,5 @@
         }
       ]
     }
-  ],
-  "end_effect": "At the end of their turn, the chimera can take 5 damage to end one save ends effect affecting them. This damage can't be reduced in any way."
+  ]
 }
