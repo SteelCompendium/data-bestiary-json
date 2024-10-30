@@ -65,7 +65,7 @@
     {
       "name": "Petrifying Eye Beams",
       "type": "Maneuver",
-      "cost": "MGT RR",
+      "roll": "MGT RR",
       "keywords": [
         "Magic",
         "Ranged",
@@ -77,6 +77,12 @@
       "t2": "Slowed (save ends)",
       "t3": "Slowed (EoT)",
       "effects": [
+        {
+          "roll": "MGT RR",
+          "t1": "Restrained (save ends)",
+          "t2": "Slowed (save ends)",
+          "t3": "Slowed (EoT)"
+        },
         {
           "name": "Effect",
           "effect": "The tonguesnapper targets the first unobstructed creature in each column of the area. Each target magically begins to turn to stone. An already slowed target has a bane on resisting the roll. A creature restrained by this ability or a creature adjacent to them can use an action to cut the encroaching stone from their body, taking 8 damage which can't be reduced in any way and ending the effect."
