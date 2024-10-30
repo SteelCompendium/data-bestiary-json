@@ -7,16 +7,16 @@
     "Solo"
   ],
   "level": 2,
-  "ev": "",
-  "stamina": "",
+  "ev": 76,
+  "stamina": 180,
   "immunities": [
     "weapon 5"
   ],
   "weaknesses": [],
-  "speed": "",
-  "size": "",
-  "stability": "",
-  "free_strike": "",
+  "speed": "8 (burrow)",
+  "size": "1L",
+  "stability": 3,
+  "free_strike": 5,
   "might": 3,
   "intuition": 1,
   "agility": 2,
