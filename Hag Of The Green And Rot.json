@@ -53,6 +53,12 @@
       "t3": "13 corruption damage; A4 weakened (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "6 corruption damage; A2 weakened (save ends)",
+          "t2": "10 corruption damage; A3 weakened (save ends)",
+          "t3": "13 corruption damage; A4 weakened (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "A creature weakened by this ability takes 1d6 corruption damage at the start of each of their turns until the condition ends. "
         }
@@ -113,6 +119,12 @@
       "t2": "Slide 3; slowed (EoT)",
       "t3": "Slide 2",
       "effects": [
+        {
+          "roll": "REA RR",
+          "t1": "Vertical slide 5; restrained (EoT)",
+          "t2": "Slide 3; slowed (EoT)",
+          "t3": "Slide 2"
+        },
         {
           "name": "Effect",
           "effect": "A creature restrained by this ability that is force moved vertically is suspended in midair until the condition ends. "

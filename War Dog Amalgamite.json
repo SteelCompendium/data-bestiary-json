@@ -45,6 +45,12 @@
       "t3": "5 damage; A3 grabbed",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 damage; A1 grabbed",
+          "t2": "4 damage; A2 grabbed",
+          "t3": "5 damage; A3 grabbed"
+        },
+        {
           "name": "Special",
           "effect": "The amalgamite can grab up to four creatures."
         },

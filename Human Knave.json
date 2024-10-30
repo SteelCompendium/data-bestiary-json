@@ -57,6 +57,12 @@
       "t3": "10 damage; M3 the target has a double bane on their next attack",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "4 damage; M1 the target has a bane on their next attack",
+          "t2": "7 damage; M2 the target has a bane on their next attack",
+          "t3": "10 damage; M3 the target has a double bane on their next attack"
+        },
+        {
           "name": "Effect",
           "effect": "Taunted (EoT). "
         }

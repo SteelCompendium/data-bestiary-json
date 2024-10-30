@@ -50,6 +50,12 @@
       "t3": "7 damage",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage"
+        },
+        {
           "name": "Effect",
           "effect": "An ally within 10 of the monarch can make a free strike. "
         }

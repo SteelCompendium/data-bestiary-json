@@ -53,6 +53,12 @@
       "t3": "12 damage; pull 3",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "5 damage; pull 1",
+          "t2": "9 damage; pull 2",
+          "t3": "12 damage; pull 3"
+        },
+        {
           "name": "Effect",
           "effect": "A target who is adjacent to the bandit chief after the attack is resolved takes double edge corruption damage."
         },

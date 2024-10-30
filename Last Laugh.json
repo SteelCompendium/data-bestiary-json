@@ -49,6 +49,12 @@
       "t3": "10 damage; A4 bleeding and dazed (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "4 damage; A2 bleeding (save ends)",
+          "t2": "7 damage; A3 bleeding (save ends)",
+          "t3": "10 damage; A4 bleeding and dazed (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "An ally targeted by this ability makes a free strike instead of taking damage. "
         }

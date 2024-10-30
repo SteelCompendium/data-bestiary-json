@@ -44,6 +44,12 @@
       "t3": "6 fire damage",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 fire damage",
+          "t2": "5 fire damage",
+          "t3": "6 fire damage"
+        },
+        {
           "name": "Effect",
           "effect": "The area is covered in sticky fire until the start of the crucibite's next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage."
         },

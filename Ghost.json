@@ -52,6 +52,12 @@
       "t3": "6 cold damage; P2 slowed (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "2 cold damage; P2 slowed (save ends)",
+          "t2": "5 cold damage; P3 slowed (save ends)",
+          "t3": "6 cold damage; P2 slowed (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "The next attack made against a target has edge. "
         }

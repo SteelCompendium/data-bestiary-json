@@ -48,6 +48,12 @@
       "t3": "4 damage",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 damage",
+          "t2": "3 damage",
+          "t3": "4 damage"
+        },
+        {
           "name": "Effect",
           "effect": "If this ability is used as part of the Charge action, the conscript has **edge** on the attack. "
         }

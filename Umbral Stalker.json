@@ -48,6 +48,12 @@
       "t3": "6 cold damage",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 cold damage",
+          "t2": "5 cold damage",
+          "t3": "6 cold damage"
+        },
+        {
           "name": "Effect",
           "effect": "The shadow can shift up to 2 squares before or after this attack. "
         }
@@ -69,6 +75,12 @@
       "t2": "2 cold damage",
       "t3": "3 cold damage",
       "effects": [
+        {
+          "roll": "2d10 + 2",
+          "t1": "1 cold damage",
+          "t2": "2 cold damage",
+          "t3": "3 cold damage"
+        },
         {
           "name": "Effect",
           "effect": "Until the end of the umbral stalker's next turn, the area is concealed and blocks line of effect for all enemies. "

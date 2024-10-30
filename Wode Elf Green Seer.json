@@ -46,6 +46,12 @@
       "t3": "7 damage; I3 restrained (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 damage; I1 restrained (save ends)",
+          "t2": "5 damage; I2 restrained (save ends)",
+          "t3": "7 damage; I3 restrained (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "A creature restrained by this ability can't search for hidden creatures until the condition ends. "
         }
@@ -65,7 +71,15 @@
       "target": "2 creatures",
       "t1": "Target is bleeding and has a bane on their attacks (save ends)",
       "t2": "Target has a bane on their attacks (save ends)",
-      "t3": "No effect "
+      "t3": "No effect ",
+      "effects": [
+        {
+          "roll": "PRS RR",
+          "t1": "Target is bleeding and has a bane on their attacks (save ends)",
+          "t2": "Target has a bane on their attacks (save ends)",
+          "t3": "No effect "
+        }
+      ]
     },
     {
       "name": "Foreseen Punishment",

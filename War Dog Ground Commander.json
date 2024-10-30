@@ -50,6 +50,12 @@
       "t3": "11 damage; pull 3",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "5 damage; pull 1",
+          "t2": "8 damage; pull 2",
+          "t3": "11 damage; pull 3"
+        },
+        {
           "name": "Effect",
           "effect": "One ally within 10 squares of the commander can make a free strike."
         },

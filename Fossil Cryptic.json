@@ -54,6 +54,12 @@
       "t3": "12 damage; A4 prone and can't stand (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 3",
+          "t1": "5 damage; A2 prone",
+          "t2": "9 damage; A3 prone and can't stand (EoT)",
+          "t3": "12 damage; A4 prone and can't stand (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "Each enemy within 1 square of the target takes 2 damage. "
         }
@@ -93,6 +99,12 @@
       "t2": "3 damage; push 3; prone",
       "t3": "4 damage; push 4; prone ",
       "effects": [
+        {
+          "roll": "2d10 + 3",
+          "t1": "2 damage; push 2",
+          "t2": "3 damage; push 3; prone",
+          "t3": "4 damage; push 4; prone "
+        },
         {
           "name": "Effect",
           "effect": "The cryptic burrows up to half their speed, then creates the burst when they breach the surface."

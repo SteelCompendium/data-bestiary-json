@@ -49,6 +49,12 @@
       "t3": "6 damage",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 damage",
+          "t2": "5 damage",
+          "t3": "6 damage"
+        },
+        {
           "name": "Effect",
           "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they move on their turn. "
         }
@@ -69,6 +75,12 @@
       "t2": "2 damage; M2 bleeding (save ends)",
       "t3": "3 damage; M3 bleeding (save ends)",
       "effects": [
+        {
+          "roll": "2d10 + 2",
+          "t1": "1 damage; M1 bleeding (save ends)",
+          "t2": "2 damage; M2 bleeding (save ends)",
+          "t3": "3 damage; M3 bleeding (save ends)"
+        },
         {
           "name": "Effect",
           "effect": "Each target has a bane on their next attack until the start of the skeleton's next turn. "

@@ -49,6 +49,12 @@
       "t3": "7 damage; prone",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage; prone"
+        },
+        {
           "name": "Effect",
           "effect": "The terrorsoar can shift 4 after using this ability if they are flying. "
         }

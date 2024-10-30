@@ -41,6 +41,12 @@
       "t3": "5 damage; pull 4",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 damage; pull 1",
+          "t2": "4 damage; pull 2",
+          "t3": "5 damage; pull 4"
+        },
+        {
           "name": "Effect",
           "effect": "A target restrained by a dwarf can be pulled by this attack."
         }

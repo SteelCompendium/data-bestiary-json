@@ -45,6 +45,12 @@
       "t3": "7 psychic damage; I3 target uses a signature ability against a creature of the cackler's choice",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 psychic damage; I1 target makes a free strike against a creature of the cackler's choice",
+          "t2": "5 psychic damage; I2 target makes a free strike against a creature of the cackler's choice",
+          "t3": "7 psychic damage; I3 target uses a signature ability against a creature of the cackler's choice"
+        },
+        {
           "name": "Effect",
           "effect": "An ally targeted by this ability makes a free strike instead of taking damage. "
         }
@@ -66,6 +72,12 @@
       "t2": "Frightened of the cackler (EoT)",
       "t3": "No effect",
       "effects": [
+        {
+          "roll": "INU RR",
+          "t1": "Frightened of the cackler (save ends)",
+          "t2": "Frightened of the cackler (EoT)",
+          "t3": "No effect"
+        },
         {
           "name": "Effect",
           "effect": "Allies targeted by this ability don't make a resistance roll. Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost. "

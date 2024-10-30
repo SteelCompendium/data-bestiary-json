@@ -45,6 +45,12 @@
       "t3": "12 damage; grabbed",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "5 damage; M2 grabbed",
+          "t2": "9 damage; M3 grabbed",
+          "t3": "12 damage; grabbed"
+        },
+        {
           "name": "Effect",
           "effect": "While the target is grabbed, they take 2 damage at the start of each of the bruxer's turns. "
         }
@@ -63,7 +69,15 @@
       "target": "All enemies in the burst",
       "t1": "3 damage; A1 bleeding (save ends)",
       "t2": "5 damage; A2 bleeding (save ends)",
-      "t3": "6 damage; A3 bleeding (save ends) "
+      "t3": "6 damage; A3 bleeding (save ends) ",
+      "effects": [
+        {
+          "roll": "2d10 + 2",
+          "t1": "3 damage; A1 bleeding (save ends)",
+          "t2": "5 damage; A2 bleeding (save ends)",
+          "t3": "6 damage; A3 bleeding (save ends) "
+        }
+      ]
     },
     {
       "name": "Ready Rodent",

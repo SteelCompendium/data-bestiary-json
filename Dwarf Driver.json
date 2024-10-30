@@ -43,6 +43,12 @@
       "t3": "5 damage; push 4",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 damage; push 1",
+          "t2": "4 damage; push 2",
+          "t3": "5 damage; push 4"
+        },
+        {
           "name": "Effect",
           "effect": "A target restrained by a dwarf can be pushed by this attack."
         }

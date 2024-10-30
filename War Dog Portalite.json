@@ -46,6 +46,12 @@
       "t3": "7 damage; slide 3",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 damage; slide 1",
+          "t2": "5 damage; slide 2",
+          "t3": "7 damage; slide 3"
+        },
+        {
           "name": "Effect",
           "effect": "The portalite has **edge** on the attack if an ally is adjacent to the target."
         },

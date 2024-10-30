@@ -48,6 +48,12 @@
       "t3": "5 corruption damage; M2 slowed and weakened (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "2 corruption damage",
+          "t2": "4 corruption damage; M1 slowed (save ends)",
+          "t3": "5 corruption damage; M2 slowed and weakened (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "The target appears to rapidly age each time they take damage from this attack. The target regains their former appearance when the wight is destroyed. "
         }

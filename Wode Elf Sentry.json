@@ -46,6 +46,12 @@
       "t3": "7 damage; marked (save ends)",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 damage; A2 marked (save ends)",
+          "t2": "5 damage; A3 marked (save ends)",
+          "t3": "7 damage; marked (save ends)"
+        },
+        {
           "name": "Effect",
           "effect": "Allies have **+1** on attacks and abilities against marked creatures and objects."
         },

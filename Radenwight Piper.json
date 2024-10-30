@@ -46,6 +46,12 @@
       "t3": "7 sonic damage; push 4",
       "effects": [
         {
+          "roll": "2d10 + 2",
+          "t1": "3 sonic damage; push 1",
+          "t2": "5 sonic damage; push 3",
+          "t3": "7 sonic damage; push 4"
+        },
+        {
           "name": "Effect",
           "effect": "The piper or an ally within distance regains Stamina equal to half the damage dealt. "
         }
