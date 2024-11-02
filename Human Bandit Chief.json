@@ -38,7 +38,6 @@
     {
       "name": "Whip & Magic Longsword",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -48,9 +47,6 @@
       ],
       "distance": "Melee 3",
       "target": "Two enemies or objects",
-      "t1": "5 damage; pull 1",
-      "t2": "9 damage; pull 2",
-      "t3": "12 damage; pull 3",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -71,7 +67,6 @@
     {
       "name": "Kneel, Peasant!",
       "type": "Maneuver",
-      "roll": "2d10 + 3",
       "keywords": [
         "Attack",
         "Melee",
@@ -79,9 +74,6 @@
       ],
       "distance": "Melee 1",
       "target": "One enemy or object",
-      "t1": "Push 1; M2 prone",
-      "t2": "Push 2; M3 prone",
-      "t3": "Push 4; M4 prone",
       "effects": [
         {
           "roll": "2d10 + 3",

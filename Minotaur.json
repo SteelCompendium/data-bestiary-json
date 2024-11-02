@@ -31,7 +31,6 @@
     {
       "name": "Flail and Blade",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -41,9 +40,6 @@
       ],
       "distance": "Melee 2",
       "target": "2 creatures or objects",
-      "t1": "5 damage; push 1",
-      "t2": "9 damage; push 2",
-      "t3": "12 damage; push 3",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -76,7 +72,6 @@
     {
       "name": "Goring Horns",
       "type": "Maneuver",
-      "roll": "2d10 + 2",
       "cost": "5 Malice",
       "keywords": [
         "Attack",
@@ -86,9 +81,6 @@
       ],
       "distance": "Melee 2",
       "target": "1 creature or object",
-      "t1": "5 damage; I1 dazed (save ends)",
-      "t2": "9 damage; I2 dazed (save ends)",
-      "t3": "12 damage; I3 dazed (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

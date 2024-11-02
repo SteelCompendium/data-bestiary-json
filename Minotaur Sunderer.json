@@ -31,7 +31,6 @@
     {
       "name": "Spiked Maul",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -41,9 +40,6 @@
       ],
       "distance": "Melee 2",
       "target": "2 creatures or objects",
-      "t1": "6 damage; pull 1",
-      "t2": "10 damage; pull 2",
-      "t3": "13 damage; pull 3",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -60,7 +56,6 @@
     {
       "name": "Fearsome Bay",
       "type": "Action",
-      "roll": "INU RR",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -68,9 +63,6 @@
       ],
       "distance": "3 burst",
       "target": "All enemies in the burst",
-      "t1": "Frightened of the minotaur (save ends)",
-      "t2": "Frightened of the minotaur (EoT)",
-      "t3": "No effect",
       "effects": [
         {
           "roll": "INU RR",
@@ -87,7 +79,6 @@
     {
       "name": "Disemboweling Horns",
       "type": "Maneuver",
-      "roll": "2d10 + 2",
       "cost": "3 Malice",
       "keywords": [
         "Attack",
@@ -97,9 +88,6 @@
       ],
       "distance": "Melee 2",
       "target": "1 grabbed creature",
-      "t1": "6 damage; push 1; M1 bleeding (save ends)",
-      "t2": "10 damage; push 3; M2 bleeding (save ends)",
-      "t3": "13 damage; push 5; M3 bleeding (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

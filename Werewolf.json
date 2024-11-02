@@ -45,7 +45,6 @@
     {
       "name": "Accursed Bite",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -55,9 +54,6 @@
       ],
       "distance": "Melee 1",
       "target": "1 creature or object",
-      "t1": "7 damage; 2 ferocity",
-      "t2": "10 damage; 4 ferocity",
-      "t3": "13 damage; 5 ferocity",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -78,7 +74,6 @@
     {
       "name": "Claws",
       "type": "Action",
-      "roll": "2d10 + 3",
       "keywords": [
         "Attack",
         "Melee",
@@ -86,9 +81,6 @@
       ],
       "distance": "Melee 1",
       "target": "4 creatures or objects",
-      "t1": "3 damage",
-      "t2": "4 damage; 1 ferocity; M2 push 3",
-      "t3": "5 damage; 3 ferocity; M3 vertical slide 3 ",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -149,16 +141,12 @@
     {
       "name": "Howl",
       "type": "Villain Action 1",
-      "roll": "INU RR",
       "keywords": [
         "Area",
         "Resistance"
       ],
       "distance": "5 burst",
       "target": "All enemies in the burst",
-      "t1": "Target moves up to their speed away from the werewolf; frightened (save ends)",
-      "t2": "Frightened (EoT)",
-      "t3": "no effect",
       "effects": [
         {
           "roll": "INU RR",
@@ -190,7 +178,6 @@
     {
       "name": "Rampage",
       "type": "Villain Action 3",
-      "roll": "2d10 + 3",
       "keywords": [
         "Area",
         "Melee",
@@ -198,9 +185,6 @@
       ],
       "distance": "2 burst",
       "target": "All creatures in the burst",
-      "t1": "3 damage; 2 ferocity",
-      "t2": "4 damage; 4 ferocity",
-      "t3": "5 damage; 8 ferocity; prone",
       "effects": [
         {
           "roll": "2d10 + 3",

@@ -38,7 +38,6 @@
     {
       "name": "Executioner's Swing",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "Signature",
       "keywords": [
         "Area",
@@ -47,9 +46,6 @@
       ],
       "distance": "2 burst",
       "target": "Each enemy in the burst",
-      "t1": "2 damage; A2 bleeding (save ends)",
-      "t2": "4 damage; A3 bleeding (save ends)",
-      "t3": "5 damage; A4 bleeding and dazed (save ends)",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -66,7 +62,6 @@
     {
       "name": "Lop",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "3 Malice",
       "keywords": [
         "Attack",
@@ -76,9 +71,6 @@
       ],
       "distance": "Melee 2",
       "target": "One creature",
-      "t1": "6 damage; bleeding (save ends) or M2 beheaded (see effect)",
-      "t2": "10 damage; bleeding (save ends) or M3 beheaded (see effect)",
-      "t3": "13 damage; bleeding (save ends) or M4 beheaded (see effect)",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -110,7 +102,6 @@
     {
       "name": "Headway",
       "type": "Maneuver",
-      "roll": "2d10 + 3",
       "cost": "5 Malice",
       "keywords": [
         "Attack",
@@ -119,9 +110,6 @@
       ],
       "distance": "Ranged 20",
       "target": "One creature or object",
-      "t1": "3 damage; M2 dazed (save ends)",
-      "t2": "5 damage; prone; M3 dazed (save ends)",
-      "t3": "7 damage; prone; M4 dazed (save ends) ",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -155,7 +143,6 @@
     {
       "name": "Turn Green",
       "type": "Villain Action 1",
-      "roll": "PRS RR",
       "keywords": [
         "Area",
         "Magic",
@@ -163,9 +150,6 @@
       ],
       "distance": "3 burst",
       "target": "Each enemy in the burst",
-      "t1": "The target turns green and is slowed (save ends)",
-      "t2": "The target turns green (save ends)",
-      "t3": "No effect ",
       "effects": [
         {
           "roll": "PRS RR",
@@ -197,7 +181,6 @@
     {
       "name": "Headlam Rampage",
       "type": "Villain Action 3",
-      "roll": "2d10 + 3",
       "keywords": [
         "Attack",
         "Melee",
@@ -205,9 +188,6 @@
       ],
       "distance": "Melee 2",
       "target": "Four creatures",
-      "t1": "3 damage; bleeding (save ends) or M2 beheaded (see Lop)",
-      "t2": "4 damage; bleeding (save ends) or M3 beheaded (see Lop)",
-      "t3": "5 damage; bleeding (save ends) or M4 beheaded (see Lop)",
       "effects": [
         {
           "roll": "2d10 + 3",

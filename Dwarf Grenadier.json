@@ -31,7 +31,6 @@
     {
       "name": "Concussive Grenade",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Area",
@@ -40,9 +39,6 @@
       ],
       "distance": "3 cube within 5",
       "target": "All enemies",
-      "t1": "3 damage; push 1; M1 slowed (save ends)",
-      "t2": "5 damage; push 3; M2 slowed (save ends)",
-      "t3": "7 damage; push 5; M3 slowed (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -59,7 +55,6 @@
     {
       "name": "Sleep Grenade",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -67,9 +62,6 @@
       ],
       "distance": "3 cube within 5",
       "target": "All enemies",
-      "t1": "3 poison damage; I1 dazed (save ends)",
-      "t2": "5 poison damage; I2 dazed (save ends)",
-      "t3": "7 poison damage; I3 dazed (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

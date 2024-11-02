@@ -32,7 +32,6 @@
     {
       "name": "Awash",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Area",
@@ -40,9 +39,6 @@
       ],
       "distance": "3 cube within 1",
       "target": "All creatures in the cube",
-      "t1": "3 damage; M1 slowed (EoT)",
-      "t2": "4 damage; M2 slowed (EoT)",
-      "t3": "5 cold damage; M3 prone ",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -55,16 +51,12 @@
     {
       "name": "Aetherweb",
       "type": "Action",
-      "roll": "2d10 + 2",
       "keywords": [
         "Magic",
         "Ranged"
       ],
       "distance": "Ranged 8",
       "target": "2 enemies or objects",
-      "t1": "3 damage; R1 slowed (save ends)",
-      "t2": "5 damage; R2 slowed (save ends)",
-      "t3": "6 damage; R3 restrained (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

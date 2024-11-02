@@ -35,7 +35,6 @@
     {
       "name": "Bite",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -44,9 +43,6 @@
       ],
       "distance": "Melee 1",
       "target": "One creature or object",
-      "t1": "4 poison damage; M1 weakened (save ends)",
-      "t2": "7 poison damage; M2 weakened (save ends)",
-      "t3": "10 poison damage; M3 weakened (save ends) ",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -59,7 +55,6 @@
     {
       "name": "Leg Blade",
       "type": "Action",
-      "roll": "2d10 + 2",
       "keywords": [
         "Attack",
         "Melee",
@@ -67,9 +62,6 @@
       ],
       "distance": "Melee 1",
       "target": "Two creatures or objects",
-      "t1": "4 damage",
-      "t2": "7 damage",
-      "t3": "10 damage ",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -98,7 +90,6 @@
     {
       "name": "Web",
       "type": "Maneuver",
-      "roll": "AGL RR",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -106,9 +97,6 @@
       ],
       "distance": "3 cube within 1",
       "target": "All creatures in the cube",
-      "t1": "Restrained (AGL ends)",
-      "t2": "Restrained (EoT)",
-      "t3": "No effect ",
       "effects": [
         {
           "roll": "AGL RR",

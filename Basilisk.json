@@ -33,7 +33,6 @@
     {
       "name": "Noxious Bite",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -42,9 +41,6 @@
       ],
       "distance": "Melee 1",
       "target": "2 creatures or objects",
-      "t1": "5 poison damage",
-      "t2": "8 poison damage",
-      "t3": "11 poison damage",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -61,7 +57,6 @@
     {
       "name": "Petrifying Eye Beams",
       "type": "Maneuver",
-      "roll": "MGT RR",
       "keywords": [
         "Magic",
         "Ranged",
@@ -69,9 +64,6 @@
       ],
       "distance": "Ranged 5 × 2 line within 1",
       "target": "Special",
-      "t1": "Restrained (save ends)",
-      "t2": "Slowed (save ends)",
-      "t3": "Slowed (EoT)",
       "effects": [
         {
           "roll": "MGT RR",
@@ -88,7 +80,6 @@
     {
       "name": "Poison Fumes",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -96,9 +87,6 @@
       ],
       "distance": "3 cube within 1",
       "target": "All creatures in the cube",
-      "t1": "4 poison damage; M1 weakened (save ends)",
-      "t2": "6 poison damage; M2 weakened and slowed (save ends)",
-      "t3": "9 poison damage; M3 weakened and slowed (save ends) ",
       "effects": [
         {
           "roll": "2d10 + 2",

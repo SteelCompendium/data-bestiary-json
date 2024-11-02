@@ -36,7 +36,6 @@
     {
       "name": "Bite",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -45,9 +44,6 @@
       ],
       "distance": "Melee 2",
       "target": "2 creatures or objects",
-      "t1": "6 damage",
-      "t2": "10 damage",
-      "t3": "13 damage",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -64,7 +60,6 @@
     {
       "name": "Dragon's Eruption",
       "type": "Action",
-      "roll": "AGL RR",
       "cost": "7 Malice",
       "keywords": [
         "Area",
@@ -72,9 +67,6 @@
       ],
       "distance": "3 cube within 10",
       "target": "All enemies in the cube",
-      "t1": "13 fire damage",
-      "t2": "10 fire damage",
-      "t3": "6 fire damage ",
       "effects": [
         {
           "roll": "AGL RR",
@@ -87,7 +79,6 @@
     {
       "name": "Lion's Toss",
       "type": "Maneuver",
-      "roll": "2d10 + 3",
       "keywords": [
         "Attack",
         "Melee",
@@ -95,9 +86,6 @@
       ],
       "distance": "Melee 2",
       "target": "1 creature or object",
-      "t1": "vertical push 1",
-      "t2": "vertical push 3",
-      "t3": "vertical push 5 ",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -110,7 +98,6 @@
     {
       "name": "Roar",
       "type": "Action",
-      "roll": "2d10 + 3",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -118,9 +105,6 @@
       ],
       "distance": "5 burst",
       "target": "All enemies in the burst",
-      "t1": "4 psychic damage",
-      "t2": "8 psychic damage; I2 frightened (save ends)",
-      "t3": "10 psychic damage; I3 frightened (save ends) ",
       "effects": [
         {
           "roll": "2d10 + 3",
@@ -133,7 +117,6 @@
     {
       "name": "Ram's Defiance",
       "type": "Triggered Action",
-      "roll": "2d10 + 3",
       "keywords": [
         "Attack",
         "Melee",
@@ -142,9 +125,6 @@
       "distance": "Ranged 5",
       "target": "1 creature",
       "trigger": "The target attacks the chimera and gets a tier-1 result.",
-      "t1": "3 damage; M2 slowed (save ends)",
-      "t2": "5 damage; prone; M3 slowed (save ends)",
-      "t3": "7 damage; prone; M4 slowed (save ends) ",
       "effects": [
         {
           "roll": "2d10 + 3",

@@ -39,7 +39,6 @@
     {
       "name": "Dolobra & Net",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -48,9 +47,6 @@
       ],
       "distance": "Melee 1",
       "target": "1 creature or object",
-      "t1": "2 damage; 1 restrained (save ends)",
-      "t2": "5 damage; 2 restrained (save ends)",
-      "t3": "6 damage; 3 restrained (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

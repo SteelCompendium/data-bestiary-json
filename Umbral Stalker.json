@@ -34,7 +34,6 @@
     {
       "name": "Chilling Grasp",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -43,9 +42,6 @@
       ],
       "distance": "Melee 1",
       "target": "One creature or object",
-      "t1": "2 cold damage",
-      "t2": "5 cold damage",
-      "t3": "6 cold damage",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -62,7 +58,6 @@
     {
       "name": "Freezing Dark",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -71,9 +66,6 @@
       ],
       "distance": "3 cube within 1",
       "target": "Each enemy in the cube",
-      "t1": "1 cold damage",
-      "t2": "2 cold damage",
-      "t3": "3 cold damage",
       "effects": [
         {
           "roll": "2d10 + 2",

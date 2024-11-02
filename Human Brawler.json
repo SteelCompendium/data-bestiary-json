@@ -38,7 +38,6 @@
     {
       "name": "Haymaker",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -47,9 +46,6 @@
       ],
       "distance": "Melee 1",
       "target": "One creature or object",
-      "t1": "4 damage; M1 grabbed",
-      "t2": "7 damage; M2 grabbed",
-      "t3": "10 damage; M3 grabbed",
       "effects": [
         {
           "roll": "2d10 + 2",

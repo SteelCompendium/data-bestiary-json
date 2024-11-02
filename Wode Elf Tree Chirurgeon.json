@@ -32,7 +32,6 @@
     {
       "name": "Wild Axe",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -43,9 +42,6 @@
       ],
       "distance": "Melee 1 or Ranged 5",
       "target": "1 creature or object",
-      "t1": "4 damage; push 1",
-      "t2": "7 damage; push 3",
-      "t3": "10 damage; push 5",
       "effects": [
         {
           "roll": "2d10 + 2",

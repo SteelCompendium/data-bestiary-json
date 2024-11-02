@@ -32,7 +32,6 @@
     {
       "name": "Snare Bow",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -42,9 +41,6 @@
       ],
       "distance": "Ranged 15",
       "target": "1 creature or object",
-      "t1": "5 damage; A1 restrained (save ends)",
-      "t2": "9 damage; A2 restrained (save ends)",
-      "t3": "12 damage; A3 restrained (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -65,7 +61,6 @@
     {
       "name": "You Activated My Trap!",
       "type": "Maneuver",
-      "roll": "2d10 + 2",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -74,9 +69,6 @@
       ],
       "distance": "3 cube within 10",
       "target": "All enemies in the cube",
-      "t1": "2 damage; R1 marked (save ends)",
-      "t2": "4 damage; R2 slowed and marked (save ends)",
-      "t3": "6 damage; R3 slowed and marked (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

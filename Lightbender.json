@@ -31,7 +31,6 @@
     {
       "name": "Sucker Swipe",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -40,9 +39,6 @@
       ],
       "distance": "Melee 2",
       "target": "1 creature or object",
-      "t1": "8 damage",
-      "t2": "12 damage",
-      "t3": "16 damage",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -59,7 +55,6 @@
     {
       "name": "Piercing Tails",
       "type": "Action",
-      "roll": "2d10 + 2",
       "keywords": [
         "Attack",
         "Melee",
@@ -67,9 +62,6 @@
       ],
       "distance": "Melee 2",
       "target": "2 creatures or objects",
-      "t1": "6 damage; 1 bleeding (save ends)",
-      "t2": "10 damage; 2 bleeding (save ends)",
-      "t3": "13 damage; 3 bleeding (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -86,7 +78,6 @@
     {
       "name": "Hypnotic Mane",
       "type": "Maneuver",
-      "roll": "INU RR",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -95,9 +86,6 @@
       ],
       "distance": "3 burst",
       "target": "All enemies in the burst",
-      "t1": "Dazed (save ends)",
-      "t2": "Dazed (EoT)",
-      "t3": "No effect",
       "effects": [
         {
           "roll": "INU RR",

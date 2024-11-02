@@ -31,7 +31,6 @@
     {
       "name": "Shocking Bolt",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -40,9 +39,6 @@
       ],
       "distance": "Ranged 10",
       "target": "1 creature or object",
-      "t1": "2 lightning damage",
-      "t2": "5 lightning damage",
-      "t3": "6 lightning damage",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -59,7 +55,6 @@
     {
       "name": "Arcane Telum",
       "type": "Maneuver",
-      "roll": "2d10 + 1",
       "cost": "3 Malice",
       "keywords": [
         "Attack",
@@ -68,9 +63,6 @@
       ],
       "distance": "Ranged 15",
       "target": "3 creatures or objects",
-      "t1": "2 damage",
-      "t2": "5 damage",
-      "t3": "6 damage",
       "effects": [
         {
           "roll": "2d10 + 1",

@@ -30,7 +30,6 @@
     {
       "name": "Talons",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -39,9 +38,6 @@
       ],
       "distance": "Melee 1",
       "target": "One creature or object",
-      "t1": "3 damage; M2 grabbed",
-      "t2": "5 damage; M3 grabbed",
-      "t3": "7 damage; grabbed ",
       "effects": [
         {
           "roll": "2d10 + 2",

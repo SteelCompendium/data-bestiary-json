@@ -27,7 +27,6 @@
     {
       "name": "Suckerpunch",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -36,9 +35,6 @@
       ],
       "distance": "Melee 1",
       "target": "1 creature or object",
-      "t1": "5 damage; A2 grabbed",
-      "t2": "9 damage; A3 grabbed",
-      "t3": "12 damage; grabbed",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -55,16 +51,12 @@
     {
       "name": "Dirt Devil",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "3 Malice",
       "keywords": [
         "Area"
       ],
       "distance": "2 burst",
       "target": "All enemies in the burst",
-      "t1": "2 damage; I1 sneak is concealed from the target (save ends)",
-      "t2": "3 damage; I2 sneak is concealed from the target (save ends)",
-      "t3": "4 damage; I3 sneak is concealed from the target (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -81,7 +73,6 @@
     {
       "name": "Carving Dagger",
       "type": "Action",
-      "roll": "2d10 + 2",
       "keywords": [
         "Attack",
         "Ranged",
@@ -89,9 +80,6 @@
       ],
       "distance": "Ranged 8",
       "target": "2 creatures or objects",
-      "t1": "5 damage; M1 bleeding (save ends)",
-      "t2": "9 damage; M2 bleeding (save ends)",
-      "t3": "12 damage; M3 bleeding (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",

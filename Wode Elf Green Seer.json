@@ -32,7 +32,6 @@
     {
       "name": "The Forest's Embrace",
       "type": "Action",
-      "roll": "2d10 + 2",
       "cost": "Signature",
       "keywords": [
         "Attack",
@@ -41,9 +40,6 @@
       ],
       "distance": "Ranged 10",
       "target": "1 creature or object",
-      "t1": "3 damage; I1 restrained (save ends)",
-      "t2": "5 damage; I2 restrained (save ends)",
-      "t3": "7 damage; I3 restrained (save ends)",
       "effects": [
         {
           "roll": "2d10 + 2",
@@ -60,7 +56,6 @@
     {
       "name": "The Natural Cycle",
       "type": "Maneuver",
-      "roll": "PRS RR",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -69,9 +64,6 @@
       ],
       "distance": "Ranged 10",
       "target": "2 creatures",
-      "t1": "Target is bleeding and has a bane on their attacks (save ends)",
-      "t2": "Target has a bane on their attacks (save ends)",
-      "t3": "No effect ",
       "effects": [
         {
           "roll": "PRS RR",
