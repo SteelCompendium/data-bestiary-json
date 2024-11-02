@@ -61,7 +61,7 @@
       "type": "Action",
       "cost": "5 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self (while grounded)",
       "target": "Self",
@@ -95,7 +95,7 @@
       "name": "Circle and Strike",
       "type": "Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "trigger": "The griffon flies above a creature on the ground within 10",
       "distance": "Self",

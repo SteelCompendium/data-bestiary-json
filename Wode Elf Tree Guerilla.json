@@ -63,7 +63,7 @@
       "type": "Free Triggered Action",
       "cost": "3 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self and Squad",
       "target": "Self and Squad",

@@ -127,7 +127,7 @@
       "name": "Skitter",
       "type": "Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self",
       "target": "Self",
@@ -165,7 +165,7 @@
       "name": "Sinkhole",
       "type": "Villain Action 2",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self",
       "target": "Self",

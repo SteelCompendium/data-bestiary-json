@@ -113,7 +113,7 @@
       "name": "Catcher",
       "type": "Free Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Melee 1",
       "target": "1 size 1 creature or object",
@@ -130,7 +130,7 @@
       "type": "Triggered Action",
       "cost": "1 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Special",
       "target": "1 enemy",

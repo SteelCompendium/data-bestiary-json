@@ -58,7 +58,7 @@
       "type": "Maneuver",
       "cost": "2+ Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Ranged 10",
       "target": "Special",
@@ -74,7 +74,7 @@
       "type": "Free Maneuver",
       "cost": "2 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Ranged 10",
       "target": "Special",
@@ -89,7 +89,7 @@
       "name": "Enough!",
       "type": "Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Ranged 10",
       "target": "1 enemy",

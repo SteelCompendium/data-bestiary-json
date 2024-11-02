@@ -77,7 +77,7 @@
       "name": "Foreseen Punishment",
       "type": "Free Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Ranged 5",
       "target": "1 creature",

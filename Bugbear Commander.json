@@ -57,7 +57,7 @@
       "name": "You Next!",
       "type": "Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Ranged 8",
       "target": "1 ally",
@@ -73,7 +73,7 @@
       "type": "Action",
       "cost": "5 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self and 5 burst",
       "target": "Self and all allies",
@@ -104,7 +104,7 @@
       "name": "Catcher",
       "type": "Free Triggered Action",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Melee 1",
       "target": "1 size 1 creature or object",

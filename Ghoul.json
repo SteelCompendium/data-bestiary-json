@@ -60,7 +60,7 @@
       "name": "Leap",
       "type": "Maneuver",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self",
       "target": "Self",

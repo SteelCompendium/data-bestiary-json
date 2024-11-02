@@ -77,7 +77,7 @@
       "type": "Maneuver",
       "cost": "2 Malice",
       "keywords": [
-        "-"
+        "--"
       ],
       "distance": "Self",
       "target": "The horse's rider",
