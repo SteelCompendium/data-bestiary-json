@@ -1,0 +1,63 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Flurry",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage; pull 1",
+          "t3": "12 damage; pull 2"
+        },
+        {
+          "effect": "If the target is pulled into the animal swarm, that forced movement deals damage only at the Director's determination."
+        }
+      ]
+    },
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    },
+    {
+      "name": "Impede",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "1 aura",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "The area is difficult terrain for enemies until the start of the animal swarm's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal swarm can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ]
+}

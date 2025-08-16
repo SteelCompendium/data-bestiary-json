@@ -1,0 +1,54 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Suffusing Strike",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 3",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "8 corruption damage",
+          "t2": "12 corruption damage; R < 2 taunted (EoT)",
+          "t3": "15 corruption damage; R < 3 taunted (EoT)"
+        }
+      ]
+    },
+    {
+      "name": "Trick of the Eye",
+      "keywords": [
+        "Magic",
+        "Melee"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 2",
+      "target": "One ally",
+      "trigger": "An enemy within distance makes a strike against the target.",
+      "effects": [
+        {
+          "effect": "The target takes half the damage and the knightfell takes the other half."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The knightfell ignores concealment created by darkness. While the knightfell is in direct sunlight, they have damage weakness 3. While the knightfell has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

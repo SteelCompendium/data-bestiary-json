@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Telekinetic Beam",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 6",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "11 damage; slide 4",
+          "t2": "17 damage; slide 5",
+          "t3": "20 damage; slide 6"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The mover eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Quill Pushing",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage; push 1",
+          "t2": "6 damage; push 2",
+          "t3": "7 damage; push 3"
+        },
+        {
+          "effect": "Any target adjacent to two or more clerks is taunted until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
+        }
+      ]
+    }
+  ]
+}

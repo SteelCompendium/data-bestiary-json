@@ -1,0 +1,69 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Sword Stab",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "6 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 2 damage."
+        }
+      ]
+    },
+    {
+      "name": "Shadow Chains",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Three creatures",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 corruption damage; A < 0 restrained (save ends)",
+          "t2": "4 corruption damage; A < 1 restrained (save ends)",
+          "t3": "5 corruption damage; A < 2 restrained (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The assassin doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    },
+    {
+      "name": "Slip Away",
+      "effects": [
+        {
+          "effect": "The assassin can attempt to hide even while observed"
+        }
+      ]
+    }
+  ]
+}

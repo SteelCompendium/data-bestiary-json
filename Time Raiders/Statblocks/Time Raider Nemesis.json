@@ -1,0 +1,65 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Golden Scythe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage; pull 1",
+          "t2": "10 damage; pull 2",
+          "t3": "13 damage; pull 3; A < 2 restrained (save ends)"
+        },
+        {
+          "effect": "This ability can target creatures on parallel planes of existence and pull them onto the nemesis's plane."
+        }
+      ]
+    },
+    {
+      "name": "Kinetic Crush",
+      "cost": "2 Malice",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 psychic damage; M < 0 slowed (save ends)",
+          "t2": "10 psychic damage; M < 1 slowed (save ends)",
+          "t3": "13 psychic damage; M < 2 slowed (save ends)"
+        },
+        {
+          "effect": "Any creature slowed this way takes 2 damage for each square they move or are force moved until that condition ends."
+        }
+      ]
+    },
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The nemesis doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ]
+}

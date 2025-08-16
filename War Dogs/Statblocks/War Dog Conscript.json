@@ -1,0 +1,43 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blade",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 5",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage",
+          "t2": "2 damage",
+          "t3": "3 damage"
+        },
+        {
+          "effect": "If used with the Charge main action, this ability gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the conscript is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Gladius",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage; taunted (EoT)",
+          "t2": "4 damage; taunted (EoT)",
+          "t3": "5 damage; taunted (EoT)"
+        },
+        {
+          "effect": "If the legionary is acting as a captain, they and each member of their squad shift up to 2 squares before this ability is used.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage; push 1; M < 0 prone",
+          "t2": "3 damage; push 1; M < 1 prone",
+          "t3": "4 damage; push 1; M < 2 prone"
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ]
+}

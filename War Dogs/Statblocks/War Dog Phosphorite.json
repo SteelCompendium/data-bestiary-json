@@ -1,0 +1,59 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Caustic Detonator",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "effect": "A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the following power roll."
+        },
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 acid damage; M < 0 bleeding (save ends)",
+          "t2": "6 acid damage; M < 1 bleeding (save ends)",
+          "t3": "10 acid damage; M < 2 bleeding (save ends)"
+        },
+        {
+          "effect": "A creature adjacent to the target can attempt an **Agility test** as a maneuver to remove the detonator.\n- **≤11:** No effect\n- **12-16:** The detonator is disarmed and destroyed.\n- **17+:** The creature can attach the detonator to another creature or object within 5 squares of them.",
+          "name": "Special"
+        }
+      ]
+    },
+    {
+      "name": "Posthumous Promotion",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "One war dog",
+      "effects": [
+        {
+          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the phosphorite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

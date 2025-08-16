@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Heavy Longbow",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 12",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage; push 1",
+          "t2": "4 damage; push 2",
+          "t3": "5 damage; push 3"
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the yeoman that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ]
+}

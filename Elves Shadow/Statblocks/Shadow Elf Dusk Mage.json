@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Gloom Bolt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 damage",
+          "t2": "4 damage; A < 2 slowed (save ends)",
+          "t3": "6 damage; A < 3 slowed (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The dusk mage ignores concealment created by darkness. While the dusk mage is in direct sunlight, they have damage weakness 3. While the dusk mage has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

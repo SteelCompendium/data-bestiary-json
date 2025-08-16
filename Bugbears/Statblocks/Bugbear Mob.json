@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Mug and Tear",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage; pull 2",
+          "t2": "6 damage; pull 3",
+          "t3": "7 damage; pull 4, grabbed"
+        },
+        {
+          "effect": "If the target is pulled into the mob, that forced movement deals damage only at the Director's determination."
+        }
+      ]
+    },
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    }
+  ]
+}

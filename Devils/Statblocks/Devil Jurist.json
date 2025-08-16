@@ -1,0 +1,103 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Hellfire",
+      "effects": [
+        {
+          "effect": "Fire damage dealt by the jurist ignores damage immunity."
+        }
+      ]
+    },
+    {
+      "name": "Fire and Brimstone",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 12",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 fire damage",
+          "t2": "15 fire damage; A < 2 burning (save ends)",
+          "t3": "18 fire damage; A < 3 burning (save ends)"
+        },
+        {
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
+        },
+        {
+          "effect": "The jurist can target one additional creature or object for each Malice spent.",
+          "cost": "1+ Malice"
+        }
+      ]
+    },
+    {
+      "name": "Dismissal with Prejudice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "**Power Roll + 3**\n- **≤11:** 6 damage; slide 1\n- **12-16:** 10 damage; slide 3\n- **17+:** 12 damage; slide 5"
+        },
+        {
+          "effect": "If the target has M < 2, the forced distance movement gains a +3 bonus."
+        }
+      ]
+    },
+    {
+      "name": "Ashes to Ashes",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 12",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "If the target is burning (see Fire and Brimstone), they take 6 fire damage."
+        }
+      ]
+    },
+    {
+      "name": "Devilish Charm",
+      "cost": "2 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 5",
+      "target": "The triggering creature",
+      "trigger": "A creature targets the jurist with a strike.",
+      "effects": [
+        {
+          "effect": "The target makes a Presence test\n- **≤11:** The jurist chooses a new target for the strike.\n- **12-16:** The jurist halves the triggering damage.\n- **17+:** The target takes a bane on the strike."
+        }
+      ]
+    },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
+        }
+      ]
+    }
+  ]
+}

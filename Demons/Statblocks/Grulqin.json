@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Spinning Bone Blade",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "The grulqin gains an edge on this ability if they previously moved 3 or more squares in a straight line on their turn."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the grulqin can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Toxic Vapors",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Psionic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "4 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "6 poison damage",
+          "t2": "10 poison damage; M < 3 weakened (save ends)",
+          "t3": "13 poison damage; M < 4 weakened (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The toxic eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    }
+  ]
+}

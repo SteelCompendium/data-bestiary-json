@@ -1,0 +1,78 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Dagger Feint",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage; the garroter can shift 1 square",
+          "t2": "9 damage; the garroter shifts up to 2 squares",
+          "t3": "12 damage; the garroter shifts up to 3 squares"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 4 damage."
+        }
+      ]
+    },
+    {
+      "name": "Strangle",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage; I < 1 dazed (save ends)",
+          "t3": "12 damage; grabbed; I < 2 dazed (save ends)"
+        },
+        {
+          "effect": "While grabbed this way, a target can't communicate or use magic abilities."
+        }
+      ]
+    },
+    {
+      "name": "Chroma Cloak",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "The garroter turns invisible until the end of their turn. This invisibility ends early if they take damage or use an ability."
+        }
+      ]
+    },
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ]
+}

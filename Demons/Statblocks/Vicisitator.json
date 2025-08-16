@@ -1,0 +1,73 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Warp Touch",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "9 damage",
+          "t2": "12 damage",
+          "t3": "14 damage; I < 5 the target is slowed and weakened (save ends)"
+        },
+        {
+          "effect": "The effects of being slowed and weakened this way can't be ignored.",
+          "name": "Special"
+        }
+      ]
+    },
+    {
+      "name": "Soul Flay",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "6 x 3 line within 1",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "4 psychic damage; P < 3 bleeding (save ends)",
+          "t2": "7 psychic damage; P < 4 bleeding (save ends)",
+          "t3": "9 psychic damage; P < 5 bleeding (save ends)"
+        },
+        {
+          "effect": "Any creature who is bleeding from this ability loses 2d6 Stamina instead of 1d6."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the vicisitator is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the vicisitator can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

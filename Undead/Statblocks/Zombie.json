@@ -1,0 +1,62 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Clobber and Clutch",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "6 damage",
+          "t3": "7 damage; grabbed"
+        },
+        {
+          "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect"
+        }
+      ]
+    },
+    {
+      "name": "Zombie Dust",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The zombie falls prone, expelling a wave of rot and dust."
+        },
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 corruption damage",
+          "t2": "3 corruption damage; M < 1 weakened (save ends)",
+          "t3": "4 corruption damage; M < 2 dazed (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Endless Knight",
+      "effects": [
+        {
+          "effect": "The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone"
+        }
+      ]
+    }
+  ]
+}

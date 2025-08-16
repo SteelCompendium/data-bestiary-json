@@ -1,0 +1,61 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Portable Ballista",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage; push 1",
+          "t2": "9 damage; push 3",
+          "t3": "12 damage; push 5"
+        },
+        {
+          "effect": "If the target is adjacent to an object or a wall after the power roll is resolved, they are restrained until the end of their next turn. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+        },
+        {
+          "effect": "If the target is pushed into another creature, the target and the creature are each restrained until the end of their next turn.",
+          "cost": "5 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Ensnaring Chains",
+      "cost": "5 Malice",
+      "keywords": [
+        "Ranged",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "One prone, restrained, or slowed creature",
+      "effects": [
+        {
+          "effect": "The gunner makes a free strike against the target, and the prone, restrained, and slowed conditions on the target end. The target is then restrained (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Split Shot",
+      "effects": [
+        {
+          "effect": "Whenever the gunner deals rolled damage to a target, one creature or object adjacent to the target takes 3 damage."
+        }
+      ]
+    }
+  ]
+}

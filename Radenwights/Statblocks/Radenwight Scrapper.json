@@ -1,0 +1,47 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Buckler Bash",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage",
+          "t2": "2 damage; taunted (EoT)",
+          "t3": "3 damage; taunted (EoT)"
+        }
+      ]
+    },
+    {
+      "name": "Ready Rodent",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "trigger": "An ally deals damage to the target.",
+      "effects": [
+        {
+          "effect": "The scrapper makes a free strike against the target."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Explosion",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "4 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "6 fire damage",
+          "t2": "10 fire damage; M < 3 prone",
+          "t3": "13 fire damage; M < 4 prone"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The demolition eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    }
+  ]
+}

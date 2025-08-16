@@ -1,0 +1,37 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Nip",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 poison damage",
+          "t3": "3 poison damage; the pollywog shifts up to 3 squares"
+        }
+      ]
+    },
+    {
+      "name": "Quick Snack",
+      "effects": [
+        {
+          "effect": "Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains 4 Stamina and is wet until the end of their next turn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Call to Self-Sabotage",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "The target makes a free strike (tier 1 result) against themself",
+          "t2": "The target makes a free strike (tier 2 result) against themself",
+          "t3": "The target makes a free strike (tier 3 result) against themself"
+        },
+        {
+          "effect": "The target takes an extra 5 damage for each surge they have."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the socialite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

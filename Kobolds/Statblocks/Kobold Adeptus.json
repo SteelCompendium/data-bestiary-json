@@ -1,0 +1,64 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Shocking Bolt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 lightning damage",
+          "t2": "6 lightning damage",
+          "t3": "7 lightning damage"
+        },
+        {
+          "effect": "While the target is adjacent to any enemy, the adeptus gains an edge on this ability. Each enemy adjacent to the target takes 2 lighting damage."
+        }
+      ]
+    },
+    {
+      "name": "Arcane Telum",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 15",
+      "target": "Three creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "6 damage"
+        },
+        {
+          "effect": "This ability ignores banes, double banes, and damage immunity."
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ]
+}

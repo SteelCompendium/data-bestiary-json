@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Lugged Spear",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage",
+          "t2": "2 damage",
+          "t3": "3 damage"
+        },
+        {
+          "effect": "A target who starts their next turn adjacent to three or more blitzers takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Bloodfire Bur",
+      "effects": [
+        {
+          "effect": "If the blitzer is reduced to 0 Stamina, they can make a free strike before dying."
+        }
+      ]
+    }
+  ]
+}

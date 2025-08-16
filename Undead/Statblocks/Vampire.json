@@ -1,0 +1,81 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Exsanguinating Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "7 damage; M < 2 bleeding (save ends)",
+          "t2": "10 corruption damage; M < 3 5 corruption damage and bleed- ing (save ends)",
+          "t3": "11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)"
+        },
+        {
+          "effect": "The vampire regains Stamina equal to any corruption damage dealt."
+        }
+      ]
+    },
+    {
+      "name": "Vicious Pursuit",
+      "cost": "3 Malice",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "7 damage; A < 2 slowed (save ends)",
+          "t2": "10 damage; A < 3 slowed (save ends)",
+          "t3": "11 damage; A < 4 slowed (save ends)"
+        },
+        {
+          "effect": "If the target is bleeding, the vampire shifts up to their speed before using this ability."
+        }
+      ]
+    },
+    {
+      "name": "Reactive Charm",
+      "cost": "2 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 5",
+      "target": "One enemy",
+      "trigger": "A creature makes a strike against the vampire.",
+      "effects": [
+        {
+          "effect": "The target becomes the new target of the strike."
+        }
+      ]
+    },
+    {
+      "name": "Unslakable Bloodthirst",
+      "effects": [
+        {
+          "effect": "The vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must make a strike against a bleeding creature on their turn if they are able to."
+        }
+      ]
+    }
+  ]
+}

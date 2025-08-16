@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Boot and Blade",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage;",
+          "t2": "4 damage; push 3",
+          "t3": "5 damage; push 3 or prone"
+        },
+        {
+          "effect": "The razor gains an edge against any target affected by a condition."
+        }
+      ]
+    },
+    {
+      "name": "Bloodfire Burn",
+      "effects": [
+        {
+          "effect": "If the razor is reduced to 0 Stamina, they can make a free strike before dying."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blazing Leap",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "1 burst",
+      "target": "Each enemy and object in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "2 fire damage",
+          "t2": "5 fire damage; push 1",
+          "t3": "6 fire damage; push 2"
+        },
+        {
+          "effect": "The fireballer can jump up to 4 squares before using this ability."
+        }
+      ]
+    },
+    {
+      "name": "Searing Skin",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the fireballer or uses a melee ability against them, that enemy takes 5 fire damage."
+        }
+      ]
+    }
+  ]
+}

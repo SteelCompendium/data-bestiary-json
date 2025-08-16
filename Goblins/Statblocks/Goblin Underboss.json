@@ -1,0 +1,59 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Swordplay",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "4 damage",
+          "t3": "5 damage"
+        },
+        {
+          "effect": "One ally adjacent to the target can make a free strike against them."
+        }
+      ]
+    },
+    {
+      "name": "Get Reckless!",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "5 burst",
+      "target": "Each ally in the area",
+      "effects": [
+        {
+          "effect": "Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge."
+        },
+        {
+          "effect": "Strikes made against targets no longer gain an edge.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The underboss doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    }
+  ]
+}

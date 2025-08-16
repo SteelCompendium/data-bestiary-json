@@ -1,0 +1,59 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Sunderbuss",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Psionic",
+        "Ranged",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "3 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 sonic damage",
+          "t2": "7 sonic damage",
+          "t3": "10 sonic damage; prone; M < 2 slowed (save ends)"
+        },
+        {
+          "effect": "A layer of ground beneath the area that is 1 square deep is destroyed."
+        }
+      ]
+    },
+    {
+      "name": "Buss Buffe",
+      "cost": "1 Malice",
+      "keywords": [
+        "Area",
+        "Psionic"
+      ],
+      "type": "Free triggered action",
+      "distance": "5 burst",
+      "target": "Self and each ally in the area",
+      "trigger": "A creature damages the cannonfall with a ranged or area ability.",
+      "effects": [
+        {
+          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability"
+        }
+      ]
+    },
+    {
+      "name": "Foresight Squared",
+      "effects": [
+        {
+          "effect": "The cannonfall doesn't take a bane on strikes against creatures with concealment or cover."
+        }
+      ]
+    }
+  ]
+}

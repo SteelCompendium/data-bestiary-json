@@ -1,0 +1,33 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fetid Wrappings",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 damage",
+          "t2": "7 damage; pull 1",
+          "t3": "8 damage; pull 3"
+        },
+        {
+          "effect": "Each ally gains an edge on strikes made against the target until the end of the round"
+        }
+      ]
+    }
+  ]
+}

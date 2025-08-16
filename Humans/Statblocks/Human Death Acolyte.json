@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Necrotic Bolt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 corruption damage",
+          "t2": "2 corruption damage",
+          "t3": "3 corruption damage"
+        },
+        {
+          "effect": "One creature within 5 squares regains 1 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The death acolyte ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ]
+}

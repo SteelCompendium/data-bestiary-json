@@ -1,0 +1,47 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Soul Prism",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 corruption damage; slide 2",
+          "t2": "4 corruption damage; vertical slide 2",
+          "t3": "6 corruption damage; vertical slide 2"
+        }
+      ]
+    },
+    {
+      "name": "Imposing Energy",
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT)."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the orliq can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

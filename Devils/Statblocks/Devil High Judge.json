@@ -1,0 +1,133 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Infernal Decree",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 12",
+      "target": "Three creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "10 damage; P < 2 the target can't hide (save ends)",
+          "t2": "15 damage; P < 3 the target can't hide (save ends)",
+          "t3": "19 damage; P < 4 the target can't hide (save ends)"
+        },
+        {
+          "effect": "While a target is unable to hide this way, any strike against them made by a devil gains an edge.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Compel the Jury",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 12",
+      "target": "Two creatures",
+      "effects": [
+        {
+          "effect": "**Power Roll + 4**\n- **≤11:** I < 2 the target is charmed (save ends)\n- **12-16:** I < 3 the target is charmed (save ends)\n- **17+:** I < 4 the target is charmed (save ends)"
+        },
+        {
+          "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+        }
+      ]
+    },
+    {
+      "name": "Devilish Suggestion",
+      "cost": "2 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 5",
+      "target": "The triggering creature",
+      "trigger": "A creature targets the high judge with a strike.",
+      "effects": [
+        {
+          "effect": "The target makes a **Presence test**.\n- **≤11:** The target is charmed (save ends).\n- **12-16:** The high judge chooses a new target for the strike.\n- **17+:** The target takes a bane on the strike.\nWhile charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+        }
+      ]
+    },
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the high judge can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the high judge's true name, the high judge loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Suggestion triggered action until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "All Rise",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "3 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The target makes a **Presence test**.\n- **≤11:** 15 psychic damage; the target is charmed (save ends)\n- **12-16:** 12 psychic damage; the target is charmed (save ends)\n- **17+:** 7 psychic damage\nWhile charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+        }
+      ]
+    },
+    {
+      "name": "Heed My Decree",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "Area"
+      ],
+      "type": "-",
+      "distance": "5 burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Each target shifts up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed."
+        }
+      ]
+    },
+    {
+      "name": "Deceptive Stratagem",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Ranged 12",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target teleport to swap places. Each ally within 12 squares of the high judge can then make a free strike against a target of the high judge's choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a free strike against a target of the high judge's choice."
+        }
+      ]
+    }
+  ]
+}

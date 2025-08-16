@@ -1,0 +1,54 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Buried in Sand",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "3 damage; slide 2",
+          "t2": "6 damage; slide 3; A < 3 restrained (save ends)",
+          "t3": "8 damage; slide 4; A < 4 restrained (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Stonebreaker Flesh",
+      "effects": [
+        {
+          "effect": "Whenever an enemy obtains a tier 1 outcome on a melee ability used against the sand stone giant, they take a bane on that ability until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Stone Steps",
+      "effects": [
+        {
+          "effect": "The sand stone giant ignores difficult terrain"
+        }
+      ]
+    },
+    {
+      "name": "Stone Swim",
+      "effects": [
+        {
+          "effect": "The sand stone giant can burrow through stone, but can't drag other creatures underground when they do so."
+        }
+      ]
+    }
+  ]
+}

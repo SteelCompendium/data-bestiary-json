@@ -1,0 +1,134 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Pilum",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 damage; M < 1 weakened (save ends)",
+          "t2": "10 damage; M < 1 weakened (save ends)",
+          "t3": "13 damage; M < 1 weakened (save ends)"
+        },
+        {
+          "effect": "Each ally adjacent to a target can make a free strike against that target."
+        },
+        {
+          "effect": "While weakened this way, a target is also restrained.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Concentrate All Fire on That Hero!",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "One enemy",
+      "effects": [
+        {
+          "effect": "Until the start of the centurion's next turn, the centurion and their allies gain an edge on power rolls against the target."
+        },
+        {
+          "effect": "This ability targets one additional target for each 3 Malice spent.",
+          "cost": "3+ Malice"
+        }
+      ]
+    },
+    {
+      "name": "Testudo!",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Triggered action",
+      "distance": "5 Burst",
+      "target": "Each ally in the area",
+      "trigger": "A creature uses an ability that targets the centurion or an ally of the centurion within distance.",
+      "effects": [
+        {
+          "effect": "Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability."
+        }
+      ]
+    },
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Firetail Pilum",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "-"
+      ],
+      "type": "-",
+      "distance": "Special",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns."
+        }
+      ]
+    },
+    {
+      "name": "Boom Pilum!",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "Area",
+        "Weapon",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "5 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares."
+        }
+      ]
+    },
+    {
+      "name": "Are You Not Entertained?!",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Area"
+      ],
+      "type": "-",
+      "distance": "10 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2."
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ]
+}

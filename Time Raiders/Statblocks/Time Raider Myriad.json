@@ -1,0 +1,39 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fifth Fist",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage; slide 1",
+          "t2": "5 damage; slide 2",
+          "t3": "6 damage; slide 3, prone"
+        }
+      ]
+    },
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The myriad doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Poison Dart",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 8",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 poison damage",
+          "t3": "5 poison damage"
+        },
+        {
+          "effect": "The dart gains an edge on this ability against any target who has less than full Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the dart or uses a melee ability against them, that enemy takes 1 poison damage."
+        }
+      ]
+    }
+  ]
+}

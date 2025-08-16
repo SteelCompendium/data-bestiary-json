@@ -1,0 +1,68 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blightblade",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "8 damage",
+          "t2": "8 damage, 4 corruption damage",
+          "t3": "8 damage, 7 corruption damage"
+        },
+        {
+          "effect": "The next strike made against the target has a double edge."
+        },
+        {
+          "effect": "One ally adjacent to the target can use their signature ability.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "On My Mark!",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "One ally",
+      "effects": [
+        {
+          "effect": "The target moves up to their speed and can make a free strike."
+        }
+      ]
+    },
+    {
+      "name": "Battle Ready",
+      "effects": [
+        {
+          "effect": "Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes 3 fire damage."
+        }
+      ]
+    }
+  ]
+}

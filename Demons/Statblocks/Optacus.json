@@ -1,0 +1,34 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Optical Flare",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 20",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "5 fire damage",
+          "t2": "8 fire damage",
+          "t3": "10 fire damage; this damage ignores immunity"
+        },
+        {
+          "effect": "This ability ignores concealment. A winded target takes an extra 5 damage."
+        }
+      ]
+    }
+  ]
+}

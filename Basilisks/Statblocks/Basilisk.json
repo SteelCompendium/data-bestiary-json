@@ -1,0 +1,100 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Noxious Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main Action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 poison damage",
+          "t2": "10 poison damage",
+          "t3": "13 poison damage"
+        },
+        {
+          "effect": "This ability gains an edge against targets the basilisk has previously dealt poison damage to."
+        }
+      ]
+    },
+    {
+      "name": "Petrifying Eye Beams",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "5 × 2 line within 1",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "The area extends from both the basilisk's eyes, and this ability targets the first creature without cover on either side of the area.",
+          "name": "Special"
+        },
+        {
+          "roll": "Power Roll + 2",
+          "t1": "M < 0 restrained (save ends)",
+          "t2": "M < 1 restrained (save ends)",
+          "t3": "Slowed (save ends); or if M < 2 restrained (save ends)"
+        },
+        {
+          "effect": "If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target's body, dealing 8 damage to the target that can't be reduced in any way and ending this effect."
+        }
+      ]
+    },
+    {
+      "name": "Poison Fumes",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "3 cube within 1",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 poison damage; M < 0 weakened (save ends)",
+          "t2": "6 poison damage; M < 1 weakened and slowed (save ends)",
+          "t3": "9 poison damage; M < 2 weakened and slowed (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Lash Out",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Triggered action",
+      "distance": "1 burst",
+      "target": "Each enemy in the area",
+      "trigger": "The basilisk takes damage from a melee ability.",
+      "effects": [
+        {
+          "effect": "Each target takes 5 damage. Any target who has A < 2 is also bleeding (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Calcifying Presence",
+      "effects": [
+        {
+          "effect": "The area within 3 squares of the basilisk is difficult terrain for enemies."
+        }
+      ]
+    }
+  ]
+}

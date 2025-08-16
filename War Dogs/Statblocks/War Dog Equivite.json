@@ -1,0 +1,67 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fuse-Iron Lance",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 damage",
+          "t2": "8 damage",
+          "t3": "10 damage; I < 3 frightened (save ends)"
+        },
+        {
+          "effect": "This ability gains an edge while charging."
+        },
+        {
+          "effect": "The ability deals an extra 3 fire damage to the target and each enemy adjacent to the target.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Blazing Charge",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Special; see below",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "The equivite moves up to their speed and ignores difficult terrain. Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time"
+        },
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 damage; push 1",
+          "t2": "4 damage; push 2",
+          "t3": "5 damage; push 3; M < 3 prone"
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Despair Bolt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 20",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 psychic damage",
+          "t2": "5 psychic damage",
+          "t3": "7 psychic damage"
+        },
+        {
+          "effect": "The target takes a bane on their next strike. If the target is winded, they have a double bane on their next strike instead."
+        }
+      ]
+    }
+  ]
+}

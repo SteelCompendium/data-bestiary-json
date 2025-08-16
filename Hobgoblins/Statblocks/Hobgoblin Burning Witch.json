@@ -1,0 +1,58 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Soul Burn",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "4 corruption or fire damage",
+          "t2": "6 corruption or fire damage",
+          "t3": "8 corruption or fire damage"
+        },
+        {
+          "effect": "Each target who has P < 2 is weakened (save ends). Any enemy who starts their turn within 3 squares of a target weakened this way and who has P < 2 is weakened (save ends).",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Burning Legion",
+      "cost": "1 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Three creatures",
+      "effects": [
+        {
+          "effect": "Each target can teleport up to 5 squares. Each creature adjacent to a target at their destination takes 3 fire damage."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the burning witch is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the burning witch takes 3 fire damage."
+        }
+      ]
+    }
+  ]
+}

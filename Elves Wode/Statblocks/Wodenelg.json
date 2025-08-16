@@ -1,0 +1,73 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Gore",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 damage",
+          "t3": "9 damage"
+        },
+        {
+          "effect": "The wodenelg's rider can make a free strike at any point during the charge."
+        }
+      ]
+    },
+    {
+      "name": "Sure-Footed",
+      "effects": [
+        {
+          "effect": "The wodenelg ignores difficult terrain and doesn't provoke oppotunity attacks by moving."
+        }
+      ]
+    },
+    {
+      "name": "Where I End the Woods Begin",
+      "cost": "3 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The wodenelg and their rider become invisible until the start of the wodenelg's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Mounted Stability",
+      "effects": [
+        {
+          "effect": "The wodenelg's rider has damage immunity 2."
+        }
+      ]
+    },
+    {
+      "name": "Shared Glamor",
+      "effects": [
+        {
+          "effect": "If the wodenelg's rider has the Masking Glamor trait, the wodenelg also has that trait."
+        }
+      ]
+    }
+  ]
+}

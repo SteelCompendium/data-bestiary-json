@@ -1,0 +1,64 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Command Saber",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "5 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "One ally within 5 squares of the subcommander can make a free strike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Posthumous Promotion",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "One war dog",
+      "effects": [
+        {
+          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "The Iron Saint Does Not Recognize Retreat",
+      "effects": [
+        {
+          "effect": "Each ally within 5 squares of the subcommander gains a +3 bonus to stability."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the subcommander is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

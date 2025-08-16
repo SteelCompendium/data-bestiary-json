@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Wizard Ripper",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 acid damage",
+          "t2": "3 cold damage",
+          "t3": "5 lightning damage; the target can't use magic abilities (EoT)"
+        },
+        {
+          "effect": "The target takes a bane on their next power roll."
+        }
+      ]
+    },
+    {
+      "name": "Death Circle",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the mage mauler is reduced to 0 Stamina, the mage mauler can move up to their speed."
+        }
+      ]
+    }
+  ]
+}

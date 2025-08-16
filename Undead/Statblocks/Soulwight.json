@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Soulstealer Longsword",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 corruption damage",
+          "t2": "4 corruption damage; M < 1 slowed (save ends)",
+          "t3": "5 corruption damage; M < 2 slowed and weakened (save ends)"
+        },
+        {
+          "effect": "The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed."
+        }
+      ]
+    },
+    {
+      "name": "Stolen Vitality",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "One ally",
+      "effects": [
+        {
+          "effect": "The target regains 10 Stamina. The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword."
+        }
+      ]
+    },
+    {
+      "name": "Arise",
+      "effects": [
+        {
+          "effect": "The first time the soulwight is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+        }
+      ]
+    }
+  ]
+}

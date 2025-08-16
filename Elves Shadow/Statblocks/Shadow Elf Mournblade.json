@@ -1,0 +1,55 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Knife in the Dark",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage",
+          "t2": "15 damage",
+          "t3": "18 damage"
+        },
+        {
+          "effect": "The mournblade is invisible to the target until the start of the mournblade's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Shadow Step",
+      "keywords": [
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "If the mournblade has concealment, they can teleport up to 10 squares to a space with concealment created by darkness."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The mournblade ignores concealment created by darkness. While the mournblade is in direct sunlight, they have damage weakness 3. While the mournblade has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

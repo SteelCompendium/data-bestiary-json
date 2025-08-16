@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Greatsword and Roar",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 damage",
+          "t2": "4 damage, 3 psychic damage",
+          "t3": "4 damage, 4 psychic damage; the target must move their speed in a straight line away from the draconite"
+        },
+        {
+          "effect": "If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the draconite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

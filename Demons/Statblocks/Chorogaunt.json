@@ -1,0 +1,132 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Agonizing Harmony",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "5 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "4 psychic damage; I < 1 slowed (save ends)",
+          "t2": "7 psychic damage; I < 2 slowed (save ends)",
+          "t3": "10 psychic damage; I < 3 slowed (save ends)"
+        },
+        {
+          "effect": "One ally within 10 squares of the chorogaunt shifts up to their speed."
+        }
+      ]
+    },
+    {
+      "name": "Chaotic Entrancing Harmony",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "10 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The chorogaunt slides each target up to 3 squares, ignoring stability."
+        }
+      ]
+    },
+    {
+      "name": "I Thrive on Pain",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The chorogaunt is targeted by a strike.",
+      "effects": [
+        {
+          "effect": "Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the chorogaunt can't be hidden from them."
+        }
+      ]
+    },
+    {
+      "name": "Frightening Tones",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Ranged 10",
+      "target": "Three enemies",
+      "effects": [
+        {
+          "effect": "Each target must choose between taking 5 psychic damage, or being frightened (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Bully the Weak",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Ranged 10",
+      "target": "One ally",
+      "effects": [
+        {
+          "effect": "The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Running Cacophony",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again."
+        }
+      ]
+    }
+  ]
+}

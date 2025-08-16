@@ -1,0 +1,63 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Wild Ax",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage; push 1",
+          "t2": "9 damage; push 3",
+          "t3": "12 damage; push 5"
+        },
+        {
+          "effect": "The chirurgeon can make a ranged free strike before using this ability."
+        },
+        {
+          "effect": "The chirurgeon uses this ability again.",
+          "cost": "5 Malice"
+        }
+      ]
+    },
+    {
+      "name": "The Wode Protects Us",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "Self and three allies",
+      "effects": [
+        {
+          "effect": "Each target can teleport up to 10 squares to a space that has cover or concealment."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the chirurgeon that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ]
+}

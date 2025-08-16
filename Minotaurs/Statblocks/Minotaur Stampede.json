@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bull Rush",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "4 damage",
+          "t2": "7 damage; prone",
+          "t3": "9 damage; prone; M < 5 can't stand (save ends)"
+        },
+        {
+          "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone."
+        }
+      ]
+    },
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    }
+  ]
+}

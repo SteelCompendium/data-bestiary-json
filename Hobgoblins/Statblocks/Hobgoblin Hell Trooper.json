@@ -1,0 +1,56 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fire Flail",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 fire damage",
+          "t2": "10 fire damage",
+          "t3": "13 fire damage"
+        },
+        {
+          "effect": "Until the end of their turn, the trooper doesn't provoke opportunity attacks from any target."
+        }
+      ]
+    },
+    {
+      "name": "Fight Me, Coward!",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "If the target has P < 2, they are taunted (EoT). While taunted this way, the target takes 1d6 fire damage whenever they use an ability or strike that doesn't target the trooper."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes 3 fire damage."
+        }
+      ]
+    }
+  ]
+}

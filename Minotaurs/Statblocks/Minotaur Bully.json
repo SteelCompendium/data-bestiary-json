@@ -1,0 +1,40 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Javelin and Bellow",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2 or ranged 5",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 damage",
+          "t2": "7 damage",
+          "t3": "9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Minotaur Sense",
+      "effects": [
+        {
+          "effect": "The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
+        }
+      ]
+    }
+  ]
+}

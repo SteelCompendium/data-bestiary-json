@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bone Carvers",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, the target is bleeding (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Fleshfused Spines",
+      "effects": [
+        {
+          "effect": "Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage."
+        }
+      ]
+    }
+  ]
+}

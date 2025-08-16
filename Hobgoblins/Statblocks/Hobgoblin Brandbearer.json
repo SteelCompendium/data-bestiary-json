@@ -1,0 +1,46 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Searing Grasp",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 fire damage",
+          "t2": "4 fire damage; M < 2 fire weakness 5 (save ends)",
+          "t3": "6 fire damage; M < 3 fire weakness 5 (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Open Furnace",
+      "effects": [
+        {
+          "effect": "Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer adjacent to them."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the brandbearer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the brandbearer takes 2 fire damage."
+        }
+      ]
+    }
+  ]
+}

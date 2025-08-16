@@ -1,0 +1,79 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "The Forest's Embrace",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 damage; I < 1 restrained (save ends)",
+          "t3": "9 damage; I < 2 restrained (save ends)"
+        },
+        {
+          "effect": "While restrained this way, a target can't search for hidden creatures."
+        }
+      ]
+    },
+    {
+      "name": "The Natural Cycle",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Two creatures",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage",
+          "t2": "4 damage; P < 1 weakened (save ends)",
+          "t3": "6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)"
+        },
+        {
+          "effect": "While bleeding or weakened this way, a target is covered in lichen."
+        }
+      ]
+    },
+    {
+      "name": "Foreseen Punishment",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Free triggered action",
+      "distance": "Ranged 5",
+      "target": "The triggering creature",
+      "trigger": "A creature uses a triggered action targeting the green seer or an ally within distance.",
+      "effects": [
+        {
+          "effect": "The green seer makes a free strike against the target after the target's triggered action is resolved."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the green seer that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ]
+}

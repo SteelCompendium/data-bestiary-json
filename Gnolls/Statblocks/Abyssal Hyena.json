@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Snapjaw",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "4 damage",
+          "t3": "6 damage; grabbed"
+        }
+      ]
+    },
+    {
+      "name": "Death Snap",
+      "effects": [
+        {
+          "effect": "When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying."
+        }
+      ]
+    }
+  ]
+}

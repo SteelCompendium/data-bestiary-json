@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blowgun",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 poison damage",
+          "t2": "6 poison damage",
+          "t3": "7 poison damage"
+        },
+        {
+          "effect": "A target who has M < 2 is weakened (save ends). A target weakened this way takes 2 poison damage at the start of each of their turns.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the needler or uses a melee ability against them, that enemy takes 2 poison damage."
+        }
+      ]
+    }
+  ]
+}

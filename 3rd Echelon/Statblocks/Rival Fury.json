@@ -1,0 +1,73 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bonebreaker",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "13 damage; push 3",
+          "t2": "18 damage; push 4",
+          "t3": "22 damage; push 5"
+        },
+        {
+          "effect": "Each target who has M < 3 is bleeding and slowed (save ends).",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Steelfist",
+      "cost": "3 Malice",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "15 damage; M < 3 grabbed",
+          "t2": "21 damage; M < 4 grabbed",
+          "t3": "26 damage; M < 5 grabbed"
+        },
+        {
+          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them."
+        }
+      ]
+    },
+    {
+      "name": "Rout",
+      "effects": [
+        {
+          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability that gains an edge against that creature or object."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

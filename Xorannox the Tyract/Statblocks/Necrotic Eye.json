@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Necro Beam",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "11 corruption damage",
+          "t2": "17 corruption damage; M < 3 bleeding (save ends)",
+          "t3": "20 corruption damage; M < 4 bleeding (save ends)"
+        },
+        {
+          "effect": "If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies."
+        }
+      ]
+    },
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The necrotic eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    }
+  ]
+}

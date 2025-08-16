@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Natural Weapon",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage; A < 1 3 damage",
+          "t3": "12 damage; A < 2 3 damage"
+        }
+      ]
+    },
+    {
+      "name": "Toss",
+      "keywords": [
+        "Melee"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "effect": "The target must be the animal's size or smaller.",
+          "name": "Special"
+        },
+        {
+          "effect": "The target vertical slides up to 3 squares. If the target is an ally, they can make a free strike at the end of the forced movement, then fall without taking damage."
+        }
+      ]
+    },
+    {
+      "name": "Juke",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The animal is targeted by an area ability.",
+      "effects": [
+        {
+          "effect": "The animal shifts up to 2 squares before the ability resolves."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ]
+}

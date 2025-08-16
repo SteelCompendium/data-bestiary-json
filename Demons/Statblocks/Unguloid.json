@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Gore Horn",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "5 damage; push 2",
+          "t2": "8 damage; push 4",
+          "t3": "10 damage; push 6"
+        },
+        {
+          "effect": "If this ability is used as part of a charge for which the unguloid moves 2 squares or more, it deals an extra 10 damage."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the unguloid can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

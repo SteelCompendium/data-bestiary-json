@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Barb Launch",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 20",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 poison damage",
+          "t2": "7 poison damage",
+          "t3": "8 poison damage"
+        },
+        {
+          "effect": "All soulraker demons have concealment from the target until the start of the stinger's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Buzzing",
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage."
+        }
+      ]
+    }
+  ]
+}

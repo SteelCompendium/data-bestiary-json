@@ -1,0 +1,75 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Elemental Charge",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 fire damage",
+          "t3": "9 lightning damage; M < 2 prone"
+        }
+      ]
+    },
+    {
+      "name": "Stomp",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "1 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "Any target who is prone takes an extra 2 damage."
+        }
+      ]
+    },
+    {
+      "name": "Buck",
+      "cost": "2 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "The horse's rider",
+      "effects": [
+        {
+          "effect": "The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall."
+        }
+      ]
+    },
+    {
+      "name": "Shared Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "If the ceramic horse's rider has the Otherworldly Grace trait, the ceramic horse also has that trait."
+        }
+      ]
+    }
+  ]
+}

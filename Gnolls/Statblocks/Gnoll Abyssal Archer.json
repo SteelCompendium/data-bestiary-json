@@ -1,0 +1,64 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Dark Longbow",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 corruption damage",
+          "t2": "6 corruption damage",
+          "t3": "8 corruption damage; M < 2 slowed (save ends)"
+        },
+        {
+          "effect": "This ability gains an edge against any target not at full Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Archer's Cackletongue",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "2 burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Until the end of their next turn, each target gains an edge on their next strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+        }
+      ]
+    },
+    {
+      "name": "Distant Death Frenzy",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the abyssal archer is reduced to 0 Stamina, the abyssal archer can make a ranged free strike."
+        }
+      ]
+    },
+    {
+      "name": "Bloodscent",
+      "effects": [
+        {
+          "effect": "The abyssal archer doesn't need line of effect to use their abilities against any creature who isn't at full Stamina, as long as a size 1 opening exists between the archer and the target."
+        }
+      ]
+    }
+  ]
+}

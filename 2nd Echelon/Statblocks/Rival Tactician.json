@@ -1,0 +1,80 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Mark Targets",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage",
+          "t2": "15 damage",
+          "t3": "18 damage"
+        },
+        {
+          "effect": "Two allies within distance can use a signature ability against the same target.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Preserve and Protect",
+      "cost": "3 Malice",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "11 damage; M < 1 weakened (save ends)",
+          "t2": "16 damage; M < 2 weakened (save ends)",
+          "t3": "21 damage; M < 3 weakened (save ends)"
+        },
+        {
+          "effect": "One ally adjacent to the target regains 7 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Take the Opening",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 10",
+      "target": "The triggering enemy",
+      "trigger": "An enemy within distance willingly moves.",
+      "effects": [
+        {
+          "effect": "At any point during the movement, the tactician and one ally within distance can each make a free strike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

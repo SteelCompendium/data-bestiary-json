@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Accursed Bindings",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 corruption damage; pull 1",
+          "t2": "8 corruption damage; pull 2",
+          "t3": "10 corruption damage; pull 2; M < 3 restrained (save ends)"
+        },
+        {
+          "effect": "The next ability the mummy uses against the target has any potency increased by 1 for the target."
+        }
+      ]
+    },
+    {
+      "name": "Eldritch Curse",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 corruption damage; I < 1 the target is cursed (save ends)",
+          "t2": "5 corruption damage; I < 2 the target is cursed (save ends)",
+          "t3": "7 corruption damage; I < 3 the target is cursed (save ends)"
+        },
+        {
+          "effect": "A cursed target is bleeding and weakened, and allies gain an edge on strikes made against them."
+        }
+      ]
+    },
+    {
+      "name": "Blast of Mummy Dust",
+      "cost": "1 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Triggered action",
+      "distance": "1 burst",
+      "target": "The triggering creature",
+      "trigger": "The mummy comes within distance of a restrained creature or starts their turn within distance of one.",
+      "effects": [
+        {
+          "effect": "The target takes 8 poison damage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Charging Chomp",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "5 damage; push 2",
+          "t2": "7 damage; push 3; A < 3 3 damage",
+          "t3": "9 damage; push 4; A < 4 5 damage"
+        },
+        {
+          "effect": "The crack trooper's squad's Stamina pool regains Stamina equal to half the damage dealt."
+        }
+      ]
+    },
+    {
+      "name": "Group Appetite",
+      "effects": [
+        {
+          "effect": "The crack trooper dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina."
+        }
+      ]
+    }
+  ]
+}

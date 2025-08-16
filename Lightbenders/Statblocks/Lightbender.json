@@ -1,0 +1,96 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Flash Swipe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "9 damage",
+          "t2": "14 damage",
+          "t3": "18 damage"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 4 damage."
+        }
+      ]
+    },
+    {
+      "name": "Piercing Tails",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "effect": "8 damage\n- **12-16:** 12 damage; M < 1 bleeding (save ends)\n- **17+:** 15 damage; M < 2 bleeding (save ends)",
+          "cost": "≤11"
+        },
+        {
+          "effect": "While bleeding this way, the target takes a bane on tests to search for the lightbender while they are hidden."
+        }
+      ]
+    },
+    {
+      "name": "Hypnotic Mane",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "3 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "I < 0 dazed (save ends)\n- **12-16:** I < 1 dazed (save ends)\n- **17+:** I < 2 dazed (save ends)",
+          "cost": "≤11"
+        },
+        {
+          "effect": "While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends."
+        }
+      ]
+    },
+    {
+      "name": "Stalker's Afterimage",
+      "keywords": [
+        "Magic"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The lightbender takes damage from a strike.",
+      "effects": [
+        {
+          "effect": "The lightbender halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the lightbender can immediately attempt to hide as a free maneuver."
+        }
+      ]
+    },
+    {
+      "name": "Avoidance",
+      "effects": [
+        {
+          "effect": "Any effect on the lightbender that would be ended by a saving throw instead ends automatically at the end of their next turn."
+        }
+      ]
+    }
+  ]
+}

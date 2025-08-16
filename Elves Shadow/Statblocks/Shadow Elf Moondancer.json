@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Crescent Sweep",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 damage",
+          "t2": "13 damage",
+          "t3": "16 damage"
+        },
+        {
+          "effect": "Until the end of the current turn, the moondancer ignores opportunity attacks from the target."
+        }
+      ]
+    },
+    {
+      "name": "Dissolve",
+      "keywords": [
+        "Magic"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The moondancer takes damage from a strike.",
+      "effects": [
+        {
+          "effect": "The moondancer can teleport up to 10 squares to a space with concealment created by darkness."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The moondancer ignores concealment created by darkness. While the moondancer is in direct sunlight, they have damage weakness 3. While the moondancer has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

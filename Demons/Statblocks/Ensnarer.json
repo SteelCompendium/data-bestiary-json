@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Barbed Tongues",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage; pull 1",
+          "t2": "4 damage; pull 2",
+          "t3": "5 damage; pull 3"
+        },
+        {
+          "effect": "If the target is pulled adjacent to the ensnarer, the ensnarer can make a free strike against them."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the ensnarer can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

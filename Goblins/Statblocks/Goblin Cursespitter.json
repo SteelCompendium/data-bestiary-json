@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Eye of Surlach",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 corruption damage; I < 0 weakened (save ends)",
+          "t2": "5 corruption damage; I < 2 weakened (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Dizzying Hex",
+      "cost": "1 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "I < 0 prone",
+          "t2": "I < 1 prone and can't stand (EoT)",
+          "t3": "Prone; I < 2 can't stand (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The cursespitter doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Lockjaw",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage",
+          "t3": "12 damage; grabbed"
+        },
+        {
+          "effect": "A target grabbed this way takes 2 damage at the start of each of the bruxer's turns."
+        }
+      ]
+    },
+    {
+      "name": "Flurry of Bites",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "1 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage; A < 0 bleeding (save ends)",
+          "t2": "5 damage; A < 1 bleeding (save ends)",
+          "t3": "8 damage; A < 2 bleeding (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Ready Rodent",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "trigger": "An ally deals damage to the target.",
+      "effects": [
+        {
+          "effect": "The bruxer makes a free strike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Lockdown",
+      "effects": [
+        {
+          "effect": "Any enemy who shifts adjacent to the bruxer has that shif t en d Additionally, any enemy adjacent to the bruxer can't shift."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Absorb Soul",
+      "effects": [
+        {
+          "effect": "Whenever any demon is reduced to 0 Stamina within 10 squares of Aurumvas, the Director gains 1 Malice. Aurumvas loses this trait while he is dazed."
+        }
+      ]
+    },
+    {
+      "name": "Greedy Hands",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "15 corruption damage; R < 4 weakened (save ends)",
+          "t2": "20 corruption damage; R < 5 weakened (save ends)",
+          "t3": "24 corruption damage; R < 6 weakened (save ends)"
+        },
+        {
+          "effect": "Aurumvas regains Stamina equal to the damage dealt.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Covetous Bolts",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 20",
+      "target": "Two creatures",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "15 psychic damage; P < 4 dazed (save ends)",
+          "t2": "20 psychic damage; P < 5 dazed (save ends)",
+          "t3": "24 psychic damage; P < 6 dazed (save ends)"
+        },
+        {
+          "effect": "While dazed this way, a target can't gain Heroic Resources.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Greed Is Good",
+      "cost": "2 Malice",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "Aurumvas chooses a supernatural treasure or an item made of gold and teleports to an unoccupied space adjacent to that object, then ends one effect on him that can be ended by a saving throw."
+        }
+      ]
+    },
+    {
+      "name": "More... More...",
+      "effects": [
+        {
+          "effect": "While Aurumvas is winded, he has a double edge on strikes."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 5 squares of Aurumvas can't be hidden from him."
+        }
+      ]
+    },
+    {
+      "name": "Time Is Money",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "20 burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Aurumvas warps time with his abyssal avarice. Each target can teleport up to their speed and make a free strike."
+        }
+      ]
+    },
+    {
+      "name": "Hostile Acquisition",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "Aurumvas chooses up to three treasures within distance that he has line of effect to and that aren't artifacts. Until the end of the encounter, ethereal golden snakes swirl around the target treasures. While an affected treasure is worn or held by a hero, each time that hero gains any amount of their Heroic Resource, the Director gains 1 Malice."
+        }
+      ]
+    },
+    {
+      "name": "No Matter the Cost",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Four 3 cubes within 10",
+      "target": "Each creature in the area",
+      "effects": [
+        {
+          "effect": "Aurumvas summons treasures from his vaults into the area, then causes them to explode."
+        },
+        {
+          "roll": "Power Roll + 5",
+          "t1": "1 10 fire damage; push 1",
+          "t2": "2 15 fire damage; push 2",
+          "t3": "3 19 fire damage; push 3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Poisoned Dagger",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 4",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 poison damage",
+          "t2": "5 poison damage",
+          "t3": "7 poison damage"
+        },
+        {
+          "effect": "The war frog can jump 3 squares before or after making the strike. If they end this jump in cover or concealment, they can attempt to hide."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the war frog is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

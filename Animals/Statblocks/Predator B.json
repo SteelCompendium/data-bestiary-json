@@ -1,0 +1,77 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Natural Weapon",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage",
+          "t2": "11 damage; push 1; M < 1 prone",
+          "t3": "14 damage; push 2; M < 1 prone"
+        }
+      ]
+    },
+    {
+      "name": "Wild Swing",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "1 burst",
+      "target": "Each enemy or object in the area",
+      "effects": [
+        {
+          "effect": "3 damage\n- **12-16:** 6 damage\n- **17+:** 8 damage; A < 2 bleeding (save ends)",
+          "cost": "≤11"
+        }
+      ]
+    },
+    {
+      "name": "Swat",
+      "keywords": [
+        "Melee"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "The triggering creature or object",
+      "trigger": "A creature or object within distance deals damage to the predator.",
+      "effects": [
+        {
+          "effect": "The target is pushed up to 5 squares."
+        }
+      ]
+    },
+    {
+      "name": "Trample",
+      "effects": [
+        {
+          "effect": "The predator can move through enemies' and objects' spaces at their usual speed. Any mundane size 2 or smaller object whose space they move through is destroyed. When the predator enters a creature's space for the first time on a turn, that creature takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ]
+}

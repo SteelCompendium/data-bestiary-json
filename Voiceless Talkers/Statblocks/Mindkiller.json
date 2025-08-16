@@ -1,0 +1,109 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Brain Latch",
+      "effects": [
+        {
+          "effect": "The mindkiller can grab creatures who are size 4 or smaller, using their Reason score in place of Might. A creature grabbed by the mindkiller takes a bane on ability rolls made to escape the grab."
+        }
+      ]
+    },
+    {
+      "name": "Killer Claws",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "11 damage",
+          "t2": "17 damage; A < 2 grabbed",
+          "t3": "21 damage; A < 3 grabbed"
+        }
+      ]
+    },
+    {
+      "name": "Concealing Strike",
+      "cost": "2 Malice",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "Two creatures",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage; R < 1 the mindkiller is invisible to the target (save ends)",
+          "t2": "15 damage; R < 2 the mindkiller is invisible to the target (save ends)",
+          "t3": "18 damage; R < 3 the mindkiller is invisible to the target (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Mindwipe",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "The target must be grabbed by the mindkiller. If the target has R < 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Meat Shield",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The mindkiller takes damage.",
+      "effects": [
+        {
+          "effect": "The mindkiller halves the damage. If the mindkiller has a creature grabbed, that creature takes the other half of the damage."
+        },
+        {
+          "effect": "A grabbed creature takes the damage instead of the mindkiller.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Conductor",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space."
+        }
+      ]
+    },
+    {
+      "name": "Nimble",
+      "effects": [
+        {
+          "effect": "The mindkiller can move through enemies' spaces at their usual speed."
+        }
+      ]
+    }
+  ]
+}

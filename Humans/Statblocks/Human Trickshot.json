@@ -1,0 +1,46 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Trick Crossbow",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 15",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage",
+          "t3": "12 damage"
+        },
+        {
+          "effect": "This ability ignores cover and concealment."
+        },
+        {
+          "effect": "This ability targets one additional target.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The trickshot ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ]
+}

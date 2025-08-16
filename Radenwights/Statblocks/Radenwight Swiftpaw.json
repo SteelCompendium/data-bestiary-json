@@ -1,0 +1,46 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Rapier Flunge",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage; slide 1, the swiftpaw can shift 1 square",
+          "t2": "2 damage; slide 2, the swiftpaw shifts up to 2 squares",
+          "t3": "3 damage; slide 3, the swiftpaw shifts up to 3 squares"
+        }
+      ]
+    },
+    {
+      "name": "Ready Rodent",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "trigger": "An ally deals damage to the target.",
+      "effects": [
+        {
+          "effect": "The swiftpaw makes a free strike against the targe."
+        }
+      ]
+    }
+  ]
+}

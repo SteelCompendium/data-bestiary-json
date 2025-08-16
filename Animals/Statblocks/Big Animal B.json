@@ -1,0 +1,75 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Natural Weapon",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage",
+          "t2": "10 damage; push 1",
+          "t3": "13 damage; push 2"
+        }
+      ]
+    },
+    {
+      "name": "Trundle",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement."
+        }
+      ]
+    },
+    {
+      "name": "Animal Rally",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 20",
+      "target": "One ally",
+      "trigger": "The target is knocked prone.",
+      "effects": [
+        {
+          "effect": "The animal moves up to their speed. If they end their turn adjacent to the target, they can use the Stand Up maneuver to let the target stand, then get on to ride them."
+        }
+      ]
+    },
+    {
+      "name": "Beast of Burden",
+      "effects": [
+        {
+          "effect": "While riding the animal, two size 1 allies can occupy the same space."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ]
+}

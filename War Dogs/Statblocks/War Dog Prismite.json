@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Grasping Tonguetacles",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Psionic",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "3 psychic damage",
+          "t2": "6 psychic damage; R < 3 grabbed, pull 2",
+          "t3": "8 psychic damage; R < 4 grabbed and the target takes a bane on the Escape Grab maneuver, pull 2"
+        }
+      ]
+    },
+    {
+      "name": "Hard Light Field",
+      "keywords": [
+        "Area",
+        "Psionic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "4 cube within 10",
+      "target": "Each ally in the area",
+      "effects": [
+        {
+          "effect": "Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability."
+        }
+      ]
+    },
+    {
+      "name": "Tractor Beam",
+      "cost": "1 Malice",
+      "keywords": [
+        "Psionic",
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 10",
+      "target": "The triggering enemy",
+      "trigger": "An enemy within distance uses a melee ability against an ally.",
+      "effects": [
+        {
+          "effect": "The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved."
+        }
+      ]
+    },
+    {
+      "name": "Prismacore Detonation",
+      "effects": [
+        {
+          "effect": "When the prismite is reduced to 0 Stamina, they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them."
+        }
+      ]
+    }
+  ]
+}

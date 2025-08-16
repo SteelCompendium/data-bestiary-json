@@ -1,0 +1,46 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Sword Lunge",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage; grabbed or prone"
+        }
+      ]
+    },
+    {
+      "name": "Tactical Positioning",
+      "effects": [
+        {
+          "effect": "Any non-minion ally deals 1 extra damage for each recruit adjacent to them."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the recruit is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the recruit takes 2 fire damage."
+        }
+      ]
+    }
+  ]
+}

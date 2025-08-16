@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Wax Fling",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "8 damage",
+          "t2": "11 damage",
+          "t3": "12 damage; A < 4 slowed (save ends)"
+        },
+        {
+          "effect": "If a target made slowed this way is already slowed, they are instead restrained (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Erupt",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "If the waxen is ignited (see Burn Bright), they shift up to their speed before using this ability. Each target makes an **Agility test**.\n- **≤11:** 10 damage\n- **12-16:** 8 damage\n- **17+:** 5 damage\n- The waxen is then destroyed and the area is difficult terrain for enemies."
+        }
+      ]
+    },
+    {
+      "name": "Burn Bright",
+      "effects": [
+        {
+          "effect": "If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage."
+        }
+      ]
+    }
+  ]
+}

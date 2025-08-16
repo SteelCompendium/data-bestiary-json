@@ -1,0 +1,98 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Tentacle",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage",
+          "t2": "15 damage; M < 2 grabbed",
+          "t3": "18 damage; M < 3 grabbed"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Boom",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Psionic"
+      ],
+      "type": "Main action",
+      "distance": "3 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 psychic damage; R < 1 push 2",
+          "t2": "10 psychic damage; R < 2 push 3",
+          "t3": "12 psychic damage; R < 3 push 4 and prone"
+        },
+        {
+          "effect": "The size of the burst increases to 5.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Tentacle Toss",
+      "keywords": [
+        "Melee",
+        "Psionic"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "effect": "The target must be grabbed by the invader."
+        },
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 damage; vertical slide 2",
+          "t2": "10 damage; vertical slide 2",
+          "t3": "12 damage; vertical slide 3"
+        }
+      ]
+    },
+    {
+      "name": "Brain Drain",
+      "keywords": [
+        "Melee",
+        "Psionic"
+      ],
+      "type": "Triggered action",
+      "distance": "Special",
+      "target": "The triggering creature",
+      "trigger": "A creature grabbed by the invader resists an ability's potency.",
+      "effects": [
+        {
+          "effect": "The potency increases by 2."
+        }
+      ]
+    },
+    {
+      "name": "Psionic Amplifier",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge."
+        }
+      ]
+    }
+  ]
+}

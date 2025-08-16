@@ -1,0 +1,65 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blotting Bolt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 damage",
+          "t2": "14 damage",
+          "t3": "17 damage"
+        },
+        {
+          "effect": "The target takes a bane on their next strike."
+        },
+        {
+          "effect": "The target instead has a double bane on the next ability they use.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Enemies in the Dark",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "Two enemies",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "8 damage; R < 1 the target makes a free strike against one enemy of the noctis mage's choice.",
+          "t2": "10 damage; R < 2 the target makes a free strike against one enemy of the noctis mage's choice.",
+          "t3": "13 damage; R < 3 the target uses a signature ability against one enemy of the noctis mage's choice."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

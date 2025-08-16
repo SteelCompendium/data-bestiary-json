@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Hop and Chop",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage",
+          "t2": "4 damage",
+          "t3": "5 damage"
+        },
+        {
+          "effect": "The cleaver jumps up to 4 squares before or after making this strike."
+        }
+      ]
+    },
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage."
+        }
+      ]
+    }
+  ]
+}

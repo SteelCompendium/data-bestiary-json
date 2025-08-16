@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Rapier and Dagger",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage",
+          "t3": "12 damage"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 2 damage.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Dagger Storm",
+      "cost": "5 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Main action",
+      "distance": "-",
+      "target": "-",
+      "effects": [
+        {
+          "effect": "The scoundrel uses Rapier and Dagger against up to three targets. They shift up to 2 squares before or after each strike"
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The scoundrel ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ]
+}

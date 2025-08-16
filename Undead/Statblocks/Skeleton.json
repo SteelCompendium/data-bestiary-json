@@ -1,0 +1,64 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bone Shards",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "6 damage",
+          "t3": "7 damage"
+        },
+        {
+          "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn"
+        }
+      ]
+    },
+    {
+      "name": "Bone Spur",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "1 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage; M < 0 bleeding (save ends)",
+          "t2": "2 damage; M < 1 bleeding (save ends)",
+          "t3": "3 damage; M < 2 bleeding (save ends)"
+        },
+        {
+          "effect": "Each target takes a bane on their next strike."
+        }
+      ]
+    },
+    {
+      "name": "Arise",
+      "effects": [
+        {
+          "effect": "The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+        }
+      ]
+    }
+  ]
+}

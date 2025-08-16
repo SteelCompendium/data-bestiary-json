@@ -1,0 +1,62 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "4 damage",
+          "t3": "5 damage"
+        }
+      ]
+    },
+    {
+      "name": "Sprint",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The worg moves up to their speed."
+        }
+      ]
+    },
+    {
+      "name": "Mounted Charger",
+      "effects": [
+        {
+          "effect": "If a worg used as a mount charges, their rider gains an edge on melee strikes until the end of the rider's turn."
+        }
+      ]
+    },
+    {
+      "name": "Shared Craft",
+      "effects": [
+        {
+          "effect": "If the worg's rider has the Crafty trait, the worg also has that trait."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Solo Monster",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.",
+          "name": "End Effect"
+        },
+        {
+          "effect": "The manticore can take two turns each round. They can't take turns consecutively.",
+          "name": "Solo Turns"
+        }
+      ]
+    },
+    {
+      "name": "Agile Predator",
+      "effects": [
+        {
+          "effect": "Whenever the manticore deals damage to a creature, they don't provoke opportunity attacks from that creature during that turn."
+        }
+      ]
+    },
+    {
+      "name": "Carnivorous Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "12 damage; A < 2 bleeding (save ends)",
+          "t2": "17 damage; A < 3 bleeding (save ends)",
+          "t3": "21 damage; A < 4 bleeding (save ends)"
+        },
+        {
+          "effect": "If the target is frightened, this ability gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Tail Spike",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "6 damage; M < 2 4 poison damage",
+          "t2": "11 damage; M < 3 4 poison damage, weakened (save ends)",
+          "t3": "14 damage; M < 4 8 poison damage, weakened (save ends)"
+        },
+        {
+          "effect": "While weakened this way, a target takes 1d6 poison dam- age at the start of each of their turns.",
+          "cost": "1 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Harrying Claws",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "effect": "Slide 1; A < 2 3 damage\n- **12-16:** Slide 2; A < 3 5 damage\n- **17+:** Slide 4; A < 4 7 damage",
+          "cost": "≤11"
+        }
+      ]
+    },
+    {
+      "name": "Reflexive Instinct",
+      "cost": "2 Malice",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 10",
+      "target": "The triggering creature",
+      "trigger": "A creature within distance deals damage to the manticore.",
+      "effects": [
+        {
+          "effect": "The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Trumpeting Howl",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "5 Burst",
+      "target": "Each creature in the area",
+      "effects": [
+        {
+          "effect": "Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)\n- **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)\n- **17+:** Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)",
+          "cost": "≤11"
+        }
+      ]
+    },
+    {
+      "name": "Cornered Predator",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "-"
+      ],
+      "type": "-",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability."
+        }
+      ]
+    },
+    {
+      "name": "Debilitating Poison",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "-"
+      ],
+      "type": "-",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns."
+        }
+      ]
+    }
+  ]
+}

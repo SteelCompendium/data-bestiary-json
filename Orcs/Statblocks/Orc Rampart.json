@@ -1,0 +1,70 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "My Spear, My Foe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 damage",
+          "t2": "9 damage; taunted (EoT)",
+          "t3": "12 damage; taunted (EoT)"
+        },
+        {
+          "effect": "This ability has a double edge against any target who dealt damage to the rampart this round."
+        }
+      ]
+    },
+    {
+      "name": "Castling",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self; see below",
+      "target": "One ally",
+      "effects": [
+        {
+          "effect": "The rampart moves or shifts up to their speed adjacent to the target, then can swap places with the target."
+        }
+      ]
+    },
+    {
+      "name": "No.",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "A creature targets an ally adjacent to the rampart with an ability that doesn't also target the rampart.",
+      "effects": [
+        {
+          "effect": "The rampart becomes the target of the triggering ability instead."
+        }
+      ]
+    },
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the rampart is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the rampart is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ]
+}

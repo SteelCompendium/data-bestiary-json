@@ -1,0 +1,68 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Lumina Assault",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage",
+          "t2": "15 damage",
+          "t3": "18 damage"
+        },
+        {
+          "effect": "The next ability used against the target has a double edge."
+        },
+        {
+          "effect": "Each non-minion ally within 3 squares of the target can make a free strike against them.",
+          "cost": "5 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Splitbow",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area",
+        "Ranged",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "4 x 1 line within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "5 damage; I < 1 bleeding (save ends)",
+          "t2": "10 damage; I < 2 bleeding (save ends)",
+          "t3": "12 damage; I < 3 bleeding (save ends)"
+        },
+        {
+          "effect": "Each target is pushed up to 4 squares."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The assassin ignores concealment created by darkness. While the assassin is in direct sunlight, they have damage weakness 3. While the assassin has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

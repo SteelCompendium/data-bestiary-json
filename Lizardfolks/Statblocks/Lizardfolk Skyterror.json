@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Glaive Rush",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 damage",
+          "t3": "9 damage; prone"
+        },
+        {
+          "effect": "If the skyterror is flying, they shift up to 4 squares."
+        }
+      ]
+    },
+    {
+      "name": "Poison Blow Dart",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage; M < 0 weakened (save ends)",
+          "t2": "5 damage; M < 1 weakened (save ends)",
+          "t3": "7 damage; M < 2 weakened (save ends)"
+        },
+        {
+          "effect": "Any creature who ends their turn adjacent to a target weakened this way is weakened until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Glider",
+      "effects": [
+        {
+          "effect": "Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can fly until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the skyterror has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
+        }
+      ]
+    }
+  ]
+}

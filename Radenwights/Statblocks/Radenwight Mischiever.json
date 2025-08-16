@@ -1,0 +1,50 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Dagger Dance",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 5",
+      "target": "One creature per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage",
+          "t2": "4 damage",
+          "t3": "5 damage"
+        },
+        {
+          "effect": "If the mischiever is hidden when they use this ability, they can target two creatures."
+        }
+      ]
+    },
+    {
+      "name": "Ready Rodent",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "trigger": "An ally deals damage to the target.",
+      "effects": [
+        {
+          "effect": "The mischiever makes a free strike against the target."
+        }
+      ]
+    }
+  ]
+}

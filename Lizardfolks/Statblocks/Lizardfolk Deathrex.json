@@ -1,0 +1,124 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Ripper Spear",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 damage; pull 1; A < 1 bleeding (save ends)",
+          "t2": "10 damage; pull 1; A < 2 bleeding (save ends)",
+          "t3": "12 damage; pull 2; A < 3 bleeding (save ends)"
+        },
+        {
+          "effect": "One target adjacent to the deathrex is grabbed in the deathrex's mouth.",
+          "cost": "1 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Death Roll",
+      "cost": "3 Malice",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One grabbed creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "8 damage; M < 1 dazed (save ends)",
+          "t2": "12 damage; M < 2 dazed (save ends)",
+          "t3": "15 damage; M < 3 dazed (save ends)"
+        },
+        {
+          "effect": "The target is no longer grabbed by the deathrex, and the deathrex slides them up to 5 squares."
+        }
+      ]
+    },
+    {
+      "name": "Trundle",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The deathrex moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement."
+        }
+      ]
+    },
+    {
+      "name": "Swat the Fly",
+      "keywords": [
+        "Melee"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "The triggering creature or object",
+      "trigger": "A creature or object within distance moves or shifts away from the deathrex.",
+      "effects": [
+        {
+          "effect": "The deathrex slides the target up to 5 squares."
+        }
+      ]
+    },
+    {
+      "name": "Rex Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares."
+        }
+      ]
+    },
+    {
+      "name": "Snack Attack",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Area"
+      ],
+      "type": "-",
+      "distance": "10 Burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Each target moves up to their speed and can make a free strike. Each target gains temporary Stamina equal to the damage they deal."
+        }
+      ]
+    },
+    {
+      "name": "Shed Some Skin",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "-"
+      ],
+      "type": "-",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The deathrex shifts up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex's turn and has the deathrex's characteristics, but has 10 Stamina and no villain actions."
+        }
+      ]
+    }
+  ]
+}

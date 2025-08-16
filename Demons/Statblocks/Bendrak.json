@@ -1,0 +1,65 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Warp Perceptions",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 psychic damage",
+          "t2": "5 psychic damage; P < 1 weakened (save ends)",
+          "t3": "7 psychic damage; P < 2 weakened (save ends)"
+        },
+        {
+          "effect": "If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage."
+        }
+      ]
+    },
+    {
+      "name": "Vanish",
+      "cost": "1 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Self or one ally",
+      "effects": [
+        {
+          "effect": "The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the bendrak is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the bendrak can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

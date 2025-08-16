@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Draining Rake",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "4 cold damage; the wraith can shift 1 squar",
+          "t2": "7 cold damage; the wraith shifts up to 2 square",
+          "t3": "9 cold damage; P < 5 slowed (save ends); the wraith shifts up to 3 squares"
+        },
+        {
+          "effect": "The wraith turns invisible until the start of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ]
+}

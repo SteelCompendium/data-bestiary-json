@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Many Maws",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 damage",
+          "t2": "9 damage",
+          "t3": "11 damage; grabbed, and the target takes a bane on the Escape Grab maneuver"
+        },
+        {
+          "effect": "Any target grabbed this way takes 4 psychic damage at the start of each of the tormenauk's turns."
+        }
+      ]
+    },
+    {
+      "name": "Agony Wail",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "3 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "4 psychic damage; I < 1 dazed (save ends)",
+          "t2": "6 psychic damage; I < 2 dazed (save ends)",
+          "t3": "8 psychic damage; I < 3 dazed (save ends)"
+        },
+        {
+          "effect": "The potency increases by 1 if the target is grabbed by the tormenauk."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the tormenauk can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

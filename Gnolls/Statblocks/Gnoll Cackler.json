@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Moment of Brutality",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 8",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 psychic damage; I < 0 the target makes a free strike against a creature of the cackler's choice",
+          "t2": "5 psychic damage; I < 1 the target makes a free strike against a creature of the cackler's choice",
+          "t3": "7 psychic damage; I < 2 the target uses a signature ability against a creature of the cackler's choice"
+        },
+        {
+          "effect": "An ally targeted by this ability ignores the damage and can make a free strike."
+        }
+      ]
+    },
+    {
+      "name": "Cackler's Cackletongue",
+      "cost": "4 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "2 burst",
+      "target": "Each creature in the area",
+      "effects": [
+        {
+          "effect": "Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.\n- **≤11:** Frightened (save ends)\n- **12-16:** Frightened (EoT)\n- **17+:** No effect"
+        }
+      ]
+    },
+    {
+      "name": "Death Frenzy",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the cackler is reduced to 0 Stamina, the cackler moves up to their speed and can make a melee free strike."
+        }
+      ]
+    }
+  ]
+}

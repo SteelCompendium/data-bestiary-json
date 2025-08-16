@@ -1,0 +1,61 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Eye Flash",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 corruption damage; P < 1 slowed (save ends)",
+          "t2": "14 corruption damage; P < 2 restrained (save ends)",
+          "t3": "17 corruption damage; P < 3 restrained (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Glare of the Old Judgments",
+      "cost": "5 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 corruption damage",
+          "t2": "10 corruption damage, or if the target has P < 2 they are judged",
+          "t3": "The target is judged."
+        },
+        {
+          "effect": "Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 Stamina each time they use an ability or other effect that allows another creature to spend a Recovery."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the redglare is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the redglare takes 3 fire damage."
+        }
+      ]
+    }
+  ]
+}

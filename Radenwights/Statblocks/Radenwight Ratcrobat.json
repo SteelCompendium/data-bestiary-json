@@ -1,0 +1,71 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "En Garde",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "6 damage",
+          "t3": "8 damage"
+        },
+        {
+          "effect": "The ratcrobat shifts up to 2 squares after striking the first target, then can shift 1 square after striking the second target."
+        }
+      ]
+    },
+    {
+      "name": "Over Here, Thanks",
+      "keywords": [
+        "Melee"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One enemy",
+      "effects": [
+        {
+          "effect": "The ratcrobat slides the target up to 3 squares, then can shift into any square the target left"
+        }
+      ]
+    },
+    {
+      "name": "Ready Rodent",
+      "keywords": [
+        "Melee",
+        "Weapon"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "trigger": "An ally deals damage to the target.",
+      "effects": [
+        {
+          "effect": "The ratcrobat makes a free strike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Gymratstics",
+      "effects": [
+        {
+          "effect": "The ratcrobat gains an edge on strikes against larger creatures."
+        }
+      ]
+    }
+  ]
+}

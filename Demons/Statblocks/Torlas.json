@@ -1,0 +1,64 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Floor to Flesh",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "3 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "Slide 3",
+          "t2": "Slide 4",
+          "t3": "Slide 5"
+        },
+        {
+          "effect": "The ground in the area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas's next turn, the area is difficult terrain, and each creature who moves in the area takes 1 damage for each square moved."
+        }
+      ]
+    },
+    {
+      "name": "Grasping Tendons",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Three creatures",
+      "effects": [
+        {
+          "effect": "The torlas pulls each target up to 3 squares."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the torlas is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the torlas can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

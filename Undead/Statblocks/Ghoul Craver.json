@@ -1,0 +1,50 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Taste",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 damage",
+          "t2": "4 damage",
+          "t3": "6 damage"
+        },
+        {
+          "effect": "This ability has a double edge against a bleeding target."
+        }
+      ]
+    },
+    {
+      "name": "Ever So Hungry",
+      "effects": [
+        {
+          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift"
+        }
+      ]
+    },
+    {
+      "name": "Hunger",
+      "effects": [
+        {
+          "effect": "When the ghoul craver uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
+        }
+      ]
+    }
+  ]
+}

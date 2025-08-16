@@ -1,0 +1,92 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Slam Into Dirt",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "8 damage",
+          "t2": "12 damage; M < 1 restrained (save ends)",
+          "t3": "15 damage; M < 2 restrained (save ends)"
+        },
+        {
+          "effect": "The target's space is difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Convocation of Quartz",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "Self or one elemental",
+      "effects": [
+        {
+          "effect": "Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane."
+        },
+        {
+          "effect": "Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Break Armor",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The force takes damage.",
+      "effects": [
+        {
+          "effect": "The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter."
+        }
+      ]
+    },
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Primordial Strength",
+      "effects": [
+        {
+          "effect": "The force's strikes gain a +6 damage bonus against objects."
+        }
+      ]
+    },
+    {
+      "name": "Stone Swim",
+      "effects": [
+        {
+          "effect": "The force can burrow through stone, but can't drag other creatures underground when they do so."
+        }
+      ]
+    }
+  ]
+}

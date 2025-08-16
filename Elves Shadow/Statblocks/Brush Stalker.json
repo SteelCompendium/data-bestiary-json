@@ -1,0 +1,66 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Gore",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 2",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 damage",
+          "t2": "10 damage",
+          "t3": "13 damage"
+        }
+      ]
+    },
+    {
+      "name": "Reclamation",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "4 corruption damage; M < 1 weakened (save ends)",
+          "t2": "7 corruption damage; M < 2 weakened (save ends)",
+          "t3": "10 corruption damage; M < 3 weakened (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Suneater",
+      "effects": [
+        {
+          "effect": "The area within 2 squares of the brush stalker is devoid of light and provides concealment."
+        }
+      ]
+    },
+    {
+      "name": "Wyrd Dyr",
+      "effects": [
+        {
+          "effect": "While they have line of effect to the brush stalker, any animal except another brush stalker is frightened"
+        }
+      ]
+    }
+  ]
+}

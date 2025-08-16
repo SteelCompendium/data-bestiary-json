@@ -1,0 +1,73 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Blight Pus",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "7 corruption damage",
+          "t2": "10 corruption damage",
+          "t3": "11 corruption damage"
+        },
+        {
+          "effect": "A puddle of blight-digested soul juice-covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature)."
+        }
+      ]
+    },
+    {
+      "name": "Blight Rain",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "5 cube within 1",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The blight phage must create the cube beneath themself.",
+          "name": "Special"
+        },
+        {
+          "effect": "The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight."
+        },
+        {
+          "effect": "The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the blight phage can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

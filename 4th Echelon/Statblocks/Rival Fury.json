@@ -1,0 +1,73 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Seismic Crush",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "15 damage; push 4",
+          "t2": "21 damage; push 5",
+          "t3": "25 damage; push 6"
+        },
+        {
+          "effect": "Each target who has M < 4 is bleeding and slowed (save ends).",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Death Grip",
+      "cost": "4 Malice",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "15 damage; M < 3 grabbed",
+          "t2": "21 damage; M < 4 grabbed",
+          "t3": "25 damage; M < 5 grabbed"
+        },
+        {
+          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them."
+        }
+      ]
+    },
+    {
+      "name": "Devastate",
+      "effects": [
+        {
+          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object that has a double edge."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

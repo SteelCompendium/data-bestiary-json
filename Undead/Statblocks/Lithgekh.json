@@ -1,0 +1,58 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Heartstopper",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 15",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "9 corruption damage; I < 3 frightened (save ends)",
+          "t2": "12 corruption damage; I < 4 frightened (save ends)",
+          "t3": "14 corruption damage; I < 5 frightened (save ends)"
+        },
+        {
+          "effect": "A creature frightened this way takes a bane on any ability that targets undead."
+        }
+      ]
+    },
+    {
+      "name": "Mystic Battery",
+      "cost": "1 Malice",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Free triggered action",
+      "distance": "Ranged 20",
+      "target": "The triggering creature",
+      "trigger": "A creature within distance uses a magic ability.",
+      "effects": [
+        {
+          "effect": "Any damage dealt by or Stamina regained from the ability is halved. The lithgekh regains Stamina equal to the remaining damage dealt or Stamina gained."
+        }
+      ]
+    },
+    {
+      "name": "Devour Magic",
+      "effects": [
+        {
+          "effect": "Each ally within 10 squares of the lithgekh gains an edge on magic abilities."
+        }
+      ]
+    }
+  ]
+}

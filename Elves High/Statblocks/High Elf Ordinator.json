@@ -1,0 +1,142 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Lightning Rod",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 lightning damage; R < 1 dazed (save ends)",
+          "t2": "14 lightning damage; R < 2 dazed (save ends)",
+          "t3": "17 lightning damage; R < 3 dazed (save ends)"
+        },
+        {
+          "effect": "Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target."
+        }
+      ]
+    },
+    {
+      "name": "Elemental Uproar",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Maneuver",
+      "distance": "10 burst",
+      "target": "Each elemental ally in the area",
+      "effects": [
+        {
+          "effect": "Each target can move up to their speed or make a free strike. Elemental mote targets can, instead, use their Spark of Life trait."
+        }
+      ]
+    },
+    {
+      "name": "Summon Elemental",
+      "cost": "2 Malice",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Maneuver",
+      "distance": "Ranged 10",
+      "target": "Special",
+      "effects": [
+        {
+          "effect": "The ordinator summons four elemental motes or four soot crows into unoccupied space within distance."
+        },
+        {
+          "effect": "The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Enough!",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 10",
+      "target": "The triggering enemy",
+      "trigger": "An enemy within distance uses an ability against the ordinator or any ally within distance.",
+      "effects": [
+        {
+          "effect": "The ordinator uses Lightning Rod against the target after the ability is resolved."
+        }
+      ]
+    },
+    {
+      "name": "Otherworldly Blessing",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the ordinator can choose one or more effects on them that can be ended by a saving throw. The effects instead end at the end of the ordinator's turn"
+        }
+      ]
+    },
+    {
+      "name": "Fountains Roar, Now Free From the Earth",
+      "cost": "Villain Action 1",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "10 burst",
+      "target": "Each ally in the area",
+      "effects": [
+        {
+          "effect": "Each target glows briefly, and can end one effect on themself then move up to their speed."
+        }
+      ]
+    },
+    {
+      "name": "And the Sun Forsook Her Children",
+      "cost": "Villain Action 2",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "5 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "Each target makes a **Presence test**.\n- **≤11:** 12 corruption damage; pull 5 toward the center of the cube\n- **12-16:** 9 corruption damage; pull 3 toward the center of the cube\n- **17+:** Pull 1 toward the center of the cube"
+        },
+        {
+          "effect": "The area turns dark and distorted, and is difficult terrain for enemies."
+        }
+      ]
+    },
+    {
+      "name": "But We Will Change Her Mind",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "-",
+      "distance": "10 burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Viridescent Storm",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Green",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "15 damage; slide 3; M < 3 5 acid damage",
+          "t2": "20 damage; slide 4; M < 4 7 acid damage",
+          "t3": "24 damage; slide 5; M < 5 9 acid damage"
+        },
+        {
+          "effect": "One ally within distance ends all conditions on themself."
+        }
+      ]
+    },
+    {
+      "name": "The World Consumes",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area",
+        "Green",
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "3 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "effect": "The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has M < 4 is restrained (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Breach of Nihility",
+      "keywords": [
+        "Magic",
+        "Void"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The elementalist takes damage.",
+      "effects": [
+        {
+          "effect": "The elementalist can teleport up to 5 squares. Each creature adjacent to the space they leave or appear in takes 5 corruption damage."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

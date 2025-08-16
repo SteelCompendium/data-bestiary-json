@@ -1,0 +1,44 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Throw Fit",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 8",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "effect": "The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object adjacent to the tantrum has A < 3 the tantrum can grab them to use as the projectile for this ability."
+        },
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 damage",
+          "t2": "7 damage; push 2",
+          "t3": "8 damage; push 4"
+        },
+        {
+          "effect": "A creature or object used as a projectile is vertically pushed 8 (or 13 with a captain), ignoring stability."
+        }
+      ]
+    },
+    {
+      "name": "Excessive Anger",
+      "effects": [
+        {
+          "effect": "The tantrum has damage immunity 3 and speed 8 while their squad has two or fewer minions in it."
+        }
+      ]
+    }
+  ]
+}

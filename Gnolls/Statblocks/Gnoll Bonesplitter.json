@@ -1,0 +1,56 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Three-Tail Flail",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage; push 2",
+          "t2": "6 damage; push 2",
+          "t3": "8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab maneuver"
+        },
+        {
+          "effect": "While the bonesplitter has a target grabbed, they can't use Three-Tail Flail against another target."
+        }
+      ]
+    },
+    {
+      "name": "Bonesplitter's Cackletongue",
+      "cost": "4 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "2 burst",
+      "target": "Self and each ally in the area",
+      "effects": [
+        {
+          "effect": "Up to three targets can make a free strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+        }
+      ]
+    },
+    {
+      "name": "Death Frenzy",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the bonesplitter is reduced to 0 Stamina, the bonesplitter moves up to their speed and can make a melee free strike."
+        }
+      ]
+    }
+  ]
+}

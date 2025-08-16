@@ -1,0 +1,102 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Baneful Blade",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "10 damage",
+          "t2": "16 damage; M < 1 bleeding (save ends)",
+          "t3": "19 damage; M < 2 3 damage, bleeding (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Spinning Spit",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "1 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "7 fire damage",
+          "t2": "13 fire damage",
+          "t3": "16 fire damage"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Landing",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands who has A < 2 is knocked prone."
+        }
+      ]
+    },
+    {
+      "name": "Armor of the Ancients",
+      "cost": "2 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.",
+      "effects": [
+        {
+          "effect": "Phrrygalax takes no damage and instead regains the same amount of Stamina. He then swaps his current damage immunity with the triggering damage type."
+        }
+      ]
+    },
+    {
+      "name": "Still Your Tongue!",
+      "keywords": [
+        "-"
+      ],
+      "type": "Free triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.",
+      "effects": [
+        {
+          "effect": "Phrrygalax shifts up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage."
+        }
+      ]
+    },
+    {
+      "name": "Oathbreaker's Vengeance",
+      "effects": [
+        {
+          "effect": "Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike."
+        }
+      ]
+    }
+  ]
+}

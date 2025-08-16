@@ -1,0 +1,49 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Flyby Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage",
+          "t2": "5 damage",
+          "t3": "7 damage; the grilp shifts up to 2 squares"
+        },
+        {
+          "effect": "The grilp moves up to their speed and can attempt to hide."
+        }
+      ]
+    },
+    {
+      "name": "Bat Out Of Hell",
+      "effects": [
+        {
+          "effect": "Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp adjacent to them."
+        }
+      ]
+    },
+    {
+      "name": "Shifting Camouflage",
+      "effects": [
+        {
+          "effect": "The grilp has concealment from all creatures."
+        }
+      ]
+    }
+  ]
+}

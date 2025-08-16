@@ -1,0 +1,39 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Brutal Flail",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage",
+          "t2": "4 damage",
+          "t3": "5 damage; one ally can make a free strike against the target"
+        }
+      ]
+    },
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The archon doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ]
+}

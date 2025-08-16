@@ -1,0 +1,63 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Dusk Cleave",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 damage",
+          "t2": "13 damage",
+          "t3": "16 damage; I < 3 bleeding (save ends)"
+        },
+        {
+          "effect": "The panther can make a free strike against a creature or object adjacent to the target."
+        }
+      ]
+    },
+    {
+      "name": "Bladestorm",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "5 corruption damage",
+          "t2": "8 corruption damage; I < 2 dazed (save ends)",
+          "t3": "10 corruption damage; I < 3 dazed (save ends)"
+        },
+        {
+          "effect": "The panther has a double edge on strikes against targets dazed this way."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The panther ignores concealment created by darkness. While the panther is in direct sunlight, they have damage weakness 3. While the panther has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ]
+}

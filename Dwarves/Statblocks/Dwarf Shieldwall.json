@@ -1,0 +1,61 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Wide Axe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage; slide 1",
+          "t2": "10 damage; slide 1",
+          "t3": "13 damage; slide 1"
+        },
+        {
+          "effect": "The shieldwall can shift 1 square to remain adjacent to the target. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+        },
+        {
+          "effect": "This ability targets one additional target.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Intercepting Shield",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "A creature makes a strike against an ally adjacent to the shieldwall.",
+      "effects": [
+        {
+          "effect": "The shieldwall becomes the target of the triggering strike and halves the damage."
+        }
+      ]
+    },
+    {
+      "name": "Call to the Wall",
+      "effects": [
+        {
+          "effect": "Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn."
+        }
+      ]
+    }
+  ]
+}

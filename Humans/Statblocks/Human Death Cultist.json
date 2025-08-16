@@ -1,0 +1,59 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Death Scythe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1 or ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "6 corruption damage",
+          "t2": "9 corruption damage",
+          "t3": "12 corruption damage; I < 2 weakened (save ends)"
+        },
+        {
+          "effect": "The death cultist regains Stamina equal to half the damage dealt.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Rise, My Minions",
+      "cost": "1 Malice per minion",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "5 burst",
+      "target": "Each dead minion in the area",
+      "effects": [
+        {
+          "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The death cultist ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ]
+}

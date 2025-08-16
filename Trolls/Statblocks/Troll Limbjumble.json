@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Arm and a Leg",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "3 damage; A < 2 prone",
+          "t2": "5 damage; A < 3 prone",
+          "t3": "6 damage; prone"
+        },
+        {
+          "effect": "If a target made prone this way is already prone, they are grabbed instead."
+        }
+      ]
+    },
+    {
+      "name": "Hyper-Regeneration",
+      "effects": [
+        {
+          "effect": "At the start of each of the limbjumble's squad's turns, the squad's Stamina pool increases as if each limbjumble were at full Stamina."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Lightning Strike",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 lightning damage",
+          "t2": "3 lightning damage",
+          "t3": "5 lightning damage"
+        },
+        {
+          "effect": "If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also slowed (EoT)."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The apprentice mage ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ]
+}

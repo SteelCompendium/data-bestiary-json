@@ -1,0 +1,65 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Haymaker Greataxe",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage",
+          "t2": "11 damage; prone",
+          "t3": "14 damage; prone; M < 2 bleeding (save ends)"
+        },
+        {
+          "effect": "A target who is already prone takes an extra 6 damage."
+        }
+      ]
+    },
+    {
+      "name": "Hrraaaaaagh!",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Free triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The juggernaut takes damage.",
+      "effects": [
+        {
+          "effect": "The juggernaut moves up to their speed and can make a free strike."
+        }
+      ]
+    },
+    {
+      "name": "Blood in the Water",
+      "effects": [
+        {
+          "effect": "Whenever the juggernaut willingly moves, they can move 3 additional squares if they end their movement closer to a prone creature."
+        }
+      ]
+    },
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the juggernaut is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the juggernaut is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ]
+}

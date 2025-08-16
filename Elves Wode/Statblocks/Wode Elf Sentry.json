@@ -1,0 +1,61 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Tracer Longbow",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 damage",
+          "t3": "9 damage; the target is marked (save ends)"
+        },
+        {
+          "effect": "Allies gain an edge on abilities against a target marked by any wode elf."
+        },
+        {
+          "effect": "The sentry targets two additional creatures or objects.",
+          "cost": "3 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Death Blossom",
+      "cost": "2 Malice",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "5 burst",
+      "target": "Each marked enemy",
+      "effects": [
+        {
+          "effect": "Each target takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Dual Targeting Shot",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage",
+          "t2": "11 damage",
+          "t3": "14 damage"
+        },
+        {
+          "effect": "Two allies within distance can make a free strike against one of the targets.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "I'll Cover You!",
+      "cost": "3 Malice",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "8 damage; M < 0 weakened (save ends)",
+          "t2": "13 damage; M < 1 weakened (save ends)",
+          "t3": "16 damage; M < 2 weakened (save ends)"
+        },
+        {
+          "effect": "One ally adjacent to the target regains 5 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Overwatch",
+      "keywords": [
+        "Ranged"
+      ],
+      "type": "Triggered action",
+      "distance": "Ranged 10",
+      "target": "The triggering enemy",
+      "trigger": "An enemy within distance willingly moves.",
+      "effects": [
+        {
+          "effect": "At any point during the movement, the tactician makes a free strike against the target."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

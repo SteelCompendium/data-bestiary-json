@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Tonguelash",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 8",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage; pull 1, or the tonguer can shift 1 square toward the target",
+          "t2": "4 damage; pull 2, or the tonguer shifts up to 2 squares toward the target",
+          "t3": "5 damage; pull 3, or the tonguer shifts up to 3 squares toward the target"
+        },
+        {
+          "effect": "If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed."
+        }
+      ]
+    },
+    {
+      "name": "Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the tonguer has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
+        }
+      ]
+    }
+  ]
+}

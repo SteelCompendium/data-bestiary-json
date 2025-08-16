@@ -1,0 +1,52 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Wall of Roses",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "type": "Main action",
+      "distance": "Special; see below",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "Until the start of the brambleguard's next turn, their speed is 0 and they extend themself into a 5 wall. Each ally who starts their turn adjacent to the brambleguard regains 5 Stamina and can apply the Magic keyword to their weapon abilities until the end of their turn."
+        }
+      ]
+    },
+    {
+      "name": "Whip Frenzy",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "7 damage; push 3",
+          "t3": "10 damage; push 3; A < 2 bleeding (save ends)"
+        }
+      ]
+    },
+    {
+      "name": "Thicket and Thorns",
+      "effects": [
+        {
+          "effect": "The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage"
+        }
+      ]
+    }
+  ]
+}

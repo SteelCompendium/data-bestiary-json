@@ -1,0 +1,49 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Tail Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "t1": "4 damage",
+          "t2": "7 damage",
+          "t3": "9 damage"
+        },
+        {
+          "effect": "The tyburaki can make a free strike against each enemy adjacent to the target."
+        }
+      ]
+    },
+    {
+      "name": "Breacher",
+      "effects": [
+        {
+          "effect": "While swimming, the tyburaki can jump 5 squares as part of their movement."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the tyburaki can't be hidden from them."
+        }
+      ]
+    }
+  ]
+}

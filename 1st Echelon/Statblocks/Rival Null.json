@@ -1,0 +1,67 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Nimble Step",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage; the null shifts up to 2 square",
+          "t2": "10 damage; the null shifts up to 3 squares",
+          "t3": "13 damage; the null shifts up to 4 squares"
+        }
+      ]
+    },
+    {
+      "name": "Numb",
+      "cost": "2 Malice",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 damage; R < 0 slowed (EoT)",
+          "t2": "10 damage; R < 1 slowed (EoT)",
+          "t3": "13 damage; R < 2 dazed and slowed (EoT)"
+        }
+      ]
+    },
+    {
+      "name": "Inertial Shield",
+      "effects": [
+        {
+          "effect": "The first time each round that the null is targeted by a da- age-dealing strike, they halve the damage."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ]
+}

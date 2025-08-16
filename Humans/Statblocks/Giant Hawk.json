@@ -1,0 +1,57 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Talons",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "7 damage",
+          "t3": "9 damage; grabbed"
+        },
+        {
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 2 damage.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Dive",
+      "cost": "1 Malice",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The hawk moves up to their speed."
+        }
+      ]
+    },
+    {
+      "name": "Mounted Platform",
+      "effects": [
+        {
+          "effect": "Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement."
+        }
+      ]
+    }
+  ]
+}

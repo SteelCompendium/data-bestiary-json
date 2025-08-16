@@ -1,0 +1,107 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Sedating Stinger",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 3",
+      "target": "Two creatures or objects",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 damage",
+          "t2": "14 damage; M < 2 slowed (save ends)",
+          "t3": "17 damage; M < 3 slowed (save ends)"
+        },
+        {
+          "effect": "If a target slowed this way is already slowed, they are instead restrained (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Tail Sweep",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "6 x 3 line within 1",
+      "target": "Each enemy and object in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 damage; A < 1 3 acid damage",
+          "t2": "11 damage; A < 2 3 acid damage",
+          "t3": "14 damage; A < 3 3 acid damage"
+        },
+        {
+          "effect": "The predator uses this ability a second time, either recreating the same line or creating a new line.",
+          "cost": "5 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Grasping Jaws",
+      "cost": "2 Malice",
+      "keywords": [
+        "Magic",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Maneuver",
+      "distance": "Melee 2",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "9 damage; A < 1 grabbed",
+          "t2": "14 damage; A < 2 grabbed",
+          "t3": "17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab maneuver"
+        }
+      ]
+    },
+    {
+      "name": "Deterring Sting",
+      "cost": "1 Malice",
+      "keywords": [
+        "Melee"
+      ],
+      "type": "Triggered action",
+      "distance": "Melee 3",
+      "target": "The triggering creature",
+      "trigger": "A creature within distance deals damage to the predator with a melee ability.",
+      "effects": [
+        {
+          "effect": "The predator uses Sedating Stinger against the target, then shifts up to 3 squares"
+        }
+      ]
+    },
+    {
+      "name": "Stubborn Rage",
+      "effects": [
+        {
+          "effect": "While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened."
+        }
+      ]
+    },
+    {
+      "name": "Tenacious Hunter",
+      "effects": [
+        {
+          "effect": "Any creature affected by a condition imposed by a wyvern can't be hidden from the predator."
+        }
+      ]
+    }
+  ]
+}

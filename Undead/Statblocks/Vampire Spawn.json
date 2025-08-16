@@ -1,0 +1,59 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Exsanguinating Bite",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "5 damage",
+          "t2": "7 corruption damage; M < 2 bleeding (save ends)",
+          "t3": "9 corruption damage; M < 3 bleeding (save ends)"
+        },
+        {
+          "effect": "The vampire spawn regains Stamina equal to any corruption damage dealt."
+        },
+        {
+          "effect": "The target takes an additional 3 corruption damage.",
+          "cost": "1 Malice"
+        }
+      ]
+    },
+    {
+      "name": "Vampiric Celerity",
+      "keywords": [
+        "-"
+      ],
+      "type": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "effect": "The vampire spawn can shift 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Unslakable Bloodthirst",
+      "effects": [
+        {
+          "effect": "The vampire spawn has speed 10 while any creature within 10 squares of them is bleeding. The vampire spawn must use Exsanguinating Bite against a bleeding creature on their turn if they are able to."
+        }
+      ]
+    }
+  ]
+}

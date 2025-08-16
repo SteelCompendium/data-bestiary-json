@@ -1,0 +1,60 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Engulf",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "7 acid damage; A < 0 dazed (save ends)",
+          "t2": "10 acid damage; A < 1 dazed (save ends)",
+          "t3": "14 acid damage; A < 2 restrained (save ends)"
+        },
+        {
+          "effect": "A size 2 or smaller creature restrained this way is pulled into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer restrained moves to the nearest unoccupied space adjacent to the brick. The brick can have as many creatures or objects engulfed as will fit within their space"
+        },
+        {
+          "effect": "This ability targets one additional target.",
+          "cost": "2 Malice"
+        }
+      ]
+    },
+    {
+      "name": "You Didn't Pay Attention!",
+      "keywords": [
+        "-"
+      ],
+      "type": "Free triggered action",
+      "distance": "Self",
+      "target": "One creature or object",
+      "trigger": "A creature moves or is force moved adjacent to the brick.",
+      "effects": [
+        {
+          "effect": "The brick uses Engulf against the triggering creature and has a double edge."
+        }
+      ]
+    },
+    {
+      "name": "Translucent Brick",
+      "effects": [
+        {
+          "effect": "The brick completely occupies their space, blocking line of effect for enemies. The brick is hidden until they act."
+        }
+      ]
+    }
+  ]
+}

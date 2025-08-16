@@ -1,0 +1,72 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Mark of Agony",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 10",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "6 corruption damage",
+          "t2": "8 corruption damage; the target is marked (save ends)",
+          "t3": "9 corruption damage; the target is marked (save ends)"
+        },
+        {
+          "effect": "Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Vortex of Pain",
+      "cost": "3 Malice",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "type": "Main action",
+      "distance": "4 cube within 10",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "t1": "2 corruption damage",
+          "t2": "4 corruption damage",
+          "t3": "5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one targe"
+        },
+        {
+          "effect": "The tormentite regains 2 Stamina for each creature targeted by this ability."
+        }
+      ]
+    },
+    {
+      "name": "Persistent Pain",
+      "effects": [
+        {
+          "effect": "From the start of the encounter, the tormentite takes 1 damage at the start of each of their turns."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

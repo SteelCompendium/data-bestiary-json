@@ -1,0 +1,41 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fingernails",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "1 damage",
+          "t2": "2 damage",
+          "t3": "3 damage"
+        },
+        {
+          "effect": "The crawling claw shifts up to a number of squares equal to the damage dealt."
+        }
+      ]
+    },
+    {
+      "name": "Disorganized",
+      "effects": [
+        {
+          "effect": "Allies can't flank with the crawling cla."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Fuse-Iron Bomb",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Ranged",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 5",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 fire damage",
+          "t2": "7 fire damage; push",
+          "t3": "8 fire damage; push"
+        },
+        {
+          "effect": "The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn"
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Slushfall",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "type": "Main action",
+      "distance": "Ranged 12",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "t1": "4 cold damage",
+          "t2": "7 cold damage",
+          "t3": "9 cold damage; prone"
+        }
+      ]
+    },
+    {
+      "name": "Kingdom of Isolation",
+      "effects": [
+        {
+          "effect": "The snowblaster is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the snowblaster can't shift."
+        }
+      ]
+    }
+  ]
+}

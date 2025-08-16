@@ -1,0 +1,40 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Hookclaw",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "2 damage",
+          "t3": "5 damage; grabbed"
+        },
+        {
+          "effect": "Any target grabbed this way takes 2 lightning damage at the start of each of their turns."
+        }
+      ]
+    },
+    {
+      "name": "Shocking",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the clawfish deals 2 lightning damage to each wet enemy within 2 squares."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "might": 0,
+  "agility": 0,
+  "reason": 0,
+  "intuition": 0,
+  "presence": 0,
+  "traits": [],
+  "abilities": [
+    {
+      "name": "Signum",
+      "cost": "Signature Ability",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
+          "t2": "4 damage",
+          "t3": "5 damage"
+        },
+        {
+          "effect": "One ally within 10 squares of the signifer can shift up to their speed if they end that shift adjacent to an ally"
+        },
+        {
+          "effect": "One additional ally can shift for each 2 Malice spent",
+          "cost": "2+ Malice"
+        }
+      ]
+    },
+    {
+      "name": "Glory to the Legion",
+      "cost": "5 Malice",
+      "keywords": [
+        "Area"
+      ],
+      "type": "Maneuver",
+      "distance": "5 Burst",
+      "target": "Each ally in the area",
+      "effects": [
+        {
+          "effect": "Each target regains 5 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    },
+    {
+      "name": "Upholding High Standards",
+      "effects": [
+        {
+          "effect": "Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold minion can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block."
+        }
+      ]
+    }
+  ]
+}
