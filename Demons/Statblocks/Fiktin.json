@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Fiktin",
+  "level": 5,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "7",
+  "stamina": "35",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 1,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the fiktin can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Violent Transformation",
@@ -40,22 +75,6 @@
       "effects": [
         {
           "effect": "The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the fiktin can't be hidden from them."
         }
       ]
     }

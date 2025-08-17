@@ -1,10 +1,37 @@
 {
+  "name": "Time Raider Hijack",
+  "level": 3,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "10",
+  "stamina": "50",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The hijack doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Golden Sickles",
@@ -43,14 +70,6 @@
       "effects": [
         {
           "effect": "The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves adjacent to the target. Otherwise, the target is pulled up to 4 squares toward the hijack."
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The hijack doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

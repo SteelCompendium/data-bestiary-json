@@ -1,10 +1,44 @@
 {
+  "name": "Wode Elf Guerrilla",
+  "level": 3,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "10",
+  "stamina": "50",
+  "speed": 7,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Into the Green",
+      "effects": [
+        {
+          "effect": "The guerrilla can attempt to hide at the end of each of their turns."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the guerrilla that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Splinter Dagger",
@@ -52,22 +86,6 @@
         },
         {
           "effect": "The targets take their turn immediately. Each target gains an edge on abilities until the end of their turn."
-        }
-      ]
-    },
-    {
-      "name": "Into the Green",
-      "effects": [
-        {
-          "effect": "The guerrilla can attempt to hide at the end of each of their turns."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the guerrilla that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

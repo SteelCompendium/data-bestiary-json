@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Locratix the Morningstar",
+  "level": 6,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "160",
+  "immunities": [
+    "Acid 6"
+  ],
+  "speed": 8,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": 1,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Flighty",
+      "effects": [
+        {
+          "effect": "When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their triggered actions until the start of Locratix's next turn."
+        }
+      ]
+    },
+    {
+      "name": "Absorbing Scales",
+      "effects": [
+        {
+          "effect": "When Locratix takes damage of any type for which she has damage immunity, she has damage immunity 6 against the next strike made against her."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Skewer",
@@ -80,22 +117,6 @@
           "t1": "7 acid damage; A < 1 the target's speed is 0 (EoT)",
           "t2": "12 acid damage; A < 2 the target's speed is 0 (EoT)",
           "t3": "15 acid damage; A < 3 the target's speed is 0 (EoT)"
-        }
-      ]
-    },
-    {
-      "name": "Flighty",
-      "effects": [
-        {
-          "effect": "When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their triggered actions until the start of Locratix's next turn."
-        }
-      ]
-    },
-    {
-      "name": "Absorbing Scales",
-      "effects": [
-        {
-          "effect": "When Locratix takes damage of any type for which she has damage immunity, she has damage immunity 6 against the next strike made against her."
         }
       ]
     }

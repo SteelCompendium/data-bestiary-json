@@ -1,10 +1,36 @@
 {
+  "name": "High Elf Ordinator",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "ev": "20",
+  "stamina": "120",
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": 3,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Otherworldly Blessing",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the ordinator can choose one or more effects on them that can be ended by a saving throw. The effects instead end at the end of the ordinator's turn"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lightning Rod",
@@ -75,14 +101,6 @@
       "effects": [
         {
           "effect": "The ordinator uses Lightning Rod against the target after the ability is resolved."
-        }
-      ]
-    },
-    {
-      "name": "Otherworldly Blessing",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the ordinator can choose one or more effects on them that can be ended by a saving throw. The effects instead end at the end of the ordinator's turn"
         }
       ]
     },

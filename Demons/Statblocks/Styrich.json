@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Styrich",
+  "level": 8,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "10",
+  "stamina": "45",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 4,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the styrich is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the styrich can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hair Whip",
@@ -44,22 +79,6 @@
           "t1": "A < 2 slowed (save ends)",
           "t2": "Slowed (EoT) or A < 3 3 damage and restrained (EoT)",
           "t3": "Restrained (EoT) or A < 4 3 damage and restrained (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the styrich is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the styrich can't be hidden from them."
         }
       ]
     }

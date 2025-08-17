@@ -1,10 +1,34 @@
 {
+  "name": "Rival Elementalist",
+  "level": 8,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "40",
+  "stamina": "180",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 8,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": 2,
+  "reason": 4,
+  "intuition": 3,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Verdant Rains",
@@ -67,14 +91,6 @@
       "effects": [
         {
           "effect": "The elementalist can teleport up to 4 squares. Each creature adjacent to the space they leave or appear in takes 4 corruption damage."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

@@ -1,10 +1,36 @@
 {
+  "name": "Wode Elf Gweiadur",
+  "level": 3,
+  "roles": [
+    "Platoon Artillery"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "10",
+  "stamina": "40",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the gweiadur that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Snare Bow",
@@ -53,14 +79,6 @@
         },
         {
           "effect": "Allies gain an edge on abilities against a target marked by any wode elf."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the gweiadur that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

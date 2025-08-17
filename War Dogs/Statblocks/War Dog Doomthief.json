@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "War Dog Doomthief",
+  "level": 5,
+  "roles": [
+    "Horde Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "7",
+  "stamina": "40",
+  "speed": 5,
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 3,
+  "agility": -1,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Doom Magnet",
+      "effects": [
+        {
+          "effect": "The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target"
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Ripper Shrikegun",
@@ -29,14 +62,6 @@
       ]
     },
     {
-      "name": "Doom Magnet",
-      "effects": [
-        {
-          "effect": "The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target"
-        }
-      ]
-    },
-    {
       "name": "Expanding Doom",
       "cost": "4 Malice",
       "keywords": [
@@ -48,14 +73,6 @@
       "effects": [
         {
           "effect": "The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

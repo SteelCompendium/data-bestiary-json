@@ -1,10 +1,45 @@
 {
+  "name": "Ghoul",
+  "level": 1,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "3\\\\",
+  "stamina": "15",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 2,
+  "reason": -2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Arise",
+      "effects": [
+        {
+          "effect": "The first time the ghoul is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+        }
+      ]
+    },
+    {
+      "name": "Hunger",
+      "effects": [
+        {
+          "effect": "When the ghoul uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Razor Claws",
@@ -38,22 +73,6 @@
       "effects": [
         {
           "effect": "The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul can make a free strike against them."
-        }
-      ]
-    },
-    {
-      "name": "Arise",
-      "effects": [
-        {
-          "effect": "The first time the ghoul is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
-        }
-      ]
-    },
-    {
-      "name": "Hunger",
-      "effects": [
-        {
-          "effect": "When the ghoul uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
         }
       ]
     }

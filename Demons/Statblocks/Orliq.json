@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Orliq",
+  "level": 4,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "movement": "Fly",
+  "size": "1T",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+2 bonus to speed",
+  "might": -1,
+  "agility": 3,
+  "reason": 1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Imposing Energy",
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT)."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the orliq can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soul Prism",
@@ -24,22 +61,6 @@
           "t1": "2 corruption damage; slide 2",
           "t2": "4 corruption damage; vertical slide 2",
           "t3": "6 corruption damage; vertical slide 2"
-        }
-      ]
-    },
-    {
-      "name": "Imposing Energy",
-      "effects": [
-        {
-          "effect": "Any enemy who starts their turn with two or more orliq adjacent to them is slowed (EoT)."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the orliq can't be hidden from them."
         }
       ]
     }

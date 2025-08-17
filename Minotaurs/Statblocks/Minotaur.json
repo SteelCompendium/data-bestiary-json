@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Minotaur",
+  "level": 3,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Accursed",
+    "Humanoid",
+    "Minotaur"
+  ],
+  "ev": "20",
+  "stamina": "100",
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Minotaur Sense",
+      "effects": [
+        {
+          "effect": "The minotaur can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flail and Blade",
@@ -81,14 +106,6 @@
       "effects": [
         {
           "effect": "The minotaur uses theCharge main action and either Flail and Blade or Goring Horns against the target."
-        }
-      ]
-    },
-    {
-      "name": "Minotaur Sense",
-      "effects": [
-        {
-          "effect": "The minotaur can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
         }
       ]
     }

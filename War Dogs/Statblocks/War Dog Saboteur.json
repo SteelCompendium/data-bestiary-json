@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Saboteur",
+  "level": 7,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "12",
+  "speed": 6,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 4,
+  "with_captain": "+5 bonus to ranged distance",
+  "might": -1,
+  "agility": 2,
+  "reason": 4,
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fuse-Iron Bomb",
@@ -25,14 +51,6 @@
         },
         {
           "effect": "The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn"
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

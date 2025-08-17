@@ -1,10 +1,38 @@
 {
+  "name": "War Dog Phosphorite",
+  "level": 2,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "4",
+  "stamina": "15",
+  "immunities": [
+    "Acid 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the phosphorite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Caustic Detonator",
@@ -44,14 +72,6 @@
       "effects": [
         {
           "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the phosphorite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

@@ -1,10 +1,44 @@
 {
+  "name": "Mohler",
+  "level": 1,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Animal",
+    "Orc"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 7,
+  "movement": "Burrow",
+  "size": "1S",
+  "stability": 1,
+  "free_strike": 2,
+  "with_captain": "+2 bonus to speed",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": -4,
+  "intuition": 1,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Seismic Sense",
+      "effects": [
+        {
+          "effect": "The mohler doesn't need line of effect to use abilities against creatures or objects touching the ground."
+        }
+      ]
+    },
+    {
+      "name": "Ground Grinder",
+      "effects": [
+        {
+          "effect": "The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler burrows within 1 square below the ground, the ground above where they burrow is difficult terrain."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Earth Bump",
@@ -26,22 +60,6 @@
         },
         {
           "effect": "The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked prone."
-        }
-      ]
-    },
-    {
-      "name": "Seismic Sense",
-      "effects": [
-        {
-          "effect": "The mohler doesn't need line of effect to use abilities against creatures or objects touching the ground."
-        }
-      ]
-    },
-    {
-      "name": "Ground Grinder",
-      "effects": [
-        {
-          "effect": "The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler burrows within 1 square below the ground, the ground above where they burrow is difficult terrain."
         }
       ]
     }

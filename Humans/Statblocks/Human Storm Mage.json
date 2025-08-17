@@ -1,10 +1,46 @@
 {
+  "name": "Human Storm Mage",
+  "level": 3,
+  "roles": [
+    "Platoon Controller"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "10",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 3",
+    "psychic 3"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
   "agility": 0,
-  "reason": 0,
+  "reason": 2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Arcane Shield",
+      "effects": [
+        {
+          "effect": "Any melee ability targeting the storm mage takes a bane.\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The storm mage ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lightning Bolt",
@@ -49,22 +85,6 @@
         },
         {
           "effect": "The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects."
-        }
-      ]
-    },
-    {
-      "name": "Arcane Shield",
-      "effects": [
-        {
-          "effect": "Any melee ability targeting the storm mage takes a bane.\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The storm mage ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

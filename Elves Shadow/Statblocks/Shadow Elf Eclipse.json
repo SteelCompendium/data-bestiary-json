@@ -1,10 +1,44 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Shadow Elf Eclipse",
+  "level": 6,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 7,
+  "might": 4,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the eclipse can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The eclipse ignores concealment created by darkness. While the eclipse is in direct sunlight, they have damage weakness 3. While the eclipse has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Manifold Blade",
@@ -60,22 +94,6 @@
       "effects": [
         {
           "effect": "The target has a double bane on the ability."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the eclipse can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The eclipse ignores concealment created by darkness. While the eclipse is in direct sunlight, they have damage weakness 3. While the eclipse has concealment, they have damage immunity 3."
         }
       ]
     },

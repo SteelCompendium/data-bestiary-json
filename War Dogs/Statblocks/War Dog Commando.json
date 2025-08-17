@@ -1,10 +1,36 @@
 {
+  "name": "War Dog Commando",
+  "level": 1,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the commando is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Daggers",
@@ -27,14 +53,6 @@
         },
         {
           "effect": "After using this ability, the commando can attempt to hide even if observed."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the commando is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
         }
       ]
     }

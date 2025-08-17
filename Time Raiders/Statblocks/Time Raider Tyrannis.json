@@ -1,10 +1,46 @@
 {
+  "name": "Time Raider Tyrannis",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "20",
+  "stamina": "0120",
+  "immunities": [
+    "Psychic 5"
+  ],
+  "speed": 1,
+  "movement": "Hover, teleport",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": 3,
+  "reason": 3,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The tyrannis doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Gatling Blaster",
@@ -64,22 +100,6 @@
         {
           "effect": "The strike has a double bane instead.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The tyrannis doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     },

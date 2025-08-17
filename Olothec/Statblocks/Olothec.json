@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Olothec",
+  "level": 6,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Horror",
+    "Olothec"
+  ],
+  "ev": "84",
+  "stamina": "450",
+  "immunities": [
+    "Psychic 6"
+  ],
+  "speed": 7,
+  "movement": "Fly, swim",
+  "size": "2",
+  "stability": 0,
+  "free_strike": 7,
+  "might": 4,
+  "agility": -1,
+  "reason": 4,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -27,6 +45,24 @@
         }
       ]
     },
+    {
+      "name": "Primordial Mind",
+      "effects": [
+        {
+          "effect": "The olothec can't be made frightened or taunted."
+        }
+      ]
+    },
+    {
+      "name": "Slime Sense",
+      "effects": [
+        {
+          "effect": "A slimed or transformed creature can't have concealment from or be hidden from the olothec."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Devolving Tentacles",
       "cost": "Signature Ability",
@@ -137,22 +173,6 @@
       "effects": [
         {
           "effect": "The target takes 8 psychic damage and has psychic weakness 3 until the end of the olothec's next turn."
-        }
-      ]
-    },
-    {
-      "name": "Primordial Mind",
-      "effects": [
-        {
-          "effect": "The olothec can't be made frightened or taunted."
-        }
-      ]
-    },
-    {
-      "name": "Slime Sense",
-      "effects": [
-        {
-          "effect": "A slimed or transformed creature can't have concealment from or be hidden from the olothec."
         }
       ]
     },

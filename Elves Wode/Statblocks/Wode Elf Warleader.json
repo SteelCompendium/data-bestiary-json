@@ -1,10 +1,51 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Wode Elf Warleader",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid. Wode Elf"
+  ],
+  "ev": "20",
+  "stamina": "120",
+  "speed": 7,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Into the Green",
+      "effects": [
+        {
+          "effect": "The warleader can attempt to hide at the end of each of their turns."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the warleader that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Wodeblade",
@@ -61,30 +102,6 @@
       "effects": [
         {
           "effect": "The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are bleeding and take a bane on strikes until the end of their turn."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Into the Green",
-      "effects": [
-        {
-          "effect": "The warleader can attempt to hide at the end of each of their turns."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the warleader that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     },

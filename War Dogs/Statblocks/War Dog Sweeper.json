@@ -1,10 +1,36 @@
 {
+  "name": "War Dog Sweeper",
+  "level": 4,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shrapnel-Laced Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the sweeper is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Shrikegun Shot",
@@ -27,14 +53,6 @@
         },
         {
           "effect": "Any target within 2 squares of the sweeper takes an extra 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Shrapnel-Laced Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the sweeper is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them."
         }
       ]
     }

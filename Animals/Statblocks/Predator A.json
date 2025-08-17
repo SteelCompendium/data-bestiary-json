@@ -1,10 +1,33 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Predator A",
+  "level": 1,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Animal"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "speed": 5,
+  "size": "2",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 1,
+  "agility": 2,
+  "reason": -2,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Natural Weapon",
@@ -54,14 +77,6 @@
       "effects": [
         {
           "effect": "The predator makes a free strike against the target. If the predator was hidden from the target, the strike deals an extra 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

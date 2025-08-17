@@ -1,11 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Arixx",
+  "level": 1,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Arixx",
+    "Beast"
+  ],
+  "ev": "36",
+  "stamina": "200",
+  "speed": 5,
+  "movement": "Burrow",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 3,
+  "agility": 1,
+  "reason": -3,
+  "intuition": 1,
+  "presence": -4,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -34,7 +49,9 @@
           "effect": "A prone creature making a melee strike against the arixx has a double edge on the strike instead of taking a bane."
         }
       ]
-    },
+    }
+  ],
+  "abilities": [
     {
       "name": "Bite",
       "cost": "Signature Ability",

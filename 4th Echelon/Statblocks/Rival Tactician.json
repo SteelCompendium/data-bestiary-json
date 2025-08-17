@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Rival Tactician",
+  "level": 10,
+  "roles": [
+    "Elite Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "48",
+  "stamina": "220",
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 10,
+  "might": 5,
+  "agility": 2,
+  "reason": 4,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Forward Assault",
@@ -65,14 +89,6 @@
       "effects": [
         {
           "effect": "At any point during the movement, the tactician and one ally within distance can use a signature ability against the target."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

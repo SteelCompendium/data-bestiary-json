@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Basilisk Tonguesnapper",
+  "level": 1,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Basilisk",
+    "Beast"
+  ],
+  "ev": "12",
+  "stamina": "40",
+  "immunities": [
+    "Acid 2",
+    "Poison 2"
+  ],
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 1,
+  "agility": 2,
+  "reason": -3,
+  "intuition": -1,
+  "presence": -1,
+  "traits": [
+    {
+      "effects": [
+        {
+          "effect": "Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is slowed (save ends)."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Prehensile Tongue",
@@ -92,13 +119,6 @@
       "effects": [
         {
           "effect": "Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends)."
-        }
-      ]
-    },
-    {
-      "effects": [
-        {
-          "effect": "Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is slowed (save ends)."
         }
       ]
     }

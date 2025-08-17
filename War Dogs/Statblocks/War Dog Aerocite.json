@@ -1,10 +1,44 @@
 {
+  "name": "War Dog Aerocite",
+  "level": 8,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "10",
+  "stamina": "50",
+  "speed": 8,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 4,
+  "reason": 1,
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Jetwing Agility",
+      "effects": [
+        {
+          "effect": "If the aerocite moves 5 or more squares on their turn, strikes made against them take a bane until the start of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the aerocite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Dive Bomb",
@@ -50,22 +84,6 @@
         },
         {
           "effect": "The area is difficult terrain"
-        }
-      ]
-    },
-    {
-      "name": "Jetwing Agility",
-      "effects": [
-        {
-          "effect": "If the aerocite moves 5 or more squares on their turn, strikes made against them take a bane until the start of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the aerocite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
         }
       ]
     }

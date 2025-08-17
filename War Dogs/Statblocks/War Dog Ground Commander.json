@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Ground Commander",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "20",
+  "stamina": "120",
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 3,
+  "agility": 2,
+  "reason": 3,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the ground commander is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Conditioning Spear",
@@ -62,22 +95,6 @@
       "effects": [
         {
           "effect": "Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved The target then immediately dies."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the ground commander is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     },

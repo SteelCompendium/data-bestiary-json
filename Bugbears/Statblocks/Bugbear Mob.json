@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Bugbear Mob",
+  "level": 5,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "10",
+  "speed": 6,
+  "size": "3",
+  "stability": 2,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 3,
+  "agility": -1,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Mug and Tear",
@@ -26,14 +53,6 @@
         },
         {
           "effect": "If the target is pulled into the mob, that forced movement deals damage only at the Director's determination."
-        }
-      ]
-    },
-    {
-      "name": "Swarm",
-      "effects": [
-        {
-          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share."
         }
       ]
     }

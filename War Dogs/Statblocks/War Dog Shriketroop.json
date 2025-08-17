@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Shriketroop",
+  "level": 7,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "10",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "with_captain": "Gain an edge on strikes",
+  "might": 1,
+  "agility": 4,
+  "reason": 3,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Canis Shrikegun",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "The target must move their speed in a straight line away from the shriketroop."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

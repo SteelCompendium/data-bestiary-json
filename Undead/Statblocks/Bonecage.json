@@ -1,9 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
+  "name": "Bonecage",
+  "level": 10,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "12",
+  "stamina": "55",
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "speed": 6,
+  "movement": "Climb",
+  "size": "3",
+  "stability": 5,
+  "free_strike": 4,
+  "might": 5,
+  "agility": -2,
+  "reason": -2,
+  "intuition": 3,
+  "presence": -1,
   "traits": [],
   "abilities": [
     {

@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "War Dog Equivite",
+  "level": 4,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "6",
+  "stamina": "53",
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 3,
+  "agility": 3,
+  "reason": -1,
+  "intuition": -2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fuse-Iron Lance",
@@ -52,14 +76,6 @@
           "t1": "2 damage; push 1",
           "t2": "4 damage; push 2",
           "t3": "5 damage; push 3; M < 3 prone"
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

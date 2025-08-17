@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Gnoll Wildling",
+  "level": 2,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "ev": "4 for four minions",
+  "stamina": "5",
+  "speed": 7,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
+  "might": 1,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Death Circle",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 7 squares of the wildling is reduced to 0 Stamina, the wildling can move up to their speed."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flail",
@@ -23,14 +48,6 @@
           "t1": "2 damage",
           "t2": "3 damage",
           "t3": "5 damage; the wildling can make a free strike against a creature adjacent to the target"
-        }
-      ]
-    },
-    {
-      "name": "Death Circle",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion ally within 7 squares of the wildling is reduced to 0 Stamina, the wildling can move up to their speed."
         }
       ]
     }

@@ -1,10 +1,42 @@
 {
+  "name": "Rival Shadow",
+  "level": 8,
+  "roles": [
+    "Elite Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "40",
+  "stamina": "200",
+  "speed": 7,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 9,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 4,
+  "reason": 2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Exploit Weakness",
+      "effects": [
+        {
+          "effect": "The shadow deals an extra 9 damage to any target affected by a condition."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Assail and Serrate",
@@ -41,22 +73,6 @@
       "effects": [
         {
           "effect": "The shadow coats their weapon with poison. They have a double edge on their next strike, and any potency for that strike increases by 2."
-        }
-      ]
-    },
-    {
-      "name": "Exploit Weakness",
-      "effects": [
-        {
-          "effect": "The shadow deals an extra 9 damage to any target affected by a condition."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

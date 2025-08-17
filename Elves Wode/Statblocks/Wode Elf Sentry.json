@@ -1,10 +1,35 @@
 {
+  "name": "Wode Elf Sentry",
+  "level": 1,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Tracer Longbow",
@@ -46,14 +71,6 @@
       "effects": [
         {
           "effect": "Each target takes 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

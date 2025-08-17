@@ -1,10 +1,40 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Blood-Starved Vampire",
+  "level": 7,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Undead",
+    "Vampire"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "12",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+3 bonus to speed",
+  "might": 4,
+  "agility": 1,
+  "reason": -3,
+  "intuition": 1,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Unslakable Bloodthirst",
+      "effects": [
+        {
+          "effect": "The blood-starved vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must use Feeding Frenzy against a bleeding creature on their turn if they are able to."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Feeding Frenzy",
@@ -26,14 +56,6 @@
         },
         {
           "effect": "If a target made bleeding this way is already bleeding, they are instead knocked prone and can't stand until the end of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Unslakable Bloodthirst",
-      "effects": [
-        {
-          "effect": "The blood-starved vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must use Feeding Frenzy against a bleeding creature on their turn if they are able to."
         }
       ]
     }

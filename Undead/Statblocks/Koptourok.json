@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Koptourok",
+  "level": 7,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "9",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 3,
+  "might": 4,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Exhale",
+      "effects": [
+        {
+          "effect": "The first time the koptourok is made winded by damage that isn't fire damage or holy damage, each enemy within 3 squares of them takes 8 corruption damage. Any enemy who takes this damage and has M < 3 is also weakened (save ends)"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Choking Grasp",
@@ -48,14 +75,6 @@
         },
         {
           "effect": "This ability gains an edge against any target grabbed by the koptourok. If one or more targets are pulled adjacent to the kop- tourok, the koptourok can fly until the end of the encounter"
-        }
-      ]
-    },
-    {
-      "name": "Exhale",
-      "effects": [
-        {
-          "effect": "The first time the koptourok is made winded by damage that isn't fire damage or holy damage, each enemy within 3 squares of them takes 8 corruption damage. Any enemy who takes this damage and has M < 3 is also weakened (save ends)"
         }
       ]
     }

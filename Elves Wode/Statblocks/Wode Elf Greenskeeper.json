@@ -1,10 +1,35 @@
 {
+  "name": "Wode Elf Greenskeeper",
+  "level": 1,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wide Elf"
+  ],
+  "ev": "6",
+  "stamina": "40",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the greenskeeper that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Growing Longsword",
@@ -46,14 +71,6 @@
       "effects": [
         {
           "effect": "The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is difficult terrain for enemies and any enemy who starts their turn in the area takes 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the greenskeeper that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

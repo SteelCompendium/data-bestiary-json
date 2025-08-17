@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Devil Legate",
+  "level": 5,
+  "roles": [
+    "Elite Defender"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "28",
+  "stamina": "160",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 1,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Hellish Bailiff",
+      "effects": [
+        {
+          "effect": "The legate has damage immunity 3 while in one of the Seven Cities of Hell or within 10 squares of a non-minion devil who is of a higher level than them."
+        }
+      ]
+    },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the legate's true name, the legate loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Infernal Pike",
@@ -77,22 +112,6 @@
       "effects": [
         {
           "effect": "The target makes a Presence test\n- **≤11:** The legate chooses a new target for the strike.\n- **12-16:** The legate halves the triggering damage.\n- **17+:** The target takes a bane on the strike."
-        }
-      ]
-    },
-    {
-      "name": "Hellish Bailiff",
-      "effects": [
-        {
-          "effect": "The legate has damage immunity 3 while in one of the Seven Cities of Hell or within 10 squares of a non-minion devil who is of a higher level than them."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the legate's true name, the legate loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
         }
       ]
     }

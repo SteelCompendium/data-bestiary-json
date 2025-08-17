@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Flesh Mournling",
+  "level": 4,
+  "roles": [
+    "Horde Defender"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "6",
+  "stamina": "35",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 6,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 2,
+  "might": 3,
+  "agility": 1,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Arise",
+      "effects": [
+        {
+          "effect": "The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone."
+        }
+      ]
+    },
+    {
+      "name": "Immutable Form",
+      "effects": [
+        {
+          "effect": "The mournling's shape can't be changed by any external effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Multiarm Strike",
@@ -51,22 +86,6 @@
         },
         {
           "effect": "A target who is still frightened this way at the end of the encounter can't take a respite activity during their next respite."
-        }
-      ]
-    },
-    {
-      "name": "Arise",
-      "effects": [
-        {
-          "effect": "The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone."
-        }
-      ]
-    },
-    {
-      "name": "Immutable Form",
-      "effects": [
-        {
-          "effect": "The mournling's shape can't be changed by any external effect."
         }
       ]
     }

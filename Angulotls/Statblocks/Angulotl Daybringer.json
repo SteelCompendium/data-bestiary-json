@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Angulotl Daybringer",
+  "level": 1,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "immunities": [
+    "Poison 3"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 4,
+  "might": 3,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Moisturizing End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the daybringer or uses a me lee ability against them, that enemy takes 3 poison damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Acid Grasp",
@@ -67,14 +103,6 @@
       ]
     },
     {
-      "name": "Moisturizing End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
       "name": "New Dawn",
       "cost": "Villain Action 1",
       "keywords": [
@@ -116,14 +144,6 @@
       "effects": [
         {
           "effect": "The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an edge. Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the daybringer or uses a me lee ability against them, that enemy takes 3 poison damage."
         }
       ]
     }

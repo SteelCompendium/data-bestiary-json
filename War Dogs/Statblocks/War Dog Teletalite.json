@@ -1,10 +1,36 @@
 {
+  "name": "War Dog Teletalite",
+  "level": 1,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "speed": 5,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the teletalite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Corrupted Ash Daggers",
@@ -61,14 +87,6 @@
       "effects": [
         {
           "effect": "The teletalite can teleport up to 5 squares and gains an edge on strikes until the end of their turn."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the teletalite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

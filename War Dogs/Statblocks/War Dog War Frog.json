@@ -1,10 +1,40 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "War Dog War Frog",
+  "level": 4,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Poison 4"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 bonus to speed",
+  "might": -1,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the war frog is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Poisoned Dagger",
@@ -27,14 +57,6 @@
         },
         {
           "effect": "The war frog can jump 3 squares before or after making the strike. If they end this jump in cover or concealment, they can attempt to hide."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the war frog is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Rival Null",
+  "level": 10,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "48",
+  "stamina": "240",
+  "speed": 7,
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 10,
+  "might": 3,
+  "agility": 5,
+  "reason": 4,
+  "intuition": 5,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Energy Conservation",
+      "effects": [
+        {
+          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Kinetic Danse",
@@ -44,22 +76,6 @@
           "t1": "13 damage; R < 3 dazed and restrained (save ends)",
           "t2": "17 damage; R < 4 dazed and restrained (save ends)",
           "t3": "20 damage; R < 5 dazed and restrained (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Energy Conservation",
-      "effects": [
-        {
-          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves the damage from it. The creature making the strike takes 10 damage."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

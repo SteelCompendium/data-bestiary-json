@@ -1,10 +1,46 @@
 {
+  "name": "Voiceless Talker Evolutionist",
+  "level": 6,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "immunities": [
+    "Psychic 8"
+  ],
+  "speed": 5,
+  "movement": "Hover, teleport",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 3,
+  "reason": 4,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Witness Evolutionary Superiority",
+      "effects": [
+        {
+          "effect": "The evolutionist has any trait of the Director's choice from any ally minion in the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Psionic Intrusion",
@@ -54,22 +90,6 @@
       "effects": [
         {
           "effect": "Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the evolutionist can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Witness Evolutionary Superiority",
-      "effects": [
-        {
-          "effect": "The evolutionist has any trait of the Director's choice from any ally minion in the encounter."
         }
       ]
     },

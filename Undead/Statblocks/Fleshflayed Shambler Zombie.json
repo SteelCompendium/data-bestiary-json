@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Fleshflayed Shambler Zombie",
+  "level": 4,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "9",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 3,
+  "agility": -1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Fleshfused Spines",
+      "effects": [
+        {
+          "effect": "Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bone Carvers",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "If this ability gains an edge or has a double edge, the target is bleeding (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Fleshfused Spines",
-      "effects": [
-        {
-          "effect": "Any adjacent enemy who grabs the fleshflayed shambler or uses melee ability against them takes 2 damage."
         }
       ]
     }

@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Shadow Elf Sniper",
+  "level": 4,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "7",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 1,
+  "agility": 3,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The sniper ignores concealment created by darkness. While the sniper is in direct sunlight, they have damage weakness 3. While the sniper has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lumina Arrow",
@@ -26,14 +53,6 @@
         },
         {
           "effect": "The next strike made against the target gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The sniper ignores concealment created by darkness. While the sniper is in direct sunlight, they have damage weakness 3. While the sniper has concealment, they have damage immunity 3."
         }
       ]
     }

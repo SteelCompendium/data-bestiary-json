@@ -1,10 +1,36 @@
 {
+  "name": "Wode Elf Yeoman",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the yeoman that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Heavy Longbow",
@@ -23,14 +49,6 @@
           "t1": "2 damage; push 1",
           "t2": "4 damage; push 2",
           "t3": "5 damage; push 3"
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the yeoman that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

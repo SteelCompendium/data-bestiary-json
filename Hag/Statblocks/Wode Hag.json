@@ -1,11 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Wode Hag",
+  "level": 3,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Fey",
+    "Hag"
+  ],
+  "ev": "60",
+  "stamina": "300",
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 6,
+  "might": 2,
+  "agility": 1,
+  "reason": 1,
+  "intuition": 3,
+  "presence": 3,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -26,7 +41,9 @@
           "effect": "Magic and psionic abilities used against the hag take a bane."
         }
       ]
-    },
+    }
+  ],
+  "abilities": [
     {
       "name": "Corrosive Claws",
       "cost": "Signature Ability",

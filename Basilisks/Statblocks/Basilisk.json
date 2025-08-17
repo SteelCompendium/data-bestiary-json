@@ -1,10 +1,37 @@
 {
-  "might": 0,
+  "name": "Basilisk",
+  "level": 1,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Basilisk",
+    "Beast"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "immunities": [
+    "Poison 4"
+  ],
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": -3,
+  "intuition": -1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Calcifying Presence",
+      "effects": [
+        {
+          "effect": "The area within 3 squares of the basilisk is difficult terrain for enemies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Noxious Bite",
@@ -85,14 +112,6 @@
       "effects": [
         {
           "effect": "Each target takes 5 damage. Any target who has A < 2 is also bleeding (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Calcifying Presence",
-      "effects": [
-        {
-          "effect": "The area within 3 squares of the basilisk is difficult terrain for enemies."
         }
       ]
     }

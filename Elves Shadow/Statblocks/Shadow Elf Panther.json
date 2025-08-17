@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Shadow Elf Panther",
+  "level": 4,
+  "roles": [
+    "Platoon Brute"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "12",
+  "stamina": "70",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 2,
+  "reason": -1,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The panther ignores concealment created by darkness. While the panther is in direct sunlight, they have damage weakness 3. While the panther has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Dusk Cleave",
@@ -48,14 +74,6 @@
         },
         {
           "effect": "The panther has a double edge on strikes against targets dazed this way."
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The panther ignores concealment created by darkness. While the panther is in direct sunlight, they have damage weakness 3. While the panther has concealment, they have damage immunity 3."
         }
       ]
     }

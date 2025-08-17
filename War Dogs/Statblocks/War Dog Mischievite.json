@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "War Dog Mischievite",
+  "level": 5,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "7",
+  "stamina": "35",
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 1,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The mischievite doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the mischievite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fuse-Iron Knives",
@@ -45,22 +78,6 @@
         {
           "effect": "The mischievite can use this ability as a triggered action when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The mischievite doesn't provoke opportunity attacks by moving."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the mischievite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

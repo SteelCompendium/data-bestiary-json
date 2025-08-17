@@ -1,10 +1,61 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Servok Miner",
+  "level": 9,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Construct",
+    "Servok",
+    "Soulless",
+    "Valok"
+  ],
+  "ev": "44",
+  "stamina": "200",
+  "speed": 5,
+  "movement": "Burrow, climb",
+  "size": "2",
+  "stability": 6,
+  "free_strike": 9,
+  "might": 4,
+  "agility": -2,
+  "reason": -4,
+  "intuition": -1,
+  "presence": -5,
+  "traits": [
+    {
+      "name": "Valiar Tunneler",
+      "effects": [
+        {
+          "effect": "The miner can burrow through stone and metal. When the miner burrows, they create a stable size 2 tunnel in their wake."
+        }
+      ]
+    },
+    {
+      "name": "Servok Siege Machine",
+      "effects": [
+        {
+          "effect": "The miner ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
+        }
+      ]
+    },
+    {
+      "name": "Crafted to Perfection",
+      "effects": [
+        {
+          "effect": "The miner's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "name": "Valiar Might",
+      "effects": [
+        {
+          "effect": "While the miner isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Drill Press",
@@ -72,38 +123,6 @@
       "effects": [
         {
           "effect": "Until the end of the round, dust and dirt billow in a 2 burst around the miner's initial space. While the miner is in the area, they ignore the nondamaging effects of any strike made against them, including the triggering strike."
-        }
-      ]
-    },
-    {
-      "name": "Valiar Tunneler",
-      "effects": [
-        {
-          "effect": "The miner can burrow through stone and metal. When the miner burrows, they create a stable size 2 tunnel in their wake."
-        }
-      ]
-    },
-    {
-      "name": "Servok Siege Machine",
-      "effects": [
-        {
-          "effect": "The miner ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The miner's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the miner isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

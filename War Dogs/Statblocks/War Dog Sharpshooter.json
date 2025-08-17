@@ -1,10 +1,36 @@
 {
+  "name": "War Dog Sharpshooter",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bolt Launcher",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "This ability ignores cover and concealment."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
         }
       ]
     }

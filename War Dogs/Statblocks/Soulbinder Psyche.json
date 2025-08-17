@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Soulbinder Psyche",
+  "level": 10,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "48",
+  "stamina": "220",
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 10,
+  "might": 1,
+  "agility": 3,
+  "reason": 3,
+  "intuition": 4,
+  "presence": 5,
+  "traits": [
+    {
+      "name": "Immortal Soul",
+      "effects": [
+        {
+          "effect": "When Psyche is reduced to 0 Stamina, her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soulbind",
@@ -102,14 +128,6 @@
         {
           "effect": "The target also takes a bane on their next strike.",
           "cost": "1 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Immortal Soul",
-      "effects": [
-        {
-          "effect": "When Psyche is reduced to 0 Stamina, her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die."
         }
       ]
     },

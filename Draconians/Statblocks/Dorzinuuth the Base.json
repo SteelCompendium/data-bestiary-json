@@ -1,10 +1,55 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Dorzinuuth the Base",
+  "level": 6,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "immunities": [
+    "Lightning 6"
+  ],
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "2",
+  "stability": 3,
+  "free_strike": 7,
+  "might": 4,
+  "agility": 1,
+  "reason": 1,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of his turns, Dorzinuuth can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Remember Your Oath",
+      "effects": [
+        {
+          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Sheltering Wings",
+      "effects": [
+        {
+          "effect": "While Dorzinuuth isn't flying, strikes made against him take a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Punishing Flail",
@@ -63,30 +108,6 @@
       "effects": [
         {
           "effect": "Dorzinuuth shields the triggering ally with his wings, halving the damage."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of his turns, Dorzinuuth can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Remember Your Oath",
-      "effects": [
-        {
-          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Sheltering Wings",
-      "effects": [
-        {
-          "effect": "While Dorzinuuth isn't flying, strikes made against him take a bane."
         }
       ]
     },

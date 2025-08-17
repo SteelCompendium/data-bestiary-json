@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Brush Stalker",
+  "level": 4,
+  "roles": [
+    "Platoon Mount"
+  ],
+  "ancestry": [
+    "Animal",
+    "Fey",
+    "Shadow Elf"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "speed": 8,
+  "size": "2",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 3,
+  "agility": 2,
+  "reason": -1,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Suneater",
+      "effects": [
+        {
+          "effect": "The area within 2 squares of the brush stalker is devoid of light and provides concealment."
+        }
+      ]
+    },
+    {
+      "name": "Wyrd Dyr",
+      "effects": [
+        {
+          "effect": "While they have line of effect to the brush stalker, any animal except another brush stalker is frightened"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Gore",
@@ -43,22 +76,6 @@
           "t1": "4 corruption damage; M < 1 weakened (save ends)",
           "t2": "7 corruption damage; M < 2 weakened (save ends)",
           "t3": "10 corruption damage; M < 3 weakened (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Suneater",
-      "effects": [
-        {
-          "effect": "The area within 2 squares of the brush stalker is devoid of light and provides concealment."
-        }
-      ]
-    },
-    {
-      "name": "Wyrd Dyr",
-      "effects": [
-        {
-          "effect": "While they have line of effect to the brush stalker, any animal except another brush stalker is frightened"
         }
       ]
     }

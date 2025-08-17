@@ -1,10 +1,33 @@
 {
+  "name": "Animal",
+  "level": 1,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Animal"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": -2,
+  "intuition": 1,
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Natural Weapon",
@@ -40,14 +63,6 @@
       "effects": [
         {
           "effect": "The animal moves up to their speed."
-        }
-      ]
-    },
-    {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

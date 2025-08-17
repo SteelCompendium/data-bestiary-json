@@ -1,10 +1,40 @@
 {
+  "name": "Hobgoblin Redglare",
+  "level": 6,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "16",
+  "stamina": "70",
+  "immunities": [
+    "Fire 6"
+  ],
+  "speed": 5,
+  "movement": "Teleport",
+  "size": "1L",
+  "stability": 4,
+  "free_strike": 6,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the redglare is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the redglare takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Eye Flash",
@@ -46,14 +76,6 @@
         },
         {
           "effect": "Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 Stamina each time they use an ability or other effect that allows another creature to spend a Recovery."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the redglare is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the redglare takes 3 fire damage."
         }
       ]
     }

@@ -1,10 +1,47 @@
 {
+  "name": "War Dog Arachnite",
+  "level": 6,
+  "roles": [
+    "Horde Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "8",
+  "stamina": "35",
+  "immunities": [
+    "Psychic 6"
+  ],
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 3,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Eight-Eyed Sight",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the arachnite automatically knows the location of each hidden creature within 10 squares of them."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the arachnite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Longarm Shrikegun",
@@ -45,22 +82,6 @@
       "effects": [
         {
           "effect": "The area is difficult terrain until the end of the encounter"
-        }
-      ]
-    },
-    {
-      "name": "Eight-Eyed Sight",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the arachnite automatically knows the location of each hidden creature within 10 squares of them."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the arachnite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

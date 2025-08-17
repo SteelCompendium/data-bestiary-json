@@ -1,11 +1,30 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Count Rhodar von Glauer",
+  "level": 10,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Undead",
+    "Vampire"
+  ],
+  "ev": "144",
+  "stamina": "26503",
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "speed": 1,
+  "movement": "Fly, hover, teleport",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 0,
+  "might": 3,
+  "agility": 5,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -35,6 +54,16 @@
         }
       ]
     },
+    {
+      "name": "Lord's Bloodthirst",
+      "effects": [
+        {
+          "effect": "Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is bleeding. Any bleeding creature within 10 squares of Rhodar can't hide."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Spear of the Damned",
       "cost": "Signature Ability",
@@ -151,14 +180,6 @@
       "effects": [
         {
           "effect": "A target who has I < 5 is frightened. This effect ends if the target is 11 or more squares from Rhodar."
-        }
-      ]
-    },
-    {
-      "name": "Lord's Bloodthirst",
-      "effects": [
-        {
-          "effect": "Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is bleeding. Any bleeding creature within 10 squares of Rhodar can't hide."
         }
       ]
     },

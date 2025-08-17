@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Wraith Skulker",
+  "level": 10,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "15",
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "speed": 7,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 4,
+  "with_captain": "+3 bonus to speed",
+  "might": -2,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 1,
+  "presence": 5,
+  "traits": [
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Draining Rake",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "The wraith turns invisible until the start of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being force moved into objects."
         }
       ]
     }

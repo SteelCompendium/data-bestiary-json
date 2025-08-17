@@ -1,10 +1,45 @@
 {
-  "might": 0,
+  "name": "Mummy Lord",
+  "level": 4,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Mummy",
+    "Undead"
+  ],
+  "ev": "24",
+  "stamina": "155",
+  "immunities": [
+    "Corruption 6",
+    "poison 6"
+  ],
+  "weaknesses": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 4,
+  "free_strike": 6,
+  "might": 4,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 2,
+  "intuition": 4,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Cursed Transference",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        },
+        {
+          "effect": "The effect that is ended is transferred to another creature within 10 squares.",
+          "cost": "5 Malice"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Accursed Slam",
@@ -68,18 +103,6 @@
       "effects": [
         {
           "effect": "One mummy or four ghoul cravers appear within distance."
-        }
-      ]
-    },
-    {
-      "name": "Cursed Transference",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        },
-        {
-          "effect": "The effect that is ended is transferred to another creature within 10 squares.",
-          "cost": "5 Malice"
         }
       ]
     },

@@ -1,10 +1,39 @@
 {
+  "name": "Angulotl Cleaver",
+  "level": 1,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "4",
+  "immunities": [
+    "Poison 2"
+  ],
+  "speed": 6,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hop and Chop",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "The cleaver jumps up to 4 squares before or after making this strike."
-        }
-      ]
-    },
-    {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage."
         }
       ]
     }

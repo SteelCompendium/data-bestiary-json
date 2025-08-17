@@ -1,10 +1,35 @@
 {
+  "name": "Kobold Sagittarion",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Composite Bow",
@@ -26,14 +51,6 @@
         },
         {
           "effect": "While adjacent to any ally, the sagittarion gains an edge on this ability."
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

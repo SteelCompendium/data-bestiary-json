@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Goblin Sniper",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
+  "might": -2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The sniper doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bow",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "If the sniper doesn't use a move action this turn, this ability gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The sniper doesn't provoke opportunity attacks by moving."
         }
       ]
     }

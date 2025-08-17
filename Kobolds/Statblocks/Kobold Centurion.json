@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Kobold Centurion",
+  "level": 1,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Kobold",
+    "Humanoid"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "speed": 5,
+  "size": "1S",
+  "stability": 2,
+  "free_strike": 2,
+  "might": 2,
+  "agility": 3,
+  "reason": 2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Pilum",
@@ -68,14 +100,6 @@
       ]
     },
     {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
       "name": "Firetail Pilum",
       "cost": "Villain Action 1",
       "keywords": [
@@ -119,14 +143,6 @@
       "effects": [
         {
           "effect": "A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2."
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies."
         }
       ]
     }

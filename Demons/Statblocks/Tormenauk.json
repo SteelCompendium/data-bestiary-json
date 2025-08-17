@@ -1,10 +1,45 @@
 {
-  "might": 0,
+  "name": "Tormenauk",
+  "level": 6,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "8",
+  "stamina": "45",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 3,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 2,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the tormenauk can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Many Maws",
@@ -48,22 +83,6 @@
         },
         {
           "effect": "The potency increases by 1 if the target is grabbed by the tormenauk."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the tormenauk is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the tormenauk can't be hidden from them."
         }
       ]
     }

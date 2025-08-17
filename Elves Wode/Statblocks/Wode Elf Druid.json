@@ -1,10 +1,36 @@
 {
+  "name": "Wode Elf Druid",
+  "level": 2,
+  "roles": [
+    "Platoon Controller"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "8",
+  "stamina": "30",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the druid that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Entangling Vines",
@@ -46,14 +72,6 @@
       "effects": [
         {
           "effect": "Each target can teleport up to 10 squares to a space that has cover or concealment."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the druid that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

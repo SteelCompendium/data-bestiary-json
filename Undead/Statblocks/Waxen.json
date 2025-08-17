@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Waxen",
+  "level": 7,
+  "roles": [
+    "Horde Artillery"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "9",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "speed": 4,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 4,
+  "agility": -2,
+  "reason": -4,
+  "intuition": 1,
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Burn Bright",
+      "effects": [
+        {
+          "effect": "If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Wax Fling",
@@ -42,14 +70,6 @@
       "effects": [
         {
           "effect": "If the waxen is ignited (see Burn Bright), they shift up to their speed before using this ability. Each target makes an **Agility test**.\n- **≤11:** 10 damage\n- **12-16:** 8 damage\n- **17+:** 5 damage\n- The waxen is then destroyed and the area is difficult terrain for enemies."
-        }
-      ]
-    },
-    {
-      "name": "Burn Bright",
-      "effects": [
-        {
-          "effect": "If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their strikes deal an extra 4 fire damage."
         }
       ]
     }

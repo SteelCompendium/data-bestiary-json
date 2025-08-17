@@ -1,10 +1,38 @@
 {
-  "might": 0,
+  "name": "Ensnarer",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "5",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+2 bonus to melee distance",
+  "might": 2,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": -1,
+  "intuition": -1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the ensnarer can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Barbed Tongues",
@@ -26,14 +54,6 @@
         },
         {
           "effect": "If the target is pulled adjacent to the ensnarer, the ensnarer can make a free strike against them."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the ensnarer can't be hidden from them."
         }
       ]
     }

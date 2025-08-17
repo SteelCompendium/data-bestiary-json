@@ -1,11 +1,30 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Orc Eye of Grole",
+  "level": 1,
+  "roles": [
+    "Platoon Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "6",
+  "stamina": "20",
+  "immunities": [
+    "Cold",
+    "fire",
+    "or lightning"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 1,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "presence": -2,
+  "traits": [
     {
       "name": "Elemental Affinity",
       "effects": [
@@ -14,6 +33,16 @@
         }
       ]
     },
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the eye is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the eye is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Elemental Discharge",
       "cost": "Signature Ability",
@@ -56,14 +85,6 @@
         },
         {
           "effect": "This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has damage weakness 3 to the same damage type (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the eye is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the eye is reduced to 1 Stamina instead."
         }
       ]
     }

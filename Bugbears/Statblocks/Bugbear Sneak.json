@@ -1,6 +1,23 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Bugbear Sneak",
+  "level": 2,
+  "roles": [
+    "Elite Ambusher"
+  ],
+  "ancestry": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "16",
+  "stamina": "80",
+  "speed": 7,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,

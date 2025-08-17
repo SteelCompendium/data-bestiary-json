@@ -1,10 +1,38 @@
 {
+  "name": "Human Trickshot",
+  "level": 1,
+  "roles": [
+    "Platoon Artillery"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "20",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The trickshot ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Trick Crossbow",
@@ -31,14 +59,6 @@
         {
           "effect": "This ability targets one additional target.",
           "cost": "3 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The trickshot ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

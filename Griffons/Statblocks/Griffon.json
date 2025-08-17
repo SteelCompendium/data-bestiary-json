@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Griffon",
+  "level": 2,
+  "roles": [
+    "Elite Mount"
+  ],
+  "ancestry": [
+    "Beast",
+    "Griffon"
+  ],
+  "ev": "16",
+  "stamina": "80",
+  "speed": 9,
+  "movement": "Fly",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 2,
+  "reason": -1,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Beast of Prey",
+      "effects": [
+        {
+          "effect": "While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver."
+        }
+      ]
+    },
+    {
+      "name": "Steady",
+      "effects": [
+        {
+          "effect": "Any power roll that could knock the griffon or their rider prone takes a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Claw Swipes",
@@ -90,22 +123,6 @@
       "effects": [
         {
           "effect": "The griffon halves the damage, ignores any nondamaging effects associated with it, and shifts up to 2 squares"
-        }
-      ]
-    },
-    {
-      "name": "Beast of Prey",
-      "effects": [
-        {
-          "effect": "While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver."
-        }
-      ]
-    },
-    {
-      "name": "Steady",
-      "effects": [
-        {
-          "effect": "Any power roll that could knock the griffon or their rider prone takes a bane."
         }
       ]
     }

@@ -1,10 +1,37 @@
 {
+  "name": "Time Raider Cannonfall",
+  "level": 3,
+  "roles": [
+    "Platoon Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "10",
+  "stamina": "40",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 5,
+  "size": "1L",
+  "stability": 3,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Foresight Squared",
+      "effects": [
+        {
+          "effect": "The cannonfall doesn't take a bane on strikes against creatures with concealment or cover."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Sunderbuss",
@@ -44,14 +71,6 @@
       "effects": [
         {
           "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability"
-        }
-      ]
-    },
-    {
-      "name": "Foresight Squared",
-      "effects": [
-        {
-          "effect": "The cannonfall doesn't take a bane on strikes against creatures with concealment or cover."
         }
       ]
     }

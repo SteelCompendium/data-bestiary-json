@@ -1,10 +1,63 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Zapper Eye",
+  "level": 6,
+  "roles": [
+    "Artillery"
+  ],
+  "ancestry": [
+    "Eyestalk",
+    "Horror",
+    "Overmind"
+  ],
+  "ev": "-",
+  "movement": "Fly, hover",
+  "might": -1,
+  "agility": 1,
+  "reason": 4,
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The zapper eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    },
+    {
+      "name": "Gas Belch",
+      "effects": [
+        {
+          "effect": "Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is weakened (save ends)."
+        }
+      ]
+    },
+    {
+      "name": "Slime Trail",
+      "effects": [
+        {
+          "effect": "Until the end of Xorannox's next turn, whenever he or any of his eyes leave their space, they secrete a viscous slime onto the ground in that area. Any enemy who enters an affected square has lightning weakness 5 and fire weakness 5 until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Solo Action",
+      "effects": [
+        {
+          "effect": "Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed."
+        }
+      ]
+    },
+    {
+      "name": "Mind Over Matter",
+      "effects": [
+        {
+          "effect": "Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is force moved, they are pulled 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lightning Beam",
@@ -25,50 +78,6 @@
         },
         {
           "effect": "Each target loses all their surges."
-        }
-      ]
-    },
-    {
-      "name": "Psionic Barrier",
-      "effects": [
-        {
-          "effect": "The zapper eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
-        }
-      ]
-    },
-    {
-      "name": "Gas Belch",
-      "cost": "3 Malice",
-      "effects": [
-        {
-          "effect": "Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is weakened (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Slime Trail",
-      "cost": "5 Malice",
-      "effects": [
-        {
-          "effect": "Until the end of Xorannox's next turn, whenever he or any of his eyes leave their space, they secrete a viscous slime onto the ground in that area. Any enemy who enters an affected square has lightning weakness 5 and fire weakness 5 until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Solo Action",
-      "cost": "5 Malice",
-      "effects": [
-        {
-          "effect": "Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed."
-        }
-      ]
-    },
-    {
-      "name": "Mind Over Matter",
-      "cost": "7 Malice",
-      "effects": [
-        {
-          "effect": "Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is force moved, they are pulled 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends."
         }
       ]
     }

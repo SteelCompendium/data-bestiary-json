@@ -1,10 +1,45 @@
 {
-  "might": 0,
+  "name": "Essence of Tides",
+  "level": 3,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Elemental"
+  ],
+  "ev": "20",
+  "stamina": "80",
+  "immunities": [
+    "Cold 5"
+  ],
+  "speed": 7,
+  "movement": "Swim",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 5,
+  "might": 2,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 1,
+  "intuition": -1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Water Glide",
+      "effects": [
+        {
+          "effect": "Whenever the essence starts their turn in a space containing water, they can fly until the end of their turn. While flying, the essence doesn't provoke opportunity attacks."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Water Wing",
@@ -61,22 +96,6 @@
       "effects": [
         {
           "effect": "The essence makes a free strike against the target."
-        }
-      ]
-    },
-    {
-      "name": "Fickle and Free",
-      "effects": [
-        {
-          "effect": "The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
-        }
-      ]
-    },
-    {
-      "name": "Water Glide",
-      "effects": [
-        {
-          "effect": "Whenever the essence starts their turn in a space containing water, they can fly until the end of their turn. While flying, the essence doesn't provoke opportunity attacks."
         }
       ]
     }

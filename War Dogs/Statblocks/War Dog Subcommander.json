@@ -1,10 +1,43 @@
 {
-  "might": 0,
+  "name": "War Dog Subcommander",
+  "level": 2,
+  "roles": [
+    "Horde Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "4",
+  "stamina": "20",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "The Iron Saint Does Not Recognize Retreat",
+      "effects": [
+        {
+          "effect": "Each ally within 5 squares of the subcommander gains a +3 bonus to stability."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the subcommander is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Command Saber",
@@ -41,22 +74,6 @@
       "effects": [
         {
           "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "The Iron Saint Does Not Recognize Retreat",
-      "effects": [
-        {
-          "effect": "Each ally within 5 squares of the subcommander gains a +3 bonus to stability."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the subcommander is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

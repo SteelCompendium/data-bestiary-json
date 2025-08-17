@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Ogre Blue Blood",
+  "level": 7,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Giant",
+    "Ogre"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "13",
+  "speed": 5,
+  "size": "2",
+  "stability": 4,
+  "free_strike": 4,
+  "with_captain": "Gain an edge on strikes",
+  "might": 4,
+  "agility": 1,
+  "reason": -1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "In My Stead",
+      "effects": [
+        {
+          "effect": "Whenever the blue blood would make a free strike, an ally within 5 squares can make a free strike instead."
+        }
+      ]
+    },
+    {
+      "name": "Royal Anger",
+      "effects": [
+        {
+          "effect": "The blue blood has damage immunity 2 while their squad has three or fewer minions in it."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Crush Underfoot",
@@ -26,22 +59,6 @@
         },
         {
           "effect": "A target who is already prone takes an extra 4 damage."
-        }
-      ]
-    },
-    {
-      "name": "In My Stead",
-      "effects": [
-        {
-          "effect": "Whenever the blue blood would make a free strike, an ally within 5 squares can make a free strike instead."
-        }
-      ]
-    },
-    {
-      "name": "Royal Anger",
-      "effects": [
-        {
-          "effect": "The blue blood has damage immunity 2 while their squad has three or fewer minions in it."
         }
       ]
     }

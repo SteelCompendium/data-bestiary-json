@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Aurumvas",
+  "level": 10,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "48",
+  "stamina": "260",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 8,
+  "movement": "Fly",
+  "size": "3",
+  "stability": 2,
+  "free_strike": 10,
+  "might": 5,
+  "agility": 2,
+  "reason": 5,
+  "intuition": 3,
+  "presence": 5,
+  "traits": [
     {
       "name": "Absorb Soul",
       "effects": [
@@ -14,6 +32,24 @@
         }
       ]
     },
+    {
+      "name": "More... More...",
+      "effects": [
+        {
+          "effect": "While Aurumvas is winded, he has a double edge on strikes."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 5 squares of Aurumvas can't be hidden from him."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Greedy Hands",
       "cost": "Signature Ability",
@@ -74,22 +110,6 @@
       "effects": [
         {
           "effect": "Aurumvas chooses a supernatural treasure or an item made of gold and teleports to an unoccupied space adjacent to that object, then ends one effect on him that can be ended by a saving throw."
-        }
-      ]
-    },
-    {
-      "name": "More... More...",
-      "effects": [
-        {
-          "effect": "While Aurumvas is winded, he has a double edge on strikes."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 5 squares of Aurumvas can't be hidden from him."
         }
       ]
     },

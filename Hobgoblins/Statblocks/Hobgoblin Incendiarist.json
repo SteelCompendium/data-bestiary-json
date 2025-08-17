@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Hobgoblin Incendiarist",
+  "level": 5,
+  "roles": [
+    "Platoon Artillery"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "14",
+  "stamina": "60",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
+  "might": 1,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Raining Cinders",
+      "effects": [
+        {
+          "effect": "The ranged free strike of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the incendiarist is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the incendiarist takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fire Crossbow",
@@ -49,22 +86,6 @@
         },
         {
           "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
-        }
-      ]
-    },
-    {
-      "name": "Raining Cinders",
-      "effects": [
-        {
-          "effect": "The ranged free strike of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the incendiarist is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the incendiarist takes 3 fire damage."
         }
       ]
     }

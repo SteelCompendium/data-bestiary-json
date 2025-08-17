@@ -1,11 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Medusa",
+  "level": 5,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Accursed",
+    "Humanoid",
+    "Medusa"
+  ],
+  "ev": "84",
+  "stamina": "0420",
+  "speed": 1,
+  "size": "1M",
+  "stability": 5,
+  "free_strike": 8,
+  "might": 2,
+  "agility": 4,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
-  "abilities": [
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -19,6 +34,24 @@
         }
       ]
     },
+    {
+      "name": "Cunning Edge",
+      "effects": [
+        {
+          "effect": "The medusa gains an edge on power rolls against any creature who is restrained or slowed by Petrify."
+        }
+      ]
+    },
+    {
+      "name": "Many Peering Eyes",
+      "effects": [
+        {
+          "effect": "The medusa can't be flanked"
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Snake Bites",
       "cost": "Signature Ability",
@@ -115,22 +148,6 @@
           "t1": "13 acid damage",
           "t2": "18 acid damage",
           "t3": "22 acid damage"
-        }
-      ]
-    },
-    {
-      "name": "Cunning Edge",
-      "effects": [
-        {
-          "effect": "The medusa gains an edge on power rolls against any creature who is restrained or slowed by Petrify."
-        }
-      ]
-    },
-    {
-      "name": "Many Peering Eyes",
-      "effects": [
-        {
-          "effect": "The medusa can't be flanked"
         }
       ]
     },

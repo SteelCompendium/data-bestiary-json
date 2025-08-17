@@ -1,9 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
+  "name": "Optacus",
+  "level": 10,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "14",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 5,
+  "with_captain": "+4 bonus to speed",
+  "might": 1,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 5,
+  "presence": 1,
   "traits": [],
   "abilities": [
     {

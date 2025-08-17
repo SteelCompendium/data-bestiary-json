@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Hollowbone Launcher",
+  "level": 4,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "7",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+5 bonus to ranged distance",
+  "might": -2,
+  "agility": 3,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Brittle Revenge",
+      "effects": [
+        {
+          "effect": "The hollowbone launcher explodes when they are reduced to 0 Stamina, dealing 2 damage to each adjacent creature"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hollowbone Slug",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "Each creature adjacent to the target takes 2 damage."
-        }
-      ]
-    },
-    {
-      "name": "Brittle Revenge",
-      "effects": [
-        {
-          "effect": "The hollowbone launcher explodes when they are reduced to 0 Stamina, dealing 2 damage to each adjacent creature"
         }
       ]
     }

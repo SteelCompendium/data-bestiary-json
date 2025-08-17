@@ -1,8 +1,23 @@
 {
+  "name": "Dwarf Trapper",
+  "level": 1,
+  "roles": [
+    "Platoon Harrier"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "36",
+  "speed": 7,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
   "traits": [],
   "abilities": [

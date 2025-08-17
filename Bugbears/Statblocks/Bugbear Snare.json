@@ -1,9 +1,27 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Bugbear Snare",
+  "level": 5,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "9",
+  "speed": 6,
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 3,
+  "with_captain": "+3 bonus to speed",
+  "might": 2,
+  "agility": 3,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
+  "presence": 1,
   "traits": [],
   "abilities": [
     {

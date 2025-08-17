@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Kobold Legionary",
+  "level": 1,
+  "roles": [
+    "Horde Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "ev": "3",
+  "stamina": "20",
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Gladius",
@@ -46,14 +70,6 @@
           "t1": "2 damage; push 1; M < 0 prone",
           "t2": "3 damage; push 1; M < 1 prone",
           "t3": "4 damage; push 1; M < 2 prone"
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

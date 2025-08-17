@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Angulotl Slink",
+  "level": 1,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "immunities": [
+    "Poison 2"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "might": 1,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Adhesive",
+      "effects": [
+        {
+          "effect": "The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be restrained until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square."
+        }
+      ]
+    },
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the slink or uses a melee ability against them, that enemy takes 2 poison damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Tonguelash",
@@ -41,22 +77,6 @@
       "effects": [
         {
           "effect": "The slink jumps up to 3 squares. If they have cover or concealment when they land, they can attempt to hide."
-        }
-      ]
-    },
-    {
-      "name": "Adhesive",
-      "effects": [
-        {
-          "effect": "The slink excretes a sticky residue into their square at the end of each of their turns. Any non-angulotl who enters or leaves the square is stuck, and must use a maneuver to break free or be restrained until the end of their turn. Objects are likewise affected, and a creature must use a maneuver to remove an object from the square."
-        }
-      ]
-    },
-    {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the slink or uses a melee ability against them, that enemy takes 2 poison damage."
         }
       ]
     }

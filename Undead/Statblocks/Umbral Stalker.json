@@ -1,10 +1,38 @@
 {
+  "name": "Umbral Stalker",
+  "level": 1,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Chilling Grasp",
@@ -60,14 +88,6 @@
       "effects": [
         {
           "effect": "The umbral stalker teleports to an unoccupied space in an area of concealment within 10 squares."
-        }
-      ]
-    },
-    {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being force moved into objects."
         }
       ]
     }

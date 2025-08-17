@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Animal Swarm",
+  "level": 1,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Animal",
+    "Swarm"
+  ],
+  "ev": "12",
+  "stamina": "40",
+  "speed": 5,
+  "size": "2",
+  "stability": 1,
+  "free_strike": 4,
+  "might": -2,
+  "agility": 1,
+  "reason": -3,
+  "intuition": 2,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal swarm can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flurry",
@@ -30,14 +62,6 @@
       ]
     },
     {
-      "name": "Swarm",
-      "effects": [
-        {
-          "effect": "The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a free strike against each creature whose space they share."
-        }
-      ]
-    },
-    {
       "name": "Impede",
       "keywords": [
         "Area"
@@ -48,14 +72,6 @@
       "effects": [
         {
           "effect": "The area is difficult terrain for enemies until the start of the animal swarm's next turn."
-        }
-      ]
-    },
-    {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the animal swarm can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

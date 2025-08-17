@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Essence of Storms",
+  "level": 3,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Elemental"
+  ],
+  "ev": "20",
+  "stamina": "100",
+  "immunities": [
+    "Lightning 5"
+  ],
+  "speed": 8,
+  "movement": "Fly",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 1,
+  "agility": 2,
+  "reason": -1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bluster",
@@ -61,14 +88,6 @@
       "effects": [
         {
           "effect": "The target takes 5 lightning damage."
-        }
-      ]
-    },
-    {
-      "name": "Fickle and Free",
-      "effects": [
-        {
-          "effect": "The essence can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
         }
       ]
     }

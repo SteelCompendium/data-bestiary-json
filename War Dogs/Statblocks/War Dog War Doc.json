@@ -1,10 +1,35 @@
 {
+  "name": "War Dog War Doc",
+  "level": 5,
+  "roles": [
+    "Horde Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "7",
+  "stamina": "35",
+  "speed": 5,
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": 1,
+  "reason": 3,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Body Bank Branch Manager",
+      "effects": [
+        {
+          "effect": "If the war doc uses the Reconstitute war dog Malice feature, it costs 1 Malice less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute)"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Syringe Crossbow",
@@ -58,14 +83,6 @@
       "effects": [
         {
           "effect": "Each ally adjacent to the dead ally deals an extra 6 damage on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "Body Bank Branch Manager",
-      "effects": [
-        {
-          "effect": "If the war doc uses the Reconstitute war dog Malice feature, it costs 1 Malice less. Additionally, allies can treat the living war doc as a corpse when using the Reconstitute feature (see Reconstitute)"
         }
       ]
     }

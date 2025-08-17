@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Mindkiller Whelp",
+  "level": 6,
+  "roles": [
+    "Minion Hexer"
+  ],
+  "ancestry": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "ev": "8 for four minions",
+  "stamina": "9",
+  "immunities": [
+    "Psychic 6"
+  ],
+  "speed": 4,
+  "movement": "Fly, hover",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": -1,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Psionic Conductor",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Eager Claws",
@@ -38,14 +67,6 @@
       "effects": [
         {
           "effect": "The whelp transforms into a mindkiller whose Stamina equals their squad's Stamina pool before transforming. The Stamina pool then loses the whelp's Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Psionic Conductor",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space."
         }
       ]
     }

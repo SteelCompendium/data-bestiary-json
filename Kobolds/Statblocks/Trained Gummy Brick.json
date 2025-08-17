@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Trained Gummy Brick",
+  "level": 1,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Kobold",
+    "Ooze",
+    "Soulless"
+  ],
+  "ev": "12",
+  "stamina": "40",
+  "immunities": [
+    "Acid 3"
+  ],
+  "speed": 5,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 2,
+  "agility": -1,
+  "reason": -3,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Translucent Brick",
+      "effects": [
+        {
+          "effect": "The brick completely occupies their space, blocking line of effect for enemies. The brick is hidden until they act."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Engulf",
@@ -45,14 +73,6 @@
       "effects": [
         {
           "effect": "The brick uses Engulf against the triggering creature and has a double edge."
-        }
-      ]
-    },
-    {
-      "name": "Translucent Brick",
-      "effects": [
-        {
-          "effect": "The brick completely occupies their space, blocking line of effect for enemies. The brick is hidden until they act."
         }
       ]
     }

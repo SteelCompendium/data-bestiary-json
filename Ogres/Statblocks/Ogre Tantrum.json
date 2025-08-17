@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Ogre Tantrum",
+  "level": 7,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Giant",
+    "Ogre"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "10",
+  "speed": 5,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "+5 bonus to ranged distance",
+  "might": 4,
+  "agility": 2,
+  "reason": -1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Excessive Anger",
+      "effects": [
+        {
+          "effect": "The tantrum has damage immunity 3 and speed 8 while their squad has two or fewer minions in it."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Throw Fit",
@@ -29,14 +54,6 @@
         },
         {
           "effect": "A creature or object used as a projectile is vertically pushed 8 (or 13 with a captain), ignoring stability."
-        }
-      ]
-    },
-    {
-      "name": "Excessive Anger",
-      "effects": [
-        {
-          "effect": "The tantrum has damage immunity 3 and speed 8 while their squad has two or fewer minions in it."
         }
       ]
     }

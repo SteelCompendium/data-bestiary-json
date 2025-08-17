@@ -1,10 +1,45 @@
 {
+  "name": "Blight Phage",
+  "level": 7,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "9",
+  "stamina": "40",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "3",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 4,
+  "intuition": 2,
+  "presence": 4,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the blight phage can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Blight Pus",
@@ -50,22 +85,6 @@
         {
           "effect": "The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the blight phage can't be hidden from them."
         }
       ]
     }

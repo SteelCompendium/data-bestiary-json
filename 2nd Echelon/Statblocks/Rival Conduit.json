@@ -1,10 +1,42 @@
 {
-  "might": 0,
+  "name": "Rival Conduit",
+  "level": 5,
+  "roles": [
+    "Elite Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "28",
+  "stamina": "140",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 6,
+  "might": 2,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Stalwart Guardian",
+      "effects": [
+        {
+          "effect": "Strikes made against allies adjacent to the conduit take a bane."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Raging Tempest",
@@ -43,22 +75,6 @@
       "effects": [
         {
           "effect": "Each target has a double edge on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "Stalwart Guardian",
-      "effects": [
-        {
-          "effect": "Strikes made against allies adjacent to the conduit take a bane."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
+  "name": "War Dog Sparkslinger",
+  "level": 4,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "7",
+  "immunities": [
+    "Lightning 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "Lightning spread increases by 1 square",
   "might": 0,
   "agility": 0,
-  "reason": 0,
+  "reason": 3,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the sparkslinger is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Galvanic Arc",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "The lightning's spread is the distance it arcs from a target to nearby enemies. Each enemy within that distance takes 2 lightning damage."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the sparkslinger is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

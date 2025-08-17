@@ -1,10 +1,52 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Servok War Engine",
+  "level": 10,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Construct",
+    "Servok",
+    "Soulless",
+    "Valok"
+  ],
+  "ev": "48",
+  "stamina": "2608",
+  "speed": 5,
+  "size": "3",
+  "stability": 1,
+  "free_strike": 0,
+  "might": 5,
+  "agility": -2,
+  "reason": -4,
+  "intuition": -1,
+  "presence": -5,
+  "traits": [
+    {
+      "name": "Servok Siege Machine",
+      "effects": [
+        {
+          "effect": "The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
+        }
+      ]
+    },
+    {
+      "name": "Crafted to Perfection",
+      "effects": [
+        {
+          "effect": "The war engine's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "name": "Valiar Might",
+      "effects": [
+        {
+          "effect": "While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Blade Rake",
@@ -98,30 +140,6 @@
         },
         {
           "effect": "This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Servok Siege Machine",
-      "effects": [
-        {
-          "effect": "The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The war engine's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

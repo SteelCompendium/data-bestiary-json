@@ -1,10 +1,38 @@
 {
+  "name": "Human Scoundrel",
+  "level": 1,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The scoundrel ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Rapier and Dagger",
@@ -42,14 +70,6 @@
       "effects": [
         {
           "effect": "The scoundrel uses Rapier and Dagger against up to three targets. They shift up to 2 squares before or after each strike"
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The scoundrel ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

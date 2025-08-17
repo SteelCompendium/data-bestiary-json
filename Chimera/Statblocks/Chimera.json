@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Chimera",
+  "level": 3,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Beast",
+    "Chimera"
+  ],
+  "ev": "60",
+  "stamina": "300",
+  "immunities": [
+    "Fire 6"
+  ],
+  "speed": 10,
+  "movement": "Fly",
+  "size": "2",
+  "stability": 1,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 2,
+  "reason": -2,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
-  "abilities": [
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -26,7 +44,9 @@
           "effect": "When the chimera makes a creature winded or reduces them to 0 Stamina, they can move their speed toward an enemy."
         }
       ]
-    },
+    }
+  ],
+  "abilities": [
     {
       "name": "Bite",
       "cost": "Signature Ability",

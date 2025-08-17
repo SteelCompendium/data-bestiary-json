@@ -1,10 +1,35 @@
 {
-  "might": 0,
+  "name": "War Dog Amalgamite",
+  "level": 2,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "4",
+  "stamina": "25",
+  "speed": 5,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the amalgamite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Several Arms",
@@ -45,14 +70,6 @@
       "effects": [
         {
           "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the amalgamite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

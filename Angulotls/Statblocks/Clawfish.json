@@ -1,10 +1,40 @@
 {
+  "name": "Clawfish",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Animal"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "5",
+  "immunities": [
+    "Lightning 3",
+    "Poison 2"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": -3,
+  "intuition": -2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Shocking",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the clawfish deals 2 lightning damage to each wet enemy within 2 squares."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hookclaw",
@@ -25,14 +55,6 @@
         },
         {
           "effect": "Any target grabbed this way takes 2 lightning damage at the start of each of their turns."
-        }
-      ]
-    },
-    {
-      "name": "Shocking",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the clawfish deals 2 lightning damage to each wet enemy within 2 squares."
         }
       ]
     }

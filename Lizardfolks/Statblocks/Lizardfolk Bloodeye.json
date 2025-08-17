@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Lizardfolk Bloodeye",
+  "level": 1,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Lizardfolk"
+  ],
+  "ev": "6",
+  "stamina": "20",
+  "speed": 5,
+  "movement": "Swim",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 1,
+  "agility": 1,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the bloodeye has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bola Knock",
@@ -43,14 +68,6 @@
           "t1": "5 acid damage; M < 0 the target has line of effect only within 4 squares (save ends)",
           "t2": "7 acid damage; M < 1 the target has line of effect only within 3 squares (save ends)",
           "t3": "9 acid damage; M < 2 the target has line of effect only within 2 squares (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Reptilian Escape",
-      "effects": [
-        {
-          "effect": "While the bloodeye has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
         }
       ]
     }

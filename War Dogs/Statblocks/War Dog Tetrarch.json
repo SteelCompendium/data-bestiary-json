@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Tetrarch",
+  "level": 6,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "speed": 7,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": 4,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 4,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Houndblade",
@@ -61,14 +86,6 @@
       "effects": [
         {
           "effect": "The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
         }
       ]
     },

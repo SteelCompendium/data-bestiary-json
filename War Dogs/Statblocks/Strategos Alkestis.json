@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Strategos Alkestis",
+  "level": 10,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "48",
+  "stamina": "2602",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 0,
+  "might": 4,
+  "agility": 4,
+  "reason": 5,
+  "intuition": 5,
+  "presence": 5,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Tactical Brilliance",
+      "effects": [
+        {
+          "effect": "At the start of each of Alkestis's turns, the Director gains 2 Malice. While Alkestis is alive and in the encounter, the Director also gains 1 Malice whenever a war dog in the encounter obtains a tier 3 outcome on a power roll."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Houndgun and Houndblade",
@@ -69,22 +102,6 @@
         },
         {
           "effect": "The area is difficult terrain until the start of the next round"
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of her turns, Alkestis can take 20 damage to end one effect on her that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Tactical Brilliance",
-      "effects": [
-        {
-          "effect": "At the start of each of Alkestis's turns, the Director gains 2 Malice. While Alkestis is alive and in the encounter, the Director also gains 1 Malice whenever a war dog in the encounter obtains a tier 3 outcome on a power roll."
         }
       ]
     },

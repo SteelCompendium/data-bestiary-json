@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Minotaur Lackey",
+  "level": 8,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Accursed",
+    "Humanoid",
+    "Minotaur"
+  ],
+  "ev": "10 for four minions",
+  "stamina": "13",
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 3,
+  "with_captain": "+2 bonus to speed",
+  "might": 3,
+  "agility": 4,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Minotaur Sense",
+      "effects": [
+        {
+          "effect": "The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Horn Vault",
@@ -27,14 +53,6 @@
         },
         {
           "effect": "A target who is force moved into an obstacle and has M < 3 is bleeding (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Minotaur Sense",
-      "effects": [
-        {
-          "effect": "The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
         }
       ]
     }

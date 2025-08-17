@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Human Bandit Chief",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "20",
+  "stamina": "120",
+  "immunities": [
+    "Corruption 4",
+    "psychic 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the bandit chief can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The bandit chief ignores concealment if it's granted by a supernatural effect"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Whip and Magic Longsword",
@@ -65,22 +101,6 @@
       "effects": [
         {
           "effect": "The bandit chief takes 5 corruption damage and increases the outcome of the power roll by one tier. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the bandit chief can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The bandit chief ignores concealment if it's granted by a supernatural effect"
         }
       ]
     },

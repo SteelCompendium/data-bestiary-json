@@ -1,10 +1,39 @@
 {
+  "name": "War Dog Neuronite",
+  "level": 1,
+  "roles": [
+    "Horde Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "3",
+  "stamina": "20",
+  "immunities": [
+    "Psychic 2"
+  ],
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Synlirii Grafts",
@@ -53,14 +82,6 @@
       "effects": [
         {
           "effect": "The neuronite chooses one ally within 10 squares. Each target is either taunted by the ally, or the ally has damage immunity 3 whenever any target makes a strike against them (the neuronite's choice). Either effect lasts until the start of the neuronite's next turn"
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

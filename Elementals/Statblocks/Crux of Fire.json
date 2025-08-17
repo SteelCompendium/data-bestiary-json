@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Crux of Fire",
+  "level": 3,
+  "roles": [
+    "Elite Artillery"
+  ],
+  "ancestry": [
+    "Elemental"
+  ],
+  "ev": "20",
+  "stamina": "80",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "size": "1T",
+  "stability": 0,
+  "free_strike": 6,
+  "might": -1,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The crux can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Spitfire",
@@ -61,14 +87,6 @@
       "effects": [
         {
           "effect": "The crux ignores any effects associated with the damage and can fly up to their speed. If the crux doesn't end this movement on solid ground, they fall."
-        }
-      ]
-    },
-    {
-      "name": "Fickle and Free",
-      "effects": [
-        {
-          "effect": "The crux can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
         }
       ]
     }

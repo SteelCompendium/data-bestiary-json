@@ -1,10 +1,42 @@
 {
-  "might": 0,
+  "name": "Rival Conduit",
+  "level": 8,
+  "roles": [
+    "Elite Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "40",
+  "stamina": "200",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 8,
+  "might": 3,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 1,
+  "intuition": 4,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Unwavering Defender",
+      "effects": [
+        {
+          "effect": "Damage dealt to any ally adjacent to the conduit is halved."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Celestial Furor",
@@ -43,22 +75,6 @@
       "effects": [
         {
           "effect": "Each target has a double edge on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "Unwavering Defender",
-      "effects": [
-        {
-          "effect": "Damage dealt to any ally adjacent to the conduit is halved."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

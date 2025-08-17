@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Lizardfolk Scaletooth",
+  "level": 1,
+  "roles": [
+    "Platoon Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Lizardfolk"
+  ],
+  "ev": "6",
+  "stamina": "46",
+  "speed": 5,
+  "movement": "Swim",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the scaletooth has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Razor Bite",
@@ -46,14 +71,6 @@
           "t1": "5 damage; slide 1",
           "t2": "8 damage; slide 2; M < 1 grabbed if within 2 squares of the scaletooth",
           "t3": "10 damage; slide 3; M < 2 grabbed if within 2 squares of the scaletooth"
-        }
-      ]
-    },
-    {
-      "name": "Reptilian Escape",
-      "effects": [
-        {
-          "effect": "While the scaletooth has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
         }
       ]
     }

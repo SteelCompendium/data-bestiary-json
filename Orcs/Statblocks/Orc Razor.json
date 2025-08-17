@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Orc Razor",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "5",
+  "speed": 6,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Bloodfire Burn",
+      "effects": [
+        {
+          "effect": "If the razor is reduced to 0 Stamina, they can make a free strike before dying."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Boot and Blade",
@@ -26,14 +51,6 @@
         },
         {
           "effect": "The razor gains an edge against any target affected by a condition."
-        }
-      ]
-    },
-    {
-      "name": "Bloodfire Burn",
-      "effects": [
-        {
-          "effect": "If the razor is reduced to 0 Stamina, they can make a free strike before dying."
         }
       ]
     }

@@ -1,10 +1,35 @@
 {
+  "name": "Wode Elf Green Seer",
+  "level": 1,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "6",
+  "stamina": "20",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the green seer that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "The Forest's Embrace",
@@ -64,14 +89,6 @@
       "effects": [
         {
           "effect": "The green seer makes a free strike against the target after the target's triggered action is resolved."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the green seer that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

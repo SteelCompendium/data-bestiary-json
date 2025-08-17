@@ -1,10 +1,38 @@
 {
+  "name": "Devil Notary",
+  "level": 5,
+  "roles": [
+    "Minion Hexer"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 1,
+  "reason": 3,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Importunity",
@@ -26,14 +54,6 @@
         },
         {
           "effect": "One non-minion devil within 5 squares of the notary gains an edge on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
         }
       ]
     }

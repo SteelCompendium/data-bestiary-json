@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Gnoll Marauder",
+  "level": 2,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "ev": "4",
+  "stamina": "20",
+  "speed": 7,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "might": 1,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Death Frenzy",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 7 squares of the marauder is reduced to 0 Stamina, the marauder moves up to their speed and can make a melee free strike."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fury Flail",
@@ -42,14 +66,6 @@
       "effects": [
         {
           "effect": "Each target shifts up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
-        }
-      ]
-    },
-    {
-      "name": "Death Frenzy",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion ally within 7 squares of the marauder is reduced to 0 Stamina, the marauder moves up to their speed and can make a melee free strike."
         }
       ]
     }

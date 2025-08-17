@@ -1,10 +1,52 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Multivok Chief",
+  "level": 9,
+  "roles": [
+    "Elite Support"
+  ],
+  "ancestry": [
+    "Construct",
+    "Multivok",
+    "Soulless",
+    "Valok"
+  ],
+  "ev": "44",
+  "stamina": "220",
+  "speed": 5,
+  "size": "1L",
+  "stability": 3,
+  "free_strike": 9,
+  "might": 4,
+  "agility": 1,
+  "reason": -2,
+  "intuition": 1,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Multivok Maintenance",
+      "effects": [
+        {
+          "effect": "At the start of the chief's turn, each servok within 2 squares of them regains 15 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Crafted to Perfection",
+      "effects": [
+        {
+          "effect": "The chief's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "name": "Valiar Might",
+      "effects": [
+        {
+          "effect": "While the chief isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Pneumatic Punch",
@@ -75,30 +117,6 @@
       "effects": [
         {
           "effect": "The target gains 15 temporary Stamina. Each time this triggered action is used, the amount of temporary Stamina received decreases by 3 (to a minimum of 0)."
-        }
-      ]
-    },
-    {
-      "name": "Multivok Maintenance",
-      "effects": [
-        {
-          "effect": "At the start of the chief's turn, each servok within 2 squares of them regains 15 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The chief's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the chief isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

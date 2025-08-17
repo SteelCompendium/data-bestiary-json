@@ -1,10 +1,55 @@
 {
-  "might": 0,
+  "name": "Slaughter Demon",
+  "level": 4,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Hobgoblin"
+  ],
+  "ev": "24",
+  "stamina": "140",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 7,
+  "movement": "Burrow",
+  "size": "3",
+  "stability": 3,
+  "free_strike": 6,
+  "might": 3,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "reason": -1,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Drag Below",
+      "effects": [
+        {
+          "effect": "The slaughter demon can make a free strike as part of using the Dig maneuver. If the target of the free strike has M < 2, they are grabbed and take a bane on the Escape Grab maneuver."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the slaughter demon can't be hidden from them."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the slaughter demon is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Steely Skewer",
@@ -53,14 +98,6 @@
       ]
     },
     {
-      "name": "Drag Below",
-      "effects": [
-        {
-          "effect": "The slaughter demon can make a free strike as part of using the Dig maneuver. If the target of the free strike has M < 2, they are grabbed and take a bane on the Escape Grab maneuver."
-        }
-      ]
-    },
-    {
       "name": "Devour Soul",
       "keywords": [
         "Area",
@@ -73,22 +110,6 @@
       "effects": [
         {
           "effect": "The target can't be brought back to life. Until the end of the encounter, the slaughter demon gains an edge on power rolls."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the slaughter demon can't be hidden from them."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the slaughter demon is winded, they gain an edge on strikes, and any strike made against them gains an edge."
         }
       ]
     }

@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Scyza",
+  "level": 3,
+  "roles": [
+    "Elite Mount"
+  ],
+  "ancestry": [
+    "Animal",
+    "Orc"
+  ],
+  "ev": "20",
+  "stamina": "100",
+  "speed": 6,
+  "size": "4",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 2,
+  "agility": -1,
+  "reason": -4,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Terrible Beast",
+      "effects": [
+        {
+          "effect": "The scyza deals an extra 6 damage with abilities used against objects."
+        }
+      ]
+    },
+    {
+      "name": "War Harness",
+      "effects": [
+        {
+          "effect": "While riding the scyza, three size 1 allies can occupy the same space."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Clawed Kick",
@@ -98,22 +130,6 @@
       "effects": [
         {
           "effect": "Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a free strike against them."
-        }
-      ]
-    },
-    {
-      "name": "Terrible Beast",
-      "effects": [
-        {
-          "effect": "The scyza deals an extra 6 damage with abilities used against objects."
-        }
-      ]
-    },
-    {
-      "name": "War Harness",
-      "effects": [
-        {
-          "effect": "While riding the scyza, three size 1 allies can occupy the same space."
         }
       ]
     }

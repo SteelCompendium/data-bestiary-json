@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Wyvern Predator",
+  "level": 4,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Beast",
+    "Wyvern"
+  ],
+  "ev": "24",
+  "stamina": "140",
+  "immunities": [
+    "Acid 5"
+  ],
+  "speed": 7,
+  "movement": "Fly",
+  "size": "3",
+  "stability": 3,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 2,
+  "reason": -1,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Stubborn Rage",
+      "effects": [
+        {
+          "effect": "While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened."
+        }
+      ]
+    },
+    {
+      "name": "Tenacious Hunter",
+      "effects": [
+        {
+          "effect": "Any creature affected by a condition imposed by a wyvern can't be hidden from the predator."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Sedating Stinger",
@@ -84,22 +120,6 @@
       "effects": [
         {
           "effect": "The predator uses Sedating Stinger against the target, then shifts up to 3 squares"
-        }
-      ]
-    },
-    {
-      "name": "Stubborn Rage",
-      "effects": [
-        {
-          "effect": "While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened."
-        }
-      ]
-    },
-    {
-      "name": "Tenacious Hunter",
-      "effects": [
-        {
-          "effect": "Any creature affected by a condition imposed by a wyvern can't be hidden from the predator."
         }
       ]
     }

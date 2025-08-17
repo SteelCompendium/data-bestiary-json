@@ -1,10 +1,37 @@
 {
-  "might": 0,
+  "name": "Time Raider Mind Punk",
+  "level": 3,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "10",
+  "stamina": "40",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 5,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 2,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The mind punk doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Repelling Psihander",
@@ -46,14 +73,6 @@
           "t1": "4 psychic damage; R < 0 prone",
           "t2": "6 psychic damage; push 1; R < 1 prone and can't stand (save ends)",
           "t3": "9 psychic damage; push 2; R < 2 prone and can't stand (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The mind punk doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

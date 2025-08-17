@@ -1,10 +1,39 @@
 {
+  "name": "Human Apprentice Mage",
+  "level": 2,
+  "roles": [
+    "Minion Controller"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "4 for four minions",
+  "stamina": "4",
+  "immunities": [
+    "Corruption 2",
+    "psychic 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The apprentice mage ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lightning Strike",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also slowed (EoT)."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The apprentice mage ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

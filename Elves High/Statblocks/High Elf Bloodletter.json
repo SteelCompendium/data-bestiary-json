@@ -1,10 +1,35 @@
 {
+  "name": "High Elf Bloodletter",
+  "level": 1,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the bloodletter can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Razor's Edge",
@@ -42,14 +67,6 @@
       "effects": [
         {
           "effect": "Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then shift up to their speed, and can attempt to hide if they end that shift with concealment."
-        }
-      ]
-    },
-    {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the bloodletter can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

@@ -1,10 +1,35 @@
 {
+  "name": "Radenwight Piper",
+  "level": 1,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Musical Suggestion",
+      "effects": [
+        {
+          "effect": "At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Piercing Trill",
@@ -62,14 +87,6 @@
       "effects": [
         {
           "effect": "The piper makes a free strike against the target."
-        }
-      ]
-    },
-    {
-      "name": "Musical Suggestion",
-      "effects": [
-        {
-          "effect": "At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability."
         }
       ]
     }

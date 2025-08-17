@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Minotaur Stampede",
+  "level": 10,
+  "roles": [
+    "Minion Defender"
+  ],
+  "ancestry": [
+    "Accursed",
+    "Humanoid",
+    "Minotaur",
+    "Swarm"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "17",
+  "speed": 8,
+  "size": "4",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "Gain an edge on strikes",
+  "might": 5,
+  "agility": 5,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Swarm",
+      "effects": [
+        {
+          "effect": "The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bull Rush",
@@ -27,14 +54,6 @@
         },
         {
           "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone."
-        }
-      ]
-    },
-    {
-      "name": "Swarm",
-      "effects": [
-        {
-          "effect": "The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share."
         }
       ]
     }

@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Time Raider Vertex",
+  "level": 3,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "10",
+  "stamina": "62",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 1,
+  "agility": 1,
+  "reason": 2,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The vertex doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Psionic Slam",
@@ -58,14 +86,6 @@
       "effects": [
         {
           "effect": "Each target shifts up to half their speed."
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The vertex doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

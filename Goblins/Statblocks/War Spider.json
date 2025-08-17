@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "War Spider",
+  "level": 1,
+  "roles": [
+    "Elite Mount"
+  ],
+  "ancestry": [
+    "Animal",
+    "Goblin"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "3",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 2,
+  "agility": 1,
+  "reason": -4,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Ride Launcher",
+      "effects": [
+        {
+          "effect": "Any ally who leaps off the back of the spider can jump up to 6 squares without making a test, and takes no damage if they fall during the jump. After any ally jumps, the first melee strike the make on the same turn gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Wide Back",
+      "effects": [
+        {
+          "effect": "While riding the spider, two size 1 allies can occupy the same space"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bite",
@@ -97,22 +130,6 @@
       "effects": [
         {
           "effect": "The damage is halved, and the spider shifts up to 2 squares after the triggering effect resolve"
-        }
-      ]
-    },
-    {
-      "name": "Ride Launcher",
-      "effects": [
-        {
-          "effect": "Any ally who leaps off the back of the spider can jump up to 6 squares without making a test, and takes no damage if they fall during the jump. After any ally jumps, the first melee strike the make on the same turn gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Wide Back",
-      "effects": [
-        {
-          "effect": "While riding the spider, two size 1 allies can occupy the same space"
         }
       ]
     }

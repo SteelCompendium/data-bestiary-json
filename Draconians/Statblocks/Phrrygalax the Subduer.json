@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Phrrygalax the Subduer",
+  "level": 6,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "immunities": [
+    "Fire 6"
+  ],
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1L",
+  "stability": 3,
+  "free_strike": 7,
+  "might": 3,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Oathbreaker's Vengeance",
+      "effects": [
+        {
+          "effect": "Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Baneful Blade",
@@ -87,14 +116,6 @@
       "effects": [
         {
           "effect": "Phrrygalax shifts up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage."
-        }
-      ]
-    },
-    {
-      "name": "Oathbreaker's Vengeance",
-      "effects": [
-        {
-          "effect": "Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike."
         }
       ]
     }

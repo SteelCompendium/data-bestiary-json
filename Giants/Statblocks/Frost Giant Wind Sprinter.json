@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Frost Giant Wind Sprinter",
+  "level": 8,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Frost Giant",
+    "Giant"
+  ],
+  "ev": "40",
+  "stamina": "200",
+  "immunities": [
+    "Cold 8"
+  ],
+  "speed": 10,
+  "size": "4",
+  "stability": 5,
+  "free_strike": 8,
+  "might": 4,
+  "agility": 4,
+  "reason": -1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Crush Underfoot",
+      "effects": [
+        {
+          "effect": "The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall prone or to take 8 damage."
+        }
+      ]
+    },
+    {
+      "name": "Kingdom of Isolation",
+      "effects": [
+        {
+          "effect": "The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't shift."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Cold Axe",
@@ -71,22 +106,6 @@
       "effects": [
         {
           "effect": "The wind sprinter moves up to their speed and uses Cold Axe against one target."
-        }
-      ]
-    },
-    {
-      "name": "Crush Underfoot",
-      "effects": [
-        {
-          "effect": "The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall prone or to take 8 damage."
-        }
-      ]
-    },
-    {
-      "name": "Kingdom of Isolation",
-      "effects": [
-        {
-          "effect": "The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't shift."
         }
       ]
     }

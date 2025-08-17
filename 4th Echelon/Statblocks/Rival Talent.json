@@ -1,10 +1,34 @@
 {
+  "name": "Rival Talent",
+  "level": 10,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "48",
+  "stamina": "220",
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 10,
   "might": 0,
   "agility": 0,
-  "reason": 0,
+  "reason": 5,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Override",
@@ -67,14 +91,6 @@
       "effects": [
         {
           "effect": "The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is pushed up to 5 squares."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

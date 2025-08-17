@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Wraith",
+  "level": 4,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "6",
+  "stamina": "25",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 8,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "might": -2,
+  "agility": 2,
+  "reason": 1,
+  "intuition": 1,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Agonizing Phasing",
+      "effects": [
+        {
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Chilling Gravetouch",
@@ -58,14 +86,6 @@
       "effects": [
         {
           "effect": "The target regains only half the Stamina, and the wraith regains the remaining Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Agonizing Phasing",
-      "effects": [
-        {
-          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects"
         }
       ]
     }

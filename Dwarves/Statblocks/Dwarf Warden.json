@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Dwarf Warden",
+  "level": 2,
+  "roles": [
+    "Platoon Brute"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "8",
+  "stamina": "59",
+  "speed": 5,
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 2,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Escort the Prisoners",
+      "effects": [
+        {
+          "effect": "Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Concussive Maul",
@@ -48,14 +72,6 @@
         },
         {
           "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
-        }
-      ]
-    },
-    {
-      "name": "Escort the Prisoners",
-      "effects": [
-        {
-          "effect": "Whenever the warden moves, they can carry an adjacent restrained enemy as if the enemy were grabbed by them."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Aeolyxria the Uncanny",
+  "level": 6,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Poison 6"
+  ],
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": -1,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "That's Our Opening!",
+      "effects": [
+        {
+          "effect": "The Director gains 1 Malice whenever Aeolyxria imposes a condition on an enemy."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Spittlesplash",
@@ -88,14 +117,6 @@
           "t1": "7 poison damage; A < 2 bleeding (save ends)",
           "t2": "12 poison damage; A < 3 bleeding (save ends)",
           "t3": "15 poison damage; bleeding (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "That's Our Opening!",
-      "effects": [
-        {
-          "effect": "The Director gains 1 Malice whenever Aeolyxria imposes a condition on an enemy."
         }
       ]
     }

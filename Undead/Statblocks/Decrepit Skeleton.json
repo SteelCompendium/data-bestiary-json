@@ -1,10 +1,39 @@
 {
+  "name": "Decrepit Skeleton",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 2,
+  "reason": -2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Bonetrops",
+      "effects": [
+        {
+          "effect": "When the decrepit skeleton is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy enters this space, the take 1 damage and the effect end."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bone Bow",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "The decrepit skeleton chooses one other target within distance, who takes 1 damage."
-        }
-      ]
-    },
-    {
-      "name": "Bonetrops",
-      "effects": [
-        {
-          "effect": "When the decrepit skeleton is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy enters this space, the take 1 damage and the effect end."
         }
       ]
     }

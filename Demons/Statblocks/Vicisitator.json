@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Vicisitator",
+  "level": 10,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 9,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 4,
+  "agility": 5,
+  "reason": -1,
+  "intuition": -2,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the vicisitator is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the vicisitator can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Warp Touch",
@@ -50,22 +85,6 @@
         },
         {
           "effect": "Any creature who is bleeding from this ability loses 2d6 Stamina instead of 1d6."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the vicisitator is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the vicisitator can't be hidden from them."
         }
       ]
     }

@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Goblin Cursespitter",
+  "level": 1,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "3",
+  "stamina": "10",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "might": -2,
+  "agility": 1,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The cursespitter doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Eye of Surlach",
@@ -42,14 +67,6 @@
           "t1": "I < 0 prone",
           "t2": "I < 1 prone and can't stand (EoT)",
           "t3": "Prone; I < 2 can't stand (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The cursespitter doesn't provoke opportunity attacks by moving."
         }
       ]
     }

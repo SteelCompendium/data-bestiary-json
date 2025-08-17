@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Abyssal Hyena",
+  "level": 2,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Animal",
+    "Gnoll"
+  ],
+  "ev": "4 for four minions",
+  "stamina": "7",
+  "speed": 8,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 3,
+  "with_captain": "+2 bonus to speed",
+  "might": 2,
+  "agility": 1,
+  "reason": -3,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Death Snap",
+      "effects": [
+        {
+          "effect": "When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Snapjaw",
@@ -23,14 +49,6 @@
           "t1": "3 damage",
           "t2": "4 damage",
           "t3": "6 damage; grabbed"
-        }
-      ]
-    },
-    {
-      "name": "Death Snap",
-      "effects": [
-        {
-          "effect": "When the abyssal hyena is reduced to 0 Stamina, they can make a melee free strike before dying."
         }
       ]
     }

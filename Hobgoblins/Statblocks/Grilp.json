@@ -1,10 +1,48 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Grilp",
+  "level": 4,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Devil",
+    "Hobgoblin",
+    "Infernal"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Fire 2"
+  ],
+  "speed": 7,
+  "movement": "Fly",
+  "size": "1T",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 bonus to speed",
+  "might": -1,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Bat Out Of Hell",
+      "effects": [
+        {
+          "effect": "Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp adjacent to them."
+        }
+      ]
+    },
+    {
+      "name": "Shifting Camouflage",
+      "effects": [
+        {
+          "effect": "The grilp has concealment from all creatures."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flyby Bite",
@@ -26,22 +64,6 @@
         },
         {
           "effect": "The grilp moves up to their speed and can attempt to hide."
-        }
-      ]
-    },
-    {
-      "name": "Bat Out Of Hell",
-      "effects": [
-        {
-          "effect": "Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp adjacent to them."
-        }
-      ]
-    },
-    {
-      "name": "Shifting Camouflage",
-      "effects": [
-        {
-          "effect": "The grilp has concealment from all creatures."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
+  "name": "Human Rogue",
+  "level": 1,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The rogue ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Concealed Dagger",
@@ -27,14 +56,6 @@
         },
         {
           "effect": "If the rogue is disguised or hidden when they use this ability, it deals an extra 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The rogue ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

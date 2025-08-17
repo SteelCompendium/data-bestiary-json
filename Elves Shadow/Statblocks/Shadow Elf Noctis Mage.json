@@ -1,10 +1,36 @@
 {
+  "name": "Shadow Elf Noctis Mage",
+  "level": 6,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "16",
+  "stamina": "70",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": 3,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Blotting Bolt",
@@ -50,14 +76,6 @@
           "t1": "8 damage; R < 1 the target makes a free strike against one enemy of the noctis mage's choice.",
           "t2": "10 damage; R < 2 the target makes a free strike against one enemy of the noctis mage's choice.",
           "t3": "13 damage; R < 3 the target uses a signature ability against one enemy of the noctis mage's choice."
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
         }
       ]
     }

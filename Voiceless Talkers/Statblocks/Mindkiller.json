@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Mindkiller",
+  "level": 6,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Psychic 6"
+  ],
+  "speed": 6,
+  "movement": "Fly, hover",
+  "size": "1S",
+  "stability": 2,
+  "free_strike": 7,
+  "might": -1,
+  "agility": 3,
+  "reason": 3,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
-  "abilities": [
+  "traits": [
     {
       "name": "Brain Latch",
       "effects": [
@@ -14,6 +32,24 @@
         }
       ]
     },
+    {
+      "name": "Psionic Conductor",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space."
+        }
+      ]
+    },
+    {
+      "name": "Nimble",
+      "effects": [
+        {
+          "effect": "The mindkiller can move through enemies' spaces at their usual speed."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Killer Claws",
       "cost": "Signature Ability",
@@ -86,22 +122,6 @@
         {
           "effect": "A grabbed creature takes the damage instead of the mindkiller.",
           "cost": "3 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Psionic Conductor",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space."
-        }
-      ]
-    },
-    {
-      "name": "Nimble",
-      "effects": [
-        {
-          "effect": "The mindkiller can move through enemies' spaces at their usual speed."
         }
       ]
     }

@@ -1,10 +1,35 @@
 {
-  "might": 0,
+  "name": "Dwarf Stone Whisperer",
+  "level": 3,
+  "roles": [
+    "Platoon Controller"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "10",
+  "stamina": "52",
+  "speed": 5,
+  "movement": "Burrow",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 1,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "reason": 2,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Stone Walker",
+      "effects": [
+        {
+          "effect": "Whenever the stone whisperer willingly moves, they can phase through up to 2 squares of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Tile Slide",
@@ -48,14 +73,6 @@
         },
         {
           "effect": "The area is difficult terrain for enemies. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
-        }
-      ]
-    },
-    {
-      "name": "Stone Walker",
-      "effects": [
-        {
-          "effect": "Whenever the stone whisperer willingly moves, they can phase through up to 2 squares of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it."
         }
       ]
     }

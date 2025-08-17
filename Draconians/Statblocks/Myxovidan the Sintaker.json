@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Myxovidan the Sintaker",
+  "level": 6,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Corruption 6"
+  ],
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": -1,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Stench of Death",
+      "effects": [
+        {
+          "effect": "Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Breaking Palm",
@@ -75,14 +104,6 @@
       "effects": [
         {
           "effect": "Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice."
-        }
-      ]
-    },
-    {
-      "name": "Stench of Death",
-      "effects": [
-        {
-          "effect": "Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina."
         }
       ]
     }

@@ -1,10 +1,45 @@
 {
-  "might": 0,
+  "name": "Chimeron",
+  "level": 9,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "9",
+  "stamina": "90",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "3",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 4,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 2,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the chimeron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the chimeron can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flux Gnash",
@@ -43,22 +78,6 @@
       "effects": [
         {
           "effect": "The chimeron halves the damage."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the chimeron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the chimeron can't be hidden from them."
         }
       ]
     }

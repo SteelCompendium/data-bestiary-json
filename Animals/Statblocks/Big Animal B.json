@@ -1,10 +1,41 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Big Animal B",
+  "level": 2,
+  "roles": [
+    "Elite Mount"
+  ],
+  "ancestry": [
+    "Animal"
+  ],
+  "ev": "16",
+  "stamina": "80",
+  "speed": 6,
+  "size": "3",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 1,
+  "reason": -1,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Beast of Burden",
+      "effects": [
+        {
+          "effect": "While riding the animal, two size 1 allies can occupy the same space."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Natural Weapon",
@@ -52,22 +83,6 @@
       "effects": [
         {
           "effect": "The animal moves up to their speed. If they end their turn adjacent to the target, they can use the Stand Up maneuver to let the target stand, then get on to ride them."
-        }
-      ]
-    },
-    {
-      "name": "Beast of Burden",
-      "effects": [
-        {
-          "effect": "While riding the animal, two size 1 allies can occupy the same space."
-        }
-      ]
-    },
-    {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

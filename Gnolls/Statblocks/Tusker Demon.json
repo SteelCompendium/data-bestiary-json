@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Tusker Demon",
+  "level": 2,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Gnoll"
+  ],
+  "ev": "16",
+  "stamina": "100",
+  "speed": 7,
+  "size": "3",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 2,
+  "agility": -1,
+  "reason": -3,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Trample",
+      "effects": [
+        {
+          "effect": "The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a prone size 1 creature's space, preventing the creature from standing up."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the tusker demon is winded, they gain an edge on strikes, and any strike made against them gains an edge"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Gore",
@@ -42,22 +75,6 @@
       "effects": [
         {
           "effect": "The tusker demon uses the Charge main action and Gore against the target."
-        }
-      ]
-    },
-    {
-      "name": "Trample",
-      "effects": [
-        {
-          "effect": "The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a prone size 1 creature's space, preventing the creature from standing up."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the tusker demon is winded, they gain an edge on strikes, and any strike made against them gains an edge"
         }
       ]
     }

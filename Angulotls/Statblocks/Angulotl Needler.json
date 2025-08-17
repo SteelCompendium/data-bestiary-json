@@ -1,10 +1,38 @@
 {
+  "name": "Angulotl Needler",
+  "level": 1,
+  "roles": [
+    "Horde Artillery"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "ev": "3",
+  "stamina": "10",
+  "immunities": [
+    "Poison 2"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 2,
+  "reason": 1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the needler or uses a melee ability against them, that enemy takes 2 poison damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Blowgun",
@@ -27,14 +55,6 @@
         {
           "effect": "A target who has M < 2 is weakened (save ends). A target weakened this way takes 2 poison damage at the start of each of their turns.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the needler or uses a melee ability against them, that enemy takes 2 poison damage."
         }
       ]
     }

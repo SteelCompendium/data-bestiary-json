@@ -1,10 +1,35 @@
 {
-  "might": 0,
+  "name": "War Dog Prismite",
+  "level": 8,
+  "roles": [
+    "Horde Defender"
+  ],
+  "ancestry": [
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "10",
+  "stamina": "82",
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 4,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 4,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Prismacore Detonation",
+      "effects": [
+        {
+          "effect": "When the prismite is reduced to 0 Stamina, they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Grasping Tonguetacles",
@@ -56,14 +81,6 @@
       "effects": [
         {
           "effect": "The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved."
-        }
-      ]
-    },
-    {
-      "name": "Prismacore Detonation",
-      "effects": [
-        {
-          "effect": "When the prismite is reduced to 0 Stamina, they explode, dealing 3d6 psychic damage to each enemy within 2 squares of them."
         }
       ]
     }

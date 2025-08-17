@@ -1,10 +1,53 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Fangling",
+  "level": 4,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 8,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 2,
+  "might": 3,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Made of Teeth",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the fangling or uses a melee ability against the fangling, they take 2 damage."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the fangling is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the fangling can't be hidden from them"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Tooth! Tusk! Claw!",
@@ -48,30 +91,6 @@
           "t1": "2 damage; pull 1; A < 1 bleeding (save ends)",
           "t2": "3 damage; pull 1; A < 2 bleeding (save ends)",
           "t3": "4 damage; pull 1; A < 3 bleeding (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Made of Teeth",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the fangling or uses a melee ability against the fangling, they take 2 damage."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the fangling is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the fangling can't be hidden from them"
         }
       ]
     }

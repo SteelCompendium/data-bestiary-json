@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Rival Null",
+  "level": 8,
+  "roles": [
+    "Elite Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "40",
+  "stamina": "200",
+  "speed": 7,
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 8,
+  "might": 2,
+  "agility": 4,
+  "reason": 3,
+  "intuition": 4,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Force Dampener",
+      "effects": [
+        {
+          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Inertial Flow",
@@ -44,22 +76,6 @@
           "t1": "12 damage; R < 2 dazed (save ends)",
           "t2": "17 damage; R < 3 dazed (save ends)",
           "t3": "21 damage; R < 4 dazed and restrained (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Force Dampener",
-      "effects": [
-        {
-          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

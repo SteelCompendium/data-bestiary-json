@@ -1,10 +1,50 @@
 {
+  "name": "Kobold Venator",
+  "level": 1,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Lost in the Crowd",
+      "effects": [
+        {
+          "effect": "While the venator is adjacent to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed."
+        }
+      ]
+    },
+    {
+      "name": "Not What I Seem",
+      "effects": [
+        {
+          "effect": "The venator starts the encounter disguised as a minion. They have a double edge on their first main action of the encounter, after which they reveal themself."
+        }
+      ]
+    },
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Dolabra and Net",
@@ -27,30 +67,6 @@
         {
           "effect": "The venator lights their net on fire, and a target restrained this way takes 2 fire damage at the start of each of their turns.",
           "cost": "3 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Lost in the Crowd",
-      "effects": [
-        {
-          "effect": "While the venator is adjacent to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed."
-        }
-      ]
-    },
-    {
-      "name": "Not What I Seem",
-      "effects": [
-        {
-          "effect": "The venator starts the encounter disguised as a minion. They have a double edge on their first main action of the encounter, after which they reveal themself."
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

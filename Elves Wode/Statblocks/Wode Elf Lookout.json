@@ -1,10 +1,45 @@
 {
+  "name": "Wode Elf Lookout",
+  "level": 1,
+  "roles": [
+    "Minion Support"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to speed",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "There!",
+      "effects": [
+        {
+          "effect": "Any wode elf within 5 squares of the lookout can make ranged strikes as if occupying the lookout's space."
+        }
+      ]
+    },
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the lookout that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Longbow",
@@ -23,22 +58,6 @@
           "t1": "1 damage",
           "t2": "2 damage",
           "t3": "3 damage"
-        }
-      ]
-    },
-    {
-      "name": "There!",
-      "effects": [
-        {
-          "effect": "Any wode elf within 5 squares of the lookout can make ranged strikes as if occupying the lookout's space."
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the lookout that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

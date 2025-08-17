@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Lydixavus the Deadeye",
+  "level": 6,
+  "roles": [
+    "Elite Artillery"
+  ],
+  "ancestry": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Cold 6"
+  ],
+  "speed": 5,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": -1,
+  "agility": 3,
+  "reason": 3,
+  "intuition": 3,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Scorekeeping Scales",
+      "effects": [
+        {
+          "effect": "Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has line of effect to them as long as a size 1 opening exists between Lydixavus and the target."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Breathsnipe",
@@ -71,14 +100,6 @@
       "effects": [
         {
           "effect": "Lydixavus uses their signature ability again, targeting a creature within 5 squares of the original target."
-        }
-      ]
-    },
-    {
-      "name": "Scorekeeping Scales",
-      "effects": [
-        {
-          "effect": "Lydixavus knows the location of every creature who has ever dealt damage to them. If any of those creatures are within 20 squares of Lydixavus, Lydixavus always has line of effect to them as long as a size 1 opening exists between Lydixavus and the target."
         }
       ]
     }

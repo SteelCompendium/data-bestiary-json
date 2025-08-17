@@ -1,10 +1,46 @@
 {
+  "name": "Izyak",
+  "level": 10,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "12",
+  "stamina": "55",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "movement": "Teleport",
+  "size": "2",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 5,
+  "intuition": 2,
+  "presence": 4,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the izyak is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the izyak can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Nostalgic Wanderlust",
@@ -57,22 +93,6 @@
         {
           "effect": "The area increases to a 6 cube.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the izyak is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the izyak can't be hidden from them."
         }
       ]
     }

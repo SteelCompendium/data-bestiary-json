@@ -1,10 +1,40 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Hobgoblin Lancer",
+  "level": 4,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Fire 2"
+  ],
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 1,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the lancer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the lancer takes 2 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Grim Thrust",
@@ -28,14 +58,6 @@
         },
         {
           "effect": "The lancer deals an extra 2 damage if they have high ground against the target."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the lancer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the lancer takes 2 fire damage."
         }
       ]
     }

@@ -1,11 +1,28 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Ashen Hoarder",
+  "level": 4,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Construct",
+    "Undead"
+  ],
+  "ev": "72",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 8,
+  "movement": "Burrow",
+  "size": "3",
+  "stability": 3,
+  "free_strike": 6,
+  "might": 4,
+  "agility": -1,
+  "reason": -2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "presence": -5,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -19,6 +36,24 @@
         }
       ]
     },
+    {
+      "name": "Bladed Body",
+      "effects": [
+        {
+          "effect": "An adjacent enemy who grabs the ashen hoarder or uses a melee ability against them takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Soul Singularity",
+      "effects": [
+        {
+          "effect": "When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M < 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Claw and Blade",
       "cost": "Signature Ability",
@@ -115,22 +150,6 @@
       "effects": [
         {
           "effect": "The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the Malice cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage."
-        }
-      ]
-    },
-    {
-      "name": "Bladed Body",
-      "effects": [
-        {
-          "effect": "An adjacent enemy who grabs the ashen hoarder or uses a melee ability against them takes 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Soul Singularity",
-      "effects": [
-        {
-          "effect": "When the ashen hoarder is reduced to 0 Stamina, they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M < 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered."
         }
       ]
     },

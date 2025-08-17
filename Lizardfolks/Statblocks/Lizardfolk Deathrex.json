@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Lizardfolk Deathrex",
+  "level": 1,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Lizardfolk"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 3,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Rex Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Ripper Spear",
@@ -79,14 +104,6 @@
       "effects": [
         {
           "effect": "The deathrex slides the target up to 5 squares."
-        }
-      ]
-    },
-    {
-      "name": "Rex Reptilian Escape",
-      "effects": [
-        {
-          "effect": "While the deathrex has a tail, whenever they are affected by an effect that can be ended by a saving throw or that ends at the end of their turn, they can lose their tail to immediately end that effect, then shift up to 2 squares."
         }
       ]
     },

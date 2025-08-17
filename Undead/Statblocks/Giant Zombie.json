@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Giant Zombie",
+  "level": 4,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "24",
+  "stamina": "140",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 6,
+  "size": "3",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 3,
+  "agility": -1,
+  "reason": -2,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Endless Knight",
+      "effects": [
+        {
+          "effect": "The first time the giant zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 Stamina and fall prone."
+        }
+      ]
+    },
+    {
+      "name": "Negative Nerves",
+      "effects": [
+        {
+          "effect": "When the giant zombie is targeted by an ability that deals rolled damage, they halve the damage from a tier 1 outcome"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Rotten Smash",
@@ -39,22 +75,6 @@
       "effects": [
         {
           "effect": "The creatures or objects are smashed together using Rotten Smash, which has a double edge."
-        }
-      ]
-    },
-    {
-      "name": "Endless Knight",
-      "effects": [
-        {
-          "effect": "The first time the giant zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 Stamina and fall prone."
-        }
-      ]
-    },
-    {
-      "name": "Negative Nerves",
-      "effects": [
-        {
-          "effect": "When the giant zombie is targeted by an ability that deals rolled damage, they halve the damage from a tier 1 outcome"
         }
       ]
     }

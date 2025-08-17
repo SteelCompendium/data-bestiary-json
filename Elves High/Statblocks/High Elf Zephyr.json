@@ -1,10 +1,43 @@
 {
+  "name": "High Elf Zephyr",
+  "level": 1,
+  "roles": [
+    "Platoon Harrier"
+  ],
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Like the Wind",
+      "effects": [
+        {
+          "effect": "The zephyr doesn't provoke opportunity attacks by moving."
+        }
+      ]
+    },
+    {
+      "name": "Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the zephyr can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Sweeping Blade",
@@ -40,22 +73,6 @@
       "effects": [
         {
           "effect": "The zephyr flies up to their speed. If they don't end this movment on solid ground, they are prone."
-        }
-      ]
-    },
-    {
-      "name": "Like the Wind",
-      "effects": [
-        {
-          "effect": "The zephyr doesn't provoke opportunity attacks by moving."
-        }
-      ]
-    },
-    {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the zephyr can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

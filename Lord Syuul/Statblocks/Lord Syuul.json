@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Lord Syuul",
+  "level": 6,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "ev": "96",
+  "stamina": "450",
+  "immunities": [
+    "Psychic 10"
+  ],
+  "speed": 7,
+  "movement": "Hover, teleport",
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 7,
+  "might": 1,
+  "agility": 3,
+  "reason": 4,
+  "intuition": 4,
+  "presence": 3,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -19,6 +37,16 @@
         }
       ]
     },
+    {
+      "name": "Mind Over Manners",
+      "effects": [
+        {
+          "effect": "Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Tentacle Grab",
       "cost": "Signature Ability",
@@ -114,14 +142,6 @@
       "effects": [
         {
           "effect": "Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type."
-        }
-      ]
-    },
-    {
-      "name": "Mind Over Manners",
-      "effects": [
-        {
-          "effect": "Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability."
         }
       ]
     },

@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Gnoll Abyssal Summoner",
+  "level": 2,
+  "roles": [
+    "Horde Support"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "ev": "4",
+  "stamina": "20",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "might": 1,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Death Frenzy",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the abyssal summoner is reduced to 0 Stamina, the abyssal summoner moves up to their speed and can make a melee free strike."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flame Wad",
@@ -56,14 +80,6 @@
       "effects": [
         {
           "effect": "One abyssal hyena target turns into a gnoll marauder, keeping their current Stamina. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
-        }
-      ]
-    },
-    {
-      "name": "Death Frenzy",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion ally within 5 squares of the abyssal summoner is reduced to 0 Stamina, the abyssal summoner moves up to their speed and can make a melee free strike."
         }
       ]
     }

@@ -1,10 +1,36 @@
 {
+  "name": "Wode Elf Runner",
+  "level": 1,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Wode Elf"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Masking Glamor",
+      "effects": [
+        {
+          "effect": "Abilities targeting the runner that would take a bane from cover or concealment have a double bane instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Spear",
@@ -28,14 +54,6 @@
         },
         {
           "effect": "If this ability is used as part of the Charge main action, the runner shifts up to 2 squares first"
-        }
-      ]
-    },
-    {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the runner that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

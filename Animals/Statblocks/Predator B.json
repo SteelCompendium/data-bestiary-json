@@ -1,10 +1,41 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Predator B",
+  "level": 3,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Animal"
+  ],
+  "ev": "16",
+  "stamina": "100",
+  "speed": 5,
+  "size": "3",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 1,
+  "reason": -1,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Trample",
+      "effects": [
+        {
+          "effect": "The predator can move through enemies' and objects' spaces at their usual speed. Any mundane size 2 or smaller object whose space they move through is destroyed. When the predator enters a creature's space for the first time on a turn, that creature takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Nature's Spirit",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Natural Weapon",
@@ -54,22 +85,6 @@
       "effects": [
         {
           "effect": "The target is pushed up to 5 squares."
-        }
-      ]
-    },
-    {
-      "name": "Trample",
-      "effects": [
-        {
-          "effect": "The predator can move through enemies' and objects' spaces at their usual speed. Any mundane size 2 or smaller object whose space they move through is destroyed. When the predator enters a creature's space for the first time on a turn, that creature takes 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

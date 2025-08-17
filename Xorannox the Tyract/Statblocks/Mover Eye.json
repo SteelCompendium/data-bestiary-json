@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Mover Eye",
+  "level": 6,
+  "roles": [
+    "Controller"
+  ],
+  "ancestry": [
+    "Eyestalk",
+    "Horror",
+    "Overmind"
+  ],
+  "ev": "-",
+  "stamina": "30",
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": -1,
+  "agility": 1,
+  "reason": 4,
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Psionic Barrier",
+      "effects": [
+        {
+          "effect": "The mover eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Telekinetic Beam",
@@ -23,14 +49,6 @@
           "t1": "11 damage; slide 4",
           "t2": "17 damage; slide 5",
           "t3": "20 damage; slide 6"
-        }
-      ]
-    },
-    {
-      "name": "Psionic Barrier",
-      "effects": [
-        {
-          "effect": "The mover eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
         }
       ]
     }

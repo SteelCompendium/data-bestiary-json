@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Haunt",
+  "level": 7,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "9",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "speed": 6,
+  "movement": "Fly, hover",
+  "size": "2",
+  "stability": 1,
+  "free_strike": 3,
+  "might": -2,
+  "agility": 4,
+  "reason": -1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Invisible Horror",
+      "effects": [
+        {
+          "effect": "The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lash Out",
@@ -48,14 +76,6 @@
         },
         {
           "effect": "A target knocked prone this way can't use the Stand Up maneuver on themself while any haunt is within 20 squares of them."
-        }
-      ]
-    },
-    {
-      "name": "Invisible Horror",
-      "effects": [
-        {
-          "effect": "The haunt can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. They are invisible while moving using a move action. The haunt doesn't take damage from being force moved into objects."
         }
       ]
     }

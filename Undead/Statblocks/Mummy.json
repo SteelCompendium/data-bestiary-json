@@ -1,8 +1,30 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Mummy",
+  "level": 4,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Mummy",
+    "Undead"
+  ],
+  "ev": "6",
+  "stamina": "50",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "weaknesses": [
+    "Fire 5"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 3,
+  "agility": -1,
+  "reason": 1,
+  "intuition": 3,
   "presence": 0,
   "traits": [],
   "abilities": [

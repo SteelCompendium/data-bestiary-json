@@ -1,11 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Kingfissure Wor",
+  "level": 7,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Beast",
+    "Worm"
+  ],
+  "ev": "108",
+  "stamina": "420",
+  "speed": 10,
+  "movement": "Burrow",
+  "size": "5",
+  "stability": 5,
+  "free_strike": 8,
+  "might": 5,
+  "agility": 1,
+  "reason": -5,
+  "intuition": 2,
+  "presence": -3,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -27,6 +42,40 @@
         }
       ]
     },
+    {
+      "name": "Seismic King",
+      "effects": [
+        {
+          "effect": "The kingfissure worm has line of effect only within 3 squares However, they ignore concealment for creatures touching the ground and don't need line of effect to use abilities against those creatures."
+        }
+      ]
+    },
+    {
+      "name": "Swallowed",
+      "effects": [
+        {
+          "effect": "A creature swallowed by the kingfissure worm is restrained and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land prone in unoccupied spaces within 3 squares of the kingfissure worm"
+        }
+      ]
+    },
+    {
+      "name": "Titanic Tunneler",
+      "effects": [
+        {
+          "effect": "The kingfissure worm can burrow through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through."
+        }
+      ]
+    },
+    {
+      "name": "Unstoppable Crawler",
+      "effects": [
+        {
+          "effect": "The kingfissure worm can't be frightened or knocked prone. While the worm is restrained or slowed, they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Tongue Grab",
       "cost": "Signature Ability",
@@ -118,38 +167,6 @@
       "effects": [
         {
           "effect": "The kingfissure worm deals 5 damage to the creature or object the tongue had grabbed, releases that creature or object, then pulls the damaged tongue back into their mouth."
-        }
-      ]
-    },
-    {
-      "name": "Seismic King",
-      "effects": [
-        {
-          "effect": "The kingfissure worm has line of effect only within 3 squares However, they ignore concealment for creatures touching the ground and don't need line of effect to use abilities against those creatures."
-        }
-      ]
-    },
-    {
-      "name": "Swallowed",
-      "effects": [
-        {
-          "effect": "A creature swallowed by the kingfissure worm is restrained and takes 1d6 acid damage at the start of every turn. If the worm takes 25 or more damage in a single round from swallowed creatures, they immediately regurgitate all creatures they have swallowed, who land prone in unoccupied spaces within 3 squares of the kingfissure worm"
-        }
-      ]
-    },
-    {
-      "name": "Titanic Tunneler",
-      "effects": [
-        {
-          "effect": "The kingfissure worm can burrow through stone. When the worm burrows, they create a stable size 3 tunnel in the squares they move through."
-        }
-      ]
-    },
-    {
-      "name": "Unstoppable Crawler",
-      "effects": [
-        {
-          "effect": "The kingfissure worm can't be frightened or knocked prone. While the worm is restrained or slowed, they take a −2 penalty to speed instead of suffering those conditions' usual effects on speed."
         }
       ]
     },

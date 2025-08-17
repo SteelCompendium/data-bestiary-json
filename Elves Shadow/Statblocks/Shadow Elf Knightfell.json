@@ -1,10 +1,36 @@
 {
+  "name": "Shadow Elf Knightfell",
+  "level": 4,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "12",
+  "stamina": "70",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 3,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The knightfell ignores concealment created by darkness. While the knightfell is in direct sunlight, they have damage weakness 3. While the knightfell has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Suffusing Strike",
@@ -39,14 +65,6 @@
       "effects": [
         {
           "effect": "The target takes half the damage and the knightfell takes the other half."
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The knightfell ignores concealment created by darkness. While the knightfell is in direct sunlight, they have damage weakness 3. While the knightfell has concealment, they have damage immunity 3."
         }
       ]
     }

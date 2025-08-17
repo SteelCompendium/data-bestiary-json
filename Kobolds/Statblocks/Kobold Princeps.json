@@ -1,10 +1,35 @@
 {
+  "name": "Kobold Princeps",
+  "level": 1,
+  "roles": [
+    "Minion Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to Stamina",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hasta",
@@ -26,14 +51,6 @@
         },
         {
           "effect": "One ally within 3 squares of the princeps shifts up to 2 squares"
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

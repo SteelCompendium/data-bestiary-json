@@ -1,10 +1,51 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Basalt Stone Giant",
+  "level": 8,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Giant",
+    "Stone Giant"
+  ],
+  "ev": "40",
+  "stamina": "207",
+  "speed": 7,
+  "movement": "Burrow",
+  "size": "4",
+  "stability": 10,
+  "free_strike": 8,
+  "might": 4,
+  "agility": 2,
+  "reason": 1,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Stonebreaker Flesh",
+      "effects": [
+        {
+          "effect": "Whenever an enemy obtains a tier 1 outcome on a melee ability used against the basalt stone giant, they take a bane on that ability until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Stone Steps",
+      "effects": [
+        {
+          "effect": "The basalt stone giant ignores difficult terrain"
+        }
+      ]
+    },
+    {
+      "name": "Stone Swim",
+      "effects": [
+        {
+          "effect": "The basalt stone giant can burrow through stone, but can't drag other creatures underground when they do so."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Rune-Signed Blade",
@@ -81,30 +122,6 @@
       "effects": [
         {
           "effect": "The target is pushed up to 3 squares, or if they have A < 3, they are pushed up to 6 squares and knocked prone."
-        }
-      ]
-    },
-    {
-      "name": "Stonebreaker Flesh",
-      "effects": [
-        {
-          "effect": "Whenever an enemy obtains a tier 1 outcome on a melee ability used against the basalt stone giant, they take a bane on that ability until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Stone Steps",
-      "effects": [
-        {
-          "effect": "The basalt stone giant ignores difficult terrain"
-        }
-      ]
-    },
-    {
-      "name": "Stone Swim",
-      "effects": [
-        {
-          "effect": "The basalt stone giant can burrow through stone, but can't drag other creatures underground when they do so."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Giant Shambler Zombie",
+  "level": 10,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "17",
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "speed": 4,
+  "size": "3",
+  "stability": 5,
+  "free_strike": 5,
+  "with_captain": "+4 damage bonus to strikes",
+  "might": 5,
+  "agility": -3,
+  "reason": -3,
+  "intuition": 1,
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Meat Shield",
+      "effects": [
+        {
+          "effect": "Each ally adjacent to the shambler has damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Rotten Kick",
@@ -23,14 +52,6 @@
           "t1": "5 damage; push 2",
           "t2": "8 damage; push 4",
           "t3": "10 damage; push 6"
-        }
-      ]
-    },
-    {
-      "name": "Meat Shield",
-      "effects": [
-        {
-          "effect": "Each ally adjacent to the shambler has damage immunity 3."
         }
       ]
     }

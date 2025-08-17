@@ -1,11 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Ajax the Invincible",
+  "level": 11,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "156",
+  "stamina": "700",
+  "speed": 7,
+  "movement": "Fly, hover",
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 11,
+  "might": 5,
+  "agility": 4,
+  "reason": 5,
+  "intuition": 5,
+  "presence": 4,
+  "traits": [
     {
       "name": "Ajax",
       "effects": [
@@ -19,6 +34,16 @@
         }
       ]
     },
+    {
+      "name": "I'm Not Done Yet.",
+      "effects": [
+        {
+          "effect": "Ajax dies only when his Stamina reaches −350. While his Stamina is below 0, Ajax is bleeding, he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional Malice per round."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Blade of the Gol King",
       "keywords": [
@@ -111,14 +136,6 @@
       "effects": [
         {
           "effect": "Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage."
-        }
-      ]
-    },
-    {
-      "name": "I'm Not Done Yet.",
-      "effects": [
-        {
-          "effect": "Ajax dies only when his Stamina reaches −350. While his Stamina is below 0, Ajax is bleeding, he can choose any two options from his Tactical Stance trait each round, and the Director gains 2 additional Malice per round."
         }
       ]
     },

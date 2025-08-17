@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Goblin Runner",
+  "level": 1,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "Gain an edge on strikes",
+  "might": -2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The runner doesn't provoke opportunity attacks by moving"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Club Charge",
@@ -24,14 +50,6 @@
           "t1": "1 damage",
           "t2": "2 damage",
           "t3": "3 damage"
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The runner doesn't provoke opportunity attacks by moving"
         }
       ]
     }

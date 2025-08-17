@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Vampire Lord",
+  "level": 7,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "36",
+  "stamina": "2200",
+  "immunities": [
+    "Corruption 9",
+    "poison 9"
+  ],
+  "speed": 1,
+  "movement": "Climb, hover, teleport",
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 7,
+  "might": 2,
+  "agility": 5,
+  "reason": 1,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Lord's Bloodthirst",
+      "effects": [
+        {
+          "effect": "The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Crimson Embrace",
@@ -62,14 +90,6 @@
       "effects": [
         {
           "effect": "The target becomes the new target of the strike."
-        }
-      ]
-    },
-    {
-      "name": "Lord's Bloodthirst",
-      "effects": [
-        {
-          "effect": "The vampire has speed 15 and an edge on power rolls while any creature within 20 squares of them is bleeding. Any bleeding creature within 5 squares of the vampire can't hide."
         }
       ]
     },

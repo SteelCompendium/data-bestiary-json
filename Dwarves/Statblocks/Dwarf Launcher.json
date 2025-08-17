@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Dwarf Launcher",
+  "level": 1,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "8",
+  "stamina": "39",
+  "speed": 5,
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 4,
+  "might": 1,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Indirect Fire",
+      "effects": [
+        {
+          "effect": "The launcher ignores concealment and cover, and doesn't need line of effect to use their abilities as long as a size 1 opening exists between the dwarf and the target."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Concussive Grenade",
@@ -48,14 +72,6 @@
         },
         {
           "effect": "A target dazed this way treats their characteristic scores as 1 lower for the purpose of resisting potencies."
-        }
-      ]
-    },
-    {
-      "name": "Indirect Fire",
-      "effects": [
-        {
-          "effect": "The launcher ignores concealment and cover, and doesn't need line of effect to use their abilities as long as a size 1 opening exists between the dwarf and the target."
         }
       ]
     }

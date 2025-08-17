@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Ghost",
+  "level": 1,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "immunities": [
+    "Corruption 3",
+    "poison 3"
+  ],
+  "speed": 6,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 4,
+  "might": -2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Phantom Flow",
+      "effects": [
+        {
+          "effect": "Each undead with a Phasing trait within 10 squares of the ghost can't be made slowed or weakened."
+        }
+      ]
+    },
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Heat Death",
@@ -65,14 +101,6 @@
       ]
     },
     {
-      "name": "Phantom Flow",
-      "effects": [
-        {
-          "effect": "Each undead with a Phasing trait within 10 squares of the ghost can't be made slowed or weakened."
-        }
-      ]
-    },
-    {
       "name": "Paranormal Activity",
       "cost": "Villain Action 1",
       "keywords": [
@@ -129,14 +157,6 @@
         },
         {
           "effect": "A target who has P < 2 is reduced to 1 Stamina if they are winded after taking this damage."
-        }
-      ]
-    },
-    {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being force moved into objects."
         }
       ]
     }

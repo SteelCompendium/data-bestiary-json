@@ -1,11 +1,29 @@
 {
+  "name": "Devil Jurist",
+  "level": 5,
+  "roles": [
+    "Elite Artillery"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "28",
+  "stamina": "120",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 7,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "agility": 2,
+  "reason": 1,
+  "intuition": 1,
+  "presence": 3,
+  "traits": [
     {
       "name": "Hellfire",
       "effects": [
@@ -14,6 +32,16 @@
         }
       ]
     },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Fire and Brimstone",
       "cost": "Signature Ability",
@@ -88,14 +116,6 @@
       "effects": [
         {
           "effect": "The target makes a Presence test\n- **≤11:** The jurist chooses a new target for the strike.\n- **12-16:** The jurist halves the triggering damage.\n- **17+:** The target takes a bane on the strike."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
         }
       ]
     }

@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Fire Giant Red Fist",
+  "level": 9,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Fire Giant",
+    "Giant"
+  ],
+  "ev": "44",
+  "stamina": "240",
+  "immunities": [
+    "Fire 9"
+  ],
+  "speed": 8,
+  "size": "4",
+  "stability": 5,
+  "free_strike": 10,
+  "might": 4,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Searing Skin",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the red fist or uses a melee ability against them, that enemy takes 5 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flaming Punch",
@@ -91,14 +118,6 @@
       "effects": [
         {
           "effect": "The red fist becomes the target of the triggering ability, then can make a free strike against the enemy after the ability resolves."
-        }
-      ]
-    },
-    {
-      "name": "Searing Skin",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the red fist or uses a melee ability against them, that enemy takes 5 fire damage."
         }
       ]
     }

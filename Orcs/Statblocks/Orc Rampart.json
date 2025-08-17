@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Orc Rampart",
+  "level": 2,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "8",
+  "stamina": "59",
+  "speed": 6,
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 2,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the rampart is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the rampart is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "My Spear, My Foe",
@@ -55,14 +79,6 @@
       "effects": [
         {
           "effect": "The rampart becomes the target of the triggering ability instead."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the rampart is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the rampart is reduced to 1 Stamina instead."
         }
       ]
     }

@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Tyburaki",
+  "level": 10,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "15",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 8,
+  "movement": "Swim",
+  "size": "2",
+  "stability": 0,
+  "free_strike": 4,
+  "with_captain": "+4 damage bonus to strikes",
+  "might": 2,
+  "agility": 5,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 3,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Breacher",
+      "effects": [
+        {
+          "effect": "While swimming, the tyburaki can jump 5 squares as part of their movement."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the tyburaki can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Tail Bite",
@@ -26,22 +63,6 @@
         },
         {
           "effect": "The tyburaki can make a free strike against each enemy adjacent to the target."
-        }
-      ]
-    },
-    {
-      "name": "Breacher",
-      "effects": [
-        {
-          "effect": "While swimming, the tyburaki can jump 5 squares as part of their movement."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the tyburaki can't be hidden from them."
         }
       ]
     }

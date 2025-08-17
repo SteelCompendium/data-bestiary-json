@@ -1,10 +1,35 @@
 {
+  "name": "High Elf Orbweaver",
+  "level": 3,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "ev": "10",
+  "stamina": "40",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 2,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the orbweaver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Awash",
@@ -44,14 +69,6 @@
         },
         {
           "effect": "Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required)."
-        }
-      ]
-    },
-    {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the orbweaver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

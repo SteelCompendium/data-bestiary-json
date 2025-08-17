@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Troll Whelp",
+  "level": 5,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Giant",
+    "Troll"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "10",
+  "weaknesses": [
+    "Acid 5",
+    "fire"
+  ],
+  "speed": 6,
+  "size": "1L",
+  "stability": 3,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 3,
+  "agility": 1,
+  "reason": -1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Lingering Hunger",
+      "effects": [
+        {
+          "effect": "Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 Stamina."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Jaws and Claws",
@@ -23,14 +52,6 @@
           "t1": "3 damage",
           "t2": "6 damage; slide 1",
           "t3": "7 damage; slide 2; M < 2 bleeding (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Lingering Hunger",
-      "effects": [
-        {
-          "effect": "Whenever two or more whelps are simultaneously reduced to 0 Stamina by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 Stamina."
         }
       ]
     }

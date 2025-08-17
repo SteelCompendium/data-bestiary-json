@@ -1,10 +1,36 @@
 {
+  "name": "High Elf Quiver",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 2,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Heavy Arrow",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "Each ally adjacent to the target shifts up to 2 squares"
-        }
-      ]
-    },
-    {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

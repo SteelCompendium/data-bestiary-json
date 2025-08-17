@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Lizardfolk Shellguard",
+  "level": 1,
+  "roles": [
+    "Minion Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Lizardfolk"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "6",
+  "speed": 5,
+  "movement": "Swim",
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to Stamina",
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Reptilian Escape",
+      "effects": [
+        {
+          "effect": "While the shellguard has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Shield Smash",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "The target takes a bane on their next strike."
-        }
-      ]
-    },
-    {
-      "name": "Reptilian Escape",
-      "effects": [
-        {
-          "effect": "While the shellguard has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares."
         }
       ]
     }

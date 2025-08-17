@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Dwarf Shieldwall",
+  "level": 3,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "10",
+  "stamina": "72",
+  "speed": 5,
+  "size": "1M",
+  "stability": 4,
+  "free_strike": 5,
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Call to the Wall",
+      "effects": [
+        {
+          "effect": "Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Wide Axe",
@@ -46,14 +70,6 @@
       "effects": [
         {
           "effect": "The shieldwall becomes the target of the triggering strike and halves the damage."
-        }
-      ]
-    },
-    {
-      "name": "Call to the Wall",
-      "effects": [
-        {
-          "effect": "Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature taunted until the end of the creature's next turn."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Faded Echo Spirit",
+  "level": 7,
+  "roles": [
+    "Minion Hexer"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "10",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 3,
+  "with_captain": "Gain an edge on strikes",
+  "might": -3,
+  "agility": 4,
+  "reason": -5,
+  "intuition": 1,
+  "presence": -3,
+  "traits": [
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hollow Grasp",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "This weakened condition ends if an affected target ends their turn with no spirit within 5 squares of them."
-        }
-      ]
-    },
-    {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects"
         }
       ]
     }

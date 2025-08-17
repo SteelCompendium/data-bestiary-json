@@ -1,10 +1,47 @@
 {
-  "might": 0,
+  "name": "Hobgoblin Death Captain",
+  "level": 4,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "immunities": [
+    "Fire 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 3,
   "agility": 0,
-  "reason": 0,
+  "reason": 1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Battle Ready",
+      "effects": [
+        {
+          "effect": "Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Blightblade",
@@ -45,22 +82,6 @@
       "effects": [
         {
           "effect": "The target moves up to their speed and can make a free strike."
-        }
-      ]
-    },
-    {
-      "name": "Battle Ready",
-      "effects": [
-        {
-          "effect": "Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes 3 fire damage."
         }
       ]
     }

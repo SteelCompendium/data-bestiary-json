@@ -1,10 +1,50 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Force of Earth",
+  "level": 3,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Elemental"
+  ],
+  "ev": "20",
+  "stamina": "132",
+  "speed": 5,
+  "movement": "Burrow",
+  "size": "2",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 2,
+  "agility": -1,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Primordial Strength",
+      "effects": [
+        {
+          "effect": "The force's strikes gain a +6 damage bonus against objects."
+        }
+      ]
+    },
+    {
+      "name": "Stone Swim",
+      "effects": [
+        {
+          "effect": "The force can burrow through stone, but can't drag other creatures underground when they do so."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Slam Into Dirt",
@@ -61,30 +101,6 @@
       "effects": [
         {
           "effect": "The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter."
-        }
-      ]
-    },
-    {
-      "name": "Fickle and Free",
-      "effects": [
-        {
-          "effect": "The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
-        }
-      ]
-    },
-    {
-      "name": "Primordial Strength",
-      "effects": [
-        {
-          "effect": "The force's strikes gain a +6 damage bonus against objects."
-        }
-      ]
-    },
-    {
-      "name": "Stone Swim",
-      "effects": [
-        {
-          "effect": "The force can burrow through stone, but can't drag other creatures underground when they do so."
         }
       ]
     }

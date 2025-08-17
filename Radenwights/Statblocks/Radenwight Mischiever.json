@@ -1,8 +1,25 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Radenwight Mischiever",
+  "level": 1,
+  "roles": [
+    "Minion Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "4",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
+  "might": -1,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 1,
   "presence": 0,
   "traits": [],
   "abilities": [

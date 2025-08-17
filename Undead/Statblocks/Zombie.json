@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Zombie",
+  "level": 1,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "3",
+  "stamina": "20",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 2,
+  "might": 2,
+  "agility": 1,
+  "reason": -5,
+  "intuition": -2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Endless Knight",
+      "effects": [
+        {
+          "effect": "The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Clobber and Clutch",
@@ -47,14 +75,6 @@
           "t1": "2 corruption damage",
           "t2": "3 corruption damage; M < 1 weakened (save ends)",
           "t3": "4 corruption damage; M < 2 dazed (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Endless Knight",
-      "effects": [
-        {
-          "effect": "The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone"
         }
       ]
     }

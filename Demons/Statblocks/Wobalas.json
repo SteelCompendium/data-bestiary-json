@@ -1,9 +1,28 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
+  "name": "Wobalas",
+  "level": 4,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "7",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 1,
+  "agility": 3,
+  "reason": 1,
+  "intuition": 2,
+  "presence": 1,
   "traits": [],
   "abilities": [
     {

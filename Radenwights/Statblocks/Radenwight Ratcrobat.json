@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Radenwight Ratcrobat",
+  "level": 1,
+  "roles": [
+    "Platoon Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
+  "might": -1,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Gymratstics",
+      "effects": [
+        {
+          "effect": "The ratcrobat gains an edge on strikes against larger creatures."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "En Garde",
@@ -56,14 +81,6 @@
       "effects": [
         {
           "effect": "The ratcrobat makes a free strike against the target."
-        }
-      ]
-    },
-    {
-      "name": "Gymratstics",
-      "effects": [
-        {
-          "effect": "The ratcrobat gains an edge on strikes against larger creatures."
         }
       ]
     }

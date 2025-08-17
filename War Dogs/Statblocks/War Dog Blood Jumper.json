@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Blood Jumper",
+  "level": 10,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "15",
+  "speed": 7,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "+3 bonus to speed",
+  "might": 5,
+  "agility": 4,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Drop Troop",
+      "effects": [
+        {
+          "effect": "If the jumper doesn't end their turn on the ground, they fall prone."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the jumper is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Jumplance",
@@ -24,22 +59,6 @@
           "t1": "4 damage",
           "t2": "7 damage",
           "t3": "9 damage; A < 4 bleeding (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Drop Troop",
-      "effects": [
-        {
-          "effect": "If the jumper doesn't end their turn on the ground, they fall prone."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the jumper is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
         }
       ]
     }

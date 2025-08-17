@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Rival Elementalist",
+  "level": 10,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "48",
+  "stamina": "220",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 10,
+  "might": 1,
+  "agility": 3,
+  "reason": 5,
+  "intuition": 4,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Viridescent Storm",
@@ -61,14 +85,6 @@
       "effects": [
         {
           "effect": "The elementalist can teleport up to 5 squares. Each creature adjacent to the space they leave or appear in takes 5 corruption damage."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

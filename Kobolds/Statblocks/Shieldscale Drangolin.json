@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Shieldscale Drangolin",
+  "level": 1,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Kobold",
+    "Humanoid"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "speed": 7,
+  "movement": "Burrow",
+  "size": "2 or 3 Size",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 1,
+  "reason": -3,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Ashen Cloud",
+      "effects": [
+        {
+          "effect": "Any ally adjacent to the drangolin has concealment."
+        }
+      ]
+    },
+    {
+      "name": "Burrow Bond",
+      "effects": [
+        {
+          "effect": "When the drangolin burrows, each adjacent size 1S or smaller ally can move with them"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fiery Claws",
@@ -64,22 +97,6 @@
           "t1": "6 damage; push 1; A < 0 prone",
           "t2": "8 damage; push 3; A < 0 prone",
           "t3": "11 damage; push 5; A < 0 prone"
-        }
-      ]
-    },
-    {
-      "name": "Ashen Cloud",
-      "effects": [
-        {
-          "effect": "Any ally adjacent to the drangolin has concealment."
-        }
-      ]
-    },
-    {
-      "name": "Burrow Bond",
-      "effects": [
-        {
-          "effect": "When the drangolin burrows, each adjacent size 1S or smaller ally can move with them"
         }
       ]
     }

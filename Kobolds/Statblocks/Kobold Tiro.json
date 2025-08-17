@@ -1,10 +1,35 @@
 {
+  "name": "Kobold Tiro",
+  "level": 1,
+  "roles": [
+    "Minion Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "5",
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "+1 bonus to speed",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shield? Shield!",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Pugio",
@@ -26,14 +51,6 @@
         },
         {
           "effect": "The target can't shift until the start of the tiro's next turn"
-        }
-      ]
-    },
-    {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

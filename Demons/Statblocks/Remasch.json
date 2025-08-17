@@ -1,10 +1,46 @@
 {
+  "name": "Remasch",
+  "level": 2,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "4",
+  "stamina": "20",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": 5,
+  "movement": "Teleport",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 3,
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the remasch can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Abyssal Strike",
@@ -43,22 +79,6 @@
       "effects": [
         {
           "effect": "The remasch can teleport up to 2 squares and uses Abyssal Strike."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the remasch can't be hidden from them."
         }
       ]
     }

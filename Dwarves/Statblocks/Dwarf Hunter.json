@@ -1,6 +1,22 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Dwarf Hunter",
+  "level": 1,
+  "roles": [
+    "Minion Support"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "6",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to Stamina",
+  "might": 1,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,

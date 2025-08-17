@@ -1,10 +1,53 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Chorogaunt",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "20",
+  "stamina": "120",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 5,
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the chorogaunt can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Agonizing Harmony",
@@ -55,30 +98,6 @@
       "effects": [
         {
           "effect": "Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the chorogaunt can't be hidden from them."
         }
       ]
     },

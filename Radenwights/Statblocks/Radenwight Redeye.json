@@ -1,7 +1,24 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Radenwight Redeye",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "3",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
+  "might": 1,
+  "agility": 2,
+  "reason": -1,
   "intuition": 0,
   "presence": 0,
   "traits": [],

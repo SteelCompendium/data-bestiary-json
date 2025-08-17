@@ -1,10 +1,36 @@
 {
+  "name": "Shadow Elf Duskcaller",
+  "level": 5,
+  "roles": [
+    "Platoon Controller"
+  ],
+  "ancestry": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "ev": "14",
+  "stamina": "60",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 3,
+  "reason": 3,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Of the Umbra",
+      "effects": [
+        {
+          "effect": "The duskcaller ignores concealment created by darkness. While the duskcaller is in direct sunlight, they have damage weakness 3. While the duskcaller has concealment, they have damage immunity 3."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Night Knife",
@@ -46,14 +72,6 @@
         {
           "effect": "The size of the cube increases by 3.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The duskcaller ignores concealment created by darkness. While the duskcaller is in direct sunlight, they have damage weakness 3. While the duskcaller has concealment, they have damage immunity 3."
         }
       ]
     }

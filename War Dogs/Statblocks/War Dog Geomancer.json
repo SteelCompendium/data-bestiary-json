@@ -1,10 +1,44 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Geomancer",
+  "level": 8,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "10",
+  "stamina": "45",
+  "speed": 5,
+  "movement": "Burrow",
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 1,
+  "reason": 4,
+  "intuition": 4,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Dust Cloud",
+      "effects": [
+        {
+          "effect": "The geomancer is always surrounded by a 2 aura of swirling dust and earthen debris. The geomancer and any ally in the area have concealment."
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the geomancer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Earthwave",
@@ -46,22 +80,6 @@
       "effects": [
         {
           "effect": "The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while adjacent to it."
-        }
-      ]
-    },
-    {
-      "name": "Dust Cloud",
-      "effects": [
-        {
-          "effect": "The geomancer is always surrounded by a 2 aura of swirling dust and earthen debris. The geomancer and any ally in the area have concealment."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the geomancer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
         }
       ]
     }

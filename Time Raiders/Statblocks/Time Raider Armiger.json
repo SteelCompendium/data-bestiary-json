@@ -1,10 +1,45 @@
 {
+  "name": "Time Raider Armiger",
+  "level": 3,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "10",
+  "stamina": "60",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The armiger doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    },
+    {
+      "name": "Kuran'zoi Heraldry",
+      "effects": [
+        {
+          "effect": "Any time raider who starts their turn with line of effect to the armiger can end one condition affecting the."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Serrated Saber",
@@ -47,22 +82,6 @@
           "t1": "4 psychic damage; R < 0 5 poison damage",
           "t2": "6 psychic damage; R < 1 5 poison damage",
           "t3": "9 psychic damage; R < 2 5 poison damage"
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The armiger doesn't take a bane on strikes against creatures with concealment."
-        }
-      ]
-    },
-    {
-      "name": "Kuran'zoi Heraldry",
-      "effects": [
-        {
-          "effect": "Any time raider who starts their turn with line of effect to the armiger can end one condition affecting the."
         }
       ]
     }

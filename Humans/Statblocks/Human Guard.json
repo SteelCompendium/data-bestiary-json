@@ -1,10 +1,39 @@
 {
-  "might": 0,
+  "name": "Human Guard",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "5",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to speed",
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The guard ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Halberd",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "If the guard is flanked, they can make a free strike against a different target adjacent to them."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The guard ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

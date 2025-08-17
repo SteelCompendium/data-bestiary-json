@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Hunter-Killer",
+  "level": 10,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "14",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
+  "with_captain": "+4 damage bonus to strikes",
+  "might": 1,
+  "agility": 5,
+  "reason": 3,
+  "intuition": 5,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the hunter-killer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fuse-Iron Rocket",
@@ -26,14 +52,6 @@
         },
         {
           "effect": "Each enemy adjacent to the target before the forced movement takes 5 fire damage"
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the hunter-killer is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object."
         }
       ]
     }

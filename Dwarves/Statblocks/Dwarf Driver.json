@@ -1,6 +1,22 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Dwarf Driver",
+  "level": 1,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "6",
+  "speed": 7,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to Stamina",
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,

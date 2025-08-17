@@ -1,10 +1,44 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "War Dog Blackcap",
+  "level": 7,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "9",
+  "stamina": "45",
+  "speed": 6,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 1,
+  "agility": 4,
+  "reason": 4,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Ash Clones",
+      "effects": [
+        {
+          "effect": "An ash clone created by the blackcap has the blackcap's statistics but has 1 Stamina. Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves."
+        }
+      ]
+    },
+    {
+      "name": "Duplicating Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the blackcap or any of their ash clones is reduced to 0 Stamina, that creature's loyalty collar explodes, dealing 3d6 poison damage to each adjacent enemy and object. If any adjacent enemy has A < 3 they are also weakened (save ends)"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flesh-Eater Knife",
@@ -42,22 +76,6 @@
       "effects": [
         {
           "effect": "Each target makes a free strike."
-        }
-      ]
-    },
-    {
-      "name": "Ash Clones",
-      "effects": [
-        {
-          "effect": "An ash clone created by the blackcap has the blackcap's statistics but has 1 Stamina. Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves."
-        }
-      ]
-    },
-    {
-      "name": "Duplicating Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the blackcap or any of their ash clones is reduced to 0 Stamina, that creature's loyalty collar explodes, dealing 3d6 poison damage to each adjacent enemy and object. If any adjacent enemy has A < 3 they are also weakened (save ends)"
         }
       ]
     }

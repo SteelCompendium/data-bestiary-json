@@ -1,10 +1,46 @@
 {
+  "name": "Devil Adjudicator",
+  "level": 6,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 7,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 1,
+  "reason": 2,
+  "intuition": 1,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Vexatious Litigation",
+      "effects": [
+        {
+          "effect": "Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws."
+        }
+      ]
+    },
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Infernal Injunction",
@@ -73,22 +109,6 @@
       "effects": [
         {
           "effect": "The target makes a Presence test"
-        }
-      ]
-    },
-    {
-      "name": "Vexatious Litigation",
-      "effects": [
-        {
-          "effect": "Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
         }
       ]
     }

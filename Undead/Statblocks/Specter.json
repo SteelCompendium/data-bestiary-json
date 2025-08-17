@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Specter",
+  "level": 1,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "3",
+  "stamina": "10",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 5,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 1,
+  "might": -5,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Corruptive Phasing",
+      "effects": [
+        {
+          "effect": "The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being force moved into objects."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Decaying Touch",
@@ -41,14 +69,6 @@
       "effects": [
         {
           "effect": "The specter turns invisible, moves up to their speed, and is visible again."
-        }
-      ]
-    },
-    {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being force moved into objects."
         }
       ]
     }

@@ -1,10 +1,43 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "War Dog Hypokrite",
+  "level": 4,
+  "roles": [
+    "Horde Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 8,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 1,
+  "agility": 3,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Face in the Crowd",
+      "effects": [
+        {
+          "effect": "The hypokrite is invisible while adjacent to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect"
+        }
+      ]
+    },
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the hypokrite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Needle-Knife",
@@ -42,22 +75,6 @@
       "effects": [
         {
           "effect": "The hypokrite detonates their loyalty collar to deal 2d6 damage to each adjacent enemy, but teleports to an unoccupied space adjacent to an ally within distance and remains alive."
-        }
-      ]
-    },
-    {
-      "name": "Face in the Crowd",
-      "effects": [
-        {
-          "effect": "The hypokrite is invisible while adjacent to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect"
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the hypokrite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

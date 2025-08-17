@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Soulraker Praetorian",
+  "level": 7,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Soulraker"
+  ],
+  "ev": "9",
+  "stamina": "45",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 8,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 4,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the praetorian is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Praetorian Buzzing",
+      "effects": [
+        {
+          "effect": "Any creature who starts their turn with two or more praetorians adjacent to them takes 6 sonic damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Barbed Stinger",
@@ -42,22 +78,6 @@
       "effects": [
         {
           "effect": "The praetorian makes a free strike against the target, breaks off part of their stinger in the target, and shifts up to half their speed. The target is bleeding until they remove the stinger fragment as a free maneuver, taking 6 damage in the process."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the praetorian is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Praetorian Buzzing",
-      "effects": [
-        {
-          "effect": "Any creature who starts their turn with two or more praetorians adjacent to them takes 6 sonic damage."
         }
       ]
     }

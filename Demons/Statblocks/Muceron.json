@@ -1,10 +1,45 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Muceron",
+  "level": 3,
+  "roles": [
+    "Horde Brute"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "5",
+  "stamina": "30",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the muceron can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Barbed Tongues",
@@ -43,22 +78,6 @@
       "effects": [
         {
           "effect": "The muceron pulls each target up to 5 squares."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the muceron can't be hidden from them."
         }
       ]
     }

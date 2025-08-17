@@ -1,10 +1,48 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "name": "Hobgoblin Smokebinder",
+  "level": 5,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "14",
+  "stamina": "70",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 7,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
+  "might": 1,
+  "agility": 3,
+  "reason": 2,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Essence of Smoke",
+      "effects": [
+        {
+          "effect": "The smokebinder can move through spaces as if they were size 1T and can occupy another creature or object's space. At the end of their turn, the smokebinder can attempt to hide if they haven't taken any damage since their last turn."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the smokebinder is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the smokebinder takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Choking Bolt",
@@ -42,22 +80,6 @@
       "effects": [
         {
           "effect": "Each target makes a Might test.\n- **≤11:** 11 damage; the target has a double bane on their next power roll\n- **12-16:** 9 damage; the target takes a bane on their next power roll\n- **17+:** 5 damage"
-        }
-      ]
-    },
-    {
-      "name": "Essence of Smoke",
-      "effects": [
-        {
-          "effect": "The smokebinder can move through spaces as if they were size 1T and can occupy another creature or object's space. At the end of their turn, the smokebinder can attempt to hide if they haven't taken any damage since their last turn."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the smokebinder is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the smokebinder takes 3 fire damage."
         }
       ]
     }

@@ -1,10 +1,39 @@
 {
+  "name": "Angulotl Dart",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "3",
+  "immunities": [
+    "Poison 2"
+  ],
+  "speed": 5,
+  "movement": "Climb, swim",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+4 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 2,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Toxiferous",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the dart or uses a melee ability against them, that enemy takes 1 poison damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Poison Dart",
@@ -25,14 +54,6 @@
         },
         {
           "effect": "The dart gains an edge on this ability against any target who has less than full Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the dart or uses a melee ability against them, that enemy takes 1 poison damage."
         }
       ]
     }

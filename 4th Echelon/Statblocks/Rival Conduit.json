@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Rival Conduit",
+  "level": 10,
+  "roles": [
+    "Elite Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "48",
+  "stamina": "240",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 10,
+  "might": 4,
+  "agility": 1,
+  "reason": 1,
+  "intuition": 5,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Unwavering Defender",
+      "effects": [
+        {
+          "effect": "Damage dealt to any ally adjacent to the conduit is halved."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Sunder the Very Skies",
@@ -47,22 +79,6 @@
       "effects": [
         {
           "effect": "Each target has a double edge on their next strike, and that strike deals an extra 10 holy damage. Additionally, they can vertical slide each creature targeted by the strike up to 2 squares."
-        }
-      ]
-    },
-    {
-      "name": "Unwavering Defender",
-      "effects": [
-        {
-          "effect": "Damage dealt to any ally adjacent to the conduit is halved."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the conduit chooses one creature within their line of effect. Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

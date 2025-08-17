@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Ceramic Horse",
+  "level": 1,
+  "roles": [
+    "Platoon Mount"
+  ],
+  "ancestry": [
+    "Elemental",
+    "High Elf"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 10,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Shared Otherworldly Grace",
+      "effects": [
+        {
+          "effect": "If the ceramic horse's rider has the Otherworldly Grace trait, the ceramic horse also has that trait."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Elemental Charge",
@@ -60,14 +84,6 @@
       "effects": [
         {
           "effect": "The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall."
-        }
-      ]
-    },
-    {
-      "name": "Shared Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "If the ceramic horse's rider has the Otherworldly Grace trait, the ceramic horse also has that trait."
         }
       ]
     }

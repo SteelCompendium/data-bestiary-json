@@ -1,10 +1,40 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Soulraker Scout",
+  "level": 7,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Soulraker"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "12",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 7,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "Gain an edge on strikes",
+  "might": 2,
+  "agility": 4,
+  "reason": 1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Abyssal Buzzing",
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soul Stinger",
@@ -23,14 +53,6 @@
           "t1": "3 poison damage",
           "t2": "6 poison damage; the scout can shift 1 square",
           "t3": "7 poison damage; the scout shifts up to 3 squares"
-        }
-      ]
-    },
-    {
-      "name": "Abyssal Buzzing",
-      "effects": [
-        {
-          "effect": "Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage."
         }
       ]
     }

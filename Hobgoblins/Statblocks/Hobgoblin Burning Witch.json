@@ -1,10 +1,40 @@
 {
+  "name": "Hobgoblin Burning Witch",
+  "level": 4,
+  "roles": [
+    "Platoon Controller"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "12",
+  "stamina": "50",
+  "immunities": [
+    "Fire 4"
+  ],
+  "speed": 5,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 1,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the burning witch is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the burning witch takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soul Burn",
@@ -43,14 +73,6 @@
       "effects": [
         {
           "effect": "Each target can teleport up to 5 squares. Each creature adjacent to a target at their destination takes 3 fire damage."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the burning witch is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the burning witch takes 3 fire damage."
         }
       ]
     }

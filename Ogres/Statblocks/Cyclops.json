@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Cyclops",
+  "level": 10,
+  "roles": [
+    "Minion Controller"
+  ],
+  "ancestry": [
+    "Giant",
+    "Ogre"
+  ],
+  "ev": "12 for four minions",
+  "stamina": "14",
+  "speed": 6,
+  "size": "3",
+  "stability": 5,
+  "free_strike": 4,
+  "with_captain": "+4 bonus to speed",
+  "might": 5,
+  "agility": -1,
+  "reason": -1,
+  "intuition": 3,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Limited Vision",
+      "effects": [
+        {
+          "effect": "The cyclops has line of effect only within 3 squares. Whenever the cyclops takes damage from a ranged ability, they can move up to 3 squares toward the source of the damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Wild Slam",
@@ -25,14 +50,6 @@
         },
         {
           "effect": "The cyclops automatically treats their initial power roll as a 17. They can still roll to determine if they score a critical hit."
-        }
-      ]
-    },
-    {
-      "name": "Limited Vision",
-      "effects": [
-        {
-          "effect": "The cyclops has line of effect only within 3 squares. Whenever the cyclops takes damage from a ranged ability, they can move up to 3 squares toward the source of the damage."
         }
       ]
     }

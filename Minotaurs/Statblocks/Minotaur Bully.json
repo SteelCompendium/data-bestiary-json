@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Minotaur Bully",
+  "level": 8,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Accursed",
+    "Humanoid",
+    "Minotaur"
+  ],
+  "ev": "10 for four minions",
+  "stamina": "14",
+  "speed": 6,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "+3 damage bonus to strikes",
+  "might": 4,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 3,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Minotaur Sense",
+      "effects": [
+        {
+          "effect": "The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Javelin and Bellow",
@@ -25,14 +51,6 @@
           "t1": "4 damage",
           "t2": "7 damage",
           "t3": "9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Minotaur Sense",
-      "effects": [
-        {
-          "effect": "The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
         }
       ]
     }

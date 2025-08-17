@@ -1,10 +1,48 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Hobgoblin Bloodlord",
+  "level": 6,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "32",
+  "stamina": "180",
+  "immunities": [
+    "Fire 6"
+  ],
+  "speed": 6,
+  "movement": "Teleport",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
+  "might": 4,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 3,
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the bloodlord is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the bloodlord takes 3 fire damage."
+        }
+      ]
+    },
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soul Sword",
@@ -58,22 +96,6 @@
       "effects": [
         {
           "effect": "Three hobgoblin recruits manifest from the target's blood into unoccupied spaces adjacent to the target."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the bloodlord is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the bloodlord takes 3 fire damage."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way"
         }
       ]
     },

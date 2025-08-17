@@ -1,9 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Radenwight Scrapper",
+  "level": 1,
+  "roles": [
+    "Minion Defender"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "5",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 1,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to melee distance",
+  "might": -1,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
+  "presence": 2,
   "traits": [],
   "abilities": [
     {

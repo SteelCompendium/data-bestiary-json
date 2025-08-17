@@ -1,10 +1,50 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Gnoll Carnage",
+  "level": 2,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "ev": "16",
+  "stamina": "100",
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 5,
+  "might": 3,
+  "agility": 3,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Death Rampage",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the carnage is reduced to 0 Stamina, the carnage can move up to their speed, then can either make a melee free strike against two creatures or use Shrapnel Whip against one creature."
+        }
+      ]
+    },
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the carnage can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Endless Hunger",
+      "effects": [
+        {
+          "effect": "If the carnage is reduced to 0 Stamina while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current Stamina."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Shrapnel Whip",
@@ -41,30 +81,6 @@
       "effects": [
         {
           "effect": "Each target deals an extra 3 damage with their next strike until the start of the carnage's next turn. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
-        }
-      ]
-    },
-    {
-      "name": "Death Rampage",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion ally within 5 squares of the carnage is reduced to 0 Stamina, the carnage can move up to their speed, then can either make a melee free strike against two creatures or use Shrapnel Whip against one creature."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the carnage can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Endless Hunger",
-      "effects": [
-        {
-          "effect": "If the carnage is reduced to 0 Stamina while there are still gnolls on the encounter map, one gnoll on the map is transformed into a gnoll carnage, keeping their current Stamina."
         }
       ]
     },

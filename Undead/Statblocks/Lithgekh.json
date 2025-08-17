@@ -1,10 +1,39 @@
 {
+  "name": "Lithgekh",
+  "level": 10,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "12",
+  "stamina": "55",
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "speed": 6,
+  "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 5,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 1,
+  "reason": 5,
+  "intuition": 3,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Devour Magic",
+      "effects": [
+        {
+          "effect": "Each ally within 10 squares of the lithgekh gains an edge on magic abilities."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Heartstopper",
@@ -43,14 +72,6 @@
       "effects": [
         {
           "effect": "Any damage dealt by or Stamina regained from the ability is halved. The lithgekh regains Stamina equal to the remaining damage dealt or Stamina gained."
-        }
-      ]
-    },
-    {
-      "name": "Devour Magic",
-      "effects": [
-        {
-          "effect": "Each ally within 10 squares of the lithgekh gains an edge on magic abilities."
         }
       ]
     }

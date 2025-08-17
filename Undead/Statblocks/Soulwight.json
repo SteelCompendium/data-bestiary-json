@@ -1,10 +1,37 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Soulwight",
+  "level": 1,
+  "roles": [
+    "Horde Hexer"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "3",
+  "stamina": "10",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Arise",
+      "effects": [
+        {
+          "effect": "The first time the soulwight is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Soulstealer Longsword",
@@ -42,14 +69,6 @@
       "effects": [
         {
           "effect": "The target regains 10 Stamina. The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword."
-        }
-      ]
-    },
-    {
-      "name": "Arise",
-      "effects": [
-        {
-          "effect": "The first time the soulwight is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
         }
       ]
     }

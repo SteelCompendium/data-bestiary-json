@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Orc Godcaller",
+  "level": 1,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 1,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the godcaller is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the godcaller is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Power Chord",
@@ -59,14 +83,6 @@
       "effects": [
         {
           "effect": "Each target regains 15 Stamina and ignores difficult terrain until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the godcaller is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the godcaller is reduced to 1 Stamina instead."
         }
       ]
     }

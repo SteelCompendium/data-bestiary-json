@@ -1,10 +1,43 @@
 {
-  "might": 0,
+  "name": "Servitor War Walker",
+  "level": 1,
+  "roles": [
+    "Elite Mount"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "12",
+  "stamina": "60",
+  "speed": 8,
+  "movement": "Climb",
+  "size": "3",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 2,
   "agility": 0,
-  "reason": 0,
+  "reason": -2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Cupola",
+      "effects": [
+        {
+          "effect": "While riding the war walker, three size 1 allies can occupy the same space. Creatures riding the war walker have cover."
+        }
+      ]
+    },
+    {
+      "name": "Mobile Prison Harness",
+      "effects": [
+        {
+          "effect": "Any restrained or slowed creature who comes adjacent to the war walker is automatically restrained (save ends) and takes a bane on power rolls. A creature restrained this way moves with the war walker."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Grasping Claws",
@@ -46,22 +79,6 @@
           "t1": "3 lightning damage; A < 0 slowed (save ends)",
           "t2": "6 lightning damage; A < 1 slowed (save ends)",
           "t3": "7 lightning damage; A < 2 slowed (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Cupola",
-      "effects": [
-        {
-          "effect": "While riding the war walker, three size 1 allies can occupy the same space. Creatures riding the war walker have cover."
-        }
-      ]
-    },
-    {
-      "name": "Mobile Prison Harness",
-      "effects": [
-        {
-          "effect": "Any restrained or slowed creature who comes adjacent to the war walker is automatically restrained (save ends) and takes a bane on power rolls. A creature restrained this way moves with the war walker."
         }
       ]
     }

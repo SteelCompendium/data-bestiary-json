@@ -1,10 +1,38 @@
 {
+  "name": "Human Death Cultist",
+  "level": 2,
+  "roles": [
+    "Platoon Support"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "8",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 2",
+    "psychic 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The death cultist ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Death Scythe",
@@ -44,14 +72,6 @@
       "effects": [
         {
           "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The death cultist ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

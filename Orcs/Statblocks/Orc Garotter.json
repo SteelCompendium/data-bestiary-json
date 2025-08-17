@@ -1,10 +1,34 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Orc Garotter",
+  "level": 1,
+  "roles": [
+    "Platoon Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 5,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 1,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Dagger Feint",
@@ -63,14 +87,6 @@
       "effects": [
         {
           "effect": "The garroter turns invisible until the end of their turn. This invisibility ends early if they take damage or use an ability."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead."
         }
       ]
     }

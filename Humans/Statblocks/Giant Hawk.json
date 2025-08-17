@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Giant Hawk",
+  "level": 1,
+  "roles": [
+    "Platoon Mount"
+  ],
+  "ancestry": [
+    "Animal",
+    "Human"
+  ],
+  "ev": "6",
+  "stamina": "30",
+  "speed": 5,
+  "movement": "Fly",
+  "size": "2",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 2,
+  "reason": -3,
+  "intuition": 1,
+  "presence": -2,
+  "traits": [
+    {
+      "name": "Mounted Platform",
+      "effects": [
+        {
+          "effect": "Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Talons",
@@ -42,14 +67,6 @@
       "effects": [
         {
           "effect": "The hawk moves up to their speed."
-        }
-      ]
-    },
-    {
-      "name": "Mounted Platform",
-      "effects": [
-        {
-          "effect": "Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement."
         }
       ]
     }

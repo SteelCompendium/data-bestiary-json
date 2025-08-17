@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Rival Fury",
+  "level": 2,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "16",
+  "stamina": "100",
+  "speed": 5,
+  "size": "1M",
+  "stability": 3,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Overwhelm",
+      "effects": [
+        {
+          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can make a free strike against that creature or object."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Brutal Impact",
@@ -50,22 +82,6 @@
         },
         {
           "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury gains an edge on strikes against them."
-        }
-      ]
-    },
-    {
-      "name": "Overwhelm",
-      "effects": [
-        {
-          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can make a free strike against that creature or object."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

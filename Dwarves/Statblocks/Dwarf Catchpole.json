@@ -1,5 +1,21 @@
 {
-  "might": 0,
+  "name": "Dwarf Catchpole",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "7",
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 2,
+  "with_captain": "+2 bonus to Stamina",
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,

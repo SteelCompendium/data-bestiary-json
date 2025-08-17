@@ -1,10 +1,39 @@
 {
+  "name": "Human Archer",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "3",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+5 bonus to ranged distance",
   "might": 0,
-  "agility": 0,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The archer ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Crossbow",
@@ -23,14 +52,6 @@
           "t1": "2 damage",
           "t2": "4 damage",
           "t3": "5 damage"
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The archer ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

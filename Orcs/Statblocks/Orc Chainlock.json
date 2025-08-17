@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Orc Chainlock",
+  "level": 1,
+  "roles": [
+    "Platoon Hexer"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "6",
+  "stamina": "20",
+  "speed": 5,
+  "size": "1L",
+  "stability": 2,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 2,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Chain Link",
+      "effects": [
+        {
+          "effect": "Whenever the chainlock is force moved by a creature's melee ability, the creature is pulled the same distance toward the chainlock after the forced movement is resolved."
+        }
+      ]
+    },
+    {
+      "name": "Relentless",
+      "effects": [
+        {
+          "effect": "If the chainlock is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the chainlock is reduced to 1 Stamina instead."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hook and Chain",
@@ -46,22 +78,6 @@
           "t1": "5 damage; A < 0 slowed (save ends)",
           "t2": "7 damage; A < 1 slowed (save ends)",
           "t3": "9 damage; prone; A < 2 slowed (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Chain Link",
-      "effects": [
-        {
-          "effect": "Whenever the chainlock is force moved by a creature's melee ability, the creature is pulled the same distance toward the chainlock after the forced movement is resolved."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the chainlock is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the chainlock is reduced to 1 Stamina instead."
         }
       ]
     }

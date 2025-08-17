@@ -1,10 +1,51 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Iron Champion Doru",
+  "level": 10,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "48",
+  "stamina": "2602",
+  "speed": 5,
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 0,
+  "might": 5,
+  "agility": 4,
+  "reason": 1,
+  "intuition": 4,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Iron Juggernaut",
+      "effects": [
+        {
+          "effect": "Doru can't be made slowed or restrained. Additionally, he can move while grabbed, and a creature grabbing him moves along with him unless they let go."
+        }
+      ]
+    },
+    {
+      "name": "The Scarless",
+      "effects": [
+        {
+          "effect": "Doru regains 10 Stamina at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whe- ever he regains Stamina this way, the Director can spend 2 Malice to end one effect on Doru that can be ended by a saving throw"
+        }
+      ]
+    },
+    {
+      "name": "Champion's Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When Doru is reduced to 0 Stamina, his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Houndaxe",
@@ -80,30 +121,6 @@
       "effects": [
         {
           "effect": "The triggering strike takes a bane and Doru gains an edge on his next power roll."
-        }
-      ]
-    },
-    {
-      "name": "Iron Juggernaut",
-      "effects": [
-        {
-          "effect": "Doru can't be made slowed or restrained. Additionally, he can move while grabbed, and a creature grabbing him moves along with him unless they let go."
-        }
-      ]
-    },
-    {
-      "name": "The Scarless",
-      "effects": [
-        {
-          "effect": "Doru regains 10 Stamina at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whe- ever he regains Stamina this way, the Director can spend 2 Malice to end one effect on Doru that can be ended by a saving throw"
-        }
-      ]
-    },
-    {
-      "name": "Champion's Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When Doru is reduced to 0 Stamina, his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him."
         }
       ]
     }

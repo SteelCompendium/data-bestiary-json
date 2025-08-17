@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Human Blackguard",
+  "level": 1,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "12",
+  "stamina": "80",
+  "immunities": [
+    "Corruption 2",
+    "psychic 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 4,
+  "might": 3,
+  "agility": 2,
+  "reason": 2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The blackguard ignores concealment if it's granted by a supernatural effect"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Zweihander Swing",
@@ -43,22 +79,6 @@
       "effects": [
         {
           "effect": "The target is marked until the start of the blackguard's next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The blackguard ignores concealment if it's granted by a supernatural effect"
         }
       ]
     },

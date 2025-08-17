@@ -1,11 +1,29 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
-  "abilities": [
+  "name": "Thorn Dragon",
+  "level": 2,
+  "roles": [
+    "Solo"
+  ],
+  "ancestry": [
+    "Dragon",
+    "Elemental"
+  ],
+  "ev": "48",
+  "stamina": "250",
+  "immunities": [
+    "Poison 5"
+  ],
+  "speed": 8,
+  "movement": "Fly",
+  "size": "3",
+  "stability": 6,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 3,
+  "reason": -1,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
     {
       "name": "Solo Monster",
       "effects": [
@@ -27,6 +45,48 @@
         }
       ]
     },
+    {
+      "name": "Provoking Nettles",
+      "effects": [
+        {
+          "effect": "Once per turn, the dragon shifts up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage."
+        }
+      ]
+    },
+    {
+      "name": "Cage of Thorns",
+      "effects": [
+        {
+          "effect": "A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy restrained until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Bramble Barricade",
+      "effects": [
+        {
+          "effect": "The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks line of effect for all creatures except the dragon. Each square of the wall has 5 Stamina and fire weakness 5. The area can be moved through but is difficult terrain. Any creature who is force moved into or within the area takes 1 damage for each square of the area entered and is bleeding until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "name": "Solo Action",
+      "effects": [
+        {
+          "effect": "The dragon takes an additional main action on their turn. They can use this feature even if they are dazed."
+        }
+      ]
+    },
+    {
+      "name": "Afflictive Overgrowth",
+      "effects": [
+        {
+          "effect": "The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.\n- **≤11:** 12 poison damage; restrained (save ends)\n- **12-16:** 9 poison damage; bleeding (save ends)\n- **17+:** 5 poison damage; bleeding (EoT)"
+        }
+      ]
+    }
+  ],
+  "abilities": [
     {
       "name": "Virulent Breath",
       "cost": "Signature Ability",
@@ -64,14 +124,6 @@
         {
           "effect": "Each target takes an extra 1d3 damage, and if they have A < 2, they are bleeding (save ends).",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Provoking Nettles",
-      "effects": [
-        {
-          "effect": "Once per turn, the dragon shifts up to 5 squares and can move through enemies' spaces at their usual speed. The first time the dragon moves through an enemy's space during this movement, the enemy takes 3 damage."
         }
       ]
     },
@@ -172,42 +224,6 @@
         {
           "effect": "If the Thorn Dragon's Domain trait is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.",
           "name": "Special"
-        }
-      ]
-    },
-    {
-      "name": "Cage of Thorns",
-      "cost": "3 Malice",
-      "effects": [
-        {
-          "effect": "A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy restrained until the end of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Bramble Barricade",
-      "cost": "5 Malice",
-      "effects": [
-        {
-          "effect": "The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks line of effect for all creatures except the dragon. Each square of the wall has 5 Stamina and fire weakness 5. The area can be moved through but is difficult terrain. Any creature who is force moved into or within the area takes 1 damage for each square of the area entered and is bleeding until the end of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "Solo Action",
-      "cost": "5 Malice",
-      "effects": [
-        {
-          "effect": "The dragon takes an additional main action on their turn. They can use this feature even if they are dazed."
-        }
-      ]
-    },
-    {
-      "name": "Afflictive Overgrowth",
-      "cost": "7 Malice",
-      "effects": [
-        {
-          "effect": "The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.\n- **≤11:** 12 poison damage; restrained (save ends)\n- **12-16:** 9 poison damage; bleeding (save ends)\n- **17+:** 5 poison damage; bleeding (EoT)"
         }
       ]
     }

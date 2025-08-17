@@ -1,10 +1,42 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Worg",
+  "level": 1,
+  "roles": [
+    "Horde Mount"
+  ],
+  "ancestry": [
+    "Animal",
+    "Goblin"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "speed": 5,
+  "size": "1L",
+  "stability": 1,
+  "free_strike": 1,
+  "might": 1,
+  "agility": 2,
+  "reason": -1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Mounted Charger",
+      "effects": [
+        {
+          "effect": "If a worg used as a mount charges, their rider gains an edge on melee strikes until the end of the rider's turn."
+        }
+      ]
+    },
+    {
+      "name": "Shared Craft",
+      "effects": [
+        {
+          "effect": "If the worg's rider has the Crafty trait, the worg also has that trait."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Bite",
@@ -39,22 +71,6 @@
       "effects": [
         {
           "effect": "The worg moves up to their speed."
-        }
-      ]
-    },
-    {
-      "name": "Mounted Charger",
-      "effects": [
-        {
-          "effect": "If a worg used as a mount charges, their rider gains an edge on melee strikes until the end of the rider's turn."
-        }
-      ]
-    },
-    {
-      "name": "Shared Craft",
-      "effects": [
-        {
-          "effect": "If the worg's rider has the Crafty trait, the worg also has that trait."
         }
       ]
     }

@@ -1,8 +1,24 @@
 {
-  "might": 0,
+  "name": "Dwarf Axethrower",
+  "level": 1,
+  "roles": [
+    "Minion Defender"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "3 for 4 minions",
+  "stamina": "7",
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to Stamina",
+  "might": 1,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 2,
   "presence": 0,
   "traits": [],
   "abilities": [

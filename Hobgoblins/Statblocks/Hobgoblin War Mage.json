@@ -1,10 +1,48 @@
 {
+  "name": "Hobgoblin War Mage",
+  "level": 5,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "28",
+  "stamina": "120",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 5,
+  "movement": "Hover, teleport",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 6,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": 3,
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the war mage is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the war mage takes 3 fire damage."
+        }
+      ]
+    },
+    {
+      "name": "Despair, You Who Face Death",
+      "effects": [
+        {
+          "effect": "Any enemy within 2 squares of the war mage has a −2 penalty to saving throws."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hellfire",
@@ -74,22 +112,6 @@
       "effects": [
         {
           "effect": "Any damage dealt or Stamina regained from the creature's ability is halved. The war mage regains Stamina equal to the remaining damage dealt or Stamina regained."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the war mage is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the war mage takes 3 fire damage."
-        }
-      ]
-    },
-    {
-      "name": "Despair, You Who Face Death",
-      "effects": [
-        {
-          "effect": "Any enemy within 2 squares of the war mage has a −2 penalty to saving throws."
         }
       ]
     }

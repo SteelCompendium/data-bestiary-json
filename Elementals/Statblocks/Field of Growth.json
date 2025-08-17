@@ -1,10 +1,45 @@
 {
-  "might": 0,
+  "name": "Field of Growth",
+  "level": 3,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Elemental"
+  ],
+  "ev": "28",
+  "stamina": "120",
+  "immunities": [
+    "Poison 5"
+  ],
+  "speed": 8,
+  "movement": "Climb",
+  "size": "3",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 2,
   "agility": 0,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 2,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Fickle and Free",
+      "effects": [
+        {
+          "effect": "The field can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Roots Run Deep",
+      "effects": [
+        {
+          "effect": "The field can target any creature touching the ground with their abilities, even if they don't have line of effect to that creature."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Hampering Roots",
@@ -62,22 +97,6 @@
       "effects": [
         {
           "effect": "The target takes 6 damage, and if they have A < 2, they are bleeding (save ends)."
-        }
-      ]
-    },
-    {
-      "name": "Fickle and Free",
-      "effects": [
-        {
-          "effect": "The field can't be restrained, slowed, or knocked prone, and they ignore difficult terrain."
-        }
-      ]
-    },
-    {
-      "name": "Roots Run Deep",
-      "effects": [
-        {
-          "effect": "The field can target any creature touching the ground with their abilities, even if they don't have line of effect to that creature."
         }
       ]
     }

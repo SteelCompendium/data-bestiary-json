@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Goblin Warrior",
+  "level": 1,
+  "roles": [
+    "Horde Harrier"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "3",
+  "stamina": "15",
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
+  "might": -2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The warrior doesn't provoke opportunity attacks by moving"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Spear Charge",
@@ -44,14 +69,6 @@
           "t1": "5 damage; M < 0 bleeding (save ends)",
           "t2": "6 damage; M < 1 bleeding (save ends)",
           "t3": "7 damage; M < 2 bleeding (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The warrior doesn't provoke opportunity attacks by moving"
         }
       ]
     }

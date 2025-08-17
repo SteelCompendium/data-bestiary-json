@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Soulraker Hivequeen",
+  "level": 9,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Soulraker"
+  ],
+  "ev": "44",
+  "stamina": "240",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "movement": "Fly",
+  "size": "5",
+  "stability": 2,
+  "free_strike": 9,
+  "might": 5,
+  "agility": -1,
+  "reason": 3,
+  "intuition": 3,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Cannibal Queen",
+      "effects": [
+        {
+          "effect": "At the end of their turn, the hivequeen can consume an adjacent soulraker demon to end one effect on them that can be ended by a saving throw (no action required)."
+        }
+      ]
+    },
+    {
+      "name": "Hive Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has line of effect to such creatures."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Stinging Ovipositor",
@@ -62,22 +99,6 @@
         {
           "effect": "A soulraker praetorian also appears within distance.",
           "cost": "2 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Cannibal Queen",
-      "effects": [
-        {
-          "effect": "At the end of their turn, the hivequeen can consume an adjacent soulraker demon to end one effect on them that can be ended by a saving throw (no action required)."
-        }
-      ]
-    },
-    {
-      "name": "Hive Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has line of effect to such creatures."
         }
       ]
     },

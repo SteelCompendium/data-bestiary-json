@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Time Raider Archon",
+  "level": 3,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "5 for four minions",
+  "stamina": "7",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
+  "might": 2,
+  "agility": 2,
+  "reason": 2,
+  "intuition": 1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The archon doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Brutal Flail",
@@ -24,14 +52,6 @@
           "t1": "2 damage",
           "t2": "4 damage",
           "t3": "5 damage; one ally can make a free strike against the target"
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The archon doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

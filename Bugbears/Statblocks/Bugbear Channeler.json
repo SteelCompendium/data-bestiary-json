@@ -1,9 +1,26 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
+  "name": "Bugbear Channeler",
+  "level": 2,
+  "roles": [
+    "Elite Controller"
+  ],
+  "ancestry": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "16",
+  "stamina": "60",
+  "speed": 5,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 1,
+  "agility": 1,
+  "reason": 2,
+  "intuition": 2,
+  "presence": 2,
   "traits": [],
   "abilities": [
     {

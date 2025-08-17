@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "name": "Troll Butcher",
+  "level": 5,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Giant",
+    "Troll"
+  ],
+  "ev": "28",
+  "stamina": "120",
+  "weaknesses": [
+    "Acid 5",
+    "fire"
+  ],
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 1,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Bloody Feast",
+      "effects": [
+        {
+          "effect": "Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition"
+        }
+      ]
+    },
+    {
+      "name": "Relentless Hunger",
+      "effects": [
+        {
+          "effect": "The butcher dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Savoring Bite",
@@ -78,22 +114,6 @@
       "effects": [
         {
           "effect": "The butcher makes a free strike against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes."
-        }
-      ]
-    },
-    {
-      "name": "Bloody Feast",
-      "effects": [
-        {
-          "effect": "Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition"
-        }
-      ]
-    },
-    {
-      "name": "Relentless Hunger",
-      "effects": [
-        {
-          "effect": "The butcher dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina"
         }
       ]
     }

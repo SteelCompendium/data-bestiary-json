@@ -1,10 +1,40 @@
 {
+  "name": "Crawling Claw",
+  "level": 1,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Undead",
+    "Soulless"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1T",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to speed",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 2,
+  "reason": -5,
+  "intuition": -1,
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Disorganized",
+      "effects": [
+        {
+          "effect": "Allies can't flank with the crawling cla."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fingernails",
@@ -26,14 +56,6 @@
         },
         {
           "effect": "The crawling claw shifts up to a number of squares equal to the damage dealt."
-        }
-      ]
-    },
-    {
-      "name": "Disorganized",
-      "effects": [
-        {
-          "effect": "Allies can't flank with the crawling cla."
         }
       ]
     }

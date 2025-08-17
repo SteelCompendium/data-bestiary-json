@@ -1,10 +1,52 @@
 {
-  "might": 0,
+  "name": "Multivok Bodyguard",
+  "level": 9,
+  "roles": [
+    "Elite Defender"
+  ],
+  "ancestry": [
+    "Construct",
+    "Multivok",
+    "Soulless",
+    "Valok"
+  ],
+  "ev": "44",
+  "stamina": "240",
+  "speed": 5,
+  "size": "2",
+  "stability": 5,
+  "free_strike": 9,
+  "might": 4,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": -2,
+  "intuition": 1,
+  "presence": -4,
+  "traits": [
+    {
+      "name": "Multivok Maintenance",
+      "effects": [
+        {
+          "effect": "At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina."
+        }
+      ]
+    },
+    {
+      "name": "Crafted to Perfection",
+      "effects": [
+        {
+          "effect": "The bodyguard's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "name": "Valiar Might",
+      "effects": [
+        {
+          "effect": "While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Gatling Bolt Gun",
@@ -79,30 +121,6 @@
       "effects": [
         {
           "effect": "The bodyguard becomes the triggering ability's target instead."
-        }
-      ]
-    },
-    {
-      "name": "Multivok Maintenance",
-      "effects": [
-        {
-          "effect": "At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The bodyguard's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

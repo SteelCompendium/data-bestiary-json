@@ -1,10 +1,45 @@
 {
+  "name": "Torlas",
+  "level": 1,
+  "roles": [
+    "Horde Controller"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon"
+  ],
+  "ev": "3",
+  "stamina": "10",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "speed": 5,
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 1,
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Lethe",
+      "effects": [
+        {
+          "effect": "While the torlas is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "name": "Soulsight",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the torlas can't be hidden from them."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Floor to Flesh",
@@ -41,22 +76,6 @@
       "effects": [
         {
           "effect": "The torlas pulls each target up to 3 squares."
-        }
-      ]
-    },
-    {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the torlas is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the torlas can't be hidden from them."
         }
       ]
     }

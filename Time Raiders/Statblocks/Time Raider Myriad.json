@@ -1,10 +1,38 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "Time Raider Myriad",
+  "level": 3,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "ev": "5 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Psychic 3"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+1 damage bonus to strikes",
+  "might": 2,
+  "agility": 1,
+  "reason": 2,
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Foresight",
+      "effects": [
+        {
+          "effect": "The myriad doesn't take a bane on strikes against creatures with concealment."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fifth Fist",
@@ -24,14 +52,6 @@
           "t1": "3 damage; slide 1",
           "t2": "5 damage; slide 2",
           "t3": "6 damage; slide 3, prone"
-        }
-      ]
-    },
-    {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The myriad doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

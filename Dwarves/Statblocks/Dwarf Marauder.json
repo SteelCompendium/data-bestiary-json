@@ -1,10 +1,34 @@
 {
-  "might": 0,
+  "name": "Dwarf Marauder",
+  "level": 3,
+  "roles": [
+    "Leader"
+  ],
+  "ancestry": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "ev": "20",
+  "stamina": "132",
+  "speed": 5,
+  "size": "1M",
+  "stability": 4,
+  "free_strike": 5,
+  "might": 3,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "reason": 2,
+  "intuition": 1,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "End Effect",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the marauder lord can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Levitating Axes",
@@ -67,14 +91,6 @@
       "effects": [
         {
           "effect": "The target halves any damage from the strike and the triggering creature takes 4 damage."
-        }
-      ]
-    },
-    {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the marauder lord can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
         }
       ]
     },

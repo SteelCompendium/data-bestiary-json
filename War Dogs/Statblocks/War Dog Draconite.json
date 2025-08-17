@@ -1,10 +1,36 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Draconite",
+  "level": 7,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "13",
+  "speed": 5,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "+3 damage bonus to strikes",
+  "might": 4,
+  "agility": 1,
+  "reason": -2,
+  "intuition": -1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Loyalty Collar",
+      "effects": [
+        {
+          "effect": "When the draconite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Greatsword and Roar",
@@ -27,14 +53,6 @@
         },
         {
           "effect": "If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the draconite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

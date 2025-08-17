@@ -1,10 +1,42 @@
 {
+  "name": "Rival Shadow",
+  "level": 5,
+  "roles": [
+    "Elite Ambusher"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Rival"
+  ],
+  "ev": "28",
+  "stamina": "140",
+  "speed": 7,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 7,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 3,
+  "reason": 1,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Exploit Opening",
+      "effects": [
+        {
+          "effect": "The shadow deals an extra 7 damage to any bleeding target."
+        }
+      ]
+    },
+    {
+      "name": "Rivalry",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Ambuscade",
@@ -41,22 +73,6 @@
       "effects": [
         {
           "effect": "The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1."
-        }
-      ]
-    },
-    {
-      "name": "Exploit Opening",
-      "effects": [
-        {
-          "effect": "The shadow deals an extra 7 damage to any bleeding target."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

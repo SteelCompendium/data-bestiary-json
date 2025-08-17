@@ -1,10 +1,39 @@
 {
+  "name": "Devil Scrivener",
+  "level": 5,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "9",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "movement": "Fly",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+3 bonus to speed",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 3,
+  "reason": 1,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Litigation",
@@ -27,14 +56,6 @@
         },
         {
           "effect": "The scrivener can shift 1 square."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
         }
       ]
     }

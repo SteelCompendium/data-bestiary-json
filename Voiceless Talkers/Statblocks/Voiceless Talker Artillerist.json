@@ -1,10 +1,46 @@
 {
+  "name": "Voiceless Talker Artillerist",
+  "level": 6,
+  "roles": [
+    "Elite Artillery"
+  ],
+  "ancestry": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "ev": "32",
+  "stamina": "140",
+  "immunities": [
+    "Psychic 6"
+  ],
+  "speed": 5,
+  "movement": "Hover, teleport",
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 7,
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "agility": 3,
+  "reason": 3,
+  "intuition": 2,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Psionic Conductor",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space."
+        }
+      ]
+    },
+    {
+      "name": "Locked On",
+      "effects": [
+        {
+          "effect": "The artillerist ignores invisibility, cover, and concealment. A creature can't hide from the artillerist while the artillerist has line of effect to the."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Psionic Rifle Burst",
@@ -79,22 +115,6 @@
       "effects": [
         {
           "effect": "The artillerist can teleport up to 5 squares and ignores any effects associated with the damage"
-        }
-      ]
-    },
-    {
-      "name": "Psionic Conductor",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space."
-        }
-      ]
-    },
-    {
-      "name": "Locked On",
-      "effects": [
-        {
-          "effect": "The artillerist ignores invisibility, cover, and concealment. A creature can't hide from the artillerist while the artillerist has line of effect to the."
         }
       ]
     }

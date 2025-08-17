@@ -1,10 +1,35 @@
 {
+  "name": "Orc Bloodspark",
+  "level": 1,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "3 for four minion",
+  "stamina": "3",
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+2 bonus to forced movement distance",
   "might": 0,
-  "agility": 0,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 2,
+  "traits": [
+    {
+      "name": "Bloodfire Bur",
+      "effects": [
+        {
+          "effect": "If the bloodspark is reduced to 0 Stamina, they can make a free strike before dying."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Explosive Mote",
@@ -23,14 +48,6 @@
           "t1": "2 damage; push 1, or the bloodspark can shift 1 square away from the target",
           "t2": "4 damage; push 2, or the bloodspark shifts up to 2 squares away from the target",
           "t3": "5 damage; push 4, or the bloodspark shifts up to 4 squares away from the target"
-        }
-      ]
-    },
-    {
-      "name": "Bloodfire Bur",
-      "effects": [
-        {
-          "effect": "If the bloodspark is reduced to 0 Stamina, they can make a free strike before dying."
         }
       ]
     }

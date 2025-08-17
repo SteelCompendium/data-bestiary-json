@@ -1,10 +1,47 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Ghoul Craver",
+  "level": 4,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Undead"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "8",
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "speed": 7,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 3,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Ever So Hungry",
+      "effects": [
+        {
+          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift"
+        }
+      ]
+    },
+    {
+      "name": "Hunger",
+      "effects": [
+        {
+          "effect": "When the ghoul craver uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Taste",
@@ -27,22 +64,6 @@
         },
         {
           "effect": "This ability has a double edge against a bleeding target."
-        }
-      ]
-    },
-    {
-      "name": "Ever So Hungry",
-      "effects": [
-        {
-          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift"
-        }
-      ]
-    },
-    {
-      "name": "Hunger",
-      "effects": [
-        {
-          "effect": "When the ghoul craver uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
         }
       ]
     }

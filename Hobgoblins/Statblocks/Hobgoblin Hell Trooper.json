@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Hobgoblin Hell Trooper",
+  "level": 4,
+  "roles": [
+    "Platoon Brute"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "12",
+  "stamina": "70",
+  "immunities": [
+    "Fire 4"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 2,
+  "free_strike": 6,
+  "might": 3,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes 3 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Fire Flail",
@@ -41,14 +70,6 @@
       "effects": [
         {
           "effect": "If the target has P < 2, they are taunted (EoT). While taunted this way, the target takes 1d6 fire damage whenever they use an ability or strike that doesn't target the trooper."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the trooper is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the trooper takes 3 fire damage."
         }
       ]
     }

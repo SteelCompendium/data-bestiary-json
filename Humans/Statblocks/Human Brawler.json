@@ -1,10 +1,46 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Human Brawler",
+  "level": 1,
+  "roles": [
+    "Platoon Brute"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "6",
+  "stamina": "40",
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 2,
+  "agility": 1,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Shoot the Hostage",
+      "effects": [
+        {
+          "effect": "The brawler halves the damage from any strike if they have a creature or object grabbed of size 1S or larger. The grabbed creature or object takes the remaining damage."
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The brawler ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Haymaker",
@@ -41,22 +77,6 @@
       "effects": [
         {
           "effect": "The brawler pushes the target up to 5 squares."
-        }
-      ]
-    },
-    {
-      "name": "Shoot the Hostage",
-      "effects": [
-        {
-          "effect": "The brawler halves the damage from any strike if they have a creature or object grabbed of size 1S or larger. The grabbed creature or object takes the remaining damage."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The brawler ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

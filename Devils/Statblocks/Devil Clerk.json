@@ -1,10 +1,38 @@
 {
-  "might": 0,
+  "name": "Devil Clerk",
+  "level": 5,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Devil",
+    "Infernal"
+  ],
+  "ev": "7 for four minions",
+  "stamina": "10",
+  "immunities": [
+    "Fire 5"
+  ],
+  "speed": 6,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "with_captain": "+2 damage bonus to strikes",
+  "might": 3,
   "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "reason": 1,
+  "intuition": 1,
+  "presence": 2,
+  "traits": [
+    {
+      "name": "True Name",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Quill Pushing",
@@ -26,14 +54,6 @@
         },
         {
           "effect": "Any target adjacent to two or more clerks is taunted until the end of their next turn."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter."
         }
       ]
     }

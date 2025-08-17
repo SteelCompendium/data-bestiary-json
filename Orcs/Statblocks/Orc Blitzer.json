@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Orc Blitzer",
+  "level": 1,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Orc"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "4",
+  "speed": 7,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 1,
+  "with_captain": "+2 bonus to speed",
+  "might": 1,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Bloodfire Bur",
+      "effects": [
+        {
+          "effect": "If the blitzer is reduced to 0 Stamina, they can make a free strike before dying."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Lugged Spear",
@@ -26,14 +51,6 @@
         },
         {
           "effect": "A target who starts their next turn adjacent to three or more blitzers takes 3 damage."
-        }
-      ]
-    },
-    {
-      "name": "Bloodfire Bur",
-      "effects": [
-        {
-          "effect": "If the blitzer is reduced to 0 Stamina, they can make a free strike before dying."
         }
       ]
     }

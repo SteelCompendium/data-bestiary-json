@@ -1,10 +1,44 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Fire Giant Lightbearer",
+  "level": 9,
+  "roles": [
+    "Elite Support"
+  ],
+  "ancestry": [
+    "Fire Giant",
+    "Giant"
+  ],
+  "ev": "44",
+  "stamina": "200",
+  "immunities": [
+    "Fire 9"
+  ],
+  "size": "4",
+  "stability": 5,
+  "free_strike": 9,
+  "might": 4,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 4,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Healing Heat",
+      "effects": [
+        {
+          "effect": "Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains Stamina equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore stability."
+        }
+      ]
+    },
+    {
+      "name": "Searing Skin",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Flamelash",
@@ -76,22 +110,6 @@
       "effects": [
         {
           "effect": "The lightbearer emits a beacon of light until the start of their next turn. Each fire giant who has line of effect to the lightbearer has a double edge on abilities."
-        }
-      ]
-    },
-    {
-      "name": "Healing Heat",
-      "effects": [
-        {
-          "effect": "Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains Stamina equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore stability."
-        }
-      ]
-    },
-    {
-      "name": "Searing Skin",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage."
         }
       ]
     }

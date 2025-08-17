@@ -1,10 +1,48 @@
 {
+  "name": "Hobgoblin Brandbearer",
+  "level": 4,
+  "roles": [
+    "Minion Hexer"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "ev": "6 for four minions",
+  "stamina": "7",
+  "immunities": [
+    "Fire 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
+  "agility": 1,
+  "reason": 2,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": 3,
+  "traits": [
+    {
+      "name": "Open Furnace",
+      "effects": [
+        {
+          "effect": "Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer adjacent to them."
+        }
+      ]
+    },
+    {
+      "name": "Infernal Ichor",
+      "effects": [
+        {
+          "effect": "When the brandbearer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the brandbearer takes 2 fire damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Searing Grasp",
@@ -23,22 +61,6 @@
           "t1": "2 fire damage",
           "t2": "4 fire damage; M < 2 fire weakness 5 (save ends)",
           "t3": "6 fire damage; M < 3 fire weakness 5 (save ends)"
-        }
-      ]
-    },
-    {
-      "name": "Open Furnace",
-      "effects": [
-        {
-          "effect": "Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer adjacent to them."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the brandbearer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the brandbearer takes 2 fire damage."
         }
       ]
     }

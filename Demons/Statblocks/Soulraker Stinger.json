@@ -1,10 +1,40 @@
 {
+  "name": "Soulraker Stinger",
+  "level": 7,
+  "roles": [
+    "Minion Artillery"
+  ],
+  "ancestry": [
+    "Abyssal",
+    "Demon",
+    "Soulraker"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "10",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "speed": 6,
+  "movement": "Climb",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "with_captain": "Gain an edge on strikes",
   "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
+  "agility": -1,
+  "reason": 4,
+  "intuition": 4,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Abyssal Buzzing",
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Barb Launch",
@@ -27,14 +57,6 @@
         },
         {
           "effect": "All soulraker demons have concealment from the target until the start of the stinger's next turn."
-        }
-      ]
-    },
-    {
-      "name": "Abyssal Buzzing",
-      "effects": [
-        {
-          "effect": "Any enemy who starts their turn with two or more soulraker minions adjacent to them takes 3 sonic damage."
         }
       ]
     }

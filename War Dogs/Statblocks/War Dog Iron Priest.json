@@ -1,10 +1,35 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "name": "War Dog Iron Priest",
+  "level": 8,
+  "roles": [
+    "Horde Support"
+  ],
+  "ancestry": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "ev": "10",
+  "stamina": "50",
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
+  "might": 2,
+  "agility": 1,
+  "reason": 1,
+  "intuition": 4,
+  "presence": 4,
+  "traits": [
+    {
+      "name": "Chosen of the Iron Saint",
+      "effects": [
+        {
+          "effect": "The Director gains 1 Malice whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Houndcannon",
@@ -41,14 +66,6 @@
       "effects": [
         {
           "effect": "For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
-        }
-      ]
-    },
-    {
-      "name": "Chosen of the Iron Saint",
-      "effects": [
-        {
-          "effect": "The Director gains 1 Malice whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll."
         }
       ]
     }

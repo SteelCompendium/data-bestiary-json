@@ -1,6 +1,23 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Bugbear Roughneck",
+  "level": 2,
+  "roles": [
+    "Elite Brute"
+  ],
+  "ancestry": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "16",
+  "stamina": "109",
+  "speed": 6,
+  "size": "1L",
+  "stability": 0,
+  "free_strike": 5,
+  "might": 2,
+  "agility": 2,
   "reason": 0,
   "intuition": 0,
   "presence": 0,

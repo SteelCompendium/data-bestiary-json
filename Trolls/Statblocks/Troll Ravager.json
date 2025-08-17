@@ -1,10 +1,39 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Troll Ravager",
+  "level": 9,
+  "roles": [
+    "Minion Harrier"
+  ],
+  "ancestry": [
+    "Giant",
+    "Troll"
+  ],
+  "ev": "11 for four minions",
+  "stamina": "15",
+  "weaknesses": [
+    "Acid 5",
+    "fire"
+  ],
+  "speed": 8,
+  "size": "2",
+  "stability": 2,
+  "free_strike": 4,
+  "with_captain": "+2 bonus to speed",
+  "might": 4,
+  "agility": 2,
   "reason": 0,
-  "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "intuition": 1,
+  "presence": 1,
+  "traits": [
+    {
+      "name": "Group Appetite",
+      "effects": [
+        {
+          "effect": "The ravager dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Dine and Dash",
@@ -26,14 +55,6 @@
         },
         {
           "effect": "The ravager's squad's Stamina pool regains Stamina equal to half the damage dealt."
-        }
-      ]
-    },
-    {
-      "name": "Group Appetite",
-      "effects": [
-        {
-          "effect": "The ravager dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina"
         }
       ]
     }

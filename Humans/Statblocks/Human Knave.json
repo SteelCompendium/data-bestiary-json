@@ -1,10 +1,54 @@
 {
-  "might": 0,
+  "name": "Human Knave",
+  "level": 2,
+  "roles": [
+    "Platoon Defender"
+  ],
+  "ancestry": [
+    "Human",
+    "Humanoid"
+  ],
+  "ev": "8",
+  "stamina": "50",
+  "immunities": [
+    "Corruption 2",
+    "psychic 2"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 4,
+  "might": 2,
   "agility": 0,
-  "reason": 0,
+  "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "I'm Your Enemy",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent creature the knave has taunted deals damage to a creature other than the knave, the knave can make a free strike against them."
+        }
+      ]
+    },
+    {
+      "name": "Overwhelm",
+      "effects": [
+        {
+          "effect": "An enemy who starts their turn adjacent to the knave can't shift"
+        }
+      ]
+    },
+    {
+      "name": "Supernatural Insight",
+      "effects": [
+        {
+          "effect": "The knave ignores concealment if it's granted by a supernatural effect."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Morningstar and Javelin",
@@ -27,30 +71,6 @@
         },
         {
           "effect": "The target is taunted (EoT)."
-        }
-      ]
-    },
-    {
-      "name": "I'm Your Enemy",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent creature the knave has taunted deals damage to a creature other than the knave, the knave can make a free strike against them."
-        }
-      ]
-    },
-    {
-      "name": "Overwhelm",
-      "effects": [
-        {
-          "effect": "An enemy who starts their turn adjacent to the knave can't shift"
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The knave ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

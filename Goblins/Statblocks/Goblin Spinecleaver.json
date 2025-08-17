@@ -1,10 +1,36 @@
 {
-  "might": 0,
+  "name": "Goblin Spinecleaver",
+  "level": 1,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "ev": "3 for four minions",
+  "stamina": "5",
+  "speed": 5,
+  "movement": "Climb",
+  "size": "1S",
+  "stability": 0,
+  "free_strike": 2,
+  "with_captain": "+1 damage bonus to strikes",
+  "might": 2,
   "agility": 0,
   "reason": 0,
   "intuition": 0,
-  "presence": 0,
-  "traits": [],
+  "presence": -1,
+  "traits": [
+    {
+      "name": "Crafty",
+      "effects": [
+        {
+          "effect": "The spinecleaver doesn't provoke opportunity attacks by moving"
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Axe",
@@ -23,14 +49,6 @@
           "t1": "2 damage; push 1",
           "t2": "4 damage; push 3",
           "t3": "5 damage; push 4"
-        }
-      ]
-    },
-    {
-      "name": "Crafty",
-      "effects": [
-        {
-          "effect": "The spinecleaver doesn't provoke opportunity attacks by moving"
         }
       ]
     }

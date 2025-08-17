@@ -1,10 +1,51 @@
 {
-  "might": 0,
-  "agility": 0,
+  "name": "Marble Stone Giant",
+  "level": 8,
+  "roles": [
+    "Elite Hexer"
+  ],
+  "ancestry": [
+    "Giant",
+    "Stone Giant"
+  ],
+  "ev": "40",
+  "stamina": "207",
+  "speed": 6,
+  "movement": "Burrow",
+  "size": "4",
+  "stability": 10,
+  "free_strike": 8,
+  "might": 4,
+  "agility": 3,
   "reason": 0,
-  "intuition": 0,
+  "intuition": 3,
   "presence": 0,
-  "traits": [],
+  "traits": [
+    {
+      "name": "Stonebreaker Flesh",
+      "effects": [
+        {
+          "effect": "Whenever an enemy obtains a tier 1 outcome on a melee ability used against the marble stone giant, they take a bane on that ability until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "name": "Stone Steps",
+      "effects": [
+        {
+          "effect": "The marble stone giant ignores difficult terrain."
+        }
+      ]
+    },
+    {
+      "name": "Stone Swim",
+      "effects": [
+        {
+          "effect": "The marble stone giant can burrow through stone, but can't drag other creatures underground when they do so."
+        }
+      ]
+    }
+  ],
   "abilities": [
     {
       "name": "Marble From a Great Sling",
@@ -78,30 +119,6 @@
       "effects": [
         {
           "effect": "The marble stone giant halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. The damage weakness increases by 3 each time the marble stone giant uses this ability in the same encounter."
-        }
-      ]
-    },
-    {
-      "name": "Stonebreaker Flesh",
-      "effects": [
-        {
-          "effect": "Whenever an enemy obtains a tier 1 outcome on a melee ability used against the marble stone giant, they take a bane on that ability until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Stone Steps",
-      "effects": [
-        {
-          "effect": "The marble stone giant ignores difficult terrain."
-        }
-      ]
-    },
-    {
-      "name": "Stone Swim",
-      "effects": [
-        {
-          "effect": "The marble stone giant can burrow through stone, but can't drag other creatures underground when they do so."
         }
       ]
     }

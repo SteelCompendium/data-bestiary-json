@@ -1,9 +1,32 @@
 {
-  "might": 0,
-  "agility": 0,
-  "reason": 0,
-  "intuition": 0,
-  "presence": 0,
+  "name": "Mummy Rotwrap",
+  "level": 7,
+  "roles": [
+    "Minion Brute"
+  ],
+  "ancestry": [
+    "Mummy",
+    "Undead"
+  ],
+  "ev": "9 for four minions",
+  "stamina": "15",
+  "immunities": [
+    "Corruption 7",
+    "poison 7"
+  ],
+  "weaknesses": [
+    "Fire 5"
+  ],
+  "speed": 5,
+  "size": "1M",
+  "stability": 1,
+  "free_strike": 4,
+  "with_captain": "+3 bonus to melee distance",
+  "might": 4,
+  "agility": -2,
+  "reason": -2,
+  "intuition": 1,
+  "presence": -2,
   "traits": [],
   "abilities": [
     {
