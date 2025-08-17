@@ -86,7 +86,7 @@
         "Weapon"
       ],
       "type": "Main action",
-      "distance": "2 Burst",
+      "distance": "2 burst",
       "target": "Each creature in the area",
       "effects": [
         {

@@ -70,7 +70,7 @@
         "Weapon"
       ],
       "type": "Main action",
-      "distance": "3 Burst",
+      "distance": "3 burst",
       "target": "Each enemy and object in the area",
       "effects": [
         {

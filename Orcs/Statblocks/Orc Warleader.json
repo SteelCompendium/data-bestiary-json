@@ -117,7 +117,7 @@
         "\\\\ Area\\\\"
       ],
       "type": "-",
-      "distance": "10 Burst",
+      "distance": "10 burst",
       "target": "Each ally in the area",
       "effects": [
         {

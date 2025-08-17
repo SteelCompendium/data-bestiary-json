@@ -110,7 +110,7 @@
         "Area"
       ],
       "type": "Maneuver",
-      "distance": "3 Burst",
+      "distance": "3 burst",
       "target": "Special",
       "effects": [
         {

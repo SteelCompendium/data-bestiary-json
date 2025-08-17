@@ -90,7 +90,7 @@
         "Area"
       ],
       "type": "Triggered action",
-      "distance": "5 Burst",
+      "distance": "5 burst",
       "target": "Each ally in the area",
       "trigger": "A creature uses an ability that targets the centurion or an ally of the centurion within distance.",
       "effects": [

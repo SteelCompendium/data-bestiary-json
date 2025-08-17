@@ -61,7 +61,7 @@
         "Magic"
       ],
       "type": "Main action",
-      "distance": "2 Burst",
+      "distance": "2 burst",
       "target": "Each enemy and object in the area",
       "effects": [
         {

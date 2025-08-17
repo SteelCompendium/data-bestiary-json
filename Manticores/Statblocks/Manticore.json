@@ -131,7 +131,7 @@
         "Magic"
       ],
       "type": "-",
-      "distance": "5 Burst",
+      "distance": "5 burst",
       "target": "Each creature in the area",
       "effects": [
         {
