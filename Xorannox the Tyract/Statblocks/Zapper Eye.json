@@ -10,7 +10,12 @@
     "Overmind"
   ],
   "ev": "-",
+  "stamina": "30",
+  "speed": 5,
   "movement": "Fly, hover",
+  "size": "1M",
+  "stability": 0,
+  "free_strike": 3,
   "might": -1,
   "agility": 1,
   "reason": 4,

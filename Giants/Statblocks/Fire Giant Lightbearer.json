@@ -13,6 +13,7 @@
   "immunities": [
     "Fire 9"
   ],
+  "speed": 8,
   "size": "4",
   "stability": 5,
   "free_strike": 9,
