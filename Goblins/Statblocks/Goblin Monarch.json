@@ -22,6 +22,7 @@
   "presence": 3,
   "traits": [
     {
+      "name": "Crafty",
       "effects": [
         {
           "effect": "The monarch doesn't provoke opportunity attacks by moving."
