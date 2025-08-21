@@ -86,7 +86,8 @@
           "t3": "34 damage; I < 5 dazed (save ends)"
         },
         {
-          "effect": "This damage can't be reduced in any way. This ability can't be used again until the start of the next round."
+          "effect": "This damage can't be reduced in any way. This ability can't be used again until the start of the next round.",
+          "name": "Effect"
         }
       ]
     },
@@ -100,7 +101,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage."
+          "effect": "The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -115,7 +117,14 @@
       "target": "Each enemy and object in the area",
       "effects": [
         {
-          "effect": "Each target makes an Agility test.\n- **≤11:** 16 fire damage; the target is burning (save ends\n- **12-16:** 12 fire damage; the target is burning (EoT\n- **17+:** 8 fire damage\nA burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter."
+          "name": "Effect",
+          "effect": "Each target makes an Agility test.",
+          "t1": "16 fire damage; the target is burning (save ends",
+          "t2": "12 fire damage; the target is burning (EoT",
+          "t3": "8 fire damage"
+        },
+        {
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter."
         }
       ]
     },
@@ -139,7 +148,8 @@
           "t3": "16 damage; push 8"
         },
         {
-          "effect": "This damage can't be reduced in any way."
+          "effect": "This damage can't be reduced in any way.",
+          "name": "Effect"
         }
       ]
     }

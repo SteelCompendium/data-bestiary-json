@@ -49,7 +49,8 @@
           "t3": "8 damage; P < 4 the target loses 1 Recovery and is bleeding (save ends)"
         },
         {
-          "effect": "Any ally within 2 squares of the iron priest gains an edge on their next strike. If any target lost a Recovery, any affected ally has a double edge instead."
+          "effect": "Any ally within 2 squares of the iron priest gains an edge on their next strike. If any target lost a Recovery, any affected ally has a double edge instead.",
+          "name": "Effect"
         }
       ]
     },
@@ -65,7 +66,8 @@
       "target": "Each war dog in the area",
       "effects": [
         {
-          "effect": "For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
+          "effect": "For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed.",
+          "name": "Effect"
         }
       ]
     }

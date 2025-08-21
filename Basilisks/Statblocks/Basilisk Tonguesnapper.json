@@ -53,7 +53,8 @@
           "t3": "14 acid damage; pull 3"
         },
         {
-          "effect": "This ability can pull targets restrained by Petrifying Eye Beams, and ignores stability if it does so."
+          "effect": "This ability can pull targets restrained by Petrifying Eye Beams, and ignores stability if it does so.",
+          "name": "Effect"
         },
         {
           "effect": "The tonguesnapper targets two additional creatures or objects.",
@@ -72,8 +73,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The area extends from both the tonguesnapper's eyes, and this ability targets the first creature without cover on either side of the area.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "The area extends from both the tonguesnapper's eyes, and this ability targets the first creature without cover on either side of the area."
         },
         {
           "roll": "Power Roll + 2",
@@ -82,7 +83,8 @@
           "t3": "Slowed (save ends); or if A < 2 restrained (save ends)"
         },
         {
-          "effect": "If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target's body, dealing 8 damage to the target that can't be reduced in any way and ending this effect."
+          "effect": "If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target's body, dealing 8 damage to the target that can't be reduced in any way and ending this effect.",
+          "name": "Effect"
         }
       ]
     },
@@ -100,11 +102,14 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "8 corruption damage; R < 0 dazed (save ends)\n- **12-16:** 10 corruption damage; R < 1 dazed (save ends)\n- **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "8 corruption damage; R < 0 dazed (save ends)",
+          "t2": "10 corruption damage; R < 1 dazed (save ends)",
+          "t3": "14 corruption damage; R < 2 dazed and slowed (save ends)"
         },
         {
-          "effect": "A creature dazed this way can't benefit from edges or double edges and can't gain or use surges."
+          "effect": "A creature dazed this way can't benefit from edges or double edges and can't gain or use surges.",
+          "name": "Effect"
         }
       ]
     },
@@ -119,7 +124,8 @@
       "trigger": "The tonguesnapper takes damage from a melee ability.",
       "effects": [
         {
-          "effect": "Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends)."
+          "effect": "Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends).",
+          "name": "Effect"
         }
       ]
     }

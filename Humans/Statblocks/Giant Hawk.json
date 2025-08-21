@@ -66,7 +66,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The hawk moves up to their speed."
+          "effect": "The hawk moves up to their speed.",
+          "name": "Effect"
         }
       ]
     }

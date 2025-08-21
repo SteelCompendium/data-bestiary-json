@@ -95,7 +95,8 @@
           "t3": "22 damage; M < 5 grabbed and the target takes a bane on the Escape Grab maneuver"
         },
         {
-          "effect": "The kingfissure worm must have one or more tongues to use this ability. As a maneuver, the kingfissure worm can pull up to two creatures grabbed this way adjacent to them."
+          "effect": "The kingfissure worm must have one or more tongues to use this ability. As a maneuver, the kingfissure worm can pull up to two creatures grabbed this way adjacent to them.",
+          "name": "Effect"
         }
       ]
     },
@@ -134,7 +135,8 @@
       "target": "One grabbed creature",
       "effects": [
         {
-          "effect": "The target is swallowed (see Swallowed)."
+          "effect": "The target is swallowed (see Swallowed).",
+          "name": "Effect"
         }
       ]
     },
@@ -151,7 +153,8 @@
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "The kingfissure worm can use this maneuver only while they have a creature or object grabbed. The worm slams the grabbed creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the grabbed creature or object is released."
+          "effect": "The kingfissure worm can use this maneuver only while they have a creature or object grabbed. The worm slams the grabbed creature or object against the target, dealing 13 damage to both. If this ability is used at range, it deals an extra 5 damage and the grabbed creature or object is released.",
+          "name": "Effect"
         }
       ]
     },
@@ -166,7 +169,8 @@
       "trigger": "A tongue takes damage that doesn't reduce it to 0 Stamina.",
       "effects": [
         {
-          "effect": "The kingfissure worm deals 5 damage to the creature or object the tongue had grabbed, releases that creature or object, then pulls the damaged tongue back into their mouth."
+          "effect": "The kingfissure worm deals 5 damage to the creature or object the tongue had grabbed, releases that creature or object, then pulls the damaged tongue back into their mouth.",
+          "name": "Effect"
         }
       ]
     },
@@ -182,11 +186,15 @@
       "target": "Each creature and object in the area",
       "effects": [
         {
-          "effect": "Each target must be on the ground.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "Each target must be on the ground."
         },
         {
-          "effect": "The area becomes a 10-square-deep fissure in the earth. Each target makes an **Agility test**.\n- **≤11:** 10 damage; the target falls into the fissure, lands prone, and can't stand (EoT)\n- **12-16:** 10 damage; the target is knocked prone and left hanging at the edge of the area\n- **17+:** The target shifts to the nearest unoccupied space outside the area."
+          "name": "Effect",
+          "effect": "The area becomes a 10-square-deep fissure in the earth. Each target makes an **Agility test**.",
+          "t1": "10 damage; the target falls into the fissure, lands prone, and can't stand (EoT)",
+          "t2": "10 damage; the target is knocked prone and left hanging at the edge of the area",
+          "t3": "The target shifts to the nearest unoccupied space outside the area."
         }
       ]
     },
@@ -201,7 +209,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked prone. Any creature who is made winded by this damage is swallowed (see Swallowed)."
+          "effect": "The kingfissure worm can use this villain action only while burrowing. The worm burrows up to half their speed, then breaches the surface and moves 5 squares straight up before dropping back to the ground. Each creature or object whose space the worm moves through during this movement takes 10 damage, and if they have A < 4 they are knocked prone. Any creature who is made winded by this damage is swallowed (see Swallowed).",
+          "name": "Effect"
         }
       ]
     },
@@ -223,7 +232,8 @@
           "t3": "17 acid damage; P < 5 weakened (save ends)"
         },
         {
-          "effect": "Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands prone in an unoccupied space within 5 squares of the kingfissure worm."
+          "effect": "Each creature swallowed by the worm is regurgitated and automatically subject to the tier 3 outcome, then lands prone in an unoccupied space within 5 squares of the kingfissure worm.",
+          "name": "Effect"
         }
       ]
     }

@@ -63,7 +63,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability."
+          "effect": "Until the start of the prismite's next turn, each target has cover and gains a +2 bonus to stability.",
+          "name": "Effect"
         }
       ]
     },
@@ -80,7 +81,8 @@
       "trigger": "An enemy within distance uses a melee ability against an ally.",
       "effects": [
         {
-          "effect": "The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved."
+          "effect": "The target is pulled up to 5 squares toward the prismite and any damage from the triggering ability is halved.",
+          "name": "Effect"
         }
       ]
     }

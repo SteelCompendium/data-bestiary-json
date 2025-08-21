@@ -54,7 +54,8 @@
           "t3": "8 damage; grabbed"
         },
         {
-          "effect": "The mosstooth can use a creature or object they have grabbed as a weapon for this ability, dealing an extra 5 damage to that creature or object and the target. They then end the grab and leave the creature or object prone in an unoccupied space adjacent to the target."
+          "effect": "The mosstooth can use a creature or object they have grabbed as a weapon for this ability, dealing an extra 5 damage to that creature or object and the target. They then end the grab and leave the creature or object prone in an unoccupied space adjacent to the target.",
+          "name": "Effect"
         }
       ]
     }

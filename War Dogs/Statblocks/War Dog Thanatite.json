@@ -43,6 +43,7 @@
       "target": "One ally",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The target dies and the thanatite makes one power roll against each enemy within 2 squares of the target."
         },
         {
@@ -69,7 +70,8 @@
       "target": "One corpse",
       "effects": [
         {
-          "effect": "The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically slides up to 2 squares and is knocked prone. Each square of the wall has 3 Stamina."
+          "effect": "The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically slides up to 2 squares and is knocked prone. Each square of the wall has 3 Stamina.",
+          "name": "Effect"
         }
       ]
     }

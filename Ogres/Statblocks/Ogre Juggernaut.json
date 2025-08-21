@@ -74,6 +74,7 @@
       "target": "Each creature in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The juggernaut jumps up to 6 squares before using this ability."
         },
         {
@@ -95,11 +96,14 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "I < 0 frightened (save ends)\n- **12-16:** I < 1 frightened (save ends)\n- **17+:** I < 2 frightened (save ends)",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "I < 0 frightened (save ends)",
+          "t2": "I < 1 frightened (save ends)",
+          "t3": "I < 2 frightened (save ends)"
         },
         {
-          "effect": "While a target is frightened this way, any ogre gains an edge on strikes against them."
+          "effect": "While a target is frightened this way, any ogre gains an edge on strikes against them.",
+          "name": "Effect"
         }
       ]
     },
@@ -114,7 +118,8 @@
       "trigger": "The juggernaut takes damage.",
       "effects": [
         {
-          "effect": "The juggernaut moves up to their speed and can make a free strike."
+          "effect": "The juggernaut moves up to their speed and can make a free strike.",
+          "name": "Effect"
         }
       ]
     }

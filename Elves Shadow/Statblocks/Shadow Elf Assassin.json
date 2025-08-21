@@ -51,7 +51,8 @@
           "t3": "18 damage"
         },
         {
-          "effect": "The next ability used against the target has a double edge."
+          "effect": "The next ability used against the target has a double edge.",
+          "name": "Effect"
         },
         {
           "effect": "Each non-minion ally within 3 squares of the target can make a free strike against them.",
@@ -78,7 +79,8 @@
           "t3": "12 damage; I < 3 bleeding (save ends)"
         },
         {
-          "effect": "Each target is pushed up to 4 squares."
+          "effect": "Each target is pushed up to 4 squares.",
+          "name": "Effect"
         }
       ]
     }

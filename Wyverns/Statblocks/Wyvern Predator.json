@@ -61,7 +61,8 @@
           "t3": "17 damage; M < 3 slowed (save ends)"
         },
         {
-          "effect": "If a target slowed this way is already slowed, they are instead restrained (save ends)."
+          "effect": "If a target slowed this way is already slowed, they are instead restrained (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -119,7 +120,8 @@
       "trigger": "A creature within distance deals damage to the predator with a melee ability.",
       "effects": [
         {
-          "effect": "The predator uses Sedating Stinger against the target, then shifts up to 3 squares"
+          "effect": "The predator uses Sedating Stinger against the target, then shifts up to 3 squares",
+          "name": "Effect"
         }
       ]
     }

@@ -55,7 +55,8 @@
           "t3": "6 corruption damage; slowed (EoT)"
         },
         {
-          "effect": "The scrivener can shift 1 square."
+          "effect": "The scrivener can shift 1 square.",
+          "name": "Effect"
         }
       ]
     }

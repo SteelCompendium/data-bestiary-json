@@ -45,7 +45,8 @@
           "t3": "14 damage; grabbed"
         },
         {
-          "effect": "The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them."
+          "effect": "The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them.",
+          "name": "Effect"
         },
         {
           "effect": "While grabbed this way, a target can't teleport or be teleported.",
@@ -66,10 +67,15 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The bonecage can put up to two 90-degree bends in each of the lines. Each target makes an Agility test.\n- **≤11:** 9 damage\n- **12-16:** 7 damage\n- **17+:** 4 damage"
+          "name": "Effect",
+          "effect": "The bonecage can put up to two 90-degree bends in each of the lines. Each target makes an Agility test.",
+          "t1": "9 damage",
+          "t2": "7 damage",
+          "t3": "4 damage"
         },
         {
-          "effect": "The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again."
+          "effect": "The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.",
+          "name": "Effect"
         }
       ]
     }

@@ -70,7 +70,8 @@
           "t3": "15 damage; A < 3 slide 3, prone and can't stand (EoT)"
         },
         {
-          "effect": "If a target made prone this way is already prone, they are instead restrained (EoT)."
+          "effect": "If a target made prone this way is already prone, they are instead restrained (EoT).",
+          "name": "Effect"
         }
       ]
     },
@@ -90,7 +91,8 @@
           "t3": "10 damage; M < 3 prone"
         },
         {
-          "effect": "The cryptic reforms their body and appears in an unoccupied space in the area."
+          "effect": "The cryptic reforms their body and appears in an unoccupied space in the area.",
+          "name": "Effect"
         }
       ]
     },
@@ -104,7 +106,8 @@
       "target": "One creature or object on the ground",
       "effects": [
         {
-          "effect": "The cryptic slides the target up to 3 squares."
+          "effect": "The cryptic slides the target up to 3 squares.",
+          "name": "Effect"
         },
         {
           "effect": "The ability targets one additional target.",
@@ -124,7 +127,8 @@
       "trigger": "The cryptic takes damage.",
       "effects": [
         {
-          "effect": "The cryptic halves the damage, ignores any nondamaging effects associated with it, and shifts up to 3 squares"
+          "effect": "The cryptic halves the damage, ignores any nondamaging effects associated with it, and shifts up to 3 squares",
+          "name": "Effect"
         }
       ]
     },
@@ -140,6 +144,7 @@
       "trigger": "The cryptic uses the Dig maneuver to resurface.",
       "effects": [
         {
+          "name": "Effect",
           "effect": "Before using the Dig maneuver, the cryptic moves up to their speed. They then create the burst when they breach the surface."
         },
         {
@@ -161,11 +166,15 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "A target must be on the ground.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "A target must be on the ground."
         },
         {
-          "effect": "Each target makes a **Might test**.\n- **≤11:** Prone and can't stand (EoT)\n- **12-16:** Prone\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "Each target makes a **Might test**.",
+          "t1": "Prone and can't stand (EoT)",
+          "t2": "Prone",
+          "t3": "No effect"
         }
       ]
     },
@@ -180,11 +189,15 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "A target must be on the ground.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "A target must be on the ground."
         },
         {
-          "effect": "The area drops 2 squares and is difficult terrain. Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.\n- **≤11:** 9 damage; prone\n- **12-16:** 5 damage\n- **17+:** The target moves to the nearest unoccupied space outside the area."
+          "name": "Effect",
+          "effect": "The area drops 2 squares and is difficult terrain. Each target enemy falls, while each target ally drops safely. Additionally, each target enemy makes an **Agility test**.",
+          "t1": "9 damage; prone",
+          "t2": "5 damage",
+          "t3": "The target moves to the nearest unoccupied space outside the area."
         }
       ]
     },
@@ -199,6 +212,7 @@
       "target": "Two creatures or objects",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The cryptic makes an initial power roll that calls down stone pillars from the ceiling."
         },
         {

@@ -63,7 +63,8 @@
           "t3": "21 damage; A < 4 bleeding (save ends)"
         },
         {
-          "effect": "If the target is frightened, this ability gains an edge."
+          "effect": "If the target is frightened, this ability gains an edge.",
+          "name": "Effect"
         }
       ]
     },
@@ -102,8 +103,10 @@
       "target": "Two creatures or objects",
       "effects": [
         {
-          "effect": "Slide 1; A < 2 3 damage\n- **12-16:** Slide 2; A < 3 5 damage\n- **17+:** Slide 4; A < 4 7 damage",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "Slide 1; A < 2 3 damage",
+          "t2": "Slide 2; A < 3 5 damage",
+          "t3": "Slide 4; A < 4 7 damage"
         }
       ]
     },
@@ -119,7 +122,8 @@
       "trigger": "A creature within distance deals damage to the manticore.",
       "effects": [
         {
-          "effect": "The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target."
+          "effect": "The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target.",
+          "name": "Effect"
         }
       ]
     },
@@ -135,8 +139,10 @@
       "target": "Each creature in the area",
       "effects": [
         {
-          "effect": "Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)\n- **12-16:** Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)\n- **17+:** Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)",
+          "t2": "Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)",
+          "t3": "Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)"
         }
       ]
     },
@@ -151,7 +157,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability."
+          "effect": "The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -166,7 +173,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns."
+          "effect": "The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.",
+          "name": "Effect"
         }
       ]
     }

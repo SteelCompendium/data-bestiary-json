@@ -53,7 +53,8 @@
           "t3": "24 corruption damage; M < 5 bleeding (save ends)"
         },
         {
-          "effect": "The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw"
+          "effect": "The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw",
+          "name": "Effect"
         },
         {
           "effect": "The vampire shifts 3 after striking the last target, and can target one additional creature for every 2 malice spent.",
@@ -72,7 +73,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "Two blood-starved vampires appear in unoccupied spaces within distance."
+          "effect": "Two blood-starved vampires appear in unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -89,7 +91,8 @@
       "trigger": "A creature makes a strike against the vampire.",
       "effects": [
         {
-          "effect": "The target becomes the new target of the strike."
+          "effect": "The target becomes the new target of the strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -104,7 +107,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target who has P < 4 is now bleeding (save ends)."
+          "effect": "Each target who has P < 4 is now bleeding (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -126,7 +130,8 @@
           "t3": "10 damage; M < 5 6 corruption damage"
         },
         {
-          "effect": "The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round."
+          "effect": "The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.",
+          "name": "Effect"
         }
       ]
     }

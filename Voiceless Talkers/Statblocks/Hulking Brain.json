@@ -77,6 +77,7 @@
       "target": "Each enemy",
       "effects": [
         {
+          "name": "Effect",
           "effect": "A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved"
         },
         {
@@ -97,7 +98,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The hulking brain shifts up to 4 squares, ignoring difficu terrain."
+          "effect": "The hulking brain shifts up to 4 squares, ignoring difficu terrain.",
+          "name": "Effect"
         }
       ]
     },
@@ -113,7 +115,8 @@
       "trigger": "An ally voiceless talker within 5 squares takes damage from an enemy ability.",
       "effects": [
         {
-          "effect": "The hulking brain shifts adjacent to the ally and becomes the new target of the ability."
+          "effect": "The hulking brain shifts adjacent to the ally and becomes the new target of the ability.",
+          "name": "Effect"
         },
         {
           "effect": "The enemy is knocked prone.",

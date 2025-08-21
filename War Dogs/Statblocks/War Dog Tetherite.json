@@ -89,6 +89,7 @@
       "target": "Each creature in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "Each target makes an Agility test. The same condition is imposed on each affected target."
         },
         {

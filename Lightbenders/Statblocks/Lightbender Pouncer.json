@@ -50,7 +50,8 @@
           "t3": "14 damage; A < 2 prone"
         },
         {
-          "effect": "The pouncer can make a free strike against each target they knock prone."
+          "effect": "The pouncer can make a free strike against each target they knock prone.",
+          "name": "Effect"
         }
       ]
     },
@@ -71,7 +72,8 @@
           "t3": "10 damage; A < 2 the target is dazzled (save ends)"
         },
         {
-          "effect": "A dazzled target takes a bane on strikes and has line of effect only within 1 square."
+          "effect": "A dazzled target takes a bane on strikes and has line of effect only within 1 square.",
+          "name": "Effect"
         }
       ]
     },
@@ -88,11 +90,14 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "I < 0 dazed (save ends)\n- **12-16:** I < 1 dazed (save ends)\n- **17+:** I < 2 dazed (save ends)",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "I < 0 dazed (save ends)",
+          "t2": "I < 1 dazed (save ends)",
+          "t3": "I < 2 dazed (save ends)"
         },
         {
-          "effect": "While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends."
+          "effect": "While dazed this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the dazed condition ends.",
+          "name": "Effect"
         }
       ]
     },
@@ -107,7 +112,8 @@
       "trigger": "The pouncer takes damage from a strike.",
       "effects": [
         {
-          "effect": "The pouncer halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver."
+          "effect": "The pouncer halves the damage, ignores any nondamaging effects associated with it, and can teleport up to 5 squares. If they teleport into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.",
+          "name": "Effect"
         }
       ]
     }

@@ -52,7 +52,8 @@
           "t3": "4 damage, 4 psychic damage; the target must move their speed in a straight line away from the draconite"
         },
         {
-          "effect": "If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn."
+          "effect": "If this damage leaves the target winded, they are frightened of the draconite until the end of the target's next turn.",
+          "name": "Effect"
         }
       ]
     }

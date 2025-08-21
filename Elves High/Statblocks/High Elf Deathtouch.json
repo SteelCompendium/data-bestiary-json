@@ -66,7 +66,8 @@
       "target": "One willing ally",
       "effects": [
         {
-          "effect": "The target has a +5 bonus to speed and automatically obtains a tier 3 outcome on power rolls. They can still roll to determine if they score a critical hit. At the end of their next turn, the target immediately dies."
+          "effect": "The target has a +5 bonus to speed and automatically obtains a tier 3 outcome on power rolls. They can still roll to determine if they score a critical hit. At the end of their next turn, the target immediately dies.",
+          "name": "Effect"
         }
       ]
     }

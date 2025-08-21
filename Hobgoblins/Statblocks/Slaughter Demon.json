@@ -70,7 +70,8 @@
           "t3": "17 damage; A < 3 bleeding and restrained (save ends)"
         },
         {
-          "effect": "A creature restrained this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects restrained at once."
+          "effect": "A creature restrained this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects restrained at once.",
+          "name": "Effect"
         }
       ]
     },
@@ -93,7 +94,8 @@
           "t3": "20 poison damage; M < 3 weakened (save ends)"
         },
         {
-          "effect": "A target weakened this way also has damage weakness 3."
+          "effect": "A target weakened this way also has damage weakness 3.",
+          "name": "Effect"
         }
       ]
     },
@@ -109,7 +111,8 @@
       "trigger": "A creature within distance who has a soul dies.",
       "effects": [
         {
-          "effect": "The target can't be brought back to life. Until the end of the encounter, the slaughter demon gains an edge on power rolls."
+          "effect": "The target can't be brought back to life. Until the end of the encounter, the slaughter demon gains an edge on power rolls.",
+          "name": "Effect"
         }
       ]
     }

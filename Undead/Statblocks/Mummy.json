@@ -47,7 +47,8 @@
           "t3": "10 corruption damage; pull 2; M < 3 restrained (save ends)"
         },
         {
-          "effect": "The next ability the mummy uses against the target has any potency increased by 1 for the target."
+          "effect": "The next ability the mummy uses against the target has any potency increased by 1 for the target.",
+          "name": "Effect"
         }
       ]
     },
@@ -69,7 +70,8 @@
           "t3": "7 corruption damage; I < 3 the target is cursed (save ends)"
         },
         {
-          "effect": "A cursed target is bleeding and weakened, and allies gain an edge on strikes made against them."
+          "effect": "A cursed target is bleeding and weakened, and allies gain an edge on strikes made against them.",
+          "name": "Effect"
         }
       ]
     },
@@ -85,7 +87,8 @@
       "trigger": "The mummy comes within distance of a restrained creature or starts their turn within distance of one.",
       "effects": [
         {
-          "effect": "The target takes 8 poison damage"
+          "effect": "The target takes 8 poison damage",
+          "name": "Effect"
         }
       ]
     }

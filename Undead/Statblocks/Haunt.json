@@ -53,7 +53,8 @@
           "t3": "11 damage; slide 5"
         },
         {
-          "effect": "If the target is force moved into another creature's space, that creature takes an additional 4 damage and the haunt slides them up to 2 squares."
+          "effect": "If the target is force moved into another creature's space, that creature takes an additional 4 damage and the haunt slides them up to 2 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -75,7 +76,8 @@
           "t3": "7 damage; I < 4 prone"
         },
         {
-          "effect": "A target knocked prone this way can't use the Stand Up maneuver on themself while any haunt is within 20 squares of them."
+          "effect": "A target knocked prone this way can't use the Stand Up maneuver on themself while any haunt is within 20 squares of them.",
+          "name": "Effect"
         }
       ]
     }

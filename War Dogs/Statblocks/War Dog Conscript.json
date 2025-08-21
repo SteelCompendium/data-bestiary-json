@@ -53,7 +53,8 @@
           "t3": "3 damage"
         },
         {
-          "effect": "If used with the Charge main action, this ability gains an edge."
+          "effect": "If used with the Charge main action, this ability gains an edge.",
+          "name": "Effect"
         }
       ]
     }

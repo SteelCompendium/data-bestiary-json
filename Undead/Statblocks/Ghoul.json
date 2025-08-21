@@ -72,7 +72,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul can make a free strike against them."
+          "effect": "The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul can make a free strike against them.",
+          "name": "Effect"
         }
       ]
     }

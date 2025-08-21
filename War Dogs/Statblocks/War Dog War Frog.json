@@ -56,7 +56,8 @@
           "t3": "7 poison damage"
         },
         {
-          "effect": "The war frog can jump 3 squares before or after making the strike. If they end this jump in cover or concealment, they can attempt to hide."
+          "effect": "The war frog can jump 3 squares before or after making the strike. If they end this jump in cover or concealment, they can attempt to hide.",
+          "name": "Effect"
         }
       ]
     }

@@ -49,7 +49,8 @@
           "t3": "7 psychic damage; I < 2 the target uses a signature ability against a creature of the cackler's choice"
         },
         {
-          "effect": "An ally targeted by this ability ignores the damage and can make a free strike."
+          "effect": "An ally targeted by this ability ignores the damage and can make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -65,7 +66,11 @@
       "target": "Each creature in the area",
       "effects": [
         {
-          "effect": "Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.\n- **≤11:** Frightened (save ends)\n- **12-16:** Frightened (EoT)\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.",
+          "t1": "Frightened (save ends)",
+          "t2": "Frightened (EoT)",
+          "t3": "No effect"
         }
       ]
     }

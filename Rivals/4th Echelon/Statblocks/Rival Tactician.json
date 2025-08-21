@@ -73,7 +73,8 @@
           "t3": "20 damage; M < 5 weakened (save ends)"
         },
         {
-          "effect": "Each ally in the area regains 10 Stamina."
+          "effect": "Each ally in the area regains 10 Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -88,7 +89,8 @@
       "trigger": "An enemy within distance willingly moves.",
       "effects": [
         {
-          "effect": "At any point during the movement, the tactician and one ally within distance can use a signature ability against the target."
+          "effect": "At any point during the movement, the tactician and one ally within distance can use a signature ability against the target.",
+          "name": "Effect"
         }
       ]
     }

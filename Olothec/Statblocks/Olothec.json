@@ -82,7 +82,8 @@
           "t3": "20 damage; M < 4 weakened and the target is slimed (save ends)"
         },
         {
-          "effect": "A slimed target takes 4 psychic damage whenever they make a power roll."
+          "effect": "A slimed target takes 4 psychic damage whenever they make a power roll.",
+          "name": "Effect"
         }
       ]
     },
@@ -103,7 +104,8 @@
           "t3": "13 acid damage; A < 4 push special and prone"
         },
         {
-          "effect": "Each creature pushed this way is pushed to an unoccupied space in the area as far as possible from the olothec."
+          "effect": "Each creature pushed this way is pushed to an unoccupied space in the area as far as possible from the olothec.",
+          "name": "Effect"
         },
         {
           "effect": "The area is difficult terrain. Any creature who enters the area or moves within it for the first time on a turn and has A < 3 is knocked prone.",
@@ -130,7 +132,8 @@
           "t3": "23 psychic damage; I < 4 the target is transformed (save ends)"
         },
         {
-          "effect": "Each time a target is transformed, the Director chooses one of the following transformations. When a target ends the transformed effect, all transformations on them end."
+          "effect": "Each time a target is transformed, the Director chooses one of the following transformations. When a target ends the transformed effect, all transformations on them end.",
+          "name": "Effect"
         },
         {
           "effect": "The target's head becomes a ball of slime. They can't communicate and have line of effect only within 3 squares.",
@@ -156,7 +159,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The olothec teleports to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them."
+          "effect": "The olothec teleports to an unoccupied space within 10 squares. Alternatively, they swap places with a creature or object within 5 squares of them.",
+          "name": "Effect"
         }
       ]
     },
@@ -172,7 +176,8 @@
       "trigger": "An enemy within distance deals damage to the olothec.",
       "effects": [
         {
-          "effect": "The target takes 8 psychic damage and has psychic weakness 3 until the end of the olothec's next turn."
+          "effect": "The target takes 8 psychic damage and has psychic weakness 3 until the end of the olothec's next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -195,7 +200,8 @@
           "t3": "17 psychic damage; P < 4 frightened (save ends)"
         },
         {
-          "effect": "While frightened this way, a target can't make saving throws to end any other effects"
+          "effect": "While frightened this way, a target can't make saving throws to end any other effects",
+          "name": "Effect"
         }
       ]
     },
@@ -211,7 +217,8 @@
       "target": "Each creature in the area",
       "effects": [
         {
-          "effect": "The olothec slides each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are weakened and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4."
+          "effect": "The olothec slides each target up to 5 squares. Each target takes 12 psychic damage, and if they have M < 3 they are weakened and slimed (save ends). A slimed target takes 4 psychic damage whenever they make a power roll. Additionally, until the start of their next turn, the olothec has damage immunity 4.",
+          "name": "Effect"
         }
       ]
     },
@@ -233,7 +240,8 @@
           "t3": "16 psychic damage; R < 3 the target is devolved (save ends)"
         },
         {
-          "effect": "A devolved creature has a −1 score for all their characteristics other than Reason."
+          "effect": "A devolved creature has a −1 score for all their characteristics other than Reason.",
+          "name": "Effect"
         }
       ]
     }

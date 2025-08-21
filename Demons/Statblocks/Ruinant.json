@@ -74,8 +74,8 @@
       "target": "Three creatures",
       "effects": [
         {
-          "effect": "Each target must be at less than full Stamina.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "Each target must be at less than full Stamina."
         },
         {
           "roll": "Power Roll + 2",

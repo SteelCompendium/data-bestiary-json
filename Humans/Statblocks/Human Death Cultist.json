@@ -71,7 +71,8 @@
       "target": "Each dead minion in the area",
       "effects": [
         {
-          "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability."
+          "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.",
+          "name": "Effect"
         }
       ]
     }

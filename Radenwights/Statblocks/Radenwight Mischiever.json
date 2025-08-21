@@ -43,7 +43,8 @@
           "t3": "5 damage"
         },
         {
-          "effect": "If the mischiever is hidden when they use this ability, they can target two creatures."
+          "effect": "If the mischiever is hidden when they use this ability, they can target two creatures.",
+          "name": "Effect"
         }
       ]
     },
@@ -59,7 +60,8 @@
       "trigger": "An ally deals damage to the target.",
       "effects": [
         {
-          "effect": "The mischiever makes a free strike against the target."
+          "effect": "The mischiever makes a free strike against the target.",
+          "name": "Effect"
         }
       ]
     }

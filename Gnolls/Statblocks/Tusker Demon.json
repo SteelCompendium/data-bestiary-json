@@ -59,7 +59,8 @@
           "t3": "14 damage; push 3, prone"
         },
         {
-          "effect": "If this ability is used as part of the Charge main action, it deals an extra 4 damage."
+          "effect": "If this ability is used as part of the Charge main action, it deals an extra 4 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -74,7 +75,8 @@
       "trigger": "An enemy within distance deals damage to the tusker.",
       "effects": [
         {
-          "effect": "The tusker demon uses the Charge main action and Gore against the target."
+          "effect": "The tusker demon uses the Charge main action and Gore against the target.",
+          "name": "Effect"
         }
       ]
     }

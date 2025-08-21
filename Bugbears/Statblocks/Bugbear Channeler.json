@@ -41,7 +41,8 @@
           "t3": "13 damage; pull 4"
         },
         {
-          "effect": "Each target must be on the ground, and each square a target is pulled through is difficult terrain for enemies."
+          "effect": "Each target must be on the ground, and each square a target is pulled through is difficult terrain for enemies.",
+          "name": "Effect"
         }
       ]
     },
@@ -56,6 +57,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The channeler chooses one of the following damage types: acid, cold, corruption, fire, or poison."
         },
         {
@@ -85,7 +87,8 @@
           "t3": "11 corruption damage; P < 2 the target is shapechanged (save ends)"
         },
         {
-          "effect": "A shapechanged creature is slowed and has fire weakness 10 as their limbs stretch and their skin becomes paper thin."
+          "effect": "A shapechanged creature is slowed and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.",
+          "name": "Effect"
         }
       ]
     },
@@ -104,7 +107,8 @@
           "name": "Special"
         },
         {
-          "effect": "The target is vertical pushed up to 3 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "The target is vertical pushed up to 3 squares. An ally doesn't take damage from being force moved this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -119,7 +123,8 @@
       "trigger": "A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.",
       "effects": [
         {
-          "effect": "The target is grabbed by the channeler."
+          "effect": "The target is grabbed by the channeler.",
+          "name": "Effect"
         }
       ]
     },
@@ -135,7 +140,8 @@
       "trigger": "An ally within distance takes damage.",
       "effects": [
         {
-          "effect": "The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn."
+          "effect": "The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.",
+          "name": "Effect"
         }
       ]
     }

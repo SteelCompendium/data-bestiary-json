@@ -49,7 +49,8 @@
           "t3": "13 damage; push 5; M < 2 restrained (save ends)"
         },
         {
-          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
+          "name": "Effect"
         }
       ]
     },
@@ -71,7 +72,8 @@
           "t3": "11 damage; push 2; A < 2 slowed (save ends)"
         },
         {
-          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
+          "name": "Effect"
         }
       ]
     }

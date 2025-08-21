@@ -60,7 +60,8 @@
           "t3": "16 damage; R < 2 prone and can't stand (save ends)"
         },
         {
-          "effect": "If a target made prone this way is already prone, they are instead restrained (save ends). If the target was also unable to stand, that effect ends when they are no longer restrained this way."
+          "effect": "If a target made prone this way is already prone, they are instead restrained (save ends). If the target was also unable to stand, that effect ends when they are no longer restrained this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -75,7 +76,8 @@
       "target": "Self or one elemental",
       "effects": [
         {
-          "effect": "The target gains 15 temporary Stamina that lasts until the start of the field's next turn."
+          "effect": "The target gains 15 temporary Stamina that lasts until the start of the field's next turn.",
+          "name": "Effect"
         },
         {
           "effect": "Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is pulled 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked prone.",
@@ -96,7 +98,8 @@
       "trigger": "A creature or object within distance deals damage to the field.",
       "effects": [
         {
-          "effect": "The target takes 6 damage, and if they have A < 2, they are bleeding (save ends)."
+          "effect": "The target takes 6 damage, and if they have A < 2, they are bleeding (save ends).",
+          "name": "Effect"
         }
       ]
     }

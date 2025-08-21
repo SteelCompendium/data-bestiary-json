@@ -88,6 +88,7 @@
       "target": "One creature",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The target must be grabbed by the invader."
         },
         {
@@ -110,7 +111,8 @@
       "trigger": "A creature grabbed by the invader resists an ability's potency.",
       "effects": [
         {
-          "effect": "The potency increases by 2."
+          "effect": "The potency increases by 2.",
+          "name": "Effect"
         }
       ]
     }

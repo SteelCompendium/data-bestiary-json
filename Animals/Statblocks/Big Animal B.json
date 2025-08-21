@@ -67,7 +67,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement."
+          "effect": "The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.",
+          "name": "Effect"
         }
       ]
     },
@@ -82,7 +83,8 @@
       "trigger": "The target is knocked prone.",
       "effects": [
         {
-          "effect": "The animal moves up to their speed. If they end their turn adjacent to the target, they can use the Stand Up maneuver to let the target stand, then get on to ride them."
+          "effect": "The animal moves up to their speed. If they end their turn adjacent to the target, they can use the Stand Up maneuver to let the target stand, then get on to ride them.",
+          "name": "Effect"
         }
       ]
     }

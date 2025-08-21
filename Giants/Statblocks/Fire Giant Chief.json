@@ -46,7 +46,11 @@
       "target": "Each enemy and object in the area",
       "effects": [
         {
-          "effect": "Each target makes either an **Agility test** or an **Intuition test**.\n- **≤11:** 18 fire damage; prone; weakened (save ends)\n- **12-16:** 14 fire damage; prone\n- **17+:** 9 fire damage"
+          "name": "Effect",
+          "effect": "Each target makes either an **Agility test** or an **Intuition test**.",
+          "t1": "18 fire damage; prone; weakened (save ends)",
+          "t2": "14 fire damage; prone",
+          "t3": "9 fire damage"
         }
       ]
     },
@@ -101,7 +105,8 @@
       "trigger": "A fire giant ally within distance makes a strike.",
       "effects": [
         {
-          "effect": "The strike has a double edge and deals an extra 10 fire damage."
+          "effect": "The strike has a double edge and deals an extra 10 fire damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -116,7 +121,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts up to their speed and can make a free strike. Any enemy who takes damage from a free strike this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns."
+          "effect": "Each target shifts up to their speed and can make a free strike. Any enemy who takes damage from a free strike this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns.",
+          "name": "Effect"
         }
       ]
     },
@@ -131,7 +137,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The chief shifts up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance."
+          "effect": "The chief shifts up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -146,7 +153,11 @@
       "target": "Self and each fire giant ally in the are",
       "effects": [
         {
-          "effect": "Each target unleashes a wave of fire, and each enemy within 2 squares of any target makes an Agility test. An enemy affected by two targets takes a bane on the test, while an enemy affected by three or more targets has a double bane.\n- **≤11:** 18 fire damage\n- **12-16:** 14 fire damage\n- **17+:** 9 fire damage"
+          "name": "Effect",
+          "effect": "Each target unleashes a wave of fire, and each enemy within 2 squares of any target makes an Agility test. An enemy affected by two targets takes a bane on the test, while an enemy affected by three or more targets has a double bane.",
+          "t1": "18 fire damage",
+          "t2": "14 fire damage",
+          "t3": "9 fire damage"
         }
       ]
     }

@@ -42,7 +42,8 @@
           "t3": "9 damage; push 6"
         },
         {
-          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
+          "name": "Effect"
         }
       ]
     },
@@ -59,7 +60,14 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target makes a **Might test**.\n- **≤11:** 7 damage; restrained (EoT)\n- **12-16:** 5 damage; slowed (EoT)\n- **17+:** No effect.\nThe snare remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test."
+          "name": "Effect",
+          "effect": "Each target makes a **Might test**.",
+          "t1": "7 damage; restrained (EoT)",
+          "t2": "5 damage; slowed (EoT)",
+          "t3": "No effect."
+        },
+        {
+          "effect": "The snare remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test."
         }
       ]
     }

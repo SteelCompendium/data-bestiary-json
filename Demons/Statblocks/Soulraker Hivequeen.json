@@ -63,7 +63,8 @@
           "t3": "23 poison damage; M < 5 the target is implanted"
         },
         {
-          "effect": "An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait)."
+          "effect": "An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait).",
+          "name": "Effect"
         }
       ]
     },
@@ -78,7 +79,8 @@
       "target": "Each implanted handmaiden parasite in the area",
       "effects": [
         {
-          "effect": "The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a free strike."
+          "effect": "The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -94,7 +96,8 @@
       "trigger": "The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.",
       "effects": [
         {
-          "effect": "Two soulraker minions appear within distance."
+          "effect": "Two soulraker minions appear within distance.",
+          "name": "Effect"
         },
         {
           "effect": "A soulraker praetorian also appears within distance.",
@@ -113,7 +116,8 @@
       "target": "Each soulraker minion in the area",
       "effects": [
         {
-          "effect": "Each target can move their speed and make a free strike. If no minions are present, four soulraker minions are summoned into unoccupied spaces within distance before the hivequeen uses this villain action."
+          "effect": "Each target can move their speed and make a free strike. If no minions are present, four soulraker minions are summoned into unoccupied spaces within distance before the hivequeen uses this villain action.",
+          "name": "Effect"
         }
       ]
     },
@@ -134,7 +138,8 @@
           "t3": "11 sonic damage; push 3; I < 5 dazed (save ends)"
         },
         {
-          "effect": "The hivequeen shifts up to her speed."
+          "effect": "The hivequeen shifts up to her speed.",
+          "name": "Effect"
         }
       ]
     },

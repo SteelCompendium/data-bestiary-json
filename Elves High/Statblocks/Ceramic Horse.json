@@ -68,7 +68,8 @@
           "t3": "7 damage"
         },
         {
-          "effect": "Any target who is prone takes an extra 2 damage."
+          "effect": "Any target who is prone takes an extra 2 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -83,7 +84,8 @@
       "target": "The horse's rider",
       "effects": [
         {
-          "effect": "The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall."
+          "effect": "The horse vertical slides the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.",
+          "name": "Effect"
         }
       ]
     }

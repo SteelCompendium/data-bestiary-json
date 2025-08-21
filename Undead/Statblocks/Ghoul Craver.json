@@ -63,7 +63,8 @@
           "t3": "6 damage"
         },
         {
-          "effect": "This ability has a double edge against a bleeding target."
+          "effect": "This ability has a double edge against a bleeding target.",
+          "name": "Effect"
         }
       ]
     }

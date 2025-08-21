@@ -68,7 +68,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "Four level 1 demon minions (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area."
+          "effect": "Four level 1 demon minions (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.",
+          "name": "Effect"
         },
         {
           "effect": "Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear instead.",
@@ -89,7 +90,8 @@
       "trigger": "The last ally minion on the encounter map dies, or the egress is reduced below 25 Stamina.",
       "effects": [
         {
-          "effect": "Eight ensnarers appear anywhere in the area."
+          "effect": "Eight ensnarers appear anywhere in the area.",
+          "name": "Effect"
         }
       ]
     },
@@ -122,7 +124,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The egress folds into their own portal and teleports to an un occupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space."
+          "effect": "The egress folds into their own portal and teleports to an un occupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.",
+          "name": "Effect"
         }
       ]
     },
@@ -144,7 +147,8 @@
           "t3": "3 14 corruption damage; R < 4 weakened (save ends)"
         },
         {
-          "effect": "The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way."
+          "effect": "The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.",
+          "name": "Effect"
         }
       ]
     }

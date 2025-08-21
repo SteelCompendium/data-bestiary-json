@@ -49,7 +49,8 @@
       "target": "One ally",
       "effects": [
         {
-          "effect": "The target moves up to their speed and can use a main action."
+          "effect": "The target moves up to their speed and can use a main action.",
+          "name": "Effect"
         },
         {
           "effect": "The warleader targets two allies.",
@@ -91,7 +92,8 @@
       "target": "Self and three allies",
       "effects": [
         {
-          "effect": "Each target moves up to their speed and can use the Grab maneuver, which gains an edge."
+          "effect": "Each target moves up to their speed and can use the Grab maneuver, which gains an edge.",
+          "name": "Effect"
         }
       ]
     },
@@ -106,7 +108,8 @@
       "trigger": "The target obtains a tier 1 outcome on one power roll.",
       "effects": [
         {
-          "effect": "The target has a double edge on their next power roll before the end of the encounter."
+          "effect": "The target has a double edge on their next power roll before the end of the encounter.",
+          "name": "Effect"
         }
       ]
     },
@@ -121,7 +124,11 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.\n- **≤11:** Frightened of the warleader (save ends)\n- **12-16:** Frightened of the warleader (EoT)\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.",
+          "t1": "Frightened of the warleader (save ends)",
+          "t2": "Frightened of the warleader (EoT)",
+          "t3": "No effect"
         }
       ]
     },
@@ -136,7 +143,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance."
+          "effect": "The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -151,7 +159,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Three times in succession, the warleader shifts up to their speed and can use Mace Lariat."
+          "effect": "Three times in succession, the warleader shifts up to their speed and can use Mace Lariat.",
+          "name": "Effect"
         }
       ]
     }

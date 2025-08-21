@@ -74,7 +74,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The drangolin shifts up to their speed and uses Fiery Claws against each creature who comes adjacent to them during the shift. The drangolin makes one power roll against all targets."
+          "effect": "The drangolin shifts up to their speed and uses Fiery Claws against each creature who comes adjacent to them during the shift. The drangolin makes one power roll against all targets.",
+          "name": "Effect"
         }
       ]
     },
@@ -90,6 +91,7 @@
       "target": "Each creature in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The drangolin uses the Dig maneuver to breach the surface before using this ability. Each target in the area where the drangolin breaches takes an extra 2 fire damage."
         },
         {

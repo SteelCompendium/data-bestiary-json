@@ -57,7 +57,8 @@
           "t3": "8 corruption damage; M < 2 slowed (save ends)"
         },
         {
-          "effect": "This ability gains an edge against any target not at full Stamina."
+          "effect": "This ability gains an edge against any target not at full Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -72,7 +73,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Until the end of their next turn, each target gains an edge on their next strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+          "effect": "Until the end of their next turn, each target gains an edge on their next strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.",
+          "name": "Effect"
         }
       ]
     }

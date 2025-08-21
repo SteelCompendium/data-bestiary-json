@@ -50,7 +50,8 @@
           "t3": "9 damage; I < 2 restrained (save ends)"
         },
         {
-          "effect": "While restrained this way, a target can't search for hidden creatures."
+          "effect": "While restrained this way, a target can't search for hidden creatures.",
+          "name": "Effect"
         }
       ]
     },
@@ -73,7 +74,8 @@
           "t3": "6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)"
         },
         {
-          "effect": "While bleeding or weakened this way, a target is covered in lichen."
+          "effect": "While bleeding or weakened this way, a target is covered in lichen.",
+          "name": "Effect"
         }
       ]
     },
@@ -88,7 +90,8 @@
       "trigger": "A creature uses a triggered action targeting the green seer or an ally within distance.",
       "effects": [
         {
-          "effect": "The green seer makes a free strike against the target after the target's triggered action is resolved."
+          "effect": "The green seer makes a free strike against the target after the target's triggered action is resolved.",
+          "name": "Effect"
         }
       ]
     }

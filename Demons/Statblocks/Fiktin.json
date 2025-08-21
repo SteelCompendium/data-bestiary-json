@@ -59,7 +59,8 @@
           "t3": "7 corruption damage; I < 3 dazed (save ends)"
         },
         {
-          "effect": "The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability."
+          "effect": "The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -74,7 +75,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver."
+          "effect": "The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver.",
+          "name": "Effect"
         }
       ]
     }

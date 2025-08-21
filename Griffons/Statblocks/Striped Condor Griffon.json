@@ -78,7 +78,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The griffon shifts up to their speed along the ground in straight line. Each enemy who comes adjacent to the griffon during this shift can choose to either take 5 damage or be knocked prone"
+          "effect": "The griffon shifts up to their speed along the ground in straight line. Each enemy who comes adjacent to the griffon during this shift can choose to either take 5 damage or be knocked prone",
+          "name": "Effect"
         }
       ]
     },
@@ -111,7 +112,8 @@
       "trigger": "The griffon flies directly above a creature within distance",
       "effects": [
         {
-          "effect": "The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are grabbed or knocked prone."
+          "effect": "The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are grabbed or knocked prone.",
+          "name": "Effect"
         }
       ]
     }

@@ -61,7 +61,8 @@
           "t3": "9 psychic damage"
         },
         {
-          "effect": "The target has corruption weakness 5 (EoT)."
+          "effect": "The target has corruption weakness 5 (EoT).",
+          "name": "Effect"
         },
         {
           "effect": "If the target has I < 2, they have corruption weakness 5 (save ends).",
@@ -82,8 +83,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The bale eye must create the cube beneath themself.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "The bale eye must create the cube beneath themself."
         },
         {
           "roll": "Power Roll + 3",
@@ -92,7 +93,8 @@
           "t3": "6 psychic damage; A < 3 the target is warped (save ends)"
         },
         {
-          "effect": "While warped, a creature has a double bane on power rolls using any characteristic higher than 0, and has a double edge on power rolls using any characteristic lower than 0."
+          "effect": "While warped, a creature has a double bane on power rolls using any characteristic higher than 0, and has a double edge on power rolls using any characteristic lower than 0.",
+          "name": "Effect"
         }
       ]
     }

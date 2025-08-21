@@ -51,7 +51,8 @@
           "t3": "3 sonic damage; P < 2 slowed (save ends)"
         },
         {
-          "effect": "Allies gain an edge on melee strikes against the target until the glorifier and each other glorifier in their squad are killed."
+          "effect": "Allies gain an edge on melee strikes against the target until the glorifier and each other glorifier in their squad are killed.",
+          "name": "Effect"
         }
       ]
     }

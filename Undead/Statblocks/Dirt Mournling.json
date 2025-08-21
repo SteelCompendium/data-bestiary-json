@@ -69,7 +69,8 @@
           "t3": "11 damage; grabbed"
         },
         {
-          "effect": "A 3-cube area of ground centered on the target is difficult terrain for enemies."
+          "effect": "A 3-cube area of ground centered on the target is difficult terrain for enemies.",
+          "name": "Effect"
         }
       ]
     },
@@ -91,7 +92,8 @@
           "t3": "7 corruption damage; I < 4 frightened (save ends)"
         },
         {
-          "effect": "A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed"
+          "effect": "A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed",
+          "name": "Effect"
         }
       ]
     }

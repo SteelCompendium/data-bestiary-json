@@ -74,7 +74,8 @@
       "trigger": "The giant zombie grabs two creatures or objects, or starts their turn with two creatures or objects grabbed.",
       "effects": [
         {
-          "effect": "The creatures or objects are smashed together using Rotten Smash, which has a double edge."
+          "effect": "The creatures or objects are smashed together using Rotten Smash, which has a double edge.",
+          "name": "Effect"
         }
       ]
     }

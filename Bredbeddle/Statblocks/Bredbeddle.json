@@ -94,7 +94,8 @@
           "t3": "16 damage; bleeding (save ends); or if the target has M < 3 they are beheaded"
         },
         {
-          "effect": "A beheaded target has their head fall into an unoccupied square adjacent to the bredbeddle, but they remain alive. While beheaded this way, the target is bleeding and has line of effect only to adjacent squares. The beheaded target can survive without their head for 24 hours, and can reattach their head as a maneuver by entering its square. A target who remains beheaded for 24 hours dies."
+          "effect": "A beheaded target has their head fall into an unoccupied square adjacent to the bredbeddle, but they remain alive. While beheaded this way, the target is bleeding and has line of effect only to adjacent squares. The beheaded target can survive without their head for 24 hours, and can reattach their head as a maneuver by entering its square. A target who remains beheaded for 24 hours dies.",
+          "name": "Effect"
         }
       ]
     },
@@ -108,7 +109,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "While the bredbeddle is headless, they shift up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can push that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain."
+          "effect": "While the bredbeddle is headless, they shift up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can push that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.",
+          "name": "Effect"
         }
       ]
     },
@@ -125,6 +127,7 @@
       "target": "One creature or object",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The bredbeddle must have a head in their possession (attached to them or not), which they throw at the target. If the head was attached, the bredbeddle is left headless."
         },
         {
@@ -147,7 +150,8 @@
       "trigger": "A creature targets the bredbeddle with a ranged strike.",
       "effects": [
         {
-          "effect": "The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make."
+          "effect": "The bredbeddle uses the same ability against the triggering creature after the triggering strike is resolved, using that creature's bonus to any power rolls they make.",
+          "name": "Effect"
         }
       ]
     },
@@ -169,7 +173,8 @@
           "t3": "P < 3 the target turns green until the end of the encounter"
         },
         {
-          "effect": "Green shadows crawl out from under the bredbeddle's feet and turn each target green. The bredbeddle has a double edge on power rolls against any target turned green this way."
+          "effect": "Green shadows crawl out from under the bredbeddle's feet and turn each target green. The bredbeddle has a double edge on power rolls against any target turned green this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -184,7 +189,11 @@
       "target": "One enemy",
       "effects": [
         {
-          "effect": "The bredbeddle points at the target and issues them a challenge. If the target refuses, they turn green until the end of the encounter (see Turn Green). If the target accepts the challenge, the bredbeddle shifts adjacent to the target, who makes a **Might test** with no additional modifiers.\n- **≤11:** The target is beheaded (see Lop).\n- **12-16:** The target makes the test again.\n- **17+:** The target can choose to deal 40 damage to the bredbeddle or remove the bredbeddle's head."
+          "name": "Effect",
+          "effect": "The bredbeddle points at the target and issues them a challenge. If the target refuses, they turn green until the end of the encounter (see Turn Green). If the target accepts the challenge, the bredbeddle shifts adjacent to the target, who makes a **Might test** with no additional modifiers.",
+          "t1": "The target is beheaded (see Lop).",
+          "t2": "The target makes the test again.",
+          "t3": "The target can choose to deal 40 damage to the bredbeddle or remove the bredbeddle's head."
         }
       ]
     },
@@ -201,8 +210,10 @@
       "target": "Four creatures",
       "effects": [
         {
-          "effect": "6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).\n- **12-16:** 7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded\n- **17+:** 8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).",
+          "t2": "7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded",
+          "t3": "8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded"
         }
       ]
     }

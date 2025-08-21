@@ -65,7 +65,8 @@
           "t3": "15 damage; M < 2 restrained (save ends)"
         },
         {
-          "effect": "The target's space is difficult terrain."
+          "effect": "The target's space is difficult terrain.",
+          "name": "Effect"
         }
       ]
     },
@@ -80,7 +81,8 @@
       "target": "Self or one elemental",
       "effects": [
         {
-          "effect": "Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane."
+          "effect": "Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.",
+          "name": "Effect"
         },
         {
           "effect": "Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.",
@@ -100,7 +102,8 @@
       "trigger": "The force takes damage.",
       "effects": [
         {
-          "effect": "The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter."
+          "effect": "The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.",
+          "name": "Effect"
         }
       ]
     }

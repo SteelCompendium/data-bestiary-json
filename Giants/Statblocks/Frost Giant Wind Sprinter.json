@@ -61,7 +61,8 @@
           "t3": "21 damage; A < 4 bleeding (save ends)"
         },
         {
-          "effect": "A target who is already bleeding takes an extra 1d6 cold damage."
+          "effect": "A target who is already bleeding takes an extra 1d6 cold damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -76,7 +77,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The wind sprinter shifts up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets."
+          "effect": "The wind sprinter shifts up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.",
+          "name": "Effect"
         }
       ]
     },
@@ -90,7 +92,8 @@
       "target": "One giant ally",
       "effects": [
         {
-          "effect": "The wind sprinter and the target each shift up to 6 squares while staying adjacent to each other. The target can then jump up to 5 squares and make a free strike."
+          "effect": "The wind sprinter and the target each shift up to 6 squares while staying adjacent to each other. The target can then jump up to 5 squares and make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -105,7 +108,8 @@
       "trigger": "The wind sprinter takes damage.",
       "effects": [
         {
-          "effect": "The wind sprinter moves up to their speed and uses Cold Axe against one target."
+          "effect": "The wind sprinter moves up to their speed and uses Cold Axe against one target.",
+          "name": "Effect"
         }
       ]
     }

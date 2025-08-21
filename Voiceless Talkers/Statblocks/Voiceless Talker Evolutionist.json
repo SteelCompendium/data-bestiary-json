@@ -74,7 +74,8 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "The evolutionist teleports to swap places with the target."
+          "effect": "The evolutionist teleports to swap places with the target.",
+          "name": "Effect"
         }
       ]
     },
@@ -89,7 +90,8 @@
       "trigger": "The evolutionist takes damage that has a damage type.",
       "effects": [
         {
-          "effect": "Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type."
+          "effect": "Until the start of their next turn, the evolutionist has damage immunity 5 to the triggering damage type.",
+          "name": "Effect"
         }
       ]
     },
@@ -105,7 +107,11 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target makes an Intuition test.\n- **≤11:** The target uses a signature ability against the nearest enemy within distance.\n- **12-16:** The target makes a free strike against the nearest enemy within distance.\n- **17+:** Frightened (save ends)"
+          "name": "Effect",
+          "effect": "Each target makes an Intuition test.",
+          "t1": "The target uses a signature ability against the nearest enemy within distance.",
+          "t2": "The target makes a free strike against the nearest enemy within distance.",
+          "t3": "Frightened (save ends)"
         }
       ]
     },
@@ -121,7 +127,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The evolutionist teleports eight minions of level 4 or lower into unoccupied spaces within distance. All eight minions can be of any monster type but must share the same name."
+          "effect": "The evolutionist teleports eight minions of level 4 or lower into unoccupied spaces within distance. All eight minions can be of any monster type but must share the same name.",
+          "name": "Effect"
         }
       ]
     },
@@ -143,7 +150,8 @@
           "t3": "15 lightning damage"
         },
         {
-          "effect": "Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is difficult terrain for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage."
+          "effect": "Until the end of the encounter, the evolutionist is surrounded by a psionic electrical storm that is a 5 aura. The area is difficult terrain for enemies, and any enemy who enters the area for the first time in a round or starts their turn there takes 8 lightning damage.",
+          "name": "Effect"
         }
       ]
     }

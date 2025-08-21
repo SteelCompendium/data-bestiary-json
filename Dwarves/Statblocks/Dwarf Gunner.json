@@ -49,7 +49,8 @@
           "t3": "12 damage; push 5"
         },
         {
-          "effect": "If the target is adjacent to an object or a wall after the power roll is resolved, they are restrained until the end of their next turn. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
+          "effect": "If the target is adjacent to an object or a wall after the power roll is resolved, they are restrained until the end of their next turn. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
+          "name": "Effect"
         },
         {
           "effect": "If the target is pushed into another creature, the target and the creature are each restrained until the end of their next turn.",
@@ -69,7 +70,8 @@
       "target": "One prone, restrained, or slowed creature",
       "effects": [
         {
-          "effect": "The gunner makes a free strike against the target, and the prone, restrained, and slowed conditions on the target end. The target is then restrained (save ends)."
+          "effect": "The gunner makes a free strike against the target, and the prone, restrained, and slowed conditions on the target end. The target is then restrained (save ends).",
+          "name": "Effect"
         }
       ]
     }

@@ -50,7 +50,8 @@
           "t3": "5 damage; push 3 or prone"
         },
         {
-          "effect": "The razor gains an edge against any target affected by a condition."
+          "effect": "The razor gains an edge against any target affected by a condition.",
+          "name": "Effect"
         }
       ]
     }

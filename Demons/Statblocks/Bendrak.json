@@ -60,7 +60,8 @@
           "t3": "7 psychic damage; P < 2 weakened (save ends)"
         },
         {
-          "effect": "If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage."
+          "effect": "If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -76,7 +77,8 @@
       "target": "Self or one ally",
       "effects": [
         {
-          "effect": "The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide."
+          "effect": "The target is invisible until the start of their next turn. They can then move up to 3 squares and attempt to hide.",
+          "name": "Effect"
         }
       ]
     }

@@ -74,7 +74,8 @@
           "t3": "18 damage; M < 4 bleeding (save ends); A < 2 grabbed"
         },
         {
-          "effect": "The ashen hoarder can have up to two size 1 creatures grabbed at a time. | |"
+          "effect": "The ashen hoarder can have up to two size 1 creatures grabbed at a time. | |",
+          "name": "Effect"
         }
       ]
     },
@@ -120,7 +121,8 @@
           "effect": "**Power Roll + 4:**\n6 corruption damage; M < 2 the target is impaled (save ends) 11 corruption damage; M < 3 the target is impaled (save ends) 14 corruption damage; M < 4 the target is impaled (save ends)"
         },
         {
-          "effect": "An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time."
+          "effect": "An impaled creature is restrained and bleeding, and moves with the ashen hoarder. The ashen hoarder can have three creatures impaled with this ability at a time.",
+          "name": "Effect"
         }
       ]
     },
@@ -134,7 +136,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends)."
+          "effect": "The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either pushed into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is force moved forward into an obstacle is dazed (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -150,7 +153,8 @@
       "trigger": "The ashen hoarder takes damage.",
       "effects": [
         {
-          "effect": "The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the Malice cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage."
+          "effect": "The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the Malice cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -172,7 +176,8 @@
           "t3": "14 damage, vertical push 3"
         },
         {
-          "effect": "Each target is force moved straight up, then falls. A target who would normally land prone after falling is instead restrained (save ends)."
+          "effect": "Each target is force moved straight up, then falls. A target who would normally land prone after falling is instead restrained (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -188,7 +193,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder's turns, each unexploded zombie mine can be moved up to 2 squares."
+          "effect": "The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder's turns, each unexploded zombie mine can be moved up to 2 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -205,7 +211,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice."
+          "effect": "The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice.",
+          "name": "Effect"
         }
       ]
     }

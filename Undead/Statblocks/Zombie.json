@@ -53,7 +53,8 @@
           "t3": "7 damage; grabbed"
         },
         {
-          "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect"
+          "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect",
+          "name": "Effect"
         }
       ]
     },
@@ -68,6 +69,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The zombie falls prone, expelling a wave of rot and dust."
         },
         {

@@ -58,7 +58,8 @@
           "t3": "13 damage; M < 1 weakened (save ends)"
         },
         {
-          "effect": "Each ally adjacent to a target can make a free strike against that target."
+          "effect": "Each ally adjacent to a target can make a free strike against that target.",
+          "name": "Effect"
         },
         {
           "effect": "While weakened this way, a target is also restrained.",
@@ -76,7 +77,8 @@
       "target": "One enemy",
       "effects": [
         {
-          "effect": "Until the start of the centurion's next turn, the centurion and their allies gain an edge on power rolls against the target."
+          "effect": "Until the start of the centurion's next turn, the centurion and their allies gain an edge on power rolls against the target.",
+          "name": "Effect"
         },
         {
           "effect": "This ability targets one additional target for each 3 Malice spent.",
@@ -95,7 +97,8 @@
       "trigger": "A creature uses an ability that targets the centurion or an ally of the centurion within distance.",
       "effects": [
         {
-          "effect": "Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability."
+          "effect": "Each target shifts up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -110,7 +113,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns."
+          "effect": "The centurion moves up to their speed, ignoring difficult terrain, and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While weakened by that ability, each target takes 2 fire damage at the start of each of their turns.",
+          "name": "Effect"
         }
       ]
     },
@@ -127,7 +131,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares."
+          "effect": "The centurion uses Pilum against each target and has a double edge. Each target is then pushed up to 3 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -142,7 +147,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2."
+          "effect": "A target who has P < 2 is taunted (save ends). Each ally within distance can make a free strike. Additionally, until the end of the encounter, the centurion has damage immunity 2.",
+          "name": "Effect"
         }
       ]
     }

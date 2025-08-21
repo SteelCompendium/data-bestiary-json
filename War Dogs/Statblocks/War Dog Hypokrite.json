@@ -58,7 +58,8 @@
           "t3": "10 damage; A < 3 bleeding and weakened (save ends)"
         },
         {
-          "effect": "This ability deals an extra 6 damage if the hypokrite is hidden or disguised."
+          "effect": "This ability deals an extra 6 damage if the hypokrite is hidden or disguised.",
+          "name": "Effect"
         }
       ]
     },
@@ -74,7 +75,8 @@
       "trigger": "The hypokrite takes damage.",
       "effects": [
         {
-          "effect": "The hypokrite detonates their loyalty collar to deal 2d6 damage to each adjacent enemy, but teleports to an unoccupied space adjacent to an ally within distance and remains alive."
+          "effect": "The hypokrite detonates their loyalty collar to deal 2d6 damage to each adjacent enemy, but teleports to an unoccupied space adjacent to an ally within distance and remains alive.",
+          "name": "Effect"
         }
       ]
     }

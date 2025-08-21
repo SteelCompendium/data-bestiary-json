@@ -65,7 +65,8 @@
           "t3": "16 damage; M < 3 prone"
         },
         {
-          "effect": "The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike."
+          "effect": "The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -84,7 +85,8 @@
           "name": "Special"
         },
         {
-          "effect": "The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies."
+          "effect": "The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies.",
+          "name": "Effect"
         }
       ]
     },
@@ -103,7 +105,8 @@
           "name": "Special"
         },
         {
-          "effect": "The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -118,7 +121,8 @@
       "trigger": "A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.",
       "effects": [
         {
-          "effect": "The target is grabbed by the roughneck."
+          "effect": "The target is grabbed by the roughneck.",
+          "name": "Effect"
         }
       ]
     },
@@ -133,7 +137,8 @@
       "trigger": "The roughneck is vertical force moved by another creature.",
       "effects": [
         {
-          "effect": "The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it."
+          "effect": "The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.",
+          "name": "Effect"
         }
       ]
     }

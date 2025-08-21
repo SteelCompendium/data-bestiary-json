@@ -51,7 +51,8 @@
           "t3": "13 damage; one target is grabbed"
         },
         {
-          "effect": "One ally within 5 squares of the commander gains an edge on their next strike until the start of the commander's next turn."
+          "effect": "One ally within 5 squares of the commander gains an edge on their next strike until the start of the commander's next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -65,7 +66,8 @@
       "target": "One ally",
       "effects": [
         {
-          "effect": "The target moves up to their speed and uses a signature ability."
+          "effect": "The target moves up to their speed and uses a signature ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -80,7 +82,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts up to their speed, then can use the Throw maneuver."
+          "effect": "Each target shifts up to their speed, then can use the Throw maneuver.",
+          "name": "Effect"
         }
       ]
     },
@@ -99,7 +102,8 @@
           "name": "Special"
         },
         {
-          "effect": "The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -114,7 +118,8 @@
       "trigger": "A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.",
       "effects": [
         {
-          "effect": "The target is grabbed by the commander."
+          "effect": "The target is grabbed by the commander.",
+          "name": "Effect"
         }
       ]
     }

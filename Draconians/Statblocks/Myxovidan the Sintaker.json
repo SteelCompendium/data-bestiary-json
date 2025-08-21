@@ -87,7 +87,8 @@
       "target": "One ally",
       "effects": [
         {
-          "effect": "Myxovidan and the target shift to swap places."
+          "effect": "Myxovidan and the target shift to swap places.",
+          "name": "Effect"
         }
       ]
     },
@@ -103,7 +104,8 @@
       "trigger": "An adjacent creature damages Myxovidan with a melee ability.",
       "effects": [
         {
-          "effect": "Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice."
+          "effect": "Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice.",
+          "name": "Effect"
         }
       ]
     }

@@ -60,7 +60,8 @@
           "t3": "9 acid damage; M < 3 restrained (save ends)"
         },
         {
-          "effect": "The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area."
+          "effect": "The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.",
+          "name": "Effect"
         }
       ]
     },
@@ -76,7 +77,8 @@
       "trigger": "The gunge takes damage from a melee strike.",
       "effects": [
         {
-          "effect": "The gunge vomits with great force, letting them shift up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime."
+          "effect": "The gunge vomits with great force, letting them shift up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime.",
+          "name": "Effect"
         }
       ]
     }

@@ -60,7 +60,8 @@
           "t3": "\\\\17 damage; A < 3 slowed (save ends)"
         },
         {
-          "effect": "If the targets are adjacent to each other, this ability deals an extra 3 damage."
+          "effect": "If the targets are adjacent to each other, this ability deals an extra 3 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -80,7 +81,8 @@
           "effect": "**Power Roll + 3**\n- **≤11:** 6 damage; M < 1 prone\n- **12-16:** 11 damage; M < 2 prone and can't stand (save ends)\n- \\*\\*17+:\\*\\*14 damage; M < 3 prone and can't stand (save ends)"
         },
         {
-          "effect": "If this ability is used as part of the Charge main action, the legate ignores difficult terrain during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects."
+          "effect": "If this ability is used as part of the Charge main action, the legate ignores difficult terrain during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects.",
+          "name": "Effect"
         }
       ]
     },
@@ -94,7 +96,8 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "The target is taunted by the legate (save ends). The legate can have only one creature taunted at a time."
+          "effect": "The target is taunted by the legate (save ends). The legate can have only one creature taunted at a time.",
+          "name": "Effect"
         }
       ]
     },
@@ -111,7 +114,11 @@
       "trigger": "A creature targets the legate with a strike.",
       "effects": [
         {
-          "effect": "The target makes a Presence test\n- **≤11:** The legate chooses a new target for the strike.\n- **12-16:** The legate halves the triggering damage.\n- **17+:** The target takes a bane on the strike."
+          "name": "Effect",
+          "effect": "The target makes a Presence test",
+          "t1": "The legate chooses a new target for the strike.",
+          "t2": "The legate halves the triggering damage.",
+          "t3": "The target takes a bane on the strike."
         }
       ]
     }

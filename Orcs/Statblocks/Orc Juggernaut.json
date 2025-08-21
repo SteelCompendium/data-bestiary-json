@@ -57,7 +57,8 @@
           "t3": "14 damage; prone; M < 2 bleeding (save ends)"
         },
         {
-          "effect": "A target who is already prone takes an extra 6 damage."
+          "effect": "A target who is already prone takes an extra 6 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -73,7 +74,8 @@
       "trigger": "The juggernaut takes damage.",
       "effects": [
         {
-          "effect": "The juggernaut moves up to their speed and can make a free strike."
+          "effect": "The juggernaut moves up to their speed and can make a free strike.",
+          "name": "Effect"
         }
       ]
     }

@@ -116,7 +116,8 @@
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is grabbed by the shambling mound, the potency increases by 1. An engulfed creature is restrained, takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound."
+          "effect": "The target must be size 1L or smaller. The shambling mound reaches out with writhing vines, and if the target has A < 3, they are engulfed into the shambling mound's sack. If the target is grabbed by the shambling mound, the potency increases by 1. An engulfed creature is restrained, takes 3 poison damage at the start of each turn, and can't take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the shambling mound dies or their sack is destroyed, each engulfed creature is freed and appears in an unoccupied space within 2 squares of the shambling mound.",
+          "name": "Effect"
         },
         {
           "effect": "The shambling mound can engulf one additional target for each 2 Malice spent.",
@@ -134,7 +135,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary Stamina for each creature who takes damage this way."
+          "effect": "Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary Stamina for each creature who takes damage this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -179,7 +181,8 @@
       "target": "Each enemy",
       "effects": [
         {
-          "effect": "The shambling mound uses Engulf against each target without spending Malice."
+          "effect": "The shambling mound uses Engulf against each target without spending Malice.",
+          "name": "Effect"
         }
       ]
     },
@@ -194,7 +197,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The shambling mound rips themself apart, exposing the crux of magic holding them together. The distance of the shambling mound's melee abilities increases to melee 10, the creature has a double edge on power rolls, and strikes made against them gain an edge."
+          "effect": "The shambling mound rips themself apart, exposing the crux of magic holding them together. The distance of the shambling mound's melee abilities increases to melee 10, the creature has a double edge on power rolls, and strikes made against them gain an edge.",
+          "name": "Effect"
         }
       ]
     }

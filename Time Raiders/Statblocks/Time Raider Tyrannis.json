@@ -63,7 +63,8 @@
           "t3": "15 corruption damage"
         },
         {
-          "effect": "Each target takes a −2 penalty to speed until the start of the tyrannis's next turn."
+          "effect": "Each target takes a −2 penalty to speed until the start of the tyrannis's next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -79,7 +80,8 @@
       "target": "Three time raiders",
       "effects": [
         {
-          "effect": "Each target can fly up to their speed and make a free strike. If a target doesn't land in an unoccupied space, they fall."
+          "effect": "Each target can fly up to their speed and make a free strike. If a target doesn't land in an unoccupied space, they fall.",
+          "name": "Effect"
         }
       ]
     },
@@ -95,7 +97,8 @@
       "trigger": "A creature within distance makes a strike against the tyrannis.",
       "effects": [
         {
-          "effect": "The strike takes a bane. After the strike resolves, the tyrannis can make a free strike against the target."
+          "effect": "The strike takes a bane. After the strike resolves, the tyrannis can make a free strike against the target.",
+          "name": "Effect"
         },
         {
           "effect": "The strike has a double bane instead.",
@@ -115,7 +118,8 @@
       "target": "Self and three allies",
       "effects": [
         {
-          "effect": "Each target gains 15 temporary Stamina, and has their speed doubled until the end of their next turn."
+          "effect": "Each target gains 15 temporary Stamina, and has their speed doubled until the end of their next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -130,7 +134,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target can end one effect on them or can move up to their speed."
+          "effect": "Each target can end one effect on them or can move up to their speed.",
+          "name": "Effect"
         }
       ]
     },
@@ -145,7 +150,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The tyrannis fires a sensor mine into each unoccupied square in the area, and creates a gravity well whose area contains one or more squares of the tyrannis's space (see Gravity Well). Whenever an enemy enters a square with a sensor mine in it, the mine explodes, dealing 3 damage to the enemy."
+          "effect": "The tyrannis fires a sensor mine into each unoccupied square in the area, and creates a gravity well whose area contains one or more squares of the tyrannis's space (see Gravity Well). Whenever an enemy enters a square with a sensor mine in it, the mine explodes, dealing 3 damage to the enemy.",
+          "name": "Effect"
         }
       ]
     }

@@ -53,7 +53,8 @@
           "t3": "9 damage; prone; M < 5 can't stand (save ends)"
         },
         {
-          "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone."
+          "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone.",
+          "name": "Effect"
         }
       ]
     }

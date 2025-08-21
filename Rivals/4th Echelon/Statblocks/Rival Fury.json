@@ -81,7 +81,8 @@
           "t3": "25 damage; M < 5 grabbed"
         },
         {
-          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them."
+          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them.",
+          "name": "Effect"
         }
       ]
     }

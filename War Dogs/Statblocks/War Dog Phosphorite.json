@@ -46,6 +46,7 @@
       "target": "One creature or object",
       "effects": [
         {
+          "name": "Effect",
           "effect": "A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the following power roll."
         },
         {
@@ -55,8 +56,11 @@
           "t3": "10 acid damage; M < 2 bleeding (save ends)"
         },
         {
-          "effect": "A creature adjacent to the target can attempt an **Agility test** as a maneuver to remove the detonator.\n- **≤11:** No effect\n- **12-16:** The detonator is disarmed and destroyed.\n- **17+:** The creature can attach the detonator to another creature or object within 5 squares of them.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "A creature adjacent to the target can attempt an **Agility test** as a maneuver to remove the detonator.",
+          "t1": "No effect",
+          "t2": "The detonator is disarmed and destroyed.",
+          "t3": "The creature can attach the detonator to another creature or object within 5 squares of them."
         }
       ]
     },
@@ -71,7 +75,8 @@
       "target": "One war dog",
       "effects": [
         {
-          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
+          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina.",
+          "name": "Effect"
         }
       ]
     }

@@ -53,7 +53,8 @@
           "t3": "10 sonic damage; prone; M < 2 slowed (save ends)"
         },
         {
-          "effect": "A layer of ground beneath the area that is 1 square deep is destroyed."
+          "effect": "A layer of ground beneath the area that is 1 square deep is destroyed.",
+          "name": "Effect"
         }
       ]
     },
@@ -70,7 +71,8 @@
       "trigger": "A creature damages the cannonfall with a ranged or area ability.",
       "effects": [
         {
-          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability"
+          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability",
+          "name": "Effect"
         }
       ]
     }

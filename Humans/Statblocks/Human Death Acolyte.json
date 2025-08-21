@@ -54,7 +54,8 @@
           "t3": "3 corruption damage"
         },
         {
-          "effect": "One creature within 5 squares regains 1 Stamina."
+          "effect": "One creature within 5 squares regains 1 Stamina.",
+          "name": "Effect"
         }
       ]
     }

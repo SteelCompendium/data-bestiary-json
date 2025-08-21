@@ -67,7 +67,8 @@
           "t3": "15 damage; M < 3 restrained (save ends)"
         },
         {
-          "effect": "The warleader can teleport up to 3 squares between each strike."
+          "effect": "The warleader can teleport up to 3 squares between each strike.",
+          "name": "Effect"
         },
         {
           "effect": "A target restrained by this ability takes an extra 3 damage.",
@@ -86,7 +87,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each non-minion target can make a free strike, then each target shifts up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn."
+          "effect": "Each non-minion target can make a free strike, then each target shifts up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -101,7 +103,8 @@
       "trigger": "An ally ends their turn.",
       "effects": [
         {
-          "effect": "The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are bleeding and take a bane on strikes until the end of their turn."
+          "effect": "The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are bleeding and take a bane on strikes until the end of their turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -116,7 +119,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The warleader uses Wodeblade against each target and gains an edge on the power roll."
+          "effect": "The warleader uses Wodeblade against each target and gains an edge on the power roll.",
+          "name": "Effect"
         }
       ]
     },
@@ -131,7 +135,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "The warleader can use Wodeblade. Each target can then make a free strike."
+          "effect": "The warleader can use Wodeblade. Each target can then make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -146,7 +151,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target is invisible until the start of the next round. The warleader then uses Wodeblade."
+          "effect": "Each target is invisible until the start of the next round. The warleader then uses Wodeblade.",
+          "name": "Effect"
         }
       ]
     }

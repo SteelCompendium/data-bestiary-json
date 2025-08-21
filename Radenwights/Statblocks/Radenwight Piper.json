@@ -51,7 +51,8 @@
           "t3": "9 sonic damage; push 4"
         },
         {
-          "effect": "The piper or one ally within distance regains Stamina equal to the damage dealt."
+          "effect": "The piper or one ally within distance regains Stamina equal to the damage dealt.",
+          "name": "Effect"
         }
       ]
     },
@@ -66,7 +67,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target who has used their Ready Rodent ability this round regains the use of their triggered action."
+          "effect": "Each target who has used their Ready Rodent ability this round regains the use of their triggered action.",
+          "name": "Effect"
         },
         {
           "effect": "The area increases to a 6 burst.",
@@ -86,7 +88,8 @@
       "trigger": "An ally deals damage to the target.",
       "effects": [
         {
-          "effect": "The piper makes a free strike against the target."
+          "effect": "The piper makes a free strike against the target.",
+          "name": "Effect"
         }
       ]
     }

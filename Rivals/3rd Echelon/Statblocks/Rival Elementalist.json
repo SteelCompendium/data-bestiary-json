@@ -50,7 +50,8 @@
           "t3": "21 damage; slide 4; M < 4 8 acid damage"
         },
         {
-          "effect": "One ally within distance ends one condition on themself."
+          "effect": "One ally within distance ends one condition on themself.",
+          "name": "Effect"
         }
       ]
     },
@@ -74,7 +75,8 @@
           "t3": "14 damage; restrained (save ends)"
         },
         {
-          "effect": "The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 5."
+          "effect": "The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 5.",
+          "name": "Effect"
         }
       ]
     },
@@ -90,7 +92,8 @@
       "trigger": "The elementalist takes damage.",
       "effects": [
         {
-          "effect": "The elementalist can teleport up to 4 squares. Each creature adjacent to the space they leave or appear in takes 4 corruption damage."
+          "effect": "The elementalist can teleport up to 4 squares. Each creature adjacent to the space they leave or appear in takes 4 corruption damage.",
+          "name": "Effect"
         }
       ]
     }

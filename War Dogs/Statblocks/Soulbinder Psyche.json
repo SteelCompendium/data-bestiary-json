@@ -51,7 +51,8 @@
           "t3": "24 holy damage; R < 5 the target is soulbound (save ends)"
         },
         {
-          "effect": "A soulbound creature can't benefit from edges or double edges, and can't gain or use surges."
+          "effect": "A soulbound creature can't benefit from edges or double edges, and can't gain or use surges.",
+          "name": "Effect"
         }
       ]
     },
@@ -74,7 +75,8 @@
           "t3": "15 corruption damage; P < 5 weakened (EoT)"
         },
         {
-          "effect": "The area is difficult terrain until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to main- tain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location."
+          "effect": "The area is difficult terrain until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to main- tain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.",
+          "name": "Effect"
         },
         {
           "effect": "Until the start of Psyche's next turn, if this ability makes a creature weakened, that creature is also soulbound (save ends; see Soulbind above).",
@@ -93,7 +95,8 @@
       "target": "Each soulbound enemy in the area",
       "effects": [
         {
-          "effect": "Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche slides them up to 5 squares."
+          "effect": "Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche slides them up to 5 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -108,7 +111,8 @@
       "trigger": "An enemy moves within 2 squares of Psyche.",
       "effects": [
         {
-          "effect": "Psyche moves up to 5 squares, and has damage immunity 5 and ignores difficult terrain during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage."
+          "effect": "Psyche moves up to 5 squares, and has damage immunity 5 and ignores difficult terrain during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -123,7 +127,8 @@
       "trigger": "A war dog within distance is made winded or reduced to 0 Stamina.",
       "effects": [
         {
-          "effect": "The target loses all their surges and takes 5 corruption damage."
+          "effect": "The target loses all their surges and takes 5 corruption damage.",
+          "name": "Effect"
         },
         {
           "effect": "The target also takes a bane on their next strike.",
@@ -142,7 +147,8 @@
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "The target takes 10 psychic damage."
+          "effect": "The target takes 10 psychic damage.",
+          "name": "Effect"
         }
       ]
     }

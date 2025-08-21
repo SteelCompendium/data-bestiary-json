@@ -60,7 +60,8 @@
           "t3": "12 damage; pull 3, grabbed"
         },
         {
-          "effect": "Any target restrained by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll."
+          "effect": "Any target restrained by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.",
+          "name": "Effect"
         }
       ]
     },

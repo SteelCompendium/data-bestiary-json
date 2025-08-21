@@ -50,7 +50,8 @@
           "t3": "24 damage; slide 5; M < 5 9 acid damage"
         },
         {
-          "effect": "One ally within distance ends all conditions on themself."
+          "effect": "One ally within distance ends all conditions on themself.",
+          "name": "Effect"
         }
       ]
     },
@@ -68,7 +69,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has M < 4 is restrained (save ends)."
+          "effect": "The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid weakness 5 and is slowed. Any enemy who ends their turn in the area and has M < 4 is restrained (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -84,7 +86,8 @@
       "trigger": "The elementalist takes damage.",
       "effects": [
         {
-          "effect": "The elementalist can teleport up to 5 squares. Each creature adjacent to the space they leave or appear in takes 5 corruption damage."
+          "effect": "The elementalist can teleport up to 5 squares. Each creature adjacent to the space they leave or appear in takes 5 corruption damage.",
+          "name": "Effect"
         }
       ]
     }

@@ -86,6 +86,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "Before the power roll is made, Dorzinuuth shifts to an unoccupied space adjacent to the end of the line."
         },
         {
@@ -107,7 +108,8 @@
       "trigger": "An ally within distance takes damage while Dorzinuuth isn't flying.",
       "effects": [
         {
-          "effect": "Dorzinuuth shields the triggering ally with his wings, halving the damage."
+          "effect": "Dorzinuuth shields the triggering ally with his wings, halving the damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -122,10 +124,15 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.\n- **≤11:** Frightened (save ends)\n- **12-16:** Frightened (EoT)\n- **17+:** No effect."
+          "name": "Effect",
+          "effect": "Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.",
+          "t1": "Frightened (save ends)",
+          "t2": "Frightened (EoT)",
+          "t3": "No effect."
         },
         {
-          "effect": "Each ally in the area gains an edge on their next strike."
+          "effect": "Each ally in the area gains an edge on their next strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -140,7 +147,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts or flies up to their speed and regains 10 Stamina."
+          "effect": "Each target shifts or flies up to their speed and regains 10 Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -156,7 +164,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage."
+          "effect": "Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.",
+          "name": "Effect"
         }
       ]
     }

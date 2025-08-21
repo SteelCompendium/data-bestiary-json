@@ -93,7 +93,8 @@
       "trigger": "An enemy within distance uses an ability that emits light, including abilities that deal fire or lightning damage.",
       "effects": [
         {
-          "effect": "The target has a double bane on the ability."
+          "effect": "The target has a double bane on the ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -108,7 +109,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then shift up to their speed and make a free strike."
+          "effect": "The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then shift up to their speed and make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -124,7 +126,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target loses all their surges. Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities."
+          "effect": "Each target loses all their surges. Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.",
+          "name": "Effect"
         }
       ]
     },
@@ -146,7 +149,8 @@
           "t3": "15 corruption damage; R < 4 the target has speed 0 (save ends)"
         },
         {
-          "effect": "The area is shrouded in darkness that creates concealment until the end of the encounter. Any enemy who starts their turn in the area takes 5 corruption damage."
+          "effect": "The area is shrouded in darkness that creates concealment until the end of the encounter. Any enemy who starts their turn in the area takes 5 corruption damage.",
+          "name": "Effect"
         }
       ]
     }

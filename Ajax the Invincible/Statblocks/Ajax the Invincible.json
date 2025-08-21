@@ -64,7 +64,8 @@
           "t3": "26 damage; M < 6 prone and the target loses 1d3 Recoveries"
         },
         {
-          "effect": "Ajax shifts up to 2 squares between striking each target."
+          "effect": "Ajax shifts up to 2 squares between striking each target.",
+          "name": "Effect"
         },
         {
           "effect": "Ajax can strike one additional target for each Malice spent.",
@@ -90,7 +91,8 @@
           "t3": "21 holy damage; slide 8; P < 6 the target is hexed (save ends)"
         },
         {
-          "effect": "A hexed target glows green, and each of their heroic abilities has its cost increased by 2."
+          "effect": "A hexed target glows green, and each of their heroic abilities has its cost increased by 2.",
+          "name": "Effect"
         },
         {
           "effect": "The potency increases by 1. Additionally, the ground beneath the area drops 3 squares and is difficult terrain. Each flying target who has M < 5 is knocked prone.",
@@ -116,7 +118,8 @@
           "t3": "11 damage; the target is grabbed."
         },
         {
-          "effect": "If the target is grabbed, Ajax can choose to keep the vine extended, pull the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a grabbed target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required)."
+          "effect": "If the target is grabbed, Ajax can choose to keep the vine extended, pull the target adjacent to him, or pull himself adjacent to the target. The vine stays attached to a grabbed target until it takes damage from a strike, the target escapes the grab, or Ajax causes the vine to release the target (no action required).",
+          "name": "Effect"
         },
         {
           "effect": "This ability can be replaced with the features of a different treasure Ajax has acquired.",
@@ -137,7 +140,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage."
+          "effect": "Ajax throws a glowing bead to a square within distance, which ignites at the start of Ajax's next turn and creates an area around it that lasts until the start of Ajax's following turn. Each enemy in the area when the bead ignites takes 20 fire damage, and if they have A < 5, they are dazed (save ends). Any enemy who starts their turn in the area takes 10 fire damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -152,7 +156,8 @@
       "trigger": "A creature within distance marks Ajax.",
       "effects": [
         {
-          "effect": "The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an edge on power rolls against them, and whenever the target uses a triggered action involving their mark on Ajax, he can make a free strike against them."
+          "effect": "The target is marked while Ajax is marked. While the target is marked this way, Ajax gains an edge on power rolls against them, and whenever the target uses a triggered action involving their mark on Ajax, he can make a free strike against them.",
+          "name": "Effect"
         }
       ]
     },
@@ -168,7 +173,8 @@
       "trigger": "An enemy within distance uses an ability to reduce damage.",
       "effects": [
         {
-          "effect": "Ajax makes a free strike against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way."
+          "effect": "Ajax makes a free strike against the target, dealing extra damage equal to twice the amount that was reduced. This extra damage can't be reduced in any way.",
+          "name": "Effect"
         }
       ]
     },
@@ -183,7 +189,8 @@
       "trigger": "A creature uses the Hesitation is Weakness ability.",
       "effects": [
         {
-          "effect": "Ajax shifts up to his speed and can make a free strike. If the target has R < 4, this free strike also makes them weakened until the end of their next turn."
+          "effect": "Ajax shifts up to his speed and can make a free strike. If the target has R < 4, this free strike also makes them weakened until the end of their next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -199,7 +206,8 @@
       "trigger": "Ajax causes a creature within distance to gain ferocity or wrath.",
       "effects": [
         {
-          "effect": "If the target has I < 4, they use a signature ability against a target of Ajax's choice."
+          "effect": "If the target has I < 4, they use a signature ability against a target of Ajax's choice.",
+          "name": "Effect"
         }
       ]
     },
@@ -215,7 +223,8 @@
       "trigger": "A creature within 10 squares regains Stamina.",
       "effects": [
         {
-          "effect": "Ajax regains the same amount of Stamina."
+          "effect": "Ajax regains the same amount of Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -238,7 +247,8 @@
           "t3": "21 fire damage; A < 6 weakened (save ends)"
         },
         {
-          "effect": "Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance."
+          "effect": "Ajax flies at high speed to cut through each target, then appears in an unoccupied space within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -253,7 +263,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Ajax uses the shadow elf eclipse's technique to reduce each target's surges to 0. Additionally, until the end of the round, Ajax ignores edges and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities."
+          "effect": "Ajax uses the shadow elf eclipse's technique to reduce each target's surges to 0. Additionally, until the end of the round, Ajax ignores edges and double edges on any target's abilities, and ignores any nondamaging effects of any target's damage-dealing abilities.",
+          "name": "Effect"
         },
         {
           "effect": "This villain action can be replaced with a villain action from a creature any target has previously encountered.",
@@ -273,7 +284,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target who has I < 5 is knocked prone and can't stand until Ajax deals damage to them. For each target not knocked prone, Ajax can move up to his speed toward that target and use Blade of the Gol King against them."
+          "effect": "Each target who has I < 5 is knocked prone and can't stand until Ajax deals damage to them. For each target not knocked prone, Ajax can move up to his speed toward that target and use Blade of the Gol King against them.",
+          "name": "Effect"
         }
       ]
     }

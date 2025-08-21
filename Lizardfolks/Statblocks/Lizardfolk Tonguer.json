@@ -51,7 +51,8 @@
           "t3": "5 damage; pull 3, or the tonguer shifts up to 3 squares toward the target"
         },
         {
-          "effect": "If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed."
+          "effect": "If the forced movement or the shift leaves the target adjacent to the tonguer, the target is also grabbed.",
+          "name": "Effect"
         }
       ]
     }

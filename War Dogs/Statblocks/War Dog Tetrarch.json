@@ -52,7 +52,8 @@
           "t3": "19 damage; taunted (EoT)"
         },
         {
-          "effect": "A creature taunted this way takes a bane on strikes."
+          "effect": "A creature taunted this way takes a bane on strikes.",
+          "name": "Effect"
         },
         {
           "effect": "Each target loses 1d3 Recoveries.",
@@ -70,7 +71,8 @@
       "target": "Three creatures",
       "effects": [
         {
-          "effect": "Each target shifts up to their speed and can make a free strike. If the free strike targets an enemy taunted by the tetrarch, it deals an extra 4 damage."
+          "effect": "Each target shifts up to their speed and can make a free strike. If the free strike targets an enemy taunted by the tetrarch, it deals an extra 4 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -85,7 +87,8 @@
       "trigger": "A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.",
       "effects": [
         {
-          "effect": "The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends)."
+          "effect": "The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is frightened of the tetrarch (save ends).",
+          "name": "Effect"
         }
       ]
     },
@@ -100,6 +103,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The tetrarch can jump up to 7 squares before using this ability."
         },
         {
@@ -129,7 +133,8 @@
           "t3": "16 fire damage; A < 4 slowed (save ends)"
         },
         {
-          "effect": "The area is set ablaze until the end of the encounter. While ablaze, the area is difficult terrain, and any creature takes 2 fire damage for each square in the area they enter for the first time in a round"
+          "effect": "The area is set ablaze until the end of the encounter. While ablaze, the area is difficult terrain, and any creature takes 2 fire damage for each square in the area they enter for the first time in a round",
+          "name": "Effect"
         }
       ]
     },
@@ -144,7 +149,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Until the end of the encounter, the tetrarch has damage immunity 2, and their Houndblade ability targets three creatures or objects."
+          "effect": "Until the end of the encounter, the tetrarch has damage immunity 2, and their Houndblade ability targets three creatures or objects.",
+          "name": "Effect"
         }
       ]
     }

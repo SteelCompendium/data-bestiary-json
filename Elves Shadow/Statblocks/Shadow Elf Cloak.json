@@ -52,7 +52,8 @@
           "t3": "6 damage"
         },
         {
-          "effect": "The cloak shifts up to 2 squares"
+          "effect": "The cloak shifts up to 2 squares",
+          "name": "Effect"
         }
       ]
     }

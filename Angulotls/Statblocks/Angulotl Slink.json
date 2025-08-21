@@ -61,7 +61,8 @@
           "t3": "7 damage; pull 6"
         },
         {
-          "effect": "The target is wet (save ends). Any ally targeted by this ability ignores the damage, is wet until the end of the encounter, and is pulled up to 6 squares, ignoring stability."
+          "effect": "The target is wet (save ends). Any ally targeted by this ability ignores the damage, is wet until the end of the encounter, and is pulled up to 6 squares, ignoring stability.",
+          "name": "Effect"
         }
       ]
     },
@@ -76,7 +77,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The slink jumps up to 3 squares. If they have cover or concealment when they land, they can attempt to hide."
+          "effect": "The slink jumps up to 3 squares. If they have cover or concealment when they land, they can attempt to hide.",
+          "name": "Effect"
         }
       ]
     }

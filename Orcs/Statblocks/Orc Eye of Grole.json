@@ -62,7 +62,8 @@
           "t3": "12 damage; slide 6, or the eye shifts up to 6 squares away from the target"
         },
         {
-          "effect": "This ability deals cold, fire, or lightning damage."
+          "effect": "This ability deals cold, fire, or lightning damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -84,7 +85,8 @@
           "t3": "8 damage; push 4, prone"
         },
         {
-          "effect": "This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has damage weakness 3 to the same damage type (save ends)."
+          "effect": "This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has damage weakness 3 to the same damage type (save ends).",
+          "name": "Effect"
         }
       ]
     }

@@ -71,7 +71,8 @@
           "t3": "8 damage; restrained (save ends)"
         },
         {
-          "effect": "The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 2."
+          "effect": "The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 2.",
+          "name": "Effect"
         }
       ]
     },
@@ -87,7 +88,8 @@
       "trigger": "The elementalist takes damage.",
       "effects": [
         {
-          "effect": "The elementalist can teleport up to 2 squares. Each creature adjacent to the space they leave takes 2 corruption damage."
+          "effect": "The elementalist can teleport up to 2 squares. Each creature adjacent to the space they leave takes 2 corruption damage.",
+          "name": "Effect"
         }
       ]
     }

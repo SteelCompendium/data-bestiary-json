@@ -49,7 +49,8 @@
           "t3": "8 sonic damage; slide 5, the maestro shifts up to 5 squares"
         },
         {
-          "effect": "Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round."
+          "effect": "Each ally within distance can use Ready Rodent as a free triggered action once before the end of the round.",
+          "name": "Effect"
         }
       ]
     },
@@ -89,7 +90,8 @@
       "trigger": "A creature within distance deals damage to an ally or takes damage from an ally.",
       "effects": [
         {
-          "effect": "The maestro makes a free strike against the target."
+          "effect": "The maestro makes a free strike against the target.",
+          "name": "Effect"
         }
       ]
     },
@@ -104,7 +106,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target can shift up to their speed or take the Defend action."
+          "effect": "Each target can shift up to their speed or take the Defend action.",
+          "name": "Effect"
         }
       ]
     },
@@ -119,7 +122,8 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to strikes, and has their speed doubled."
+          "effect": "Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to strikes, and has their speed doubled.",
+          "name": "Effect"
         }
       ]
     },
@@ -134,7 +138,8 @@
       "target": "Each dead ally in the area",
       "effects": [
         {
-          "effect": "Each target stands, makes a free strike, then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes."
+          "effect": "Each target stands, makes a free strike, then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.",
+          "name": "Effect"
         }
       ]
     }

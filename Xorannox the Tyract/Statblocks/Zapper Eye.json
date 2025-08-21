@@ -82,7 +82,8 @@
           "t3": "13 lightning damage"
         },
         {
-          "effect": "Each target loses all their surges."
+          "effect": "Each target loses all their surges.",
+          "name": "Effect"
         }
       ]
     }

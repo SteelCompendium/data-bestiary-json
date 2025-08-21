@@ -52,7 +52,8 @@
           "t3": "23 fire damage; push 6; A < 4 burning (save ends)"
         },
         {
-          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.",
+          "name": "Effect"
         }
       ]
     },
@@ -73,7 +74,8 @@
           "t3": "The distance is a 4 burst; 15 fire damage; M < 4 pull 6"
         },
         {
-          "effect": "The outermost squares of the area become a 1-square-tall wall of stone. The rest of the area is on fire until the end of the encounter. A creature who enters the area for the first time in a round or starts their turn there takes 3 fire damage."
+          "effect": "The outermost squares of the area become a 1-square-tall wall of stone. The rest of the area is on fire until the end of the encounter. A creature who enters the area for the first time in a round or starts their turn there takes 3 fire damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -87,7 +89,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The red fist jumps up to 5 squares. Each creature adjacent to them when they land takes 5 fire damage."
+          "effect": "The red fist jumps up to 5 squares. Each creature adjacent to them when they land takes 5 fire damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -102,7 +105,11 @@
       "trigger": "A creature within distance willingly moves or shifts away from the red fist.",
       "effects": [
         {
-          "effect": "The target makes a **Might test**. A target with fire immunity automatically obtains a tier 3 outcome.\n- **≤11:** Weakened and slowed (save ends)\n- **12-16:** Weakened (EoT)\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "The target makes a **Might test**. A target with fire immunity automatically obtains a tier 3 outcome.",
+          "t1": "Weakened and slowed (save ends)",
+          "t2": "Weakened (EoT)",
+          "t3": "No effect"
         }
       ]
     },
@@ -117,7 +124,8 @@
       "trigger": "An ally within distance is targeted by an enemy's ability.",
       "effects": [
         {
-          "effect": "The red fist becomes the target of the triggering ability, then can make a free strike against the enemy after the ability resolves."
+          "effect": "The red fist becomes the target of the triggering ability, then can make a free strike against the enemy after the ability resolves.",
+          "name": "Effect"
         }
       ]
     }

@@ -85,7 +85,8 @@
           "t3": "25 fire damage; A < 6 the target is immolated (save ends)"
         },
         {
-          "effect": "An immolated creature takes 10 fire damage whenever they use a main action and a maneuver on their turn. This damage can't be reduced in any way."
+          "effect": "An immolated creature takes 10 fire damage whenever they use a main action and a maneuver on their turn. This damage can't be reduced in any way.",
+          "name": "Effect"
         }
       ]
     },
@@ -106,7 +107,8 @@
           "t3": "16 corruption damage; P < 6 the target is hopeless (save ends)"
         },
         {
-          "effect": "A hopeless creature can't benefit from edges or double edges, can't gain or use surges, and can't gain temporary Stamina."
+          "effect": "A hopeless creature can't benefit from edges or double edges, can't gain or use surges, and can't gain temporary Stamina.",
+          "name": "Effect"
         },
         {
           "effect": "The distance of this ability increases to a 20 burst and its potency increases by 1.",
@@ -133,7 +135,8 @@
           "t3": "29 psychic damage"
         },
         {
-          "effect": "A target who has M < 4 is wracked with pain (save ends). A creature wracked with pain has a double bane on abilities."
+          "effect": "A target who has M < 4 is wracked with pain (save ends). A creature wracked with pain has a double bane on abilities.",
+          "name": "Effect"
         },
         {
           "effect": "The lich chooses one additional target.",
@@ -157,7 +160,8 @@
       "trigger": "The lich is targeted using an ability by a creature other than the target.",
       "effects": [
         {
-          "effect": "If the target has P < 4, they swap places with the lich to become the new target of the triggering ability."
+          "effect": "If the target has P < 4, they swap places with the lich to become the new target of the triggering ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -174,10 +178,15 @@
       "target": "Each creature in the area",
       "effects": [
         {
-          "effect": "Each target makes an Agility test.\n- **≤11:** 10 corruption damage; restrained (save ends)\n- **12-16:** 16 corruption damage; restrained (EoT)\n- **17+:** 20 corruption damage"
+          "name": "Effect",
+          "effect": "Each target makes an Agility test.",
+          "t1": "10 corruption damage; restrained (save ends)",
+          "t2": "16 corruption damage; restrained (EoT)",
+          "t3": "20 corruption damage"
         },
         {
-          "effect": "The lich deals an additional 10 corruption damage to each creature restrained this way."
+          "effect": "The lich deals an additional 10 corruption damage to each creature restrained this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -193,7 +202,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "A target can't use heroic abilities until the start of the lich's next turn."
+          "effect": "A target can't use heroic abilities until the start of the lich's next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -215,7 +225,8 @@
           "t3": "16 corruption damage; A < 6 frightened (save ends)"
         },
         {
-          "effect": "At the end of each of the lich's turns, they regain 10 Stamina for each creature frightened this way."
+          "effect": "At the end of each of the lich's turns, they regain 10 Stamina for each creature frightened this way.",
+          "name": "Effect"
         }
       ]
     }

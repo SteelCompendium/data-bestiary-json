@@ -81,7 +81,8 @@
           "effect": "**Power Roll + 4**\n- **≤11:** I < 2 the target is charmed (save ends)\n- **12-16:** I < 3 the target is charmed (save ends)\n- **17+:** I < 4 the target is charmed (save ends)"
         },
         {
-          "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+          "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -98,7 +99,14 @@
       "trigger": "A creature targets the high judge with a strike.",
       "effects": [
         {
-          "effect": "The target makes a **Presence test**.\n- **≤11:** The target is charmed (save ends).\n- **12-16:** The high judge chooses a new target for the strike.\n- **17+:** The target takes a bane on the strike.\nWhile charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+          "name": "Effect",
+          "effect": "The target makes a **Presence test**.",
+          "t1": "The target is charmed (save ends).",
+          "t2": "The high judge chooses a new target for the strike.",
+          "t3": "The target takes a bane on the strike."
+        },
+        {
+          "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
         }
       ]
     },
@@ -114,7 +122,14 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The target makes a **Presence test**.\n- **≤11:** 15 psychic damage; the target is charmed (save ends)\n- **12-16:** 12 psychic damage; the target is charmed (save ends)\n- **17+:** 7 psychic damage\nWhile charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
+          "name": "Effect",
+          "effect": "The target makes a **Presence test**.",
+          "t1": "15 psychic damage; the target is charmed (save ends)",
+          "t2": "12 psychic damage; the target is charmed (save ends)",
+          "t3": "7 psychic damage"
+        },
+        {
+          "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares."
         }
       ]
     },
@@ -129,7 +144,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed."
+          "effect": "Each target shifts up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed.",
+          "name": "Effect"
         }
       ]
     },
@@ -145,7 +161,8 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target teleport to swap places. Each ally within 12 squares of the high judge can then make a free strike against a target of the high judge's choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a free strike against a target of the high judge's choice."
+          "effect": "If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target teleport to swap places. Each ally within 12 squares of the high judge can then make a free strike against a target of the high judge's choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a free strike against a target of the high judge's choice.",
+          "name": "Effect"
         }
       ]
     }

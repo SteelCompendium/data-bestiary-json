@@ -89,7 +89,8 @@
           "t3": "13 damage; the effect lasts until the end of the encounter"
         },
         {
-          "effect": "Any supernatural ability used by a creature in the area has a double bane. All reactive tests made against magic or psionic effects in the area have a double edge."
+          "effect": "Any supernatural ability used by a creature in the area has a double bane. All reactive tests made against magic or psionic effects in the area have a double edge.",
+          "name": "Effect"
         }
       ]
     },
@@ -112,7 +113,8 @@
           "t3": "24 damage"
         },
         {
-          "effect": "If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them."
+          "effect": "If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them.",
+          "name": "Effect"
         }
       ]
     },
@@ -141,7 +143,8 @@
       "trigger": "Lord Syuul takes damage that has a damage type.",
       "effects": [
         {
-          "effect": "Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type."
+          "effect": "Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type.",
+          "name": "Effect"
         }
       ]
     },
@@ -157,7 +160,11 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target makes an **Intuition test**.\n- **≤11:** 16 psychic damage; the target has no line of effect to any creture except Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save ends)\n- **12-16:** 13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)\n- **17+:** 7 psychic damage"
+          "name": "Effect",
+          "effect": "Each target makes an **Intuition test**.",
+          "t1": "16 psychic damage; the target has no line of effect to any creture except Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save ends)",
+          "t2": "13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)",
+          "t3": "7 psychic damage"
         }
       ]
     },
@@ -172,7 +179,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears."
+          "effect": "Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.",
+          "name": "Effect"
         }
       ]
     },
@@ -194,7 +202,8 @@
           "t3": "16 psychic damage"
         },
         {
-          "effect": "Until the end of the encounter, each target has damage weakness 3."
+          "effect": "Until the end of the encounter, each target has damage weakness 3.",
+          "name": "Effect"
         }
       ]
     }

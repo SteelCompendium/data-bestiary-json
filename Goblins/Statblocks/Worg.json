@@ -70,7 +70,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The worg moves up to their speed."
+          "effect": "The worg moves up to their speed.",
+          "name": "Effect"
         }
       ]
     }

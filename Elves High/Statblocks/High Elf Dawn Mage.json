@@ -51,7 +51,8 @@
           "t3": "3 holy damage"
         },
         {
-          "effect": "Until the start of the dawn mage's next turn, the target can't hide."
+          "effect": "Until the start of the dawn mage's next turn, the target can't hide.",
+          "name": "Effect"
         }
       ]
     }

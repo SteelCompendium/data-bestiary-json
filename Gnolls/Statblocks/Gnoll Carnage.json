@@ -65,7 +65,8 @@
           "t3": "14 damage; A < 3 bleeding and dazed (save ends)"
         },
         {
-          "effect": "An ally targeted by this ability ignores the damage and can make a free strike."
+          "effect": "An ally targeted by this ability ignores the damage and can make a free strike.",
+          "name": "Effect"
         }
       ]
     },
@@ -80,7 +81,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target deals an extra 3 damage with their next strike until the start of the carnage's next turn. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+          "effect": "Each target deals an extra 3 damage with their next strike until the start of the carnage's next turn. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.",
+          "name": "Effect"
         }
       ]
     },
@@ -96,7 +98,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The carnage summons four abyssal hyenas into unoccupied spaces within distance."
+          "effect": "The carnage summons four abyssal hyenas into unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -111,7 +114,8 @@
       "target": "Self and three allies",
       "effects": [
         {
-          "effect": "Each target moves up to their speed and can make a free strike. Any creature damaged by one of these free strikes who has M < 2 is knocked prone."
+          "effect": "Each target moves up to their speed and can make a free strike. Any creature damaged by one of these free strikes who has M < 2 is knocked prone.",
+          "name": "Effect"
         }
       ]
     },
@@ -127,10 +131,15 @@
       "target": "Each winded enemy in the area",
       "effects": [
         {
-          "effect": "The carnage's eyes and all exposed blood within distance glow bright red. Each target makes a **Presence test**.\n- **≤11:** The target can't regain Stamina until the end of the encounter.\n- **12-16:** The target can't regain Stamina (save ends).\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "The carnage's eyes and all exposed blood within distance glow bright red. Each target makes a **Presence test**.",
+          "t1": "The target can't regain Stamina until the end of the encounter.",
+          "t2": "The target can't regain Stamina (save ends).",
+          "t3": "No effect"
         },
         {
-          "effect": "Until the end of the encounter, all gnolls have a double edge on power rolls that target a winded enemy."
+          "effect": "Until the end of the encounter, all gnolls have a double edge on power rolls that target a winded enemy.",
+          "name": "Effect"
         }
       ]
     }

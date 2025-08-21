@@ -49,7 +49,8 @@
           "t3": "14 damage; push 6, prone"
         },
         {
-          "effect": "Any target who takes damage from this forced movement takes an extra 4 damage."
+          "effect": "Any target who takes damage from this forced movement takes an extra 4 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -72,7 +73,8 @@
           "t3": "14 damage; grabbed"
         },
         {
-          "effect": "A target grabbed this way takes a bane on the Escape Grab maneuver."
+          "effect": "A target grabbed this way takes a bane on the Escape Grab maneuver.",
+          "name": "Effect"
         }
       ]
     },
@@ -88,6 +90,7 @@
       "target": "Each creature and object in the area",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The goon must have a size 1 creature or object grabbed, which they hurl across the area, ending the grab. The hurled creature or object is targeted by the ability, and lands in the last square of the line or the nearest unoccupied square of the goon's choice."
         },
         {
@@ -109,7 +112,8 @@
       "trigger": "A creature or object within distance moves or shifts away from the goon.",
       "effects": [
         {
-          "effect": "The goon slides the target up to 5 squares"
+          "effect": "The goon slides the target up to 5 squares",
+          "name": "Effect"
         }
       ]
     }

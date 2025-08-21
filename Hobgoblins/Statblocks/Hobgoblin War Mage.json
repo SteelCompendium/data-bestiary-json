@@ -63,7 +63,8 @@
           "t3": "11 fire damage; M < 3 weakened (save ends)"
         },
         {
-          "effect": "Before using this ability, the war mage can teleport a creature within 10 squares of them up to 2 squares."
+          "effect": "Before using this ability, the war mage can teleport a creature within 10 squares of them up to 2 squares.",
+          "name": "Effect"
         }
       ]
     },
@@ -78,7 +79,8 @@
       "target": "Two allies",
       "effects": [
         {
-          "effect": "Each target gains 10 temporary Stamina and has a double edge on their next power roll. The war mage can spend any amount of their current Stamina to increase the temporary Stamina each target gains by an equivalent amount."
+          "effect": "Each target gains 10 temporary Stamina and has a double edge on their next power roll. The war mage can spend any amount of their current Stamina to increase the temporary Stamina each target gains by an equivalent amount.",
+          "name": "Effect"
         }
       ]
     },
@@ -95,7 +97,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is difficult terrain and an enemy in the area has fire weakness 10."
+          "effect": "The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is difficult terrain and an enemy in the area has fire weakness 10.",
+          "name": "Effect"
         }
       ]
     },
@@ -111,7 +114,8 @@
       "trigger": "A creature within distance uses a magic ability.",
       "effects": [
         {
-          "effect": "Any damage dealt or Stamina regained from the creature's ability is halved. The war mage regains Stamina equal to the remaining damage dealt or Stamina regained."
+          "effect": "Any damage dealt or Stamina regained from the creature's ability is halved. The war mage regains Stamina equal to the remaining damage dealt or Stamina regained.",
+          "name": "Effect"
         }
       ]
     }

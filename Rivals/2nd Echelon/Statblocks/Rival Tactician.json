@@ -73,7 +73,8 @@
           "t3": "21 damage; M < 3 weakened (save ends)"
         },
         {
-          "effect": "One ally adjacent to the target regains 7 Stamina."
+          "effect": "One ally adjacent to the target regains 7 Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -88,7 +89,8 @@
       "trigger": "An enemy within distance willingly moves.",
       "effects": [
         {
-          "effect": "At any point during the movement, the tactician and one ally within distance can each make a free strike against the target."
+          "effect": "At any point during the movement, the tactician and one ally within distance can each make a free strike against the target.",
+          "name": "Effect"
         }
       ]
     }

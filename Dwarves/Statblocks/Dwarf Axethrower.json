@@ -42,7 +42,8 @@
           "t3": "3 damage; one ally adjacent to the target can make a free strike"
         },
         {
-          "effect": "The target can't use triggered actions until the start of the next round."
+          "effect": "The target can't use triggered actions until the start of the next round.",
+          "name": "Effect"
         }
       ]
     }

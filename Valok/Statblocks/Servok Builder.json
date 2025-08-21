@@ -61,7 +61,11 @@
       "target": "Each enemy and object in the area",
       "effects": [
         {
-          "effect": "Each target must make either an Agility test or an **Intuition test**.\n- **≤11:** 15 damage; push 5, prone\n- **12-16:** 12 damage; push 3\n- **17+:** 8 damage"
+          "name": "Effect",
+          "effect": "Each target must make either an Agility test or an **Intuition test**.",
+          "t1": "15 damage; push 5, prone",
+          "t2": "12 damage; push 3",
+          "t3": "8 damage"
         }
       ]
     },
@@ -95,7 +99,11 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The area is covered in wet concrete and is difficult terrain. An enemy who starts their turn in the concrete makes a **Might test**.\n- **≤11:** Restrained (EoT)\n- **12-16:** Slowed (EoT)\n- **17+:** No effect"
+          "name": "Effect",
+          "effect": "The area is covered in wet concrete and is difficult terrain. An enemy who starts their turn in the concrete makes a **Might test**.",
+          "t1": "Restrained (EoT)",
+          "t2": "Slowed (EoT)",
+          "t3": "No effect"
         }
       ]
     },
@@ -110,7 +118,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed."
+          "effect": "The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed.",
+          "name": "Effect"
         }
       ]
     },
@@ -132,7 +141,8 @@
           "t3": "A < 4 restrained (save ends)"
         },
         {
-          "effect": "While a creature is restrained this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer restrained leaves squares of wet concrete behind."
+          "effect": "While a creature is restrained this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer restrained leaves squares of wet concrete behind.",
+          "name": "Effect"
         }
       ]
     }

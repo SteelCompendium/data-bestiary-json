@@ -68,7 +68,8 @@
           "t3": "11 damage; R < 2 restrained (save ends)"
         },
         {
-          "effect": "Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required)."
+          "effect": "Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required).",
+          "name": "Effect"
         }
       ]
     }

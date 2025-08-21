@@ -42,7 +42,8 @@
           "t3": "16 damage; grabbed"
         },
         {
-          "effect": "The target can't use triggered actions until the start of the next round. Additionally, if the sneak started their turn hidden from the target, this ability deals an extra 4 damage."
+          "effect": "The target can't use triggered actions until the start of the next round. Additionally, if the sneak started their turn hidden from the target, this ability deals an extra 4 damage.",
+          "name": "Effect"
         }
       ]
     },
@@ -63,7 +64,8 @@
           "t3": "4 damage; I < 2 the sneak has concealment from the target (save ends)"
         },
         {
-          "effect": "The sneak shifts up to their speed and can attempt to hide."
+          "effect": "The sneak shifts up to their speed and can attempt to hide.",
+          "name": "Effect"
         }
       ]
     },
@@ -85,7 +87,8 @@
           "t3": "14 damage; M < 2 bleeding (save ends)"
         },
         {
-          "effect": "While bleeding this way, the target can't hide from the sneak or their allies."
+          "effect": "While bleeding this way, the target can't hide from the sneak or their allies.",
+          "name": "Effect"
         }
       ]
     },
@@ -104,7 +107,8 @@
           "name": "Special"
         },
         {
-          "effect": "The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way."
+          "effect": "The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.",
+          "name": "Effect"
         }
       ]
     },
@@ -119,7 +123,8 @@
       "trigger": "A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.",
       "effects": [
         {
-          "effect": "The target is grabbed by the sneak."
+          "effect": "The target is grabbed by the sneak.",
+          "name": "Effect"
         }
       ]
     },
@@ -135,7 +140,8 @@
       "trigger": "The sneak is targeted by a strike.",
       "effects": [
         {
-          "effect": "The sneak chooses one enemy within distance of the strike to become the target of the strike."
+          "effect": "The sneak chooses one enemy within distance of the strike to become the target of the strike.",
+          "name": "Effect"
         }
       ]
     }

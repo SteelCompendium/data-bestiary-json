@@ -42,7 +42,8 @@
           "t3": "5 damage; grabbed or prone"
         },
         {
-          "effect": "If the target is restrained, they take an extra 2 damage."
+          "effect": "If the target is restrained, they take an extra 2 damage.",
+          "name": "Effect"
         }
       ]
     }

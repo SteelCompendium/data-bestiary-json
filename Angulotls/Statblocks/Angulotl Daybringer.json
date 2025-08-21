@@ -61,7 +61,8 @@
           "t3": "13 acid damage; A < 3 dazed (save ends)"
         },
         {
-          "effect": "The next time the target makes a strike against the daybringer, the target takes 4 acid damage after the strike is resolved."
+          "effect": "The next time the target makes a strike against the daybringer, the target takes 4 acid damage after the strike is resolved.",
+          "name": "Effect"
         },
         {
           "effect": "The daybringer jumps up to 3 squares before or after using this ability.",
@@ -79,7 +80,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 Stamina and gains a +3 bonus to speed until the end of their turn."
+          "effect": "The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 Stamina and gains a +3 bonus to speed until the end of their turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -94,7 +96,8 @@
       "trigger": "The target makes a strike against the daybringer or an ally that isn't a critical hit.",
       "effects": [
         {
-          "effect": "The outcome of the strike's power roll is reduced by one tier."
+          "effect": "The outcome of the strike's power roll is reduced by one tier.",
+          "name": "Effect"
         },
         {
           "effect": "The target is pulled up to 4 squares after the strike resolves.",
@@ -113,7 +116,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "Four **angulotl pollywogs** erupt from the daybringer's back and waddle into unoccupied spaces within distance."
+          "effect": "Four **angulotl pollywogs** erupt from the daybringer's back and waddle into unoccupied spaces within distance.",
+          "name": "Effect"
         }
       ]
     },
@@ -128,7 +132,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target can jump up to 4 squares. Each non-minion target can make a free strike at the end of the jump."
+          "effect": "Each target can jump up to 4 squares. Each non-minion target can make a free strike at the end of the jump.",
+          "name": "Effect"
         }
       ]
     },
@@ -143,7 +148,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an edge. Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike."
+          "effect": "The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an edge. Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.",
+          "name": "Effect"
         }
       ]
     }

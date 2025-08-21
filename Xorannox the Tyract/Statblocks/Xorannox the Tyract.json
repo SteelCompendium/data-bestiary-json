@@ -97,7 +97,8 @@
           "t3": "Vertical push 7"
         },
         {
-          "effect": "Xorannox shifts up to his speed before or after using this ability."
+          "effect": "Xorannox shifts up to his speed before or after using this ability.",
+          "name": "Effect"
         }
       ]
     },
@@ -111,7 +112,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Xorannox commands all his eyestalks to move up to their speed."
+          "effect": "Xorannox commands all his eyestalks to move up to their speed.",
+          "name": "Effect"
         }
       ]
     },
@@ -126,7 +128,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn."
+          "effect": "Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn.",
+          "name": "Effect"
         }
       ]
     },
@@ -142,7 +145,8 @@
       "trigger": "A creature within distance deals damage to Xorannox.",
       "effects": [
         {
-          "effect": "If the target has I < 3 they are frightened (save ends)"
+          "effect": "If the target has I < 3 they are frightened (save ends)",
+          "name": "Effect"
         }
       ]
     },
@@ -177,7 +181,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full Stamina."
+          "effect": "Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full Stamina.",
+          "name": "Effect"
         }
       ]
     },
@@ -192,7 +197,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Xorannox directs each of his eyestalks to use a signature ability against any target."
+          "effect": "Xorannox directs each of his eyestalks to use a signature ability against any target.",
+          "name": "Effect"
         }
       ]
     }

@@ -51,7 +51,8 @@
           "t3": "17 lightning damage; R < 3 dazed (save ends)"
         },
         {
-          "effect": "Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target."
+          "effect": "Until the start of the ordinator's next turn, each ally high elf in the encounter gains an edge on ability rolls against the target.",
+          "name": "Effect"
         }
       ]
     },
@@ -66,7 +67,8 @@
       "target": "Each elemental ally in the area",
       "effects": [
         {
-          "effect": "Each target can move up to their speed or make a free strike. Elemental mote targets can, instead, use their Spark of Life trait."
+          "effect": "Each target can move up to their speed or make a free strike. Elemental mote targets can, instead, use their Spark of Life trait.",
+          "name": "Effect"
         }
       ]
     },
@@ -81,7 +83,8 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "The ordinator summons four elemental motes or four soot crows into unoccupied space within distance."
+          "effect": "The ordinator summons four elemental motes or four soot crows into unoccupied space within distance.",
+          "name": "Effect"
         },
         {
           "effect": "The ordinator instead summons one ceramic horse or one winded brambleguard into an unoccupied space within distance.",
@@ -100,7 +103,8 @@
       "trigger": "An enemy within distance uses an ability against the ordinator or any ally within distance.",
       "effects": [
         {
-          "effect": "The ordinator uses Lightning Rod against the target after the ability is resolved."
+          "effect": "The ordinator uses Lightning Rod against the target after the ability is resolved.",
+          "name": "Effect"
         }
       ]
     },
@@ -116,7 +120,8 @@
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target glows briefly, and can end one effect on themself then move up to their speed."
+          "effect": "Each target glows briefly, and can end one effect on themself then move up to their speed.",
+          "name": "Effect"
         }
       ]
     },
@@ -133,10 +138,15 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "Each target makes a **Presence test**.\n- **≤11:** 12 corruption damage; pull 5 toward the center of the cube\n- **12-16:** 9 corruption damage; pull 3 toward the center of the cube\n- **17+:** Pull 1 toward the center of the cube"
+          "name": "Effect",
+          "effect": "Each target makes a **Presence test**.",
+          "t1": "12 corruption damage; pull 5 toward the center of the cube",
+          "t2": "9 corruption damage; pull 3 toward the center of the cube",
+          "t3": "Pull 1 toward the center of the cube"
         },
         {
-          "effect": "The area turns dark and distorted, and is difficult terrain for enemies."
+          "effect": "The area turns dark and distorted, and is difficult terrain for enemies.",
+          "name": "Effect"
         }
       ]
     },
@@ -152,7 +162,8 @@
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic."
+          "effect": "Each target's free strike now has the Magic keyword and can target two creatures or objects. Additionally, each target glows with magic.",
+          "name": "Effect"
         }
       ]
     }

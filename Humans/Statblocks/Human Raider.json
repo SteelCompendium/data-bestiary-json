@@ -55,7 +55,8 @@
           "t3": "3 damage"
         },
         {
-          "effect": "If this ability is used as part of a charge, the raider can make a ranged free strike before using the ability."
+          "effect": "If this ability is used as part of a charge, the raider can make a ranged free strike before using the ability.",
+          "name": "Effect"
         }
       ]
     }

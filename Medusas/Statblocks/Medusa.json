@@ -114,7 +114,8 @@
           "t3": "Slowed (save ends); or if M < 4 restrained (save ends)"
         },
         {
-          "effect": "A target with cover reduces the potency by 1, while a slowed target increases the potency by 1. A target restrained this way magi- cally begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified"
+          "effect": "A target with cover reduces the potency by 1, while a slowed target increases the potency by 1. A target restrained this way magi- cally begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified",
+          "name": "Effect"
         }
       ]
     },
@@ -128,7 +129,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The medusa shifts up to 3 squares and can attempt to hide even if observed."
+          "effect": "The medusa shifts up to 3 squares and can attempt to hide even if observed.",
+          "name": "Effect"
         }
       ]
     },
@@ -163,7 +165,8 @@
       "target": "Each enemy",
       "effects": [
         {
-          "effect": "The medusa can use Petrify against each target without spending Malice. A target who doesn't have cover increases the potency by 1."
+          "effect": "The medusa can use Petrify against each target without spending Malice. A target who doesn't have cover increases the potency by 1.",
+          "name": "Effect"
         }
       ]
     },
@@ -178,7 +181,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The medusa temporarily manifests wings and flies up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each."
+          "effect": "The medusa temporarily manifests wings and flies up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.",
+          "name": "Effect"
         }
       ]
     },
@@ -194,11 +198,14 @@
       "target": "Special",
       "effects": [
         {
-          "effect": "8 acid damage; P < 3 weakened (save ends)\n- **12-16:** 13 acid damage; P < 4 weakened (save ends)\n- **17+:** 17 acid damage; P < 5 weakened (save ends)",
-          "cost": "≤11"
+          "cost": "≤11",
+          "effect": "8 acid damage; P < 3 weakened (save ends)",
+          "t2": "13 acid damage; P < 4 weakened (save ends)",
+          "t3": "17 acid damage; P < 5 weakened (save ends)"
         },
         {
-          "effect": "As a free triggered action, each stone statue and creature restrained or slowed by Petrify within distance moves up to their speed and uses a signature ability that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's free strike."
+          "effect": "As a free triggered action, each stone statue and creature restrained or slowed by Petrify within distance moves up to their speed and uses a signature ability that gains an edge, targeting an enemy of the medusa's choice. A stone statue without its own statistics has speed 5 and uses the medusa's free strike.",
+          "name": "Effect"
         }
       ]
     }

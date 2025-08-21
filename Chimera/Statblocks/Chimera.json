@@ -66,7 +66,8 @@
           "t3": "16 damage"
         },
         {
-          "effect": "This strike deals an extra 3 damage if it gains an edge or has a double edge."
+          "effect": "This strike deals an extra 3 damage if it gains an edge or has a double edge.",
+          "name": "Effect"
         }
       ]
     },
@@ -140,6 +141,7 @@
       "trigger": "A creature makes a strike against the chimera and obtains a tier 1 outcome.",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The chimera shifts up to 5 squares. If they end this shift within distance of the target, make a power roll."
         },
         {
@@ -158,7 +160,8 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The chimera can use Bite and Lion's Toss against each target."
+          "effect": "The chimera can use Bite and Lion's Toss against each target.",
+          "name": "Effect"
         }
       ]
     },
@@ -173,7 +176,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The chimera uses Dragon's Eruption and Roar without spending Malice."
+          "effect": "The chimera uses Dragon's Eruption and Roar without spending Malice.",
+          "name": "Effect"
         }
       ]
     },
@@ -188,7 +192,8 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The chimera uses Roar, then shifts up to their speed and can make a free strike against each enemy who comes adjacent to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this villain action costs no Malice."
+          "effect": "The chimera uses Roar, then shifts up to their speed and can make a free strike against each enemy who comes adjacent to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this villain action costs no Malice.",
+          "name": "Effect"
         }
       ]
     }
