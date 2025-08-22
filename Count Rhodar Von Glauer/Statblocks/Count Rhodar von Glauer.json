@@ -9,16 +9,16 @@
     "Vampire"
   ],
   "ev": "144",
-  "stamina": "26503",
+  "stamina": "650",
   "immunities": [
     "Corruption 10",
     "poison 10"
   ],
-  "speed": 1,
+  "speed": 12,
   "movement": "Fly, hover, teleport",
   "size": "1M",
-  "stability": 1,
-  "free_strike": 0,
+  "stability": 3,
+  "free_strike": 10,
   "might": 3,
   "agility": 5,
   "reason": 2,
