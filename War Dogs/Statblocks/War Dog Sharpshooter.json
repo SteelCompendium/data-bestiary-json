@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Bolt Launcher",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

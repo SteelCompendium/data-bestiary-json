@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Corrupted Ash Daggers",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -63,6 +64,7 @@
     },
     {
       "name": "Posthumous Promotion",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -79,6 +81,7 @@
     },
     {
       "name": "Corrupted Ash Teleport",
+      "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "Magic"

@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Clobberin' Club",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Stomp",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -93,6 +95,7 @@
     },
     {
       "name": "Hill Quake",
+      "icon": "❇️",
       "keywords": [
         "Area"
       ],
@@ -115,6 +118,7 @@
     },
     {
       "name": "You Ain't Getting Away",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

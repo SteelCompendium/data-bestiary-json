@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Spit",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

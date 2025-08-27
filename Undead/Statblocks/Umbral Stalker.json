@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Chilling Grasp",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Freezing Dark",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -79,6 +81,7 @@
     },
     {
       "name": "Shadow Jump",
+      "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "-"

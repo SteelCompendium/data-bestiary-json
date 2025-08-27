@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Rip and Tear",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

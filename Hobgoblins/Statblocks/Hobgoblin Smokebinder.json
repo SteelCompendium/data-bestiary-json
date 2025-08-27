@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Choking Bolt",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Smoke Bomb",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

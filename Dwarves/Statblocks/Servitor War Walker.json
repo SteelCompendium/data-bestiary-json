@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Grasping Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Stunning Blast",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

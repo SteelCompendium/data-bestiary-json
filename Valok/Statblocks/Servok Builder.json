@@ -50,6 +50,7 @@
   "abilities": [
     {
       "name": "Wrecking Ball",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -71,6 +72,7 @@
     },
     {
       "name": "Construction Arm",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -90,6 +92,7 @@
     },
     {
       "name": "Lay the Foundation",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -109,6 +112,7 @@
     },
     {
       "name": "Build Wall",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Ranged"
@@ -125,6 +129,7 @@
     },
     {
       "name": "Sputter",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Melee"

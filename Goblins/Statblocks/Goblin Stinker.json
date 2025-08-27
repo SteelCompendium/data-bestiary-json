@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Toxic Winds",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Swamp Gas",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",

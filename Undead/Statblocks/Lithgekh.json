@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Heartstopper",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Mystic Battery",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

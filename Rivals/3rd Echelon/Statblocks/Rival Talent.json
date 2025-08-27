@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Control Synapses",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Disorientate",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Psionic",
@@ -77,6 +79,7 @@
     },
     {
       "name": "Mind Requital",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Psionic"

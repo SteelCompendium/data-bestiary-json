@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Hop and Chop",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

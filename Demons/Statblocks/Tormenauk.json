@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Many Maws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Agony Wail",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area",

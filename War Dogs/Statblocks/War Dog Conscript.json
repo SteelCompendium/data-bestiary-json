@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Blade",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

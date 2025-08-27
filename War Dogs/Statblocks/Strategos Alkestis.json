@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Houndgun and Houndblade",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Focus Fire",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -85,6 +87,7 @@
     },
     {
       "name": "Artillery Enfilade",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -110,6 +113,7 @@
     },
     {
       "name": "Fog of War",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "-"
@@ -126,6 +130,7 @@
     },
     {
       "name": "Send in the Second Wave",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -142,6 +147,7 @@
     },
     {
       "name": "The Silver Wolf's Final Stratagem",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

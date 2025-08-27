@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Decaying Touch",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Hidden Movement",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

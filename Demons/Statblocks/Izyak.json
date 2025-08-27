@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Nostalgic Wanderlust",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Ruinous Temptation",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

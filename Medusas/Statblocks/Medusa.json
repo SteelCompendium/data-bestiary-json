@@ -54,6 +54,7 @@
   "abilities": [
     {
       "name": "Snake Bites",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -74,6 +75,7 @@
     },
     {
       "name": "Damning Gaze",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -98,6 +100,7 @@
     },
     {
       "name": "Petrify",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -121,6 +124,7 @@
     },
     {
       "name": "Nimble Escape",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -136,6 +140,7 @@
     },
     {
       "name": "Venomous Spit",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Melee"
@@ -155,6 +160,7 @@
     },
     {
       "name": "Mass Petrify",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Magic",
@@ -172,6 +178,7 @@
     },
     {
       "name": "Serpent Wings",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -188,6 +195,7 @@
     },
     {
       "name": "Stone Puppets",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

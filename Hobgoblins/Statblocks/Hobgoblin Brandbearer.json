@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Searing Grasp",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

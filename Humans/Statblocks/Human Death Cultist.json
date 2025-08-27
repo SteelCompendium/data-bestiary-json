@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Death Scythe",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Rise, My Minions",
+      "icon": "❇️",
       "cost": "1 Malice per minion",
       "keywords": [
         "Area"

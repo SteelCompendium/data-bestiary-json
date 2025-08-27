@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Barbed Tongues",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

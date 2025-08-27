@@ -62,6 +62,7 @@
   "abilities": [
     {
       "name": "Accursed Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -87,6 +88,7 @@
     },
     {
       "name": "Ripping Claws",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -106,6 +108,7 @@
     },
     {
       "name": "Berserker Slash",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -129,6 +132,7 @@
     },
     {
       "name": "Wall Leap",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -144,6 +148,7 @@
     },
     {
       "name": "Facepalm and Head Slam",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Melee"
@@ -161,6 +166,7 @@
     },
     {
       "name": "Howl",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -184,6 +190,7 @@
     },
     {
       "name": "Full Wolf",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -200,6 +207,7 @@
     },
     {
       "name": "Rampage",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Tile Slide",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Stone Wave",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

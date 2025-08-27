@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Snaring Crossbow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Reel Them In",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",

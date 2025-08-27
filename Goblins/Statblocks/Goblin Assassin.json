@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Sword Stab",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Shadow Chains",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",

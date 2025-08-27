@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Tail Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

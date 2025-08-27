@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Longbow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

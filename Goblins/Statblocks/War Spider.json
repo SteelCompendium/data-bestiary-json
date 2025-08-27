@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Leg Blade",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -84,6 +86,7 @@
     },
     {
       "name": "Trample",
+      "icon": "👤",
       "cost": "5 Malice",
       "keywords": [
         "-"
@@ -100,6 +103,7 @@
     },
     {
       "name": "Web",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Weapon"
@@ -122,6 +126,7 @@
     },
     {
       "name": "Skitter",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Stick and Poke",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

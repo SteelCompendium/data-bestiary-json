@@ -39,6 +39,7 @@
   "abilities": [
     {
       "name": "Natural Weapon",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -59,6 +60,7 @@
     },
     {
       "name": "Trundle",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -74,6 +76,7 @@
     },
     {
       "name": "Animal Rally",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

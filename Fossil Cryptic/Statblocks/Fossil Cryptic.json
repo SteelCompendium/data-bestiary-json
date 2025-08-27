@@ -53,6 +53,7 @@
   "abilities": [
     {
       "name": "Sand Slam",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -77,6 +78,7 @@
     },
     {
       "name": "Stone Bone Storm",
+      "icon": "🔳",
       "keywords": [
         "Area"
       ],
@@ -98,6 +100,7 @@
     },
     {
       "name": "Stoneshift",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -117,6 +120,7 @@
     },
     {
       "name": "Dissipate",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"
@@ -134,6 +138,7 @@
     },
     {
       "name": "Shatterstone",
+      "icon": "❗️",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -157,6 +162,7 @@
     },
     {
       "name": "First Warning Quake",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -180,6 +186,7 @@
     },
     {
       "name": "Final Warning Fissure",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -203,6 +210,7 @@
     },
     {
       "name": "No Escape",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Ranged"

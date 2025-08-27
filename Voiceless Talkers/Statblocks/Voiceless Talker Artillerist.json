@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Psionic Rifle Burst",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Mind Jolt",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Psionic"
@@ -91,6 +93,7 @@
     },
     {
       "name": "In Our Sights",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -106,6 +109,7 @@
     },
     {
       "name": "Tactical Reposition",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

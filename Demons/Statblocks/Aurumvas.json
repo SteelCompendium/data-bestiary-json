@@ -52,6 +52,7 @@
   "abilities": [
     {
       "name": "Greedy Hands",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -76,6 +77,7 @@
     },
     {
       "name": "Covetous Bolts",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -100,6 +102,7 @@
     },
     {
       "name": "Greed Is Good",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
@@ -116,6 +119,7 @@
     },
     {
       "name": "Time Is Money",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -133,6 +137,7 @@
     },
     {
       "name": "Hostile Acquisition",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -149,6 +154,7 @@
     },
     {
       "name": "No Matter the Cost",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

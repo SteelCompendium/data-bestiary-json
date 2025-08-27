@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Heckle",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

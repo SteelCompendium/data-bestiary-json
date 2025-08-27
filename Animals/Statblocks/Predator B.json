@@ -39,6 +39,7 @@
   "abilities": [
     {
       "name": "Natural Weapon",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -59,6 +60,7 @@
     },
     {
       "name": "Wild Swing",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"
@@ -77,6 +79,7 @@
     },
     {
       "name": "Swat",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

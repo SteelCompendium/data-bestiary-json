@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Rotting Fist",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

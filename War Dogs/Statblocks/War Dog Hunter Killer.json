@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Fuse-Iron Rocket",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

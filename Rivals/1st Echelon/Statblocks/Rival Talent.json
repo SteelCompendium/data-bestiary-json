@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Reverberating Blast",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",
@@ -53,6 +54,7 @@
     },
     {
       "name": "Muddle the Mind",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Psionic",
@@ -73,6 +75,7 @@
     },
     {
       "name": "Precognitive Shift",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Psionic"

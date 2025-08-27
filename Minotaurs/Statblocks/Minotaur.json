@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Flail and Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Primal Bay",
+      "icon": "👤",
       "cost": "3 Malice",
       "keywords": [
         "-"
@@ -74,6 +76,7 @@
     },
     {
       "name": "Goring Horns",
+      "icon": "🗡",
       "cost": "5 Malice",
       "keywords": [
         "Charge",
@@ -99,6 +102,7 @@
     },
     {
       "name": "Retaliatory Strike",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

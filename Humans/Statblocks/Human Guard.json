@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Halberd",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

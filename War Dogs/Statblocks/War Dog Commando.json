@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Daggers",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

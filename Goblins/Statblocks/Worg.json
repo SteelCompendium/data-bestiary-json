@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Sprint",
+      "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "-"

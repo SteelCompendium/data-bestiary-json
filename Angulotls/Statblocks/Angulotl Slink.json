@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Tonguelash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Hop To It",
+      "icon": "👤",
       "cost": "2 Malice",
       "keywords": [
         "-"

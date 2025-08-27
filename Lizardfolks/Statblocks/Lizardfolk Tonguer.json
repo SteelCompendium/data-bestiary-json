@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Tonguelash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

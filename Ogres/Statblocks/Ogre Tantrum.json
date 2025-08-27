@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Throw Fit",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

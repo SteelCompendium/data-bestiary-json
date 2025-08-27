@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Entangling Vines",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -62,6 +63,7 @@
     },
     {
       "name": "The Wode Protects Us",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",

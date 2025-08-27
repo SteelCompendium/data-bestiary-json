@@ -31,6 +31,7 @@
   "abilities": [
     {
       "name": "Natural Weapon",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -55,6 +56,7 @@
     },
     {
       "name": "Rush",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

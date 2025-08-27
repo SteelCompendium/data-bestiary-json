@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Exsanguinating Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Vicious Pursuit",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -85,6 +87,7 @@
     },
     {
       "name": "Reactive Charm",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

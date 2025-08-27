@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Blowgun",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

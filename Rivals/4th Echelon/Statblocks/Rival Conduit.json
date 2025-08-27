@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Sunder the Very Skies",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Empyrean Boon",
+      "icon": "🏹",
       "cost": "5 Malice",
       "keywords": [
         "Magic",

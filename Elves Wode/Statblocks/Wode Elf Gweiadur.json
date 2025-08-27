@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Snare Bow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -62,6 +63,7 @@
     },
     {
       "name": "You Activated My Trap!",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

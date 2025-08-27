@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Stinging Ovipositor",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Forced Gestation",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -86,6 +88,7 @@
     },
     {
       "name": "For the Queen!",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Area"
@@ -107,6 +110,7 @@
     },
     {
       "name": "Kicking the Nest",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -123,6 +127,7 @@
     },
     {
       "name": "Buzz Off!",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -145,6 +150,7 @@
     },
     {
       "name": "Bomber Wasp Warfare",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

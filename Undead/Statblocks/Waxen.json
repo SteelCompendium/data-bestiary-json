@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Wax Fling",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Erupt",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

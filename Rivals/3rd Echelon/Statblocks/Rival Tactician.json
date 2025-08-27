@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Command From the Back",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Safeguard",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Quickshot",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

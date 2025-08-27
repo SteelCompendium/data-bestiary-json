@@ -50,6 +50,7 @@
   "abilities": [
     {
       "name": "Pneumatic Punch",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Targeting Beam",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",
@@ -94,6 +96,7 @@
     },
     {
       "name": "Chief's Command",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -109,6 +112,7 @@
     },
     {
       "name": "Quick Shield",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

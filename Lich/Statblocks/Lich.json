@@ -60,7 +60,10 @@
       "name": "Rejuvenation",
       "effects": [
         {
-          "effect": "The lich has a soulstone, which has 50 Stamina and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.\nA creature who touches an inhabited soulstone makes a **Might test** that takes a bane.\n- **≤11:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with full Stamina.\n- **12-16:** The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with 300 Stamina.\n- **17+:** The creature has their Stamina reduced to their winded value unless it is already lower, and the lich manifests adjacent to the soulstone with 100 Stamina."
+          "effect": "The lich has a soulstone, which has 50 Stamina and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.\n\nA creature who touches an inhabited soulstone makes a **Might test** that takes a bane.",
+          "t1": "The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with full Stamina.",
+          "t2": "The creature is reduced to 0 Stamina and the lich manifests adjacent to the soulstone with 300 Stamina.",
+          "t3": "The creature has their Stamina reduced to their winded value unless it is already lower, and the lich manifests adjacent to the soulstone with 100 Stamina."
         }
       ]
     }
@@ -68,6 +71,7 @@
   "abilities": [
     {
       "name": "Conflagration",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -92,6 +96,7 @@
     },
     {
       "name": "Hopeless Place",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -118,6 +123,7 @@
     },
     {
       "name": "Pain Unending",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -150,6 +156,7 @@
     },
     {
       "name": "Baleful Swap",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
@@ -167,6 +174,7 @@
     },
     {
       "name": "Cages of Wasting",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -192,6 +200,7 @@
     },
     {
       "name": "My Power Alone",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -209,6 +218,7 @@
     },
     {
       "name": "Arms of Necrosis",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

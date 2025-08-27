@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Feeding Frenzy",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

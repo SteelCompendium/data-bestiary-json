@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Taste",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

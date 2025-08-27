@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Seismic Crush",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Death Grip",
+      "icon": "🗡",
       "cost": "4 Malice",
       "keywords": [
         "Melee",

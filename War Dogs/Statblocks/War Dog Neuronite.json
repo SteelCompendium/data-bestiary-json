@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Synlirii Grafts",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Posthumous Promotion",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -72,6 +74,7 @@
     },
     {
       "name": "The Voice",
+      "icon": "❇️",
       "cost": "1 Malice",
       "keywords": [
         "Area",

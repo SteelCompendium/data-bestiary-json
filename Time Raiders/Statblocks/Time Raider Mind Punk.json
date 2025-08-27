@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Repelling Psihander",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Mindpunk",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area",

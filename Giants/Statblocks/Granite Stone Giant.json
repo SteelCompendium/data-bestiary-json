@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Jagged Stone Club",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Crag Burst",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -95,6 +97,7 @@
     },
     {
       "name": "Castle Stone Shape",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -110,6 +113,7 @@
     },
     {
       "name": "Pillar",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

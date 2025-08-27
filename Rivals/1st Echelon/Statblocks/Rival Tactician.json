@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Dual Targeting Shot",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "I'll Cover You!",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Overwatch",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

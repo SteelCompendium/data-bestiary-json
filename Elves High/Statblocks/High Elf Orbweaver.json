@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Awash",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -52,6 +53,7 @@
     },
     {
       "name": "Aetherweb",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged",

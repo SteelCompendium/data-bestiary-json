@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Swordplay",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Get Reckless!",
+      "icon": "❇️",
       "keywords": [
         "Area"
       ],

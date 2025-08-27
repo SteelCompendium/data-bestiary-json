@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Brutal Impact",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Let's Tussle",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee",

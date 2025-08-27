@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Bloodletting Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -63,6 +64,7 @@
     },
     {
       "name": "Salt Wounds",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",

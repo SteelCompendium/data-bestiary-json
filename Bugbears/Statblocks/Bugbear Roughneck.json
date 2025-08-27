@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Haymaker",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -49,6 +50,7 @@
     },
     {
       "name": "Leaping Fury",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -72,6 +74,7 @@
     },
     {
       "name": "Drag Through Hell",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee"
@@ -92,6 +95,7 @@
     },
     {
       "name": "Throw",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike"
@@ -112,6 +116,7 @@
     },
     {
       "name": "Catcher",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -128,6 +133,7 @@
     },
     {
       "name": "Flying Sawblade",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Longarm Shrikegun",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Web Vial",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Ranged"

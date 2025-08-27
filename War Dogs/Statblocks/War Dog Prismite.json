@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Grasping Tonguetacles",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -53,6 +54,7 @@
     },
     {
       "name": "Hard Light Field",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Psionic",
@@ -70,6 +72,7 @@
     },
     {
       "name": "Tractor Beam",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Psionic",

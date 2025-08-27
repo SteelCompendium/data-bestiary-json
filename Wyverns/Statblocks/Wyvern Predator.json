@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Sedating Stinger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Tail Sweep",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Weapon"
@@ -90,6 +92,7 @@
     },
     {
       "name": "Grasping Jaws",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -110,6 +113,7 @@
     },
     {
       "name": "Deterring Sting",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Melee"

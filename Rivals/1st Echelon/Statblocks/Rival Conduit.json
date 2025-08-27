@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Thunder of Heavens",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Imbue with Might",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Three-Tail Flail",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Bonesplitter's Cackletongue",
+      "icon": "❇️",
       "cost": "4 Malice",
       "keywords": [
         "Area"

@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Kinetic Danse",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Incapacitate",
+      "icon": "🗡",
       "cost": "5 Malice",
       "keywords": [
         "Melee",

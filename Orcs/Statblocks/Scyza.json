@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Clawed Kick",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Whiptail",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -87,6 +89,7 @@
     },
     {
       "name": "Crestfall",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -107,6 +110,7 @@
     },
     {
       "name": "Sandstorm",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -126,6 +130,7 @@
     },
     {
       "name": "Brace and Break",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

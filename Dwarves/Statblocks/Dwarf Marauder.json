@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Levitating Axes",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Magnetomancy",
+      "icon": "🏹",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -82,6 +84,7 @@
     },
     {
       "name": "Your Weapon Is Useless",
+      "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -99,6 +102,7 @@
     },
     {
       "name": "Ajax Will Pay Well for These Specimens",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -118,6 +122,7 @@
     },
     {
       "name": "Don't Let Them Escape!",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -134,6 +139,7 @@
     },
     {
       "name": "Test Your Metal!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Psionic",

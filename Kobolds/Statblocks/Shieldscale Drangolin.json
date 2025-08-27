@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Fiery Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Drangolin Plume",
+      "icon": "👤",
       "cost": "5 Malice",
       "keywords": [
         "-"
@@ -81,6 +83,7 @@
     },
     {
       "name": "Erupt",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

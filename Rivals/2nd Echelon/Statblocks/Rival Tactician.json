@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Mark Targets",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Preserve and Protect",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Take the Opening",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

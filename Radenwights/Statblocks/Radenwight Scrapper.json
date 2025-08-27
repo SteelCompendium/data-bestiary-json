@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Buckler Bash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -46,6 +47,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

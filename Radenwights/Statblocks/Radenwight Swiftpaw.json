@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Rapier Flunge",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -45,6 +46,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

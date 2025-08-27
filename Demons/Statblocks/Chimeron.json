@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Flux Gnash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Pain Absorption",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

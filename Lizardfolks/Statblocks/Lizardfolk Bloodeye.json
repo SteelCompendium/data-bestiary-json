@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Bola Knock",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -53,6 +54,7 @@
     },
     {
       "name": "Bloodshot",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Ranged",

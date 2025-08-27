@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Tentacle Grab",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Dampening Grenade",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Psionic",
@@ -96,6 +98,7 @@
     },
     {
       "name": "Mind Blown",
+      "icon": "🗡",
       "cost": "7 Malice",
       "keywords": [
         "Melee",
@@ -120,6 +123,7 @@
     },
     {
       "name": "You Come With Me",
+      "icon": "👤",
       "keywords": [
         "Psionic"
       ],
@@ -134,6 +138,7 @@
     },
     {
       "name": "Adaptability",
+      "icon": "❗️",
       "keywords": [
         "Psionic"
       ],
@@ -150,6 +155,7 @@
     },
     {
       "name": "See Only Me",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -170,6 +176,7 @@
     },
     {
       "name": "Phantom Pain",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Psionic"
@@ -186,6 +193,7 @@
     },
     {
       "name": "Mindshatter",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

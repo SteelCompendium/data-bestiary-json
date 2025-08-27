@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Elemental Discharge",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Power Burst",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

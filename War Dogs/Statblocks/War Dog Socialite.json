@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Call to Self-Sabotage",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",

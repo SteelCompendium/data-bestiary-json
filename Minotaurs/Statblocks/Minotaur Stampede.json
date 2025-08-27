@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Bull Rush",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

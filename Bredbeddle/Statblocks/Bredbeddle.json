@@ -37,7 +37,7 @@
       "name": "Heady or Not",
       "effects": [
         {
-          "effect": "While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.\nA creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a free strike against them."
+          "effect": "While headless, the bredbeddle can move into a space containing a severed head and attach it to their neck as a main action. Doing so physically transforms the bredbeddle, who takes on the appearance, size, weight, and stability of the head's original owner. If the bredbeddle takes the form of a creature of size 1L or smaller, the distance of their melee and burst area abilities decreases by 1. These effects last until the bredbeddle is killed or beheaded, or until the head falls off after 24 hours. A head that falls off this way can no longer be attached to this bredbeddle.\n\nA creature must succeed on a **hard Might test** made as a maneuver to rip a head off the bredbeddle. If they fail, the bredbeddle can make a free strike against them."
         }
       ]
     },
@@ -53,6 +53,7 @@
   "abilities": [
     {
       "name": "Executioner's Swing",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -76,6 +77,7 @@
     },
     {
       "name": "Lop",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -101,6 +103,7 @@
     },
     {
       "name": "Scramble",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -116,6 +119,7 @@
     },
     {
       "name": "Headway",
+      "icon": "🏹",
       "cost": "5 Malice",
       "keywords": [
         "Ranged",
@@ -140,6 +144,7 @@
     },
     {
       "name": "Envious Imitation",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic"
@@ -157,6 +162,7 @@
     },
     {
       "name": "Turn Green",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -180,6 +186,7 @@
     },
     {
       "name": "Challenge",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -199,6 +206,7 @@
     },
     {
       "name": "Headlam Rampage",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Melee",

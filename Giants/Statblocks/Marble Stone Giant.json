@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Marble From a Great Sling",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Far Flung",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -96,6 +98,7 @@
     },
     {
       "name": "Polish Stone Shape",
+      "icon": "🔳",
       "keywords": [
         "Area"
       ],
@@ -111,6 +114,7 @@
     },
     {
       "name": "Break Armor",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

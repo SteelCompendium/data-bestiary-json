@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Hollowbone Slug",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

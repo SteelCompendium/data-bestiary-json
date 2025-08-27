@@ -66,6 +66,7 @@
   "abilities": [
     {
       "name": "Lightning Beam",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",

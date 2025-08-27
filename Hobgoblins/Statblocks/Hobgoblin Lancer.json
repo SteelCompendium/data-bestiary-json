@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Grim Thrust",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

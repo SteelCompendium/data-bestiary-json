@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Nimble Step",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Numb",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee",

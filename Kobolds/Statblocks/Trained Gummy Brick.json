@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Engulf",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "You Didn't Pay Attention!",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

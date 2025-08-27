@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Blotting Bolt",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Enemies in the Dark",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",

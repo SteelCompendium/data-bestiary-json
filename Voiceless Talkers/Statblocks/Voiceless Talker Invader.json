@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Tentacle",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Psionic Boom",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -79,6 +81,7 @@
     },
     {
       "name": "Tentacle Toss",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Psionic"
@@ -101,6 +104,7 @@
     },
     {
       "name": "Brain Drain",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Psionic"

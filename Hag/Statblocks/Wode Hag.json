@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Corrosive Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Soul Steal",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic"
@@ -92,6 +94,7 @@
     },
     {
       "name": "Shapeshifter",
+      "icon": "👤",
       "keywords": [
         "Magic"
       ],
@@ -111,6 +114,7 @@
     },
     {
       "name": "Turned Upside Down",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -135,6 +139,7 @@
     },
     {
       "name": "Snackies for Sweeties",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -165,6 +170,7 @@
     },
     {
       "name": "Predator's Alacrity",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -182,6 +188,7 @@
     },
     {
       "name": "Open the Oven",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

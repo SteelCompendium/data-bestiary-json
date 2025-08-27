@@ -48,6 +48,7 @@
   "abilities": [
     {
       "name": "Dolabra and Net",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

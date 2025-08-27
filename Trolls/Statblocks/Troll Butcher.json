@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Savoring Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Rotten Scraps",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Ranged"
@@ -90,6 +92,7 @@
     },
     {
       "name": "Gourmet Flesh",
+      "icon": "👤",
       "cost": "2 Malice",
       "keywords": [
         "-"
@@ -106,6 +109,7 @@
     },
     {
       "name": "Acquired Taste",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

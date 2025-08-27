@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Conditioning Spear",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Highest Posthumous Promotion",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -86,6 +88,7 @@
     },
     {
       "name": "Final Orders",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Ranged"
@@ -103,6 +106,7 @@
     },
     {
       "name": "Combined Arms",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -119,6 +123,7 @@
     },
     {
       "name": "Make an Example of Them",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Magic",
@@ -136,6 +141,7 @@
     },
     {
       "name": "Claim Them for the Body Banks",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

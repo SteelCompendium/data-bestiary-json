@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Dine and Dash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Dweomer Plume",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

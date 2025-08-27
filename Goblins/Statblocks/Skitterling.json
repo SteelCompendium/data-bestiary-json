@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

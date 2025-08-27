@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Jumplance",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

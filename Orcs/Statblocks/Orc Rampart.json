@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "My Spear, My Foe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Castling",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -71,6 +73,7 @@
     },
     {
       "name": "No.",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

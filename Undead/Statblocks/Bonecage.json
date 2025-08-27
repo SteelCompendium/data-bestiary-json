@@ -28,6 +28,7 @@
   "abilities": [
     {
       "name": "Ribcage Chomp",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Labyrinth of Bone",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",

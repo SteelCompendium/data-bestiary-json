@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Houndblade",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -63,6 +64,7 @@
     },
     {
       "name": "Get Them, You Dolts! 1 Malice per target",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -78,6 +80,7 @@
     },
     {
       "name": "Sneering Disregard",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
@@ -94,6 +97,7 @@
     },
     {
       "name": "Enter the Fray",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -116,6 +120,7 @@
     },
     {
       "name": "Lay Waste",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -140,6 +145,7 @@
     },
     {
       "name": "You Would Dare?!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

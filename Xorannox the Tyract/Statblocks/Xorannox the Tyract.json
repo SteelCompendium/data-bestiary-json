@@ -62,6 +62,7 @@
   "abilities": [
     {
       "name": "Toothful Thrashing",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -82,6 +83,7 @@
     },
     {
       "name": "Grav Spike",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Psionic"
@@ -104,6 +106,7 @@
     },
     {
       "name": "Optical Collusion",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -119,6 +122,7 @@
     },
     {
       "name": "Shutout",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area"
@@ -135,6 +139,7 @@
     },
     {
       "name": "Cower!",
+      "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -152,6 +157,7 @@
     },
     {
       "name": "Disruption Beam",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Psionic",
@@ -172,6 +178,7 @@
     },
     {
       "name": "All Eyes, All Rise",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -188,6 +195,7 @@
     },
     {
       "name": "Panoptibeam",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

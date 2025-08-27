@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Pile Bunker Gauntlet",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Surging Power",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

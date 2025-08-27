@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Infernal Injunction",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Adjudicator's Interdiction",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -87,6 +89,7 @@
     },
     {
       "name": "Quid Pro Quo",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -103,6 +106,7 @@
     },
     {
       "name": "Devilish Charm",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

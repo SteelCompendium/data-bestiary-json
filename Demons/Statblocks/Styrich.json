@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Hair Whip",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Tangled Nest",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"

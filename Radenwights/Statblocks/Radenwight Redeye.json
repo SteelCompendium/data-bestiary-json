@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Eyes-On-Me-Shot",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -45,6 +46,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Crimson Embrace",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Arise, My Children",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
@@ -80,6 +82,7 @@
     },
     {
       "name": "Redirected Charm",
+      "icon": "❗️",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -98,6 +101,7 @@
     },
     {
       "name": "Let Us Feast!",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Ranged"
@@ -114,6 +118,7 @@
     },
     {
       "name": "Red Mist Rising",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Snaking Entrails",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Wall of Flesh",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",

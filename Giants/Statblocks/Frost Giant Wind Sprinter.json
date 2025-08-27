@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Cold Axe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Blizzard Surge",
+      "icon": "👤",
       "cost": "5 Malice",
       "keywords": [
         "-"
@@ -84,6 +86,7 @@
     },
     {
       "name": "Ice Dance",
+      "icon": "🗡",
       "keywords": [
         "Melee"
       ],
@@ -99,6 +102,7 @@
     },
     {
       "name": "Begone, Smallfolk!",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

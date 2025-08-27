@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Refulgent Beams",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Noxious Bubble",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",

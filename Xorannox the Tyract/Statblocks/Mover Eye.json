@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Telekinetic Beam",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",

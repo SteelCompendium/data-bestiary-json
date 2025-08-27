@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Knife in the Dark",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Shadow Step",
+      "icon": "👤",
       "keywords": [
         "Magic"
       ],

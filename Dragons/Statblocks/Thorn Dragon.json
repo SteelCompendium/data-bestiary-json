@@ -81,7 +81,10 @@
       "name": "Afflictive Overgrowth",
       "effects": [
         {
-          "effect": "The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.\n- **≤11:** 12 poison damage; restrained (save ends)\n- **12-16:** 9 poison damage; bleeding (save ends)\n- **17+:** 5 poison damage; bleeding (EoT)"
+          "effect": "The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.",
+          "t1": "12 poison damage; restrained (save ends)",
+          "t2": "9 poison damage; bleeding (save ends)",
+          "t3": "5 poison damage; bleeding (EoT)"
         }
       ]
     }
@@ -89,6 +92,7 @@
   "abilities": [
     {
       "name": "Virulent Breath",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -112,6 +116,7 @@
     },
     {
       "name": "Spinous Tail Swing",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Melee",
@@ -136,6 +141,7 @@
     },
     {
       "name": "Investiture of Verdure",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -152,6 +158,7 @@
     },
     {
       "name": "Prickly Situation",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Ranged"
@@ -169,6 +176,7 @@
     },
     {
       "name": "Thorny Scales",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Melee"
@@ -186,6 +194,7 @@
     },
     {
       "name": "Briar Bindings",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -205,6 +214,7 @@
     },
     {
       "name": "Thorned Armor",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -221,6 +231,7 @@
     },
     {
       "name": "Malign Thicket",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

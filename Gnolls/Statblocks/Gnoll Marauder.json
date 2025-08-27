@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Fury Flail",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Marauder's Cackletongue",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"

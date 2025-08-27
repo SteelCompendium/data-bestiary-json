@@ -61,6 +61,7 @@
   "abilities": [
     {
       "name": "Vine Lash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -89,6 +90,7 @@
     },
     {
       "name": "Seismic Slam",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"
@@ -107,6 +109,7 @@
     },
     {
       "name": "Engulf",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee"
@@ -127,6 +130,7 @@
     },
     {
       "name": "Leech",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -142,6 +146,7 @@
     },
     {
       "name": "Tether Down",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -153,6 +158,7 @@
     },
     {
       "name": "Ravenous Overgrowth",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -172,6 +178,7 @@
     },
     {
       "name": "Composting",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Melee"
@@ -188,6 +195,7 @@
     },
     {
       "name": "Exposed Crux",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Melee"

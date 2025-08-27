@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Lumina Mark",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Mourning Till Dusk",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

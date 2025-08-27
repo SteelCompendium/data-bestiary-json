@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Instill Regret",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Recall",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"

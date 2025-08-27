@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Tower Shield Smash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Thunder Rush",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

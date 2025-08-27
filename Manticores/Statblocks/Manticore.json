@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Carnivorous Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Tail Spike",
+      "icon": "🏹",
       "keywords": [
         "Ranged",
         "Strike",
@@ -93,6 +95,7 @@
     },
     {
       "name": "Harrying Claws",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -112,6 +115,7 @@
     },
     {
       "name": "Reflexive Instinct",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
@@ -129,6 +133,7 @@
     },
     {
       "name": "Trumpeting Howl",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -148,6 +153,7 @@
     },
     {
       "name": "Cornered Predator",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -164,6 +170,7 @@
     },
     {
       "name": "Debilitating Poison",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

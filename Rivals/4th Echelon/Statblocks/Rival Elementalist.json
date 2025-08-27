@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Viridescent Storm",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Green",
@@ -57,6 +58,7 @@
     },
     {
       "name": "The World Consumes",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -76,6 +78,7 @@
     },
     {
       "name": "Breach of Nihility",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Void"

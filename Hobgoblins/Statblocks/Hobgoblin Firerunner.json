@@ -53,6 +53,7 @@
   "abilities": [
     {
       "name": "Flaming Kick",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -74,6 +75,7 @@
     },
     {
       "name": "Blazing Trail",
+      "icon": "👤",
       "keywords": [
         "Magic"
       ],

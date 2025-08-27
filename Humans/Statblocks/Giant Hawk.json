@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Talons",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Dive",
+      "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "-"

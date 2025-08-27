@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Moment of Brutality",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Cackler's Cackletongue",
+      "icon": "❇️",
       "cost": "4 Malice",
       "keywords": [
         "Area",

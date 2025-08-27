@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Bluster",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Convocation of Squalls",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -78,6 +80,7 @@
     },
     {
       "name": "Thunderclap",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Blightblade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -74,6 +75,7 @@
     },
     {
       "name": "On My Mark!",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],

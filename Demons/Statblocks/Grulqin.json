@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Spinning Bone Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

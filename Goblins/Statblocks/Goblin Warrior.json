@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Spear Charge",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -54,6 +55,7 @@
     },
     {
       "name": "Bury the Point",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee",

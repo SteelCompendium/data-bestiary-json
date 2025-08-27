@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Ensnarer Cannon",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -49,7 +50,7 @@
           "roll": "Power Roll + 4",
           "t1": "11 corruption damage; A < 2 restrained (save ends)",
           "t2": "16 corruption damage; A < 3 restrained (save ends)",
-          "t3": "19 corruption damage; A < 4 restrained (save ends)\\\\ |"
+          "t3": "19 corruption damage; A < 4 restrained (save ends)\\*\\* |"
         },
         {
           "effect": "Two ensnarers appear in unoccupied spaces adjacent to each target. On a tier 3 outcome, four ensnarers appear.",
@@ -59,6 +60,7 @@
     },
     {
       "name": "Demonic Egress",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area"
@@ -79,6 +81,7 @@
     },
     {
       "name": "Abyssal Protectors",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -97,6 +100,7 @@
     },
     {
       "name": "Frenzied Deluge",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Ranged"
@@ -115,6 +119,7 @@
     },
     {
       "name": "Fold Space",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -131,6 +136,7 @@
     },
     {
       "name": "Blood of the Abyss",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

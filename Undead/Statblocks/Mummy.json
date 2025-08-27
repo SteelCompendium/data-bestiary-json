@@ -30,6 +30,7 @@
   "abilities": [
     {
       "name": "Accursed Bindings",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -54,6 +55,7 @@
     },
     {
       "name": "Eldritch Curse",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -77,6 +79,7 @@
     },
     {
       "name": "Blast of Mummy Dust",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Area"

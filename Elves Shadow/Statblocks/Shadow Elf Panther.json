@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Dusk Cleave",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Bladestorm",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

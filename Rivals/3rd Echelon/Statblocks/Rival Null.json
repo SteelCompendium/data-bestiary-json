@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Inertial Flow",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Stun",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",

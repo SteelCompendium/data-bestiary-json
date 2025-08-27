@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Signum",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Glory to the Legion",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"

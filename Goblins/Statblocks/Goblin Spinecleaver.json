@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Axe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

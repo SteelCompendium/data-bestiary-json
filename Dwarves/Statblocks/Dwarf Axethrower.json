@@ -24,6 +24,7 @@
   "abilities": [
     {
       "name": "Whistling Axes",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

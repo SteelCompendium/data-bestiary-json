@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Gore",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Reclamation",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area",

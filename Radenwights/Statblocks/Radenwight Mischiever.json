@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Dagger Dance",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -50,6 +51,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

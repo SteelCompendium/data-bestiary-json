@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Arm and a Leg",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

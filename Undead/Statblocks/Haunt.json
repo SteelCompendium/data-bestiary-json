@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Lash Out",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Crushing Despair",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",

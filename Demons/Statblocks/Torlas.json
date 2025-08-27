@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Floor to Flesh",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Grasping Tendons",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"

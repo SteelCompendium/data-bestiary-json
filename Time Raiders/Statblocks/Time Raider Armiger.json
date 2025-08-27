@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Serrated Saber",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Shared Sickness",
+      "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"

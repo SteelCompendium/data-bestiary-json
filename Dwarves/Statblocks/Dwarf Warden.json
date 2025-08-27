@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Concussive Maul",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Concussive Shockwave",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",

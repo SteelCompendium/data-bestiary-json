@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Go.",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged"
@@ -64,6 +65,7 @@
     },
     {
       "name": "Mace Lariat",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -83,6 +85,7 @@
     },
     {
       "name": "Lockdown",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged"
@@ -99,6 +102,7 @@
     },
     {
       "name": "Courtesy Call",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
@@ -115,6 +119,7 @@
     },
     {
       "name": "Close In",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "\\\\ Area\\\\"
@@ -134,6 +139,7 @@
     },
     {
       "name": "Familial Reinforcements",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -150,6 +156,7 @@
     },
     {
       "name": "I'll Do This Myself",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

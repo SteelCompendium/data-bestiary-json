@@ -53,6 +53,7 @@
   "abilities": [
     {
       "name": "Punishing Flail",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -77,6 +78,7 @@
     },
     {
       "name": "I'll Cut A Path",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Weapon"
@@ -99,6 +101,7 @@
     },
     {
       "name": "Watch Your Six!",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -115,6 +118,7 @@
     },
     {
       "name": "Roaring Gambit",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -138,6 +142,7 @@
     },
     {
       "name": "Wings of Second Wind",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -154,6 +159,7 @@
     },
     {
       "name": "Snap, Crackle, Pop",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

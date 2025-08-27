@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Night Knife",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -58,6 +59,7 @@
     },
     {
       "name": "The Lay of Cor'thoroth",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",

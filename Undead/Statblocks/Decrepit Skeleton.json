@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Bone Bow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

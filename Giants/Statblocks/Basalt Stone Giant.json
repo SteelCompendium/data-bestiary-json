@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Rune-Signed Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -74,6 +75,7 @@
     },
     {
       "name": "Forked Knife",
+      "icon": "⚔️",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -99,6 +101,7 @@
     },
     {
       "name": "Cobblestone Shape",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -114,6 +117,7 @@
     },
     {
       "name": "Resonate Rune",
+      "icon": "❗️",
       "keywords": [
         "Area",
         "Magic"

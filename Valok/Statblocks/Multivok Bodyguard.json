@@ -50,6 +50,7 @@
   "abilities": [
     {
       "name": "Gatling Bolt Gun",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Valiar Axe",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -94,6 +96,7 @@
     },
     {
       "name": "Magnetic Pull",
+      "icon": "❇️",
       "keywords": [
         "Area"
       ],
@@ -113,6 +116,7 @@
     },
     {
       "name": "Valiar Cloak",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Violent Transformation",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Aggressive Mimicry",
+      "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "Magic"

@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Concealed Dagger",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

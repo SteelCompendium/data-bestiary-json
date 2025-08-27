@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Lockjaw",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Flurry of Bites",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -76,6 +78,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

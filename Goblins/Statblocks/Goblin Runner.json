@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Club Charge",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

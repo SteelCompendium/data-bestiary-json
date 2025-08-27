@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Four-Way Grasp",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Cerebral Suplex",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike"
@@ -90,6 +92,7 @@
     },
     {
       "name": "Lumber",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -105,6 +108,7 @@
     },
     {
       "name": "Brawny Buffe",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

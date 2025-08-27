@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Psionic Slam",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Split Space",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -78,6 +80,7 @@
     },
     {
       "name": "Invigorated March",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Psionic"

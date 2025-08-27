@@ -42,6 +42,7 @@
   "abilities": [
     {
       "name": "Earth Bump",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

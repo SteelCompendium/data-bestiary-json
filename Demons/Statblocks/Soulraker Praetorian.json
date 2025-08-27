@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Barbed Stinger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Stinging Departure",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "-"

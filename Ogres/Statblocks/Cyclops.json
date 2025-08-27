@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Wild Slam",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",

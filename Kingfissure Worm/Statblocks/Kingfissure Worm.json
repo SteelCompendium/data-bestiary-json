@@ -78,6 +78,7 @@
   "abilities": [
     {
       "name": "Tongue Grab",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -102,6 +103,7 @@
     },
     {
       "name": "Maw",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Melee",
@@ -126,6 +128,7 @@
     },
     {
       "name": "Consume",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee"
@@ -142,6 +145,7 @@
     },
     {
       "name": "Tongue Whip",
+      "icon": "⚔️",
       "keywords": [
         "Melee",
         "Ranged",
@@ -160,6 +164,7 @@
     },
     {
       "name": "Tearing Recoil",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],
@@ -176,6 +181,7 @@
     },
     {
       "name": "King's Fissure",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -200,6 +206,7 @@
     },
     {
       "name": "Earth Breach",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Weapon"
@@ -216,6 +223,7 @@
     },
     {
       "name": "Better Out Than In",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

@@ -48,6 +48,7 @@
   "abilities": [
     {
       "name": "Shrapnel Whip",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Carnage's Cackletongue",
+      "icon": "❇️",
       "cost": "4 Malice",
       "keywords": [
         "Area"
@@ -88,6 +90,7 @@
     },
     {
       "name": "Call Up From the Abyss",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Magic",
@@ -105,6 +108,7 @@
     },
     {
       "name": "Edacity",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -121,6 +125,7 @@
     },
     {
       "name": "Deepest Wounds",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

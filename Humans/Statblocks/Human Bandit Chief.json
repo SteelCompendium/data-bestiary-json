@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Whip and Magic Longsword",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Kneel, Peasant!",
+      "icon": "🗡",
       "keywords": [
         "Melee"
       ],
@@ -94,6 +96,7 @@
     },
     {
       "name": "Bloodstones",
+      "icon": "❗️",
       "keywords": [
         "Magic"
       ],
@@ -110,6 +113,7 @@
     },
     {
       "name": "Shoot!",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -126,6 +130,7 @@
     },
     {
       "name": "Form Up!",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -142,6 +147,7 @@
     },
     {
       "name": "Lead From the Front",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

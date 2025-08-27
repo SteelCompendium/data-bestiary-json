@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Sunderbuss",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Buss Buffe",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Area",

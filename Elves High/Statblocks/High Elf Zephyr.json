@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Sweeping Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Windwalk",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Portal to the Firing Line",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Portal to the Mantle",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -96,6 +98,7 @@
     },
     {
       "name": "Portal to the Void",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",
@@ -123,6 +126,7 @@
     },
     {
       "name": "Portal to the Sky",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

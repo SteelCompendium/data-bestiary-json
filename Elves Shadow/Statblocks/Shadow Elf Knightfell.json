@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Suffusing Strike",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -54,6 +55,7 @@
     },
     {
       "name": "Trick of the Eye",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Melee"

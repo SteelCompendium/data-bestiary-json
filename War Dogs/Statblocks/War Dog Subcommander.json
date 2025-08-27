@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Command Saber",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Posthumous Promotion",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"

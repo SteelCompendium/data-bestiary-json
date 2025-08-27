@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Shocking Bolt",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Arcane Telum",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",

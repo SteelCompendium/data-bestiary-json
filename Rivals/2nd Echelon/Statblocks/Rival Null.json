@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Agile Stride",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Deaden",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee",

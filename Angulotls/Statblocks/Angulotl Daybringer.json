@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Acid Grasp",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Sun Lamp",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -87,6 +89,7 @@
     },
     {
       "name": "Tongue Slap",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -107,6 +110,7 @@
     },
     {
       "name": "New Dawn",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Ranged"
@@ -123,6 +127,7 @@
     },
     {
       "name": "Plague of Frogs",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -139,6 +144,7 @@
     },
     {
       "name": "It Is Day",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

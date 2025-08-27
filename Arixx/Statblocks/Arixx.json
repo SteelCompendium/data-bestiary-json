@@ -54,6 +54,7 @@
   "abilities": [
     {
       "name": "Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -78,6 +79,7 @@
     },
     {
       "name": "Claw Swing",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -101,6 +103,7 @@
     },
     {
       "name": "Spitfire",
+      "icon": "🏹",
       "keywords": [
         "Ranged",
         "Strike",
@@ -124,6 +127,7 @@
     },
     {
       "name": "Dirt Devil",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -146,6 +150,7 @@
     },
     {
       "name": "Dust Cloud",
+      "icon": "❇️",
       "keywords": [
         "Area"
       ],
@@ -161,6 +166,7 @@
     },
     {
       "name": "Skitter",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],
@@ -177,6 +183,7 @@
     },
     {
       "name": "Acid Spew",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -200,6 +207,7 @@
     },
     {
       "name": "Sinkhole",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -216,6 +224,7 @@
     },
     {
       "name": "Acid and Claws",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

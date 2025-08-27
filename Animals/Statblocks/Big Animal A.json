@@ -31,6 +31,7 @@
   "abilities": [
     {
       "name": "Natural Weapon",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -51,6 +52,7 @@
     },
     {
       "name": "Toss",
+      "icon": "🗡",
       "keywords": [
         "Melee"
       ],
@@ -70,6 +72,7 @@
     },
     {
       "name": "Juke",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

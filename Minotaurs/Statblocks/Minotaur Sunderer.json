@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Spiked Maul",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Fearsome Bay",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -80,6 +82,7 @@
     },
     {
       "name": "Disemboweling Horns",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Charge",
@@ -109,6 +112,7 @@
     },
     {
       "name": "Retaliatory Strike",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

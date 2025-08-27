@@ -42,6 +42,7 @@
   "abilities": [
     {
       "name": "Manifold Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Grasping Shadow",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -84,6 +86,7 @@
     },
     {
       "name": "Put It Out!",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
@@ -100,6 +103,7 @@
     },
     {
       "name": "From the Shadows",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Ranged"
@@ -116,6 +120,7 @@
     },
     {
       "name": "Cast Away All Hope",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -133,6 +138,7 @@
     },
     {
       "name": "Umbral Hunger",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

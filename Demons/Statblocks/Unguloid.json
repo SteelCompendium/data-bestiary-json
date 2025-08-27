@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Gore Horn",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

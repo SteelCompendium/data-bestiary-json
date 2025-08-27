@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Soul Burn",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Burning Legion",
+      "icon": "🏹",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

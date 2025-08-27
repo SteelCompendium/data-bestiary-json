@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Golden Sickles",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Psi-Sickle",
+      "icon": "🏹",
       "keywords": [
         "Psionic",
         "Ranged",

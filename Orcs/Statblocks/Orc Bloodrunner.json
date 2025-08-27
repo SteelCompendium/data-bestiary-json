@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Shield Bash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

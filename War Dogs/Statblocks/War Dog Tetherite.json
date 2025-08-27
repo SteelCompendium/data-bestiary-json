@@ -58,6 +58,7 @@
   "abilities": [
     {
       "name": "Banded Dagger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -78,6 +79,7 @@
     },
     {
       "name": "Fire for Effect",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",

@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Stunning Surge",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -62,6 +63,7 @@
     },
     {
       "name": "Overcharge",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Thunderstruck",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Melee"
@@ -97,6 +100,7 @@
     },
     {
       "name": "Magnetic Trickery",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -114,6 +118,7 @@
     },
     {
       "name": "Conductor of Combat",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -131,6 +136,7 @@
     },
     {
       "name": "Unlimited Power!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

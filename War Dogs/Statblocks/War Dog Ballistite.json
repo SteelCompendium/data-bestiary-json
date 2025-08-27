@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Biokinetic Ballista",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Kill Zone",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

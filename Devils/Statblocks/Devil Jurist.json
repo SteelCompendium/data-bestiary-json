@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Fire and Brimstone",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Dismissal with Prejudice",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -81,7 +83,10 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "**Power Roll + 3**\n- **≤11:** 6 damage; slide 1\n- **12-16:** 10 damage; slide 3\n- **17+:** 12 damage; slide 5"
+          "effect": "**Power Roll + 3**",
+          "t1": "6 damage; slide 1",
+          "t2": "10 damage; slide 3",
+          "t3": "12 damage; slide 5"
         },
         {
           "effect": "If the target has M < 2, the forced distance movement gains a +3 bonus.",
@@ -91,6 +96,7 @@
     },
     {
       "name": "Ashes to Ashes",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -106,6 +112,7 @@
     },
     {
       "name": "Devilish Charm",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

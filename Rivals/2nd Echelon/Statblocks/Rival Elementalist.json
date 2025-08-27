@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "The Thriving Wilds",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Green",
@@ -53,6 +54,7 @@
     },
     {
       "name": "The Depths Hunger",
+      "icon": "🔳",
       "cost": "4 Malice",
       "keywords": [
         "Area",
@@ -78,6 +80,7 @@
     },
     {
       "name": "Fissures of Darkness",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Void"

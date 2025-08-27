@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Razor Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Tail Whip",
+      "icon": "🗡",
       "cost": "2 Malice",
       "keywords": [
         "Melee",

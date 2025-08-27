@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Wilting Visions",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Demonwarp Tears",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",

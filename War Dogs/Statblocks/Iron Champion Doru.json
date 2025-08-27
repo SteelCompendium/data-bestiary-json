@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Houndaxe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -77,6 +78,7 @@
     },
     {
       "name": "Bloody Whirlwind",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -100,6 +102,7 @@
     },
     {
       "name": "Hunting Leap",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -115,6 +118,7 @@
     },
     {
       "name": "Laugh It Off",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

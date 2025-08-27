@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Warp Touch",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Soul Flay",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area"

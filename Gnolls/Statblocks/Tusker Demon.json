@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Gore",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Vengeful Tusker",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

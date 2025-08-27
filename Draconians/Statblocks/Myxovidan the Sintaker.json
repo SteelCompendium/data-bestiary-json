@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Breaking Palm",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Expunging Exhalation",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -79,6 +81,7 @@
     },
     {
       "name": "Step and Swap",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -94,6 +97,7 @@
     },
     {
       "name": "Anyone Can Do That",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "-"

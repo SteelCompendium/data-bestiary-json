@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Houndcannon",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Iron Banner",
+      "icon": "❇️",
       "cost": "2+ Malice",
       "keywords": [
         "Area",

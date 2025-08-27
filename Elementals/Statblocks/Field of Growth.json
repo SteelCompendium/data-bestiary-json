@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Hampering Roots",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Convocation of Verdure",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -87,6 +89,7 @@
     },
     {
       "name": "Rose Thorn Lash",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

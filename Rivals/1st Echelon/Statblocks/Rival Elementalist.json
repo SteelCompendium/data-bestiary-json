@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "The Writhing Green",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Green",
@@ -53,6 +54,7 @@
     },
     {
       "name": "The Earth Devours",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -78,6 +80,7 @@
     },
     {
       "name": "Jaws of the Void",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Void"

@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Infernal Decree",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Compel the Jury",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged",
@@ -78,7 +80,10 @@
       "target": "Two creatures",
       "effects": [
         {
-          "effect": "**Power Roll + 4**\n- **≤11:** I < 2 the target is charmed (save ends)\n- **12-16:** I < 3 the target is charmed (save ends)\n- **17+:** I < 4 the target is charmed (save ends)"
+          "effect": "**Power Roll + 4**",
+          "t1": "I < 2 the target is charmed (save ends)",
+          "t2": "I < 3 the target is charmed (save ends)",
+          "t3": "I < 4 the target is charmed (save ends)"
         },
         {
           "effect": "While charmed this way, a creature treats the high judge as an ally, and the high judge can spend 1 Malice on their turn to make that creature move up to 3 squares.",
@@ -88,6 +93,7 @@
     },
     {
       "name": "Devilish Suggestion",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -112,6 +118,7 @@
     },
     {
       "name": "All Rise",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -135,6 +142,7 @@
     },
     {
       "name": "Heed My Decree",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -151,6 +159,7 @@
     },
     {
       "name": "Deceptive Stratagem",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Magic",

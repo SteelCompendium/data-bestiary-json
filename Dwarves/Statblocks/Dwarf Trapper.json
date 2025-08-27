@@ -23,6 +23,7 @@
   "abilities": [
     {
       "name": "Concussive Bolts",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -49,6 +50,7 @@
     },
     {
       "name": "Steam-Powered Snare",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

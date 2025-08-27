@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Psionic Intrusion",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Carpe Quadratum",
+      "icon": "🏹",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -81,6 +83,7 @@
     },
     {
       "name": "Adaptability",
+      "icon": "❗️",
       "keywords": [
         "Psionic"
       ],
@@ -97,6 +100,7 @@
     },
     {
       "name": "Show Me Who You Are",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -117,6 +121,7 @@
     },
     {
       "name": "Release the Thralls",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Psionic",
@@ -134,6 +139,7 @@
     },
     {
       "name": "Brainstorm",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

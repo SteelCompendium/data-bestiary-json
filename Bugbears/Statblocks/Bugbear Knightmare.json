@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Corrosive Blade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

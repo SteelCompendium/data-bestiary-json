@@ -48,6 +48,7 @@
   "abilities": [
     {
       "name": "Gore",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Where I End the Woods Begin",
+      "icon": "👤",
       "cost": "3 Malice",
       "keywords": [
         "-"

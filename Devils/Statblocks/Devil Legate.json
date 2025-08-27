@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Infernal Pike",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,7 +58,7 @@
           "roll": "Power Roll + 3",
           "t1": "9 damage",
           "t2": "14 damage; A < 2 slowed (save ends)",
-          "t3": "\\\\17 damage; A < 3 slowed (save ends)"
+          "t3": "\\*\\*17 damage; A < 3 slowed (save ends)"
         },
         {
           "effect": "If the targets are adjacent to each other, this ability deals an extra 3 damage.",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Writ of Execution",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Melee",
@@ -78,7 +80,10 @@
       "target": "Two creatures or objects",
       "effects": [
         {
-          "effect": "**Power Roll + 3**\n- **≤11:** 6 damage; M < 1 prone\n- **12-16:** 11 damage; M < 2 prone and can't stand (save ends)\n- \\*\\*17+:\\*\\*14 damage; M < 3 prone and can't stand (save ends)"
+          "effect": "**Power Roll + 3**",
+          "t1": "6 damage; M < 1 prone",
+          "t2": "11 damage; M < 2 prone and can't stand (save ends)",
+          "t3": "\\*\\*14 damage; M < 3 prone and can't stand (save ends)"
         },
         {
           "effect": "If this ability is used as part of the Charge main action, the legate ignores difficult terrain during the charge. Each creature and object whose space the legate moves through takes the damage from this ability, but not its additional effects.",
@@ -88,6 +93,7 @@
     },
     {
       "name": "Law and Order",
+      "icon": "🗡",
       "keywords": [
         "Melee"
       ],
@@ -103,6 +109,7 @@
     },
     {
       "name": "Devilish Charm",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

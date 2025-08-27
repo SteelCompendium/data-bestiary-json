@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Rapier and Dagger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Dagger Storm",
+      "icon": "🌀",
       "cost": "5 Malice",
       "keywords": [
         "-"

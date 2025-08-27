@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Barb Launch",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

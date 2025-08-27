@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Override",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Steal Time",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Chronopathy",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Psionic Retribution",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Psionic"

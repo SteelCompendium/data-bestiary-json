@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Mark of Agony",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Vortex of Pain",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

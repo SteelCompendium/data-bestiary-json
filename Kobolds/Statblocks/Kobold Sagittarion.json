@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Composite Bow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

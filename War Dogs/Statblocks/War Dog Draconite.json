@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Greatsword and Roar",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

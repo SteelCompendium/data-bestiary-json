@@ -52,6 +52,7 @@
   "abilities": [
     {
       "name": "Killer Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Concealing Strike",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Psionic",
@@ -92,6 +94,7 @@
     },
     {
       "name": "Mindwipe",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Psionic",
@@ -109,6 +112,7 @@
     },
     {
       "name": "Meat Shield",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

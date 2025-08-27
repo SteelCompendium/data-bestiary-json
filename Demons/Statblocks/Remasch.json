@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Abyssal Strike",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Grasping Shadow",
+      "icon": "👤",
       "cost": "3 Malice",
       "keywords": [
         "Magic"

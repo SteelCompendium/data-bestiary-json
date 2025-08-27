@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Wide Axe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Intercepting Shield",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

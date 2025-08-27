@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Heat Death",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Haunt",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -87,6 +89,7 @@
     },
     {
       "name": "Shriek",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Magic",
@@ -105,6 +108,7 @@
     },
     {
       "name": "Paranormal Activity",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -122,6 +126,7 @@
     },
     {
       "name": "Spirited Away",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -145,6 +150,7 @@
     },
     {
       "name": "Awful Wail",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

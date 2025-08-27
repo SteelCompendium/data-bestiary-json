@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Gatling Blaster",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Air Raid!",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Psionic",
@@ -87,6 +89,7 @@
     },
     {
       "name": "Precog Reflexes",
+      "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -108,6 +111,7 @@
     },
     {
       "name": "We Will Won!",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Psionic",
@@ -125,6 +129,7 @@
     },
     {
       "name": "Stick to the Plan!",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -141,6 +146,7 @@
     },
     {
       "name": "Armageddon",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

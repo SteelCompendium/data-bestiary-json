@@ -50,6 +50,7 @@
   "abilities": [
     {
       "name": "Buried in Sand",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

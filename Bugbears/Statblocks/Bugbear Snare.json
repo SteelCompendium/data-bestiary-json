@@ -26,6 +26,7 @@
   "abilities": [
     {
       "name": "Cut 'Em Low! Signature Ability",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Melee",

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Razor's Edge",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Blood Haze",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area",

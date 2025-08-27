@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Skewer",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Acidic Stun",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -92,6 +94,7 @@
     },
     {
       "name": "Takeoff",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -107,6 +110,7 @@
     },
     {
       "name": "Stay Back!",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

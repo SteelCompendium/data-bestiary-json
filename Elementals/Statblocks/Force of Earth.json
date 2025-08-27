@@ -48,6 +48,7 @@
   "abilities": [
     {
       "name": "Slam Into Dirt",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Convocation of Quartz",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -92,6 +94,7 @@
     },
     {
       "name": "Break Armor",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

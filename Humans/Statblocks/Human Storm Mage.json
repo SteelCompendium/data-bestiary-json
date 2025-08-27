@@ -28,7 +28,7 @@
       "name": "Arcane Shield",
       "effects": [
         {
-          "effect": "Any melee ability targeting the storm mage takes a bane.\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
+          "effect": "Any melee ability targeting the storm mage takes a bane.\n\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
         }
       ]
     },
@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Lightning Bolt",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Gust of Wind",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Agonizing Stinger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Acidic Anguish",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -92,6 +94,7 @@
     },
     {
       "name": "Swooping Torment",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -107,6 +110,7 @@
     },
     {
       "name": "Retaliatory Dive",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

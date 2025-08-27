@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Phase Chant",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",

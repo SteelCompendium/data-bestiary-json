@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Prehensile Tongue",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Petrifying Eye Beams",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic"
@@ -90,6 +92,7 @@
     },
     {
       "name": "Wink",
+      "icon": "⚔️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -115,6 +118,7 @@
     },
     {
       "name": "Neurotoxin Splash",
+      "icon": "❗️",
       "keywords": [
         "Area"
       ],

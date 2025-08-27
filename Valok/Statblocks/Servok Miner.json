@@ -59,6 +59,7 @@
   "abilities": [
     {
       "name": "Drill Press",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -83,6 +84,7 @@
     },
     {
       "name": "Unload Rocks",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -105,6 +107,7 @@
     },
     {
       "name": "Break Ground",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -124,6 +127,7 @@
     },
     {
       "name": "Miner Inconvenience",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Area"

@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Soul Stinger",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

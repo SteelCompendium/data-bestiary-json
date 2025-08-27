@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Barbed Tongues",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Tongue Pull",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Ranged",

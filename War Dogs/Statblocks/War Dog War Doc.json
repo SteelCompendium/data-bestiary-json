@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Syringe Crossbow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Posthumous Promotion",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -73,6 +75,7 @@
     },
     {
       "name": "Sanguine Stimulants",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

@@ -27,6 +27,7 @@
   "abilities": [
     {
       "name": "Despair Bolt",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Bite",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -73,6 +74,7 @@
     },
     {
       "name": "Dragon's Eruption",
+      "icon": "🔳",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -93,6 +95,7 @@
     },
     {
       "name": "Roar",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -112,6 +115,7 @@
     },
     {
       "name": "Lion's Toss",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Weapon"
@@ -130,6 +134,7 @@
     },
     {
       "name": "Ram's Defiance",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Strike",
@@ -145,12 +150,16 @@
           "effect": "The chimera shifts up to 5 squares. If they end this shift within distance of the target, make a power roll."
         },
         {
-          "effect": "**Power Roll + 3**\n- **≤11:** 6 damage; M < 1 slowed (save ends)\n- **12-16:** 8 damage; prone; M < 2 slowed (save ends)\n- **17+:** 10 damage; prone; M < 3 slowed (save ends)"
+          "effect": "**Power Roll + 3**",
+          "t1": "6 damage; M < 1 slowed (save ends)",
+          "t2": "8 damage; prone; M < 2 slowed (save ends)",
+          "t3": "10 damage; prone; M < 3 slowed (save ends)"
         }
       ]
     },
     {
       "name": "Overture of Destruction",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -167,6 +176,7 @@
     },
     {
       "name": "Fire Solo",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"
@@ -183,6 +193,7 @@
     },
     {
       "name": "Chorus of Destruction",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

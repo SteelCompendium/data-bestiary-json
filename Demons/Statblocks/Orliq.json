@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Soul Prism",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Blade of the Gol King",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Magic",
@@ -75,6 +76,7 @@
     },
     {
       "name": "Decree by the Jade Hand",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",
@@ -102,6 +104,7 @@
     },
     {
       "name": "Divine Vine",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged",
@@ -129,6 +132,7 @@
     },
     {
       "name": "Bead of Hell",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -147,6 +151,7 @@
     },
     {
       "name": "Is This What They Taught You?",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
@@ -163,6 +168,7 @@
     },
     {
       "name": "Shieldbreaker Talisman",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Melee"
@@ -180,6 +186,7 @@
     },
     {
       "name": "Who's Hesitating?",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],
@@ -196,6 +203,7 @@
     },
     {
       "name": "Your Obsession With Me Betrays You",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Ranged"
@@ -213,6 +221,7 @@
     },
     {
       "name": "You Would Flounder Your Assault?",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic"
@@ -230,6 +239,7 @@
     },
     {
       "name": "Phoenix Wing King",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -254,6 +264,7 @@
     },
     {
       "name": "I've Learned Their Tricks",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -274,6 +285,7 @@
     },
     {
       "name": "Awe of the Iron Crown",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

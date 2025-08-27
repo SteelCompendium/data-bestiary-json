@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Lumina Arrow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

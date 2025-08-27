@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Cacophony",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Tempo Changer",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged",
@@ -79,6 +81,7 @@
     },
     {
       "name": "Ever-Ready Rodent",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -97,6 +100,7 @@
     },
     {
       "name": "Overture",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -113,6 +117,7 @@
     },
     {
       "name": "Solo Act",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -129,6 +134,7 @@
     },
     {
       "name": "Rondo of Rat",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Wizard Ripper",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

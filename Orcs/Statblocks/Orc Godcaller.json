@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Power Chord",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -53,6 +54,7 @@
     },
     {
       "name": "Cadenza",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -73,6 +75,7 @@
     },
     {
       "name": "Rallying Ostinato",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

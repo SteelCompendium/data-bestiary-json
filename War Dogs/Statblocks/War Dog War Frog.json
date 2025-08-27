@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Poisoned Dagger",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

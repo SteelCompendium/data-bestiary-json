@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Pilium",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Flash Swipe",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Piercing Tails",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -79,6 +81,7 @@
     },
     {
       "name": "Hypnotic Mane",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -102,6 +105,7 @@
     },
     {
       "name": "Stalker's Afterimage",
+      "icon": "❗️",
       "keywords": [
         "Magic"
       ],

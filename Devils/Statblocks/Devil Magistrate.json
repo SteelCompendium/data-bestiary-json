@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Edge of the Law",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Verdict",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike",
@@ -77,7 +79,10 @@
       "target": "One creature",
       "effects": [
         {
-          "effect": "**Power Roll + 3**\n- **≤11:** 11 damage\n- **12-16:** 17 damage\n- **17+:** 21 damage"
+          "effect": "**Power Roll + 3**",
+          "t1": "11 damage",
+          "t2": "17 damage",
+          "t3": "21 damage"
         },
         {
           "effect": "This ability has a double edge if the magistrate was hidden from the target, and deals an extra 5 damage if the target is dazed.",
@@ -87,6 +92,7 @@
     },
     {
       "name": "Justice Turns Its Gaze",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -102,6 +108,7 @@
     },
     {
       "name": "Devilish Charm",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",

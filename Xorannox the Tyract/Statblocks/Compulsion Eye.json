@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Compulsion Beam",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Psionic",

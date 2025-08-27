@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Concussive Grenade",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Sleep Grenade",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Ranged",

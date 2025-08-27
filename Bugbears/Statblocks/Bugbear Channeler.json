@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Shadow Drag",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -48,6 +49,7 @@
     },
     {
       "name": "Blistering Element",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -70,6 +72,7 @@
     },
     {
       "name": "Twist Shape",
+      "icon": "🏹",
       "cost": "5 Malice",
       "keywords": [
         "Magic",
@@ -94,6 +97,7 @@
     },
     {
       "name": "Throw",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike"
@@ -114,6 +118,7 @@
     },
     {
       "name": "Catcher",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -130,6 +135,7 @@
     },
     {
       "name": "Shadow Veil",
+      "icon": "❗️",
       "keywords": [
         "Magic",
         "Ranged"

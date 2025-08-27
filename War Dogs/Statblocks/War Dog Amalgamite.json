@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Several Arms",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Posthumous Promotion",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"

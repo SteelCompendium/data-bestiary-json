@@ -42,6 +42,7 @@
   "abilities": [
     {
       "name": "Splinter Dagger",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -72,6 +73,7 @@
     },
     {
       "name": "Do Not Hesitate in the Wode",
+      "icon": "❗️",
       "cost": "3 Malice",
       "keywords": [
         "Ranged"

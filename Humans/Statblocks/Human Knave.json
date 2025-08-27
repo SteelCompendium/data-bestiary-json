@@ -52,6 +52,7 @@
   "abilities": [
     {
       "name": "Morningstar and Javelin",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

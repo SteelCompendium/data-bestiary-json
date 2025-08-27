@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Roiling Fist",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Burning Kick",
+      "icon": "🗡",
       "keywords": [
         "Charge",
         "Melee",
@@ -76,6 +78,7 @@
     },
     {
       "name": "Lava Pillar",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -95,6 +98,7 @@
     },
     {
       "name": "Fuel the Fire",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Ranged"
@@ -112,6 +116,7 @@
     },
     {
       "name": "Forward!",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -128,6 +133,7 @@
     },
     {
       "name": "Burning Legion",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -144,6 +150,7 @@
     },
     {
       "name": "All to Cinders",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

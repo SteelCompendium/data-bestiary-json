@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Elemental Charge",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -53,6 +54,7 @@
     },
     {
       "name": "Stomp",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"
@@ -75,6 +77,7 @@
     },
     {
       "name": "Buck",
+      "icon": "👤",
       "cost": "2 Malice",
       "keywords": [
         "-"

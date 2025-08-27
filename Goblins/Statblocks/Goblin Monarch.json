@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Handaxe",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Get in Here!",
+      "icon": "🏹",
       "cost": "1 Malice",
       "keywords": [
         "Ranged"
@@ -82,6 +84,7 @@
     },
     {
       "name": "Meat Shield",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -98,6 +101,7 @@
     },
     {
       "name": "What Are You Waiting For?",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -114,6 +118,7 @@
     },
     {
       "name": "Focus Fire",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Ranged"
@@ -130,6 +135,7 @@
     },
     {
       "name": "Kill!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "-"

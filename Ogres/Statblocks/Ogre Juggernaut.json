@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Pitchfork Catapult",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -65,6 +66,7 @@
     },
     {
       "name": "Earth-Breaking Jump",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"
@@ -87,6 +89,7 @@
     },
     {
       "name": "Horrible Bellow",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area"
@@ -109,6 +112,7 @@
     },
     {
       "name": "Hrraaaaaagh!",
+      "icon": "❗️",
       "keywords": [
         "ree triggered action"
       ],

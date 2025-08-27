@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Chain Shotput",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",

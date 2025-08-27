@@ -24,6 +24,7 @@
   "abilities": [
     {
       "name": "Handaxes",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",

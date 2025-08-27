@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Claw Swipes",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Crack the Earth",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Ranged"
@@ -92,6 +94,7 @@
     },
     {
       "name": "Wing Buffet",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -114,6 +117,7 @@
     },
     {
       "name": "Zephyr Feint",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Eager Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Feast",
+      "icon": "❗️",
       "keywords": [
         "Psionic"
       ],

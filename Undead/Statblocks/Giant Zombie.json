@@ -44,6 +44,7 @@
   "abilities": [
     {
       "name": "Rotten Smash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Knocking Heads",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Clobber and Clutch",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -60,6 +61,7 @@
     },
     {
       "name": "Zombie Dust",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"

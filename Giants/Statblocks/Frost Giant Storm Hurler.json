@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Ice Javelins",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -59,6 +60,7 @@
     },
     {
       "name": "Flower of Frost",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -79,6 +81,7 @@
     },
     {
       "name": "Ice Dance",
+      "icon": "🗡",
       "keywords": [
         "Melee"
       ],
@@ -94,6 +97,7 @@
     },
     {
       "name": "Frozen Retribution",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Twin Flamebelchers",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -59,6 +60,7 @@
     },
     {
       "name": "Enflame",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Growing Longsword",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Overgrowth",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

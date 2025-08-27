@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Bone Shards",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -61,6 +62,7 @@
     },
     {
       "name": "Bone Spur",
+      "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area",

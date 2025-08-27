@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Club Swing",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Grabby Hand",
+      "icon": "🗡",
       "cost": "1 Malice",
       "keywords": [
         "Melee",
@@ -80,6 +82,7 @@
     },
     {
       "name": "People Bowling",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -103,6 +106,7 @@
     },
     {
       "name": "Swat the Fly",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

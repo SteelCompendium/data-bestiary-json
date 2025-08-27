@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Violent Thrashing",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Bound Ahead",
+      "icon": "👤",
       "cost": "5 Malice",
       "keywords": [
         "-"
@@ -85,6 +87,7 @@
     },
     {
       "name": "Power Wing Buffet",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -103,6 +106,7 @@
     },
     {
       "name": "Circle and Strike",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

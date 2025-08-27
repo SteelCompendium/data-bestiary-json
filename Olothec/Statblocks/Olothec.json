@@ -65,6 +65,7 @@
   "abilities": [
     {
       "name": "Devolving Tentacles",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -89,6 +90,7 @@
     },
     {
       "name": "Slime Spew",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Weapon"
@@ -115,6 +117,7 @@
     },
     {
       "name": "Oozing Transformation",
+      "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Psionic",
@@ -151,6 +154,7 @@
     },
     {
       "name": "Jaunt",
+      "icon": "👤",
       "keywords": [
         "Psionic"
       ],
@@ -166,6 +170,7 @@
     },
     {
       "name": "Liquify",
+      "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"
@@ -183,6 +188,7 @@
     },
     {
       "name": "Horrifying Form",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Psionic",
@@ -207,6 +213,7 @@
     },
     {
       "name": "Psychic Pulse",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -224,6 +231,7 @@
     },
     {
       "name": "Return to Perfection",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

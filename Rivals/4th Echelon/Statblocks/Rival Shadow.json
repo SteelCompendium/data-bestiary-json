@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "A Hush of Ash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Envenomed Steel",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

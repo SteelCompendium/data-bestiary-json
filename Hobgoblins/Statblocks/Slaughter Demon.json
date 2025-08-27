@@ -53,6 +53,7 @@
   "abilities": [
     {
       "name": "Steely Skewer",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -77,6 +78,7 @@
     },
     {
       "name": "Tail Stinger",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -101,6 +103,7 @@
     },
     {
       "name": "Devour Soul",
+      "icon": "❗️",
       "keywords": [
         "Area",
         "Magic"

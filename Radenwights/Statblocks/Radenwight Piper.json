@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Piercing Trill",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Vivace Vivace!",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -78,6 +80,7 @@
     },
     {
       "name": "Ready Rodent",
+      "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"

@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "The Forest's Embrace",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -57,6 +58,7 @@
     },
     {
       "name": "The Natural Cycle",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -81,6 +83,7 @@
     },
     {
       "name": "Foreseen Punishment",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

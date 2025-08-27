@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Forward Assault",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Guardian From Afar",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",
@@ -80,6 +82,7 @@
     },
     {
       "name": "Battlefield Control",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],

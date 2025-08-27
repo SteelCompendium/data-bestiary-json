@@ -35,6 +35,7 @@
   "abilities": [
     {
       "name": "Vault",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",

@@ -51,6 +51,7 @@
   "abilities": [
     {
       "name": "Tooth! Tusk! Claw!",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -75,6 +76,7 @@
     },
     {
       "name": "Tumbling Gore",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",

@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Razor Claws",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Charge",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Leap",
+      "icon": "👤",
       "keywords": [
         "-"
       ],

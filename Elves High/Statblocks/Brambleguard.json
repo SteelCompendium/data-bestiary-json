@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Wall of Roses",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -49,6 +50,7 @@
     },
     {
       "name": "Whip Frenzy",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"

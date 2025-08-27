@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Eye of Surlach",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -52,6 +53,7 @@
     },
     {
       "name": "Dizzying Hex",
+      "icon": "🏹",
       "cost": "1 Malice",
       "keywords": [
         "Magic",

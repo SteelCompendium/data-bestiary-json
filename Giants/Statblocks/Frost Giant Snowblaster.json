@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Slushfall",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

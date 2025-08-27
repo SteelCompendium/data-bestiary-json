@@ -45,6 +45,7 @@
   "abilities": [
     {
       "name": "Fire Crossbow",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Fireball Volley",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

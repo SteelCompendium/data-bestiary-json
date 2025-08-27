@@ -25,6 +25,7 @@
   "abilities": [
     {
       "name": "Sucker Punch",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -49,6 +50,7 @@
     },
     {
       "name": "Shadow Cloak",
+      "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
@@ -71,6 +73,7 @@
     },
     {
       "name": "Carving Dagger",
+      "icon": "🏹",
       "keywords": [
         "Ranged",
         "Strike",
@@ -94,6 +97,7 @@
     },
     {
       "name": "Throw",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike"
@@ -114,6 +118,7 @@
     },
     {
       "name": "Catcher",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -130,6 +135,7 @@
     },
     {
       "name": "Clever Trick",
+      "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "-"

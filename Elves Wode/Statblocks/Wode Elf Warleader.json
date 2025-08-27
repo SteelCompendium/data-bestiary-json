@@ -49,6 +49,7 @@
   "abilities": [
     {
       "name": "Wodeblade",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -78,6 +79,7 @@
     },
     {
       "name": "Fairness Is a Human Concept",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -94,6 +96,7 @@
     },
     {
       "name": "Wode Sickness",
+      "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
@@ -110,6 +113,7 @@
     },
     {
       "name": "You Will All Witness my Blade",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -126,6 +130,7 @@
     },
     {
       "name": "Suppressing Volley",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area"
@@ -142,6 +147,7 @@
     },
     {
       "name": "Is It Now or Is It Then?",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

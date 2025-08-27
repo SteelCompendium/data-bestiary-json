@@ -66,6 +66,7 @@
   "abilities": [
     {
       "name": "Spear of the Damned",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -92,6 +93,7 @@
     },
     {
       "name": "Disarming Glare",
+      "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
@@ -114,6 +116,7 @@
     },
     {
       "name": "Vermilion Fangs",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -138,6 +141,7 @@
     },
     {
       "name": "Sanguineous Flourish",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area",
@@ -161,6 +165,7 @@
     },
     {
       "name": "Vengeance of Rhöl",
+      "icon": "🔳",
       "cost": "2 Malice",
       "keywords": [
         "Area",
@@ -179,6 +184,7 @@
     },
     {
       "name": "Reactive Rebuke",
+      "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Magic",
@@ -197,6 +203,7 @@
     },
     {
       "name": "Red Tide",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area",
@@ -221,6 +228,7 @@
     },
     {
       "name": "Sanguine Mist",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -245,6 +253,7 @@
     },
     {
       "name": "Fires of Dracul",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

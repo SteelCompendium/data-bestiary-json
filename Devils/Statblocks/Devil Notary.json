@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Importunity",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",

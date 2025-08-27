@@ -46,6 +46,7 @@
   "abilities": [
     {
       "name": "Soul Sword",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -71,6 +72,7 @@
     },
     {
       "name": "Take Point!",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -86,6 +88,7 @@
     },
     {
       "name": "An Army From Blood",
+      "icon": "❗️",
       "cost": "3 Malice",
       "keywords": [
         "Ranged"
@@ -103,6 +106,7 @@
     },
     {
       "name": "Advance!",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -119,6 +123,7 @@
     },
     {
       "name": "Skulls Abound",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -136,6 +141,7 @@
     },
     {
       "name": "I Am Fire! I Am Death!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area",

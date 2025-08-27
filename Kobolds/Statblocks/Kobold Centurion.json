@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Pilum",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -69,6 +70,7 @@
     },
     {
       "name": "Concentrate All Fire on That Hero!",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -88,6 +90,7 @@
     },
     {
       "name": "Testudo!",
+      "icon": "❗️",
       "keywords": [
         "Area"
       ],
@@ -104,6 +107,7 @@
     },
     {
       "name": "Firetail Pilum",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "-"
@@ -120,6 +124,7 @@
     },
     {
       "name": "Boom Pilum!",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Area",
@@ -138,6 +143,7 @@
     },
     {
       "name": "Are You Not Entertained?!",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Area"

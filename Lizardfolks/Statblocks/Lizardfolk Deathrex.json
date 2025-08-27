@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Ripper Spear",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Death Roll",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",
@@ -81,6 +83,7 @@
     },
     {
       "name": "Trundle",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -96,6 +99,7 @@
     },
     {
       "name": "Swat the Fly",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],
@@ -112,6 +116,7 @@
     },
     {
       "name": "Snack Attack",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Area"
@@ -128,6 +133,7 @@
     },
     {
       "name": "Shed Some Skin",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "-"

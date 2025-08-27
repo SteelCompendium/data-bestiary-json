@@ -36,6 +36,7 @@
   "abilities": [
     {
       "name": "Blazing Leap",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",

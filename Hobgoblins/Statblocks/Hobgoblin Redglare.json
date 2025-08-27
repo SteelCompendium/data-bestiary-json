@@ -38,6 +38,7 @@
   "abilities": [
     {
       "name": "Eye Flash",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -58,6 +59,7 @@
     },
     {
       "name": "Glare of the Old Judgments",
+      "icon": "🏹",
       "cost": "5 Malice",
       "keywords": [
         "Magic",

@@ -42,6 +42,7 @@
   "abilities": [
     {
       "name": "Earthwave",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -70,6 +71,7 @@
     },
     {
       "name": "Siegeworks",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",

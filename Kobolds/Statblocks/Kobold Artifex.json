@@ -32,6 +32,7 @@
   "abilities": [
     {
       "name": "Chain Hook",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -56,6 +57,7 @@
     },
     {
       "name": "Activate Trap",
+      "icon": "⭐️",
       "keywords": [
         "Ranged"
       ],

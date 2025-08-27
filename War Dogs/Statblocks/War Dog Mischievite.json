@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Fuse-Iron Knives",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -66,6 +67,7 @@
     },
     {
       "name": "Misdirection",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],

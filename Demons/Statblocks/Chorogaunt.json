@@ -51,6 +51,7 @@
   "abilities": [
     {
       "name": "Agonizing Harmony",
+      "icon": "❇️",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -74,6 +75,7 @@
     },
     {
       "name": "Chaotic Entrancing Harmony",
+      "icon": "❇️",
       "keywords": [
         "Area"
       ],
@@ -89,6 +91,7 @@
     },
     {
       "name": "I Thrive on Pain",
+      "icon": "❗️",
       "cost": "3 Malice",
       "keywords": [
         "Magic"
@@ -106,6 +109,7 @@
     },
     {
       "name": "Frightening Tones",
+      "icon": "☠️",
       "cost": "Villain Action 1",
       "keywords": [
         "Ranged"
@@ -122,6 +126,7 @@
     },
     {
       "name": "Bully the Weak",
+      "icon": "☠️",
       "cost": "Villain Action 2",
       "keywords": [
         "Magic",
@@ -139,6 +144,7 @@
     },
     {
       "name": "Running Cacophony",
+      "icon": "☠️",
       "cost": "Villain Action 3",
       "keywords": [
         "Magic"

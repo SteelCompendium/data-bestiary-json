@@ -37,6 +37,7 @@
   "abilities": [
     {
       "name": "Breathsnipe",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Ice Lob",
+      "icon": "🔳",
       "keywords": [
         "Area",
         "Magic",
@@ -76,6 +78,7 @@
     },
     {
       "name": "Parting Gift",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
@@ -91,6 +94,7 @@
     },
     {
       "name": "Wasn't Aiming For You",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

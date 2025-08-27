@@ -40,6 +40,7 @@
   "abilities": [
     {
       "name": "Bonebreaker",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Steelfist",
+      "icon": "🗡",
       "cost": "3 Malice",
       "keywords": [
         "Melee",

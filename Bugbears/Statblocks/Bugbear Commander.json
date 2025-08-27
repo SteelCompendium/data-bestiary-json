@@ -34,6 +34,7 @@
   "abilities": [
     {
       "name": "Inspiring Swordplay",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Melee",
@@ -58,6 +59,7 @@
     },
     {
       "name": "You Next!",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
@@ -73,6 +75,7 @@
     },
     {
       "name": "Fall Back!",
+      "icon": "❇️",
       "cost": "5 Malice",
       "keywords": [
         "Area"
@@ -89,6 +92,7 @@
     },
     {
       "name": "Throw",
+      "icon": "🗡",
       "keywords": [
         "Melee",
         "Strike"
@@ -109,6 +113,7 @@
     },
     {
       "name": "Catcher",
+      "icon": "❗️",
       "keywords": [
         "Melee"
       ],

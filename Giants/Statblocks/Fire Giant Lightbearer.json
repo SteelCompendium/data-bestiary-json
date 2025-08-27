@@ -43,6 +43,7 @@
   "abilities": [
     {
       "name": "Flamelash",
+      "icon": "🗡",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -63,6 +64,7 @@
     },
     {
       "name": "Living Blaze",
+      "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Magic",
@@ -87,6 +89,7 @@
     },
     {
       "name": "Travel By Fire",
+      "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
@@ -103,6 +106,7 @@
     },
     {
       "name": "Emergency Beacon",
+      "icon": "❗️",
       "keywords": [
         "-"
       ],

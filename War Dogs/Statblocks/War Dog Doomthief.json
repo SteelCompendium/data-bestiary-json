@@ -41,6 +41,7 @@
   "abilities": [
     {
       "name": "Ripper Shrikegun",
+      "icon": "🔳",
       "cost": "Signature Ability",
       "keywords": [
         "Area",
@@ -64,6 +65,7 @@
     },
     {
       "name": "Expanding Doom",
+      "icon": "👤",
       "cost": "4 Malice",
       "keywords": [
         "-"

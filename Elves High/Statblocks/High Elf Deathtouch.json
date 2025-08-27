@@ -33,6 +33,7 @@
   "abilities": [
     {
       "name": "Heartpiercer",
+      "icon": "🏹",
       "cost": "Signature Ability",
       "keywords": [
         "Ranged",
@@ -57,6 +58,7 @@
     },
     {
       "name": "Kiss of Death",
+      "icon": "🗡",
       "keywords": [
         "Magic",
         "Melee"

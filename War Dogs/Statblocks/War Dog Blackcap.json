@@ -42,6 +42,7 @@
   "abilities": [
     {
       "name": "Flesh-Eater Knife",
+      "icon": "⚔️",
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
@@ -68,6 +69,7 @@
     },
     {
       "name": "Ashes to Ashes",
+      "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
