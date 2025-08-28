@@ -1,0 +1,127 @@
+{
+  "name": "Field Ballista",
+  "type": "Siege Engine Artillery",
+  "level": 2,
+  "ev": "8",
+  "flavor": "A massive crossbow fires thick metal bolts with devastating effect.",
+  "stamina": "40",
+  "size": "2",
+  "stats": [],
+  "features": [
+    {
+      "name": "Deactivate",
+      "icon": "🌀",
+      "effects": [
+        {
+          "effect": "As a maneuver, a creature adjacent to a field ballista can make an **Agility test**.",
+          "t1": "The creature accidentally activates the **Release Bolt** ability.",
+          "t2": "The field ballista is deactivated but the creature is slowed (EoT).",
+          "t3": "The field ballista is deactivated and can't be used."
+        }
+      ]
+    },
+    {
+      "name": "Release Bolt",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "type": "Main action (Adjacent creature)",
+      "distance": "Ranged 20",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "t1": "5 damage",
+          "t2": "8 damage; M < 1 push 1",
+          "t3": "11 damage; M < 2 push 2"
+        },
+        {
+          "effect": "This ability can't be used again until the field ballista is reloaded.",
+          "name": "Effect"
+        }
+      ]
+    },
+    {
+      "name": "Reload",
+      "icon": "⭐️",
+      "keywords": [
+        "-"
+      ],
+      "type": "Main action (Adjacent creature)",
+      "distance": "-",
+      "target": "-",
+      "effects": [
+        {
+          "effect": "The field ballista is reloaded, allowing **Release Bolt** to be used again. This action can be used only once per round.",
+          "name": "Effect"
+        }
+      ]
+    },
+    {
+      "name": "Spot",
+      "icon": "⭐️",
+      "keywords": [
+        "-"
+      ],
+      "type": "Main action (Adjacent creature)",
+      "distance": "-",
+      "target": "-",
+      "effects": []
+    },
+    {
+      "name": "Move",
+      "icon": "⭐️",
+      "keywords": [
+        "-"
+      ],
+      "type": "Main action (Adjacent creature)",
+      "distance": "-",
+      "target": "-",
+      "effects": [
+        {
+          "effect": "The field ballista and the creature using this action move together up to 3 squares.",
+          "name": "Effect"
+        }
+      ]
+    },
+    {
+      "name": "Upgrades",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "**Penetrating Bolt (+2 EV)** The field ballista targets the nearest two additional creatures or objects in a straight line beyond the initial target."
+        },
+        {
+          "effect": "**Chain Bolt (+2EV)** The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.\n\n🏹 **Chain Bolt**\n| **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |\n| ------------------------------ | ----------------------------------: |\n| **📏 Ranged 20**               |       **🎯 One creature or object** |"
+        },
+        {
+          "roll": "Power Roll + 2",
+          "t1": "4 damage",
+          "t2": "7 damage; M < 1 slowed (save ends)",
+          "t3": "10 damage; M < 2 slowed (save ends)"
+        },
+        {
+          "name": "Effect",
+          "effect": "This ability can't be used again until the field ballista is reloaded.\n🏹 **Crank the Chain**\n| **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |\n| -------------------------- | ----------------------------------: |\n| **📏 Ranged 20**           |                 **🎯 One creature** |"
+        },
+        {
+          "name": "Special",
+          "effect": "The target must be slowed by the field ballista."
+        },
+        {
+          "roll": "Power Roll + 2",
+          "t1": "Pull 1",
+          "t2": "Pull",
+          "t3": "3 Pull 5"
+        },
+        {
+          "effect": "This forced movement triggers opportunity attacks.",
+          "name": "Effect"
+        }
+      ]
+    }
+  ]
+}

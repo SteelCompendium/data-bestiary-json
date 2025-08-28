@@ -1,0 +1,43 @@
+{
+  "name": "Brambles",
+  "type": "Hazard Defender",
+  "level": 1,
+  "ev": "1 per 10 x 10 thicket",
+  "flavor": "This thicket features close-growing vines tipped with sharp thorns.",
+  "stamina": "3 per square",
+  "size": "One or more squares of difficult terrain",
+  "stats": [],
+  "features": [
+    {
+      "name": "Deactivate",
+      "icon": "🌀",
+      "effects": [
+        {
+          "effect": "Each square of brambles must be individually destroyed."
+        }
+      ]
+    },
+    {
+      "name": "Activate",
+      "icon": "❕",
+      "effects": [
+        {
+          "effect": "A creature enters a square of brambles without shifting."
+        },
+        {
+          "effect": "A creature takes 1 damage per square of brambles they enter.",
+          "name": "Effect"
+        }
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "**Poisonous Thorns (+1 EV)** The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends)."
+        }
+      ]
+    }
+  ]
+}
