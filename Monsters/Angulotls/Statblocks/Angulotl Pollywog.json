@@ -50,6 +50,7 @@
         {
           "roll": "Power Roll + 2",
           "t1": "1 poison damage",
+          "t2": "2 poison damage; the pollywog can shift 1 square",
           "t3": "3 poison damage; the pollywog shifts up to 3 squares"
         }
       ]
