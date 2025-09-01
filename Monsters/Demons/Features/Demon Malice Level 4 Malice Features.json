@@ -1,0 +1,29 @@
+{
+  "name": "Demon Malice",
+  "type": "+ Malice Features",
+  "level": 4,
+  "flavor": "At the start of any level 4 or higher demon's turn, you can spend Malice to activate one of the following features.",
+  "stats": [],
+  "features": [
+    {
+      "name": "Prior Malice Features",
+      "icon": "⭐️",
+      "cost": "3-7 Malice",
+      "effects": [
+        {
+          "effect": "The demon activates a Malice feature available to demons of level or lower."
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Jaunt",
+      "icon": "👤",
+      "cost": "3 Malice",
+      "effects": [
+        {
+          "effect": "One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon's next turn, they ignore difficult terrain, can move through solid matter, and don't provoke opportunity attacks by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it."
+        }
+      ]
+    }
+  ]
+}

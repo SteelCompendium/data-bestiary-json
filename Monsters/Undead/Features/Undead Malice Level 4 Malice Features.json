@@ -1,0 +1,29 @@
+{
+  "name": "Undead Malice",
+  "type": "+ Malice Features",
+  "level": 4,
+  "flavor": "At the start of any level 4 or higher undead's turn, you can spend Malice to activate one of the following features.",
+  "stats": [],
+  "features": [
+    {
+      "name": "Prior Malice Features",
+      "icon": "⭐️",
+      "cost": "2-7+ Malice",
+      "effects": [
+        {
+          "effect": "The undead activates a Malice feature available to undead of level 3 or lower."
+        }
+      ]
+    },
+    {
+      "name": "Blood Hunger",
+      "icon": "🌀",
+      "cost": "5 Malice",
+      "effects": [
+        {
+          "effect": "One undead acting this turn uses a signature ability against a creature who is bleeding. As a free triggered action, each undead within 5 squares of the first undead moves up to their speed and can make a free strike against the same target."
+        }
+      ]
+    }
+  ]
+}
