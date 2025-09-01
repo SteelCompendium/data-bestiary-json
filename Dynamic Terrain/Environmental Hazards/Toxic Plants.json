@@ -6,7 +6,6 @@
   "flavor": "Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.",
   "stamina": "3 per square",
   "size": "One or more squares",
-  "stats": [],
   "features": [
     {
       "name": "Deactivate",

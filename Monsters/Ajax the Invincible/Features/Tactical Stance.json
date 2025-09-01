@@ -2,7 +2,6 @@
   "name": "Tactical Stance",
   "type": "Ajax Feature",
   "flavor": "At the start of each round, Ajax chooses a new stance from one of the following options and gains its benefits:",
-  "stats": [],
   "features": [
     {
       "name": "Insurgent",

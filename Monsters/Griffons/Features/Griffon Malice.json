@@ -2,7 +2,6 @@
   "name": "Griffon Malice",
   "type": "Malice Features",
   "flavor": "At the start of any griffon's turn, you can spend Malice to activate one of the following features.",
-  "stats": [],
   "features": [
     {
       "name": "Swoop",

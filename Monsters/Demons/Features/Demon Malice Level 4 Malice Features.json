@@ -3,7 +3,6 @@
   "type": "+ Malice Features",
   "level": 4,
   "flavor": "At the start of any level 4 or higher demon's turn, you can spend Malice to activate one of the following features.",
-  "stats": [],
   "features": [
     {
       "name": "Prior Malice Features",

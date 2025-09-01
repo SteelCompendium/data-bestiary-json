@@ -2,7 +2,6 @@
   "name": "Goblin Malice",
   "type": "Malice Features",
   "flavor": "At the start of any goblin's turn, you can spend Malice to activate one of the following features.",
-  "stats": [],
   "features": [
     {
       "name": "Goblin Mode",

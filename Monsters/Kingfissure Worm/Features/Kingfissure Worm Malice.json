@@ -2,7 +2,6 @@
   "name": "Kingfissure Worm Malice",
   "type": "Malice Features",
   "flavor": "At the start of a kingfissure worm's turn or when an action's trigger occurs, you can spend Malice to activate one of the following features.",
-  "stats": [],
   "features": [
     {
       "name": "Aftershock",

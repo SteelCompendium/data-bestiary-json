@@ -3,7 +3,6 @@
   "type": "+ Malice Features",
   "level": 7,
   "flavor": "At the start of any level 7 or higher war dog's turn, you can spend Malice to activate one of the following features.",
-  "stats": [],
   "features": [
     {
       "name": "Prior Malice Features",
