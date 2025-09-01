@@ -6,6 +6,7 @@
   "features": [
     {
       "name": "Net Trap",
+      "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area",

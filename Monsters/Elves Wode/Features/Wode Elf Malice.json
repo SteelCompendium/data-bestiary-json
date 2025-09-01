@@ -2,20 +2,7 @@
   "name": "Wode Elf Malice",
   "type": "Malice Features",
   "flavor": "At the start of any wode elf's turn, you can spend Malice to activate",
-  "stats": [
-    {
-      "name": "≤11",
-      "value": "8 damage; restrained (save ends)"
-    },
-    {
-      "name": "12-16",
-      "value": "Restrained (EoT)"
-    },
-    {
-      "name": "17+",
-      "value": "No effect."
-    }
-  ],
+  "stats": [],
   "features": [
     {
       "name": "Forest Network",
@@ -43,7 +30,10 @@
       "cost": "7 Malice",
       "effects": [
         {
-          "effect": "Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**."
+          "effect": "Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**.",
+          "t1": "8 damage; restrained (save ends)",
+          "t2": "Restrained (EoT)",
+          "t3": "No effect."
         }
       ]
     }
