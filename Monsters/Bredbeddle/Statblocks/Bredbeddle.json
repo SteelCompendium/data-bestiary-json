@@ -218,8 +218,8 @@
       "target": "Four creatures",
       "effects": [
         {
-          "cost": "≤11",
-          "effect": "6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).",
+          "roll": "Power Roll + 3",
+          "t1": "6 damage; bleeding (save ends); or if the target has A < 1 they are beheaded (see Lop).",
           "t2": "7 damage; bleeding (save ends); or if the target has A < 2 they are beheaded",
           "t3": "8 damage; bleeding (save ends); or if the target has A < 3 they are beheaded"
         }

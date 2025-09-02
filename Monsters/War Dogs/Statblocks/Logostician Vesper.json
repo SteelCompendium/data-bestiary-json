@@ -109,8 +109,8 @@
       "target": "Each creature and object in the area",
       "effects": [
         {
-          "cost": "≤11",
-          "effect": "A < 4 pull 3 toward the center of the area",
+          "roll": "Power Roll + 5",
+          "t1": "A < 4 pull 3 toward the center of the area",
           "t2": "A < 5 pull 3 toward the center of the area",
           "t3": "Pull 3 toward the center of the area"
         },

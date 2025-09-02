@@ -70,8 +70,8 @@
       "target": "Each enemy or object in the area",
       "effects": [
         {
-          "cost": "≤11",
-          "effect": "3 damage",
+          "roll": "Power Roll + 2",
+          "t1": "3 damage",
           "t2": "6 damage",
           "t3": "8 damage; A < 2 bleeding (save ends)"
         }
