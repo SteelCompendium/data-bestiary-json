@@ -97,7 +97,7 @@
         },
         {
           "name": "Chain Bolt",
-          "cost": "+2EV",
+          "cost": "+2 EV",
           "effect": "The field ballista's bolts are set with heavy chains that wrap around targets. The **Chain Bolt** ability replaces **Release Bolt**, and the field ballista gains the **Crank the Chain** ability.\n🏹 **Chain Bolt**\n| **- - Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |\n| ------------------------------ | ----------------------------------: |\n| **📏 Ranged 20**               |       **🎯 One creature or object** |"
         },
         {
