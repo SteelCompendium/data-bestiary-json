@@ -75,19 +75,29 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage."
+          "effect": "The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage.",
+          "name": "Stone",
+          "cost": "+1 EV"
         },
         {
-          "effect": "**Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage."
+          "effect": "The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage.",
+          "name": "Metal",
+          "cost": "+2 EV"
         },
         {
-          "effect": "**Repeating (+1 EV)** The ram automatically resets at the start of each round."
+          "effect": "The ram automatically resets at the start of each round.",
+          "name": "Repeating",
+          "cost": "+1 EV"
         },
         {
-          "effect": "**Rapid Repeating (+3 EV)** The ram automatically resets at the start of each turn."
+          "effect": "The ram automatically resets at the start of each turn.",
+          "name": "Rapid Repeating",
+          "cost": "+3 EV"
         },
         {
-          "effect": "**Multiple Rams (+3 EV per additional ram)** Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs."
+          "effect": "Multiple rams can be used to represent a larger mechanism, such as a stack of tumbling logs.",
+          "name": "Multiple Rams",
+          "cost": "+3 EV per additional ram"
         }
       ]
     },

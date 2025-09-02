@@ -58,7 +58,9 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Piloted (+4 EV)** The wheel has been fitted with a control mechanism and a pilot's seat for a creature of size 1M or smaller. As a move action, the pilot can turn the wheel in any direction while it is moving. As a main action, the pilot can leap out of the pilot's seat, landing in an adjacent space while the wheel continues moving in a straight line.\n\nWithout proper training, determining how to pilot the wheel requires a **Reason test**.",
+          "name": "Piloted",
+          "cost": "+4 EV",
+          "effect": "The wheel has been fitted with a control mechanism and a pilot's seat for a creature of size 1M or smaller. As a move action, the pilot can turn the wheel in any direction while it is moving. As a main action, the pilot can leap out of the pilot's seat, landing in an adjacent space while the wheel continues moving in a straight line.\nWithout proper training, determining how to pilot the wheel requires a **Reason test**.",
           "t1": "The wheel immediately explodes as if striking a size 3 or larger creature or object.",
           "t2": "The creature fails to pilot the wheel.",
           "t3": "The creature can pilot the wheel."

@@ -96,10 +96,14 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Air Assault (+2 EV)** The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage."
+          "effect": "The side fielding the catapult has trained their forces to safely use the siege engine to launch them across the battlefield. As an adjacent creature main action, the catapult can be used to vertical push 10 any ally of size 1L or less. If the ally lands in an unoccupied space, they take no damage.",
+          "name": "Air Assault",
+          "cost": "+2 EV"
         },
         {
-          "effect": "**Flammable (+2 EV) Arcing Shot** deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage."
+          "effect": "deals fire damage, and the area of that ability is on fire until the end of the encounter. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.",
+          "name": "Flammable",
+          "cost": "+2 EV"
         }
       ]
     }

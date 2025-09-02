@@ -44,10 +44,14 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Poison (+2 EV)** The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends)."
+          "effect": "The tips of the stakes have poison applied to them. Any creature who takes damage from the stakes also takes 1d6 poison damage at the start of each of their turns (save ends).",
+          "name": "Poison",
+          "cost": "+2 EV"
         },
         {
-          "effect": "**Sticky (+3 EV)** A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects."
+          "effect": "A sticky slime or webbing has been applied to the stakes and the ground between them. Any creature who enters an area of stakes triggers the **Sticky Stakes** ability in addition to suffering the stakes' other effects.",
+          "name": "Sticky",
+          "cost": "+3 EV"
         }
       ]
     },

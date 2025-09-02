@@ -63,10 +63,14 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Metal Pillar (+1 EV)** The pillar is made of metal, has 9 Stamina, and deals 1d6 extra damage."
+          "effect": "The pillar is made of metal, has 9 Stamina, and deals 1d6 extra damage.",
+          "name": "Metal Pillar",
+          "cost": "+1 EV"
         },
         {
-          "effect": "**Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls."
+          "effect": "Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.",
+          "name": "Multiple Pillars",
+          "cost": "+3 EV per additional pillar"
         }
       ]
     }

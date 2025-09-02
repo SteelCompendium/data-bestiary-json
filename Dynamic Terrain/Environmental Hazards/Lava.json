@@ -64,7 +64,9 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "**Magma Flow (+4 EV)** The lava is flowing! At the start of each round, add one square of lava adjacent to an existing square of lava."
+          "effect": "The lava is flowing! At the start of each round, add one square of lava adjacent to an existing square of lava.",
+          "name": "Magma Flow",
+          "cost": "+4 EV"
         }
       ]
     }
