@@ -9,8 +9,8 @@
     "Lightbender"
   ],
   "ev": "20",
-  "stamina": "0100",
-  "speed": 1,
+  "stamina": "100",
+  "speed": 10,
   "size": "2",
   "stability": 1,
   "free_strike": 6,

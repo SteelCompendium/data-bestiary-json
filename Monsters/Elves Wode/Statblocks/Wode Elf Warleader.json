@@ -6,7 +6,8 @@
   ],
   "ancestry": [
     "Fey",
-    "Humanoid. Wode Elf"
+    "Humanoid",
+    "Wode Elf"
   ],
   "ev": "20",
   "stamina": "120",

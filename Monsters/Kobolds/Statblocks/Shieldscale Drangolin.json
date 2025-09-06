@@ -6,13 +6,13 @@
   ],
   "ancestry": [
     "Kobold",
-    "Humanoid"
+    "Beast"
   ],
   "ev": "12",
   "stamina": "80",
   "speed": 7,
   "movement": "Burrow",
-  "size": "2 or 3 Size",
+  "size": "2 or 3",
   "stability": 0,
   "free_strike": 5,
   "might": 2,

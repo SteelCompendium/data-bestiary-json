@@ -10,8 +10,8 @@
     "Medusa"
   ],
   "ev": "84",
-  "stamina": "0420",
-  "speed": 1,
+  "stamina": "420",
+  "speed": 10,
   "size": "1M",
   "stability": 5,
   "free_strike": 8,
