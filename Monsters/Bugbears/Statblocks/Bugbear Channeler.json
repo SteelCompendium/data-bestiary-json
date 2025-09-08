@@ -29,7 +29,8 @@
       "cost": "Signature Ability",
       "keywords": [
         "Magic",
-        "Ranged. Strike"
+        "Ranged",
+        "Strike"
       ],
       "type": "Main Action",
       "distance": "Ranged 8",

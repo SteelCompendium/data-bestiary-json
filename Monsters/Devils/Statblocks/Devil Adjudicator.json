@@ -118,8 +118,11 @@
       "trigger": "A creature targets the adjudicator with a strike.",
       "effects": [
         {
+          "name": "Effect",
           "effect": "The target makes a Presence test",
-          "name": "Effect"
+          "t1": "The adjudicator chooses a new target for the strike.",
+          "t2": "The adjudicator halves the triggering damage.",
+          "t3": "The target takes a bane on the strike."
         }
       ]
     }

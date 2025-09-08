@@ -71,7 +71,7 @@
         },
         {
           "effect": "The bredbeddle shifts up to 2 squares, and can target additional enemies who come within distance of this ability during the shift.",
-          "name": "Malice"
+          "cost": "3 Malice"
         }
       ]
     },

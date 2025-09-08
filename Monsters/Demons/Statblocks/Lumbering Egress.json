@@ -112,8 +112,8 @@
         {
           "roll": "Power Roll + 4",
           "t1": "7 corruption damage",
-          "t2": "2 12 corruption damage",
-          "t3": "3 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target"
+          "t2": "12 corruption damage",
+          "t3": "15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target"
         }
       ]
     },
@@ -129,7 +129,7 @@
       "target": "Self",
       "effects": [
         {
-          "effect": "The egress folds into their own portal and teleports to an un occupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.",
+          "effect": "The egress folds into their own portal and teleports to an unoccupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.",
           "name": "Effect"
         }
       ]
@@ -149,8 +149,8 @@
         {
           "roll": "Power Roll + 4",
           "t1": "6 corruption damage; R < 2 weakened (save ends)",
-          "t2": "2 11 corruption damage; R < 3 weakened (save ends)",
-          "t3": "3 14 corruption damage; R < 4 weakened (save ends)"
+          "t2": "11 corruption damage; R < 3 weakened (save ends)",
+          "t3": "14 corruption damage; R < 4 weakened (save ends)"
         },
         {
           "effect": "The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.",
