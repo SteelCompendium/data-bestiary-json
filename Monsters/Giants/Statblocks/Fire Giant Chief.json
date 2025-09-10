@@ -157,7 +157,7 @@
       ],
       "type": "-",
       "distance": "10 burst",
-      "target": "Self and each fire giant ally in the are",
+      "target": "Self and each fire giant ally in the area",
       "effects": [
         {
           "name": "Effect",
