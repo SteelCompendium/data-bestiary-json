@@ -139,6 +139,34 @@
           "name": "Effect"
         }
       ]
+    },
+    {
+      "name": "Sacrifice",
+      "icon": "☠️",
+      "cost": "Villain Action 3",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "type": "-",
+      "distance": "Ranged 20",
+      "target": "Each chosen ally",
+      "effects": [
+        {
+          "effect": "Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the following ability.",
+          "name": "Effect"
+        },
+        {
+          "effect": "**Wave of Blood:**\n\n| **Area, Magic** |                         **-** |\n| --------------- | ----------------------------: |\n| **📏 20 burst** | **🎯 Each enemy in the area** |"
+        },
+        {
+          "name": "Effect",
+          "effect": "Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action",
+          "t1": "11 corruption damage",
+          "t2": "8 corruption damage",
+          "t3": "2 corruption damage"
+        }
+      ]
     }
   ]
 }
