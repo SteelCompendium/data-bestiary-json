@@ -1,0 +1,41 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - backer
+      - patron
+      - main
+
+permissions:
+  contents: write  # Grant write permissions to the contents scope
+
+jobs:
+  build_and_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for tags
+
+      - name: Create zip archive
+        run: |
+          zip -r repo.zip . -x ".git/*"
+
+      - name: Determine Tag Name
+        id: tag_name
+        run: |
+          TAG_NAME=$(date +%Y%m%d%H%M%S)
+          echo "tag=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}.$TAG_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ steps.tag_name.outputs.tag }}
+          name: Release ${{ steps.tag_name.outputs.tag }}
+          artifacts: repo.zip
+          draft: false
+          prerelease: false
+
