@@ -69,7 +69,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability"
+          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability."
         }
       ]
     },

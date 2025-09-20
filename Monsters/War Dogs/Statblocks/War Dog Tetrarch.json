@@ -58,8 +58,9 @@
     {
       "type": "feature",
       "feature_type": "ability",
-      "name": "Get Them, You Dolts! 1 Malice per target",
+      "name": "Get Them, You Dolts!",
       "icon": "🏹",
+      "cost": "1 Malice per target",
       "keywords": [
         "Ranged"
       ],

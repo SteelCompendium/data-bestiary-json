@@ -112,7 +112,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The minotaur uses theCharge main action and either Flail and Blade or Goring Horns against the target."
+          "effect": "The minotaur uses the Charge main action and either Flail and Blade or Goring Horns against the target."
         }
       ]
     },

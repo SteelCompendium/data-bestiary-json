@@ -43,9 +43,9 @@
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "tier1": "1 10 damage",
-          "tier2": "2 15 damage; M < 1 slowed (save ends)",
-          "tier3": "3 18 damage; M < 2 slowed (save ends)"
+          "tier1": "10 damage",
+          "tier2": "15 damage; M < 1 slowed (save ends)",
+          "tier3": "18 damage; M < 2 slowed (save ends)"
         },
         {
           "name": "Effect",

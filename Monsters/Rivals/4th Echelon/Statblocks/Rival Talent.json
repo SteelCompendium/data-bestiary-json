@@ -65,11 +65,14 @@
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "\\*\\*Effect:\\*\\*One ally within distance can use an additional main action on their next turn.",
           "roll": "Power Roll + 5",
           "tier1": "R < 3 slowed (save ends)",
           "tier2": "R < 4 restrained (save ends)",
           "tier3": "R < 5 restrained (save ends)"
+        },
+        {
+          "name": "Effect",
+          "effect": "One ally within distance can use an additional main action on their next turn."
         }
       ]
     },

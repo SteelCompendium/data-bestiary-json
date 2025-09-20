@@ -34,7 +34,7 @@
       "effects": [
         {
           "name": "End Effect",
-          "effect": "At the end of each of his turns, Rhodar can take 20 dam- age to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
+          "effect": "At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
         },
         {
           "name": "Solo Turns",
@@ -167,7 +167,7 @@
         },
         {
           "name": "Effect",
-          "effect": "Rhodar shifts up to his speed before or after using this ability He regains Stamina equal to half the total corruption damage dealt."
+          "effect": "Rhodar shifts up to his speed before or after using this ability. He regains Stamina equal to half the total corruption damage dealt."
         }
       ]
     },

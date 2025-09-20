@@ -87,7 +87,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The target shifts up to their speed and can use a main action"
+          "effect": "The target shifts up to their speed and can use a main action."
         }
       ]
     },
@@ -128,7 +128,7 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "The chief's shape can't be changed by any external effect"
+          "effect": "The chief's shape can't be changed by any external effect."
         }
       ]
     },

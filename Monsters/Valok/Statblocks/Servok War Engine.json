@@ -106,8 +106,8 @@
         {
           "name": "Effect",
           "effect": "Each target makes an Agility test.",
-          "tier1": "16 fire damage; the target is burning (save ends",
-          "tier2": "12 fire damage; the target is burning (EoT",
+          "tier1": "16 fire damage; the target is burning (save ends)",
+          "tier2": "12 fire damage; the target is burning (EoT)",
           "tier3": "8 fire damage"
         },
         {
@@ -161,7 +161,7 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "The war engine's shape can't be changed by any external effect"
+          "effect": "The war engine's shape can't be changed by any external effect."
         }
       ]
     },

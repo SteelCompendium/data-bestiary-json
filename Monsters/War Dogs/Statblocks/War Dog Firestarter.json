@@ -47,7 +47,7 @@
         },
         {
           "name": "Effect",
-          "effect": "A seared creature takes a bane on strikes and has damage weakness 5. If this ability obtains a tier 3 outcome against one or more creatures who are already seared, the firestarter can use Enflame as a free triggered action"
+          "effect": "A seared creature takes a bane on strikes and has damage weakness 5. If this ability obtains a tier 3 outcome against one or more creatures who are already seared, the firestarter can use Enflame as a free triggered action."
         }
       ]
     },
@@ -66,7 +66,10 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "This ability targets each enemy within 2 squares of any seared creature within distance.",
+          "effect": "This ability targets each enemy within 2 squares of any seared creature within distance."
+        },
+        {
+          "roll": "Power Roll + 4",
           "tier1": "2 fire damage",
           "tier2": "4 fire damage; A < 3 the target is seared (save ends)",
           "tier3": "6 fire damage; A < 4 the target is seared (save ends)"

@@ -74,7 +74,7 @@
         },
         {
           "name": "Effect",
-          "effect": "A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed"
+          "effect": "A target frightened this way is frightened of all undead. This effect ends early if the mournling is destroyed."
         }
       ]
     },
@@ -96,7 +96,7 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "The mournling's shape can't be changed by any external effect"
+          "effect": "The mournling's shape can't be changed by any external effect."
         }
       ]
     },

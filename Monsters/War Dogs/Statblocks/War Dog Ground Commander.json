@@ -89,7 +89,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved The target then immediately dies."
+          "effect": "Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved. The target then immediately dies."
         }
       ]
     },

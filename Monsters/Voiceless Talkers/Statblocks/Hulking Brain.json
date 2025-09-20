@@ -67,7 +67,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved"
+          "effect": "A target must be grabbed by the hulking brain, and is no longer grabbed after the power roll is resolved."
         },
         {
           "roll": "Power Roll + 3",

@@ -64,7 +64,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
+          "effect": "For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn.\n- The target has damage immunity 2.\n- The target's strikes deal an extra 3 holy damage.\n- The target has a +3 bonus to speed."
         }
       ]
     },

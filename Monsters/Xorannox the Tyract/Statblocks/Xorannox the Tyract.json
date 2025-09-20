@@ -62,7 +62,7 @@
       ],
       "usage": "Main action",
       "distance": "Melee 1",
-      "target": "One creatures or object",
+      "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 4",
