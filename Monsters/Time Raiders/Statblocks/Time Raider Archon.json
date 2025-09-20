@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Time Raider Archon",
   "level": 3,
   "roles": [
@@ -23,36 +24,39 @@
   "reason": 2,
   "intuition": 1,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Foresight",
-      "effects": [
-        {
-          "effect": "The archon doesn't take a bane on strikes against creatures with concealment."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Brutal Flail",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Psionic",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage; one ally can make a free strike against the target"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage; one ally can make a free strike against the target"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Foresight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The archon doesn't take a bane on strikes against creatures with concealment."
         }
       ]
     }

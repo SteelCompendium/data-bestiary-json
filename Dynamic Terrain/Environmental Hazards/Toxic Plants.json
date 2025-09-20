@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Hazard Hexer",
   "name": "Toxic Plants",
-  "type": "Hazard Hexer",
   "level": 2,
   "ev": "2 per 10 x 10 field",
   "flavor": "Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.",
@@ -8,6 +9,8 @@
   "size": "One or more squares",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
@@ -17,6 +20,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Activate",
       "icon": "❕",
       "effects": [
@@ -24,12 +29,14 @@
           "effect": "A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting."
         },
         {
-          "effect": "The **Sleep Spores** ability.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The **Sleep Spores** ability."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Sleep Spores",
       "icon": "❗️",
       "keywords": [
@@ -37,7 +44,7 @@
         "Melee",
         "Strike"
       ],
-      "type": "Free triggered action",
+      "usage": "Free triggered action",
       "distance": "Melee 0",
       "target": "The triggering creature",
       "trigger": "A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.",
@@ -47,29 +54,31 @@
         },
         {
           "roll": "Power Roll + 2",
-          "t1": "M < 0 dazed (save ends)",
-          "t2": "M < 1 dazed (save ends)",
-          "t3": "M < 2 dazed (save ends)"
+          "tier1": "M < 0 dazed (save ends)",
+          "tier2": "M < 1 dazed (save ends)",
+          "tier3": "M < 2 dazed (save ends)"
         },
         {
-          "effect": "While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Upgrades",
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.",
           "name": "Poisonous Spores",
-          "cost": "+2 EV"
+          "cost": "+2 EV",
+          "effect": "Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns."
         },
         {
-          "effect": "The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.",
           "name": "Carnivorous Plants",
-          "cost": "+2 EV"
+          "cost": "+2 EV",
+          "effect": "The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage."
         }
       ]
     }

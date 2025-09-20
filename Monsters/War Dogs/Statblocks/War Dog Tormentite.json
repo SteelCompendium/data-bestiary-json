@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Tormentite",
   "level": 5,
   "roles": [
@@ -20,51 +21,37 @@
   "reason": 2,
   "intuition": 3,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Persistent Pain",
-      "effects": [
-        {
-          "effect": "From the start of the encounter, the tormentite takes 1 damage at the start of each of their turns."
-        }
-      ]
-    },
-    {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mark of Agony",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "6 corruption damage",
-          "t2": "8 corruption damage; the target is marked (save ends)",
-          "t3": "9 corruption damage; the target is marked (save ends)"
+          "tier1": "6 corruption damage",
+          "tier2": "8 corruption damage; the target is marked (save ends)",
+          "tier3": "9 corruption damage; the target is marked (save ends)"
         },
         {
-          "effect": "Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Vortex of Pain",
       "icon": "🔳",
       "cost": "3 Malice",
@@ -73,19 +60,41 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "4 cube within 10",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "2 corruption damage",
-          "t2": "4 corruption damage",
-          "t3": "5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one targe"
+          "tier1": "2 corruption damage",
+          "tier2": "4 corruption damage",
+          "tier3": "5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one targe"
         },
         {
-          "effect": "The tormentite regains 2 Stamina for each creature targeted by this ability.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The tormentite regains 2 Stamina for each creature targeted by this ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Persistent Pain",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "From the start of the encounter, the tormentite takes 1 damage at the start of each of their turns."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

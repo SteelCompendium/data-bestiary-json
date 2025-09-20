@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Zombie",
   "level": 1,
   "roles": [
@@ -23,50 +24,44 @@
   "reason": -5,
   "intuition": -2,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Endless Knight",
-      "effects": [
-        {
-          "effect": "The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone"
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Clobber and Clutch",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 damage",
-          "t2": "6 damage",
-          "t3": "7 damage; grabbed"
+          "tier1": "4 damage",
+          "tier2": "6 damage",
+          "tier3": "7 damage; grabbed"
         },
         {
-          "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Zombie Dust",
       "icon": "❇️",
       "cost": "3 Malice",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "2 burst",
       "target": "Each enemy in the area",
       "effects": [
@@ -76,9 +71,20 @@
         },
         {
           "roll": "Power Roll + 2",
-          "t1": "2 corruption damage",
-          "t2": "3 corruption damage; M < 1 weakened (save ends)",
-          "t3": "4 corruption damage; M < 2 dazed (save ends)"
+          "tier1": "2 corruption damage",
+          "tier2": "3 corruption damage; M < 1 weakened (save ends)",
+          "tier3": "4 corruption damage; M < 2 dazed (save ends)"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Endless Knight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The first time the zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone"
         }
       ]
     }

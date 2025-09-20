@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Servok War Engine",
   "level": 10,
   "roles": [
@@ -21,55 +22,33 @@
   "reason": -4,
   "intuition": -1,
   "presence": -5,
-  "traits": [
+  "features": [
     {
-      "name": "Servok Siege Machine",
-      "effects": [
-        {
-          "effect": "The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The war engine's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Blade Rake",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 3",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "15 damage",
-          "t2": "21 damage; pull 3",
-          "t3": "25 damage; pull 6"
+          "tier1": "15 damage",
+          "tier2": "21 damage; pull 3",
+          "tier3": "25 damage; pull 6"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Prismacore Cannon",
       "icon": "🏹",
       "keywords": [
@@ -77,55 +56,59 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 20",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "22 damage",
-          "t2": "29 damage; I < 4 dazed (save ends)",
-          "t3": "34 damage; I < 5 dazed (save ends)"
+          "tier1": "22 damage",
+          "tier2": "29 damage; I < 4 dazed (save ends)",
+          "tier3": "34 damage; I < 5 dazed (save ends)"
         },
         {
-          "effect": "This damage can't be reduced in any way. This ability can't be used again until the start of the next round.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This damage can't be reduced in any way. This ability can't be used again until the start of the next round."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Destructive Rollout",
       "icon": "👤",
       "keywords": [
         "-"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Burning Oil",
       "icon": "🔳",
       "cost": "3 Malice",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "20 x 1 line within 1",
       "target": "Each enemy and object in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "Each target makes an Agility test.",
-          "t1": "16 fire damage; the target is burning (save ends",
-          "t2": "12 fire damage; the target is burning (EoT",
-          "t3": "8 fire damage"
+          "tier1": "16 fire damage; the target is burning (save ends",
+          "tier2": "12 fire damage; the target is burning (EoT",
+          "tier3": "8 fire damage"
         },
         {
           "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter."
@@ -133,6 +116,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Quick Blast",
       "icon": "❗️",
       "cost": "1 Malice",
@@ -141,20 +126,53 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Free triggered action",
+      "usage": "Free triggered action",
       "distance": "Ranged 20",
       "target": "One creature or object",
       "trigger": "The target deals damage to the war engine.",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "8 damage; push 2",
-          "t2": "12 damage; push 5",
-          "t3": "16 damage; push 8"
+          "tier1": "8 damage; push 2",
+          "tier2": "12 damage; push 5",
+          "tier3": "16 damage; push 8"
         },
         {
-          "effect": "This damage can't be reduced in any way.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Servok Siege Machine",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Crafted to Perfection",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The war engine's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Valiar Might",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

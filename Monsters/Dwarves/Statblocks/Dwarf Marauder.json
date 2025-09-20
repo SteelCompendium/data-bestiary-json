@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Dwarf Marauder",
   "level": 3,
   "roles": [
@@ -19,21 +20,13 @@
   "reason": 2,
   "intuition": 1,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the marauder lord can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Levitating Axes",
       "icon": "⚔️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Psionic",
@@ -41,117 +34,138 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1 or ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "8 damage; slide 1",
-          "t2": "12 damage; slide 3",
-          "t3": "15 damage; slide 5"
+          "tier1": "8 damage; slide 1",
+          "tier2": "12 damage; slide 3",
+          "tier3": "15 damage; slide 5"
         },
         {
-          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
         },
         {
-          "effect": "A target force moved adjacent to an ally of the marauder lord is restrained until the end of their next turn.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "A target force moved adjacent to an ally of the marauder lord is restrained until the end of their next turn."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Magnetomancy",
       "icon": "🏹",
       "keywords": [
         "Psionic",
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "The target vertical slides up to 5 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target vertical slides up to 5 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise."
         },
         {
-          "effect": "This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each restrained creature in the area.",
-          "cost": "5 Malice"
+          "cost": "5 Malice",
+          "effect": "This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each restrained creature in the area."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Your Weapon Is Useless",
       "icon": "❗️",
       "keywords": [
         "Psionic",
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "Self or one ally",
       "trigger": "A creature makes a melee strike against the target.",
       "effects": [
         {
-          "effect": "The target halves any damage from the strike and the triggering creature takes 4 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target halves any damage from the strike and the triggering creature takes 4 damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "End Effect",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the marauder lord can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Ajax Will Pay Well for These Specimens",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Area",
         "Psionic",
         "Ranged",
         "Weapon"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 cube within 10",
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The marauder lord uses Levitating Axes against each target, making one power roll against all targets.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The marauder lord uses Levitating Axes against each target, making one power roll against all targets."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Don't Let Them Escape!",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "Area"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts up to their speed. The marauder lord then uses Levitating Axes.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target shifts up to their speed. The marauder lord then uses Levitating Axes."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Test Your Metal!",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "Psionic",
         "Ranged"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Ranged 10",
       "target": "Special",
       "effects": [
         {
-          "effect": "The marauder lord creates three size 2 metal objects in unoccupied spaces within distance. Whenever the marauder lord uses Magnetomancy, they can additionally target one of these objects.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The marauder lord creates three size 2 metal objects in unoccupied spaces within distance. Whenever the marauder lord uses Magnetomancy, they can additionally target one of these objects."
         }
       ]
     }

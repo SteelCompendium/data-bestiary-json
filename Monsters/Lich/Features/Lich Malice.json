@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Lich Malice",
-  "type": "Malice Features",
   "flavor": "At the start of a lich's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Soul Sip",
       "icon": "👤",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "5 Malice",
@@ -24,19 +29,23 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Spirit Shell",
       "icon": "👤",
       "cost": "5 Malice",
       "effects": [
         {
           "effect": "The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.",
-          "t1": "16 psychic damage, dazed (save ends)",
-          "t2": "Dazed (save ends)",
-          "t3": "No effect."
+          "tier1": "16 psychic damage, dazed (save ends)",
+          "tier2": "Dazed (save ends)",
+          "tier3": "No effect."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Cloud of Deceit",
       "icon": "🌀",
       "cost": "7 Malice",

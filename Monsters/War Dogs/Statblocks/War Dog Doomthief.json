@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Doomthief",
   "level": 5,
   "roles": [
@@ -20,9 +21,38 @@
   "reason": 0,
   "intuition": 3,
   "presence": 1,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Ripper Shrikegun",
+      "icon": "🔳",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "usage": "Main action",
+      "distance": "10 x 3 line within 1",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 damage; push 1",
+          "tier2": "5 damage; push 3",
+          "tier3": "6 damage; push 5; A < 3 slowed (save ends)"
+        },
+        {
+          "name": "Effect",
+          "effect": "The doomthief can't willingly move on the same turn they use this ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Doom Magnet",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target"
@@ -30,53 +60,32 @@
       ]
     },
     {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Ripper Shrikegun",
-      "icon": "🔳",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Area",
-        "Weapon"
-      ],
-      "type": "Main action",
-      "distance": "10 x 3 line within 1",
-      "target": "Each enemy in the area",
-      "effects": [
-        {
-          "roll": "Power Roll + 3",
-          "t1": "3 damage; push 1",
-          "t2": "5 damage; push 3",
-          "t3": "6 damage; push 5; A < 3 slowed (save ends)"
-        },
-        {
-          "effect": "The doomthief can't willingly move on the same turn they use this ability.",
-          "name": "Effect"
-        }
-      ]
-    },
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Expanding Doom",
       "icon": "👤",
       "cost": "4 Malice",
       "keywords": [
         "-"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the doomthief is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

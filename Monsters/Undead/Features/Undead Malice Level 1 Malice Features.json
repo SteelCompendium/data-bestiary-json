@@ -1,10 +1,13 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "+ Malice Features",
   "name": "Undead Malice",
-  "type": "+ Malice Features",
   "level": 1,
   "flavor": "At the start of any undead's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Ravenous Horde",
       "icon": "🌀",
       "cost": "2 Malice",
@@ -15,6 +18,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Paranormal Fling",
       "icon": "🌀",
       "cost": "3 Malice",
@@ -25,23 +30,27 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "The Grasping, the Hungry",
       "icon": "🔳",
       "cost": "5 Malice",
       "effects": [
         {
           "effect": "Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an Agility test.",
-          "t1": "5 damage; restrained (save ends)",
-          "t2": "5 damage; restrained (EoT)",
-          "t3": "5 damage"
+          "tier1": "5 damage; restrained (save ends)",
+          "tier2": "5 damage; restrained (EoT)",
+          "tier3": "5 damage"
         },
         {
-          "effect": "While restrained this way, a creature takes 1d6 damage at the start of each of their turns.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While restrained this way, a creature takes 1d6 damage at the start of each of their turns."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Dread March",
       "icon": "⭐️",
       "cost": "7+ Malice",

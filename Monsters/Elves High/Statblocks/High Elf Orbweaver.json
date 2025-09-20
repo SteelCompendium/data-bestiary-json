@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "High Elf Orbweaver",
   "level": 3,
   "roles": [
@@ -20,38 +21,32 @@
   "reason": 2,
   "intuition": 2,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the orbweaver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Awash",
       "icon": "🔳",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "3 cube within 1",
       "target": "Each creature in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 cold damage; M < 0 push 3",
-          "t2": "6 cold damage; M < 1 push 5 or prone",
-          "t3": "9 cold damage; M < 2 slide 5 or prone"
+          "tier1": "4 cold damage; M < 0 push 3",
+          "tier2": "6 cold damage; M < 1 push 5 or prone",
+          "tier3": "9 cold damage; M < 2 slide 5 or prone"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Aetherweb",
       "icon": "🏹",
       "keywords": [
@@ -59,19 +54,30 @@
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 8",
       "target": "Two enemies or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage; R < 0 slowed (save ends)",
-          "t2": "8 damage; R < 1 slowed (save ends)",
-          "t3": "11 damage; R < 2 restrained (save ends)"
+          "tier1": "5 damage; R < 0 slowed (save ends)",
+          "tier2": "8 damage; R < 1 slowed (save ends)",
+          "tier3": "11 damage; R < 2 restrained (save ends)"
         },
         {
-          "effect": "Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required).",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required)."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Otherworldly Grace",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the orbweaver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Remasch",
   "level": 2,
   "roles": [
@@ -23,9 +24,59 @@
   "reason": 0,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Abyssal Strike",
+      "icon": "🗡",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; the remasch can teleport up to 2 squares",
+          "tier2": "6 damage; the remasch can teleport up to 3 squares",
+          "tier3": "8 damage; the remasch can teleport up to 5 squares"
+        },
+        {
+          "cost": "5 Malice",
+          "effect": "The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch's destination."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Grasping Shadow",
+      "icon": "👤",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic"
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The remasch can teleport up to 2 squares and uses Abyssal Strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Lethe",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "While the remasch is winded, they gain an edge on strikes, and any strike made against them gains an edge."
@@ -33,55 +84,13 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Soulsight",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Any creature within 2 squares of the remasch can't be hidden from them."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Abyssal Strike",
-      "icon": "🗡",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Magic",
-        "Melee",
-        "Strike",
-        "Weapon"
-      ],
-      "type": "Main action",
-      "distance": "Melee 1",
-      "target": "One creature or object",
-      "effects": [
-        {
-          "roll": "Power Roll + 2",
-          "t1": "5 damage; the remasch can teleport up to 2 squares",
-          "t2": "6 damage; the remasch can teleport up to 3 squares",
-          "t3": "8 damage; the remasch can teleport up to 5 squares"
-        },
-        {
-          "effect": "The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch's destination.",
-          "cost": "5 Malice"
-        }
-      ]
-    },
-    {
-      "name": "Grasping Shadow",
-      "icon": "👤",
-      "cost": "3 Malice",
-      "keywords": [
-        "Magic"
-      ],
-      "type": "Maneuver",
-      "distance": "Self",
-      "target": "Self",
-      "effects": [
-        {
-          "effect": "The remasch can teleport up to 2 squares and uses Abyssal Strike.",
-          "name": "Effect"
         }
       ]
     }

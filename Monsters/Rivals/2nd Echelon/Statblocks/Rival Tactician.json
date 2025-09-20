@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Rival Tactician",
   "level": 5,
   "roles": [
@@ -19,43 +20,37 @@
   "reason": 2,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mark Targets",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "10 damage",
-          "t2": "15 damage",
-          "t3": "18 damage"
+          "tier1": "10 damage",
+          "tier2": "15 damage",
+          "tier3": "18 damage"
         },
         {
-          "effect": "Two allies within distance can use a signature ability against the same target.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "Two allies within distance can use a signature ability against the same target."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Preserve and Protect",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -64,36 +59,49 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "11 damage; M < 1 weakened (save ends)",
-          "t2": "16 damage; M < 2 weakened (save ends)",
-          "t3": "21 damage; M < 3 weakened (save ends)"
+          "tier1": "11 damage; M < 1 weakened (save ends)",
+          "tier2": "16 damage; M < 2 weakened (save ends)",
+          "tier3": "21 damage; M < 3 weakened (save ends)"
         },
         {
-          "effect": "One ally adjacent to the target regains 7 Stamina.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "One ally adjacent to the target regains 7 Stamina."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Take the Opening",
       "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "The triggering enemy",
       "trigger": "An enemy within distance willingly moves.",
       "effects": [
         {
-          "effect": "At any point during the movement, the tactician and one ally within distance can each make a free strike against the target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "At any point during the movement, the tactician and one ally within distance can each make a free strike against the target."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Rivalry",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

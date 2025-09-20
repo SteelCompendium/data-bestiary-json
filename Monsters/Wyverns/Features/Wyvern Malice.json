@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Wyvern Malice",
-  "type": "Malice Features",
   "flavor": "At the start of any wyvern's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Simmering Anger",
       "icon": "🗡",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Boiling Fury",
       "icon": "⭐️",
       "cost": "5 Malice",
@@ -24,15 +29,17 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Overflowing Rage",
       "icon": "🌀",
       "cost": "7 Malice",
       "effects": [
         {
           "effect": "Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.",
-          "t1": "The target is taunted by the nearest creature or object (save ends). While the target is taunted this way, power rolls against them have a double edge.",
-          "t2": "The target is taunted by the nearest creature or object (save ends).",
-          "t3": "No effect."
+          "tier1": "The target is taunted by the nearest creature or object (save ends). While the target is taunted this way, power rolls against them have a double edge.",
+          "tier2": "The target is taunted by the nearest creature or object (save ends).",
+          "tier3": "No effect."
         }
       ]
     }

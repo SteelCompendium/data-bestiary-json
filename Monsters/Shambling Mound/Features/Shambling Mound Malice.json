@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Shambling Mound Malice",
-  "type": "Malice Features",
   "flavor": "At the start of a shambling mound's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Poisoned Vines",
       "icon": "👤",
       "cost": "3 Malice",
@@ -14,19 +17,23 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Frenzy Lash",
       "icon": "❇️",
       "cost": "5 Malice",
       "effects": [
         {
           "effect": "The shambling mound lashes out at each enemy within 10 squares of them, driving them back or into the air. Each target makes an **Agility test**.",
-          "t1": "7 damage; push 7 or vertical push 3; restrained (save ends)",
-          "t2": "6 damage; push 5 or vertical push 2",
-          "t3": "3 damage"
+          "tier1": "7 damage; push 7 or vertical push 3; restrained (save ends)",
+          "tier2": "6 damage; push 5 or vertical push 2",
+          "tier3": "3 damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "5 Malice",
@@ -37,6 +44,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Leeching Wilds",
       "icon": "❇️",
       "cost": "7 Malice",

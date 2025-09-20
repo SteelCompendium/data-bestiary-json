@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Ghoul Craver",
   "level": 4,
   "roles": [
@@ -24,9 +25,40 @@
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Taste",
+      "icon": "🗡",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object per minion",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "6 damage"
+        },
+        {
+          "name": "Effect",
+          "effect": "This ability has a double edge against a bleeding target."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Ever So Hungry",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Any enemy adjacent to three or more ghoul cravers can't shift"
@@ -34,38 +66,13 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Hunger",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "When the ghoul craver uses the Charge main action, they gain a +2 bonus to speed until the end of their turn."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Taste",
-      "icon": "🗡",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Charge",
-        "Melee",
-        "Strike",
-        "Weapon"
-      ],
-      "type": "Main action",
-      "distance": "Melee 1",
-      "target": "One creature or object per minion",
-      "effects": [
-        {
-          "roll": "Power Roll + 3",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "6 damage"
-        },
-        {
-          "effect": "This ability has a double edge against a bleeding target.",
-          "name": "Effect"
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Hazard Hexer",
   "name": "Tree of Might",
-  "type": "Hazard Hexer",
   "level": 5,
   "ev": "14",
   "flavor": "A gnarled tree has unearthed roots that writhe and curl.",
@@ -14,6 +15,8 @@
   ],
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
@@ -23,6 +26,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Tree's Nourishment",
       "icon": "⭐️",
       "effects": [
@@ -32,6 +37,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Mighty Fruit",
       "icon": "⭐️",
       "effects": [

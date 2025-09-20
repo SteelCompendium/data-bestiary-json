@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Neuronite",
   "level": 1,
   "roles": [
@@ -24,55 +25,51 @@
   "reason": 0,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Synlirii Grafts",
       "icon": "❇️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Area",
         "Psionic"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "1 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "1 psychic damage; vertical slide 1",
-          "t2": "2 psychic damage; vertical slide 2",
-          "t3": "3 psychic damage; vertical slide 3"
+          "tier1": "1 psychic damage; vertical slide 1",
+          "tier2": "2 psychic damage; vertical slide 2",
+          "tier3": "3 psychic damage; vertical slide 3"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Posthumous Promotion",
       "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "One war dog",
       "effects": [
         {
-          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "The Voice",
       "icon": "❇️",
       "cost": "1 Malice",
@@ -80,13 +77,24 @@
         "Area",
         "Psionic"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "5 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
-          "effect": "The neuronite chooses one ally within 10 squares. Each target is either taunted by the ally, or the ally has damage immunity 3 whenever any target makes a strike against them (the neuronite's choice). Either effect lasts until the start of the neuronite's next turn",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The neuronite chooses one ally within 10 squares. Each target is either taunted by the ally, or the ally has damage immunity 3 whenever any target makes a strike against them (the neuronite's choice). Either effect lasts until the start of the neuronite's next turn"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the neuronite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

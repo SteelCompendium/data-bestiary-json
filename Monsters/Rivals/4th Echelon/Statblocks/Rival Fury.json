@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Rival Fury",
   "level": 10,
   "roles": [
@@ -19,51 +20,37 @@
   "reason": 0,
   "intuition": 2,
   "presence": 3,
-  "traits": [
+  "features": [
     {
-      "name": "Devastate",
-      "effects": [
-        {
-          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object that has a double edge."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Seismic Crush",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "15 damage; push 4",
-          "t2": "21 damage; push 5",
-          "t3": "25 damage; push 6"
+          "tier1": "15 damage; push 4",
+          "tier2": "21 damage; push 5",
+          "tier3": "25 damage; push 6"
         },
         {
-          "effect": "Each target who has M < 4 is bleeding and slowed (save ends).",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "Each target who has M < 4 is bleeding and slowed (save ends)."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Death Grip",
       "icon": "🗡",
       "cost": "4 Malice",
@@ -72,19 +59,41 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "15 damage; M < 3 grabbed",
-          "t2": "21 damage; M < 4 grabbed",
-          "t3": "25 damage; M < 5 grabbed"
+          "tier1": "15 damage; M < 3 grabbed",
+          "tier2": "21 damage; M < 4 grabbed",
+          "tier3": "25 damage; M < 5 grabbed"
         },
         {
-          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target must be the fury's size or smaller. While the target is grabbed this way, the fury and their allies have a double edge on strikes against them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Devastate",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Once per turn, when the fury force moves a creature or object, or shifts adjacent to a creature or object, they can use a signature ability against that creature or object that has a double edge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Rivalry",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the fury chooses one creature within their line of effect. Both the fury and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Radenwight Swiftpaw",
   "level": 1,
   "roles": [
@@ -21,44 +22,47 @@
   "reason": 1,
   "intuition": 0,
   "presence": -1,
-  "traits": [],
-  "abilities": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Rapier Flunge",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "1 damage; slide 1, the swiftpaw can shift 1 square",
-          "t2": "2 damage; slide 2, the swiftpaw shifts up to 2 squares",
-          "t3": "3 damage; slide 3, the swiftpaw shifts up to 3 squares"
+          "tier1": "1 damage; slide 1, the swiftpaw can shift 1 square",
+          "tier2": "2 damage; slide 2, the swiftpaw shifts up to 2 squares",
+          "tier3": "3 damage; slide 3, the swiftpaw shifts up to 3 squares"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Ready Rodent",
       "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Melee 1",
       "target": "One creature",
       "trigger": "An ally deals damage to the target.",
       "effects": [
         {
-          "effect": "The swiftpaw makes a free strike against the targe.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The swiftpaw makes a free strike against the targe."
         }
       ]
     }

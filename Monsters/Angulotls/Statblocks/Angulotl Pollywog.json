@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Angulotl Pollywog",
   "level": 1,
   "roles": [
@@ -23,35 +24,38 @@
   "reason": -2,
   "intuition": -2,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Quick Snack",
-      "effects": [
-        {
-          "effect": "Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains 4 Stamina and is wet until the end of their next turn."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Nip",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "1 poison damage",
-          "t2": "2 poison damage; the pollywog can shift 1 square",
-          "t3": "3 poison damage; the pollywog shifts up to 3 squares"
+          "tier1": "1 poison damage",
+          "tier2": "2 poison damage; the pollywog can shift 1 square",
+          "tier3": "3 poison damage; the pollywog shifts up to 3 squares"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Quick Snack",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains 4 Stamina and is wet until the end of their next turn."
         }
       ]
     }

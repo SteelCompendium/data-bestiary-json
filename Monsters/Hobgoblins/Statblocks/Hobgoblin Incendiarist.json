@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Hobgoblin Incendiarist",
   "level": 5,
   "roles": [
@@ -24,51 +25,37 @@
   "reason": 0,
   "intuition": 2,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Raining Cinders",
-      "effects": [
-        {
-          "effect": "The ranged free strike of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
-        }
-      ]
-    },
-    {
-      "name": "Infernal Ichor",
-      "effects": [
-        {
-          "effect": "When the incendiarist is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the incendiarist takes 3 fire damage."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Fire Crossbow",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "9 fire damage",
-          "t2": "14 fire damage",
-          "t3": "17 fire damage; A < 3 burning (save ends)"
+          "tier1": "9 fire damage",
+          "tier2": "14 fire damage",
+          "tier3": "17 fire damage; A < 3 burning (save ends)"
         },
         {
-          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Fireball Volley",
       "icon": "🔳",
       "cost": "3 Malice",
@@ -77,19 +64,41 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "4 cube within 10",
       "target": "Each enemy or object in the area",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "5 fire damage; A < 1 burning (save ends)",
-          "t2": "9 fire damage; A < 2 burning (save ends)",
-          "t3": "11 fire damage; prone; A < 3 burning (save ends)"
+          "tier1": "5 fire damage; A < 1 burning (save ends)",
+          "tier2": "9 fire damage; A < 2 burning (save ends)",
+          "tier3": "11 fire damage; prone; A < 3 burning (save ends)"
         },
         {
-          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Raining Cinders",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The ranged free strike of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Infernal Ichor",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the incendiarist is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the incendiarist takes 3 fire damage."
         }
       ]
     }

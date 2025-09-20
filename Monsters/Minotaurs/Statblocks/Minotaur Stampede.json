@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Minotaur Stampede",
   "level": 10,
   "roles": [
@@ -22,40 +23,43 @@
   "reason": 0,
   "intuition": 2,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Swarm",
-      "effects": [
-        {
-          "effect": "The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bull Rush",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "4 damage",
-          "t2": "7 damage; prone",
-          "t3": "9 damage; prone; M < 5 can't stand (save ends)"
+          "tier1": "4 damage",
+          "tier2": "7 damage; prone",
+          "tier3": "9 damage; prone; M < 5 can't stand (save ends)"
         },
         {
-          "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked prone."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Swarm",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a free strike against each creature whose space they share."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Rival Talent",
   "level": 5,
   "roles": [
@@ -19,40 +20,34 @@
   "reason": 3,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Overwhelming Rend",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Psionic",
         "Ranged",
         "Strike",
         "Telekinesis"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "9 psychic damage; push 2; M < 1 prone",
-          "t2": "14 psychic damage; push 3; M < 2 prone",
-          "t3": "17 psychic damage; push 4; M < 3 prone"
+          "tier1": "9 psychic damage; push 2; M < 1 prone",
+          "tier2": "14 psychic damage; push 3; M < 2 prone",
+          "tier3": "17 psychic damage; push 4; M < 3 prone"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Disarrange Thoughts",
       "icon": "🏹",
       "cost": "2 Malice",
@@ -61,33 +56,46 @@
         "Ranged",
         "Telepathy"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "6 psychic damage; R < 1 dazed (save ends)",
-          "t2": "6 psychic damage; R < 2 dazed (save ends)",
-          "t3": "6 psychic damage; R < 3 dazed and slowed (save ends)"
+          "tier1": "6 psychic damage; R < 1 dazed (save ends)",
+          "tier2": "6 psychic damage; R < 2 dazed (save ends)",
+          "tier3": "6 psychic damage; R < 3 dazed and slowed (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Precognitive Shift",
       "icon": "❗️",
       "cost": "1 Malice",
       "keywords": [
         "Psionic"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Self",
       "target": "Self",
       "trigger": "A creature deals damage to the talent.",
       "effects": [
         {
-          "effect": "The talent halves the damage and shifts up to 2 squares",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The talent halves the damage and shifts up to 2 squares"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Rivalry",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Radenwight Piper",
   "level": 1,
   "roles": [
@@ -20,79 +21,86 @@
   "reason": 0,
   "intuition": 2,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Musical Suggestion",
-      "effects": [
-        {
-          "effect": "At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Piercing Trill",
       "icon": "⚔️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Melee",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1 or ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 sonic damage; push 1",
-          "t2": "7 sonic damage; push 3",
-          "t3": "9 sonic damage; push 4"
+          "tier1": "5 sonic damage; push 1",
+          "tier2": "7 sonic damage; push 3",
+          "tier3": "9 sonic damage; push 4"
         },
         {
-          "effect": "The piper or one ally within distance regains Stamina equal to the damage dealt.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The piper or one ally within distance regains Stamina equal to the damage dealt."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Vivace Vivace!",
       "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "3 burst",
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Each target who has used their Ready Rodent ability this round regains the use of their triggered action.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target who has used their Ready Rodent ability this round regains the use of their triggered action."
         },
         {
-          "effect": "The area increases to a 6 burst.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "The area increases to a 6 burst."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Ready Rodent",
       "icon": "❗️",
       "keywords": [
         "Melee",
         "Weapon"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Melee 1",
       "target": "One creature",
       "trigger": "An ally deals damage to the target.",
       "effects": [
         {
-          "effect": "The piper makes a free strike against the target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The piper makes a free strike against the target."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Musical Suggestion",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability."
         }
       ]
     }

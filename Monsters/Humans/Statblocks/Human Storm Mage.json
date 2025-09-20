@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Human Storm Mage",
   "level": 3,
   "roles": [
@@ -23,51 +24,37 @@
   "reason": 2,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Arcane Shield",
-      "effects": [
-        {
-          "effect": "Any melee ability targeting the storm mage takes a bane.\n\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
-        }
-      ]
-    },
-    {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The storm mage ignores concealment if it's granted by a supernatural effect."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Lightning Bolt",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 15",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "7 lightning damage",
-          "t2": "10 lightning damage",
-          "t3": "13 lightning damage"
+          "tier1": "7 lightning damage",
+          "tier2": "10 lightning damage",
+          "tier3": "13 lightning damage"
         },
         {
-          "effect": "The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.",
-          "cost": "5 Malice"
+          "cost": "5 Malice",
+          "effect": "The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Gust of Wind",
       "icon": "🔳",
       "cost": "3 Malice",
@@ -75,19 +62,41 @@
         "Area",
         "Magic"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "5 cube within 1",
       "target": "Each enemy and object in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "Slide 2; M < 0 slowed (save ends)",
-          "t2": "Slide 4; M < 1 slowed (save ends)",
-          "t3": "Slide 6; M < 2 slowed (save ends)"
+          "tier1": "Slide 2; M < 0 slowed (save ends)",
+          "tier2": "Slide 4; M < 1 slowed (save ends)",
+          "tier3": "Slide 6; M < 2 slowed (save ends)"
         },
         {
-          "effect": "The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Arcane Shield",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Any melee ability targeting the storm mage takes a bane.\n\nAdditionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Supernatural Insight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The storm mage ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

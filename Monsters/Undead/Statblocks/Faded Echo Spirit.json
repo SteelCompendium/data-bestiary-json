@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Faded Echo Spirit",
   "level": 7,
   "roles": [
@@ -24,39 +25,42 @@
   "reason": -5,
   "intuition": 1,
   "presence": -3,
-  "traits": [
+  "features": [
     {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects"
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Hollow Grasp",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "3 corruption damage",
-          "t2": "6 corruption damage; P < 3 weakened",
-          "t3": "7 corruption damage; P < 4 weakened"
+          "tier1": "3 corruption damage",
+          "tier2": "6 corruption damage; P < 3 weakened",
+          "tier3": "7 corruption damage; P < 4 weakened"
         },
         {
-          "effect": "This weakened condition ends if an affected target ends their turn with no spirit within 5 squares of them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This weakened condition ends if an affected target ends their turn with no spirit within 5 squares of them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Corruptive Phasing",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being force moved into objects"
         }
       ]
     }

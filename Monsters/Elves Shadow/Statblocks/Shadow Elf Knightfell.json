@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Shadow Elf Knightfell",
   "level": 4,
   "roles": [
@@ -21,53 +22,58 @@
   "reason": 0,
   "intuition": 3,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The knightfell ignores concealment created by darkness. While the knightfell is in direct sunlight, they have damage weakness 3. While the knightfell has concealment, they have damage immunity 3."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Suffusing Strike",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 3",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "8 corruption damage",
-          "t2": "12 corruption damage; R < 2 taunted (EoT)",
-          "t3": "15 corruption damage; R < 3 taunted (EoT)"
+          "tier1": "8 corruption damage",
+          "tier2": "12 corruption damage; R < 2 taunted (EoT)",
+          "tier3": "15 corruption damage; R < 3 taunted (EoT)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Trick of the Eye",
       "icon": "❗️",
       "keywords": [
         "Magic",
         "Melee"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Melee 2",
       "target": "One ally",
       "trigger": "An enemy within distance makes a strike against the target.",
       "effects": [
         {
-          "effect": "The target takes half the damage and the knightfell takes the other half.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target takes half the damage and the knightfell takes the other half."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Of the Umbra",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The knightfell ignores concealment created by darkness. While the knightfell is in direct sunlight, they have damage weakness 3. While the knightfell has concealment, they have damage immunity 3."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Brush Stalker",
   "level": 4,
   "roles": [
@@ -20,48 +21,34 @@
   "reason": -1,
   "intuition": 1,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Suneater",
-      "effects": [
-        {
-          "effect": "The area within 2 squares of the brush stalker is devoid of light and provides concealment."
-        }
-      ]
-    },
-    {
-      "name": "Wyrd Dyr",
-      "effects": [
-        {
-          "effect": "While they have line of effect to the brush stalker, any animal except another brush stalker is frightened"
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Gore",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "7 damage",
-          "t2": "10 damage",
-          "t3": "13 damage"
+          "tier1": "7 damage",
+          "tier2": "10 damage",
+          "tier3": "13 damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Reclamation",
       "icon": "❇️",
       "cost": "2 Malice",
@@ -69,15 +56,37 @@
         "Area",
         "Magic"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "2 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "4 corruption damage; M < 1 weakened (save ends)",
-          "t2": "7 corruption damage; M < 2 weakened (save ends)",
-          "t3": "10 corruption damage; M < 3 weakened (save ends)"
+          "tier1": "4 corruption damage; M < 1 weakened (save ends)",
+          "tier2": "7 corruption damage; M < 2 weakened (save ends)",
+          "tier3": "10 corruption damage; M < 3 weakened (save ends)"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Suneater",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The area within 2 squares of the brush stalker is devoid of light and provides concealment."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Wyrd Dyr",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While they have line of effect to the brush stalker, any animal except another brush stalker is frightened"
         }
       ]
     }

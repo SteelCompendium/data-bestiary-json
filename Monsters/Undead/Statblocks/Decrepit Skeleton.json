@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Decrepit Skeleton",
   "level": 1,
   "roles": [
@@ -24,39 +25,42 @@
   "reason": -2,
   "intuition": 0,
   "presence": -2,
-  "traits": [
+  "features": [
     {
-      "name": "Bonetrops",
-      "effects": [
-        {
-          "effect": "When the decrepit skeleton is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy enters this space, the take 1 damage and the effect end."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bone Bow",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
         },
         {
-          "effect": "The decrepit skeleton chooses one other target within distance, who takes 1 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The decrepit skeleton chooses one other target within distance, who takes 1 damage."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Bonetrops",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the decrepit skeleton is reduced to 0 Stamina, their space is difficult terrain. The first time any enemy enters this space, the take 1 damage and the effect end."
         }
       ]
     }

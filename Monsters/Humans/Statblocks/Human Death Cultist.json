@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Human Death Cultist",
   "level": 2,
   "roles": [
@@ -23,21 +24,13 @@
   "reason": 0,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The death cultist ignores concealment if it's granted by a supernatural effect."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Death Scythe",
       "icon": "⚔️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Melee",
@@ -45,36 +38,49 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1 or ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 corruption damage",
-          "t2": "9 corruption damage",
-          "t3": "12 corruption damage; I < 2 weakened (save ends)"
+          "tier1": "6 corruption damage",
+          "tier2": "9 corruption damage",
+          "tier3": "12 corruption damage; I < 2 weakened (save ends)"
         },
         {
-          "effect": "The death cultist regains Stamina equal to half the damage dealt.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "The death cultist regains Stamina equal to half the damage dealt."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Rise, My Minions",
       "icon": "❇️",
       "cost": "1 Malice per minion",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "5 burst",
       "target": "Each dead minion in the area",
       "effects": [
         {
-          "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target who died during this encounter revives with full Stamina. They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Supernatural Insight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The death cultist ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

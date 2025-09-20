@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Compulsion Eye",
   "level": 6,
   "roles": [
@@ -21,39 +22,42 @@
   "reason": 4,
   "intuition": 1,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Psionic Barrier",
-      "effects": [
-        {
-          "effect": "The compulsion eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Compulsion Beam",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Psionic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 6",
       "target": "One creature",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "I < 2 the target is charmed",
-          "t2": "I < 3 the target is charmed",
-          "t3": "I < 4 the target is charmed"
+          "tier1": "I < 2 the target is charmed",
+          "tier2": "I < 3 the target is charmed",
+          "tier3": "I < 4 the target is charmed"
         },
         {
-          "effect": "As a free triggered action, a charmed target immediately moves up to their speed and can make a free strike against an enemy of Xorannox's choice. The target is then no longer charmed.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "As a free triggered action, a charmed target immediately moves up to their speed and can make a free strike against an enemy of Xorannox's choice. The target is then no longer charmed."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Psionic Barrier",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The compulsion eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
         }
       ]
     }

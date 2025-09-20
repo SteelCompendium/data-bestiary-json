@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Human Trickshot",
   "level": 1,
   "roles": [
@@ -23,44 +24,47 @@
   "reason": 0,
   "intuition": 1,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The trickshot ignores concealment if it's granted by a supernatural effect."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Trick Crossbow",
       "icon": "⚔️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1 or ranged 15",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 damage",
-          "t2": "9 damage",
-          "t3": "12 damage"
+          "tier1": "6 damage",
+          "tier2": "9 damage",
+          "tier3": "12 damage"
         },
         {
-          "effect": "This ability ignores cover and concealment.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This ability ignores cover and concealment."
         },
         {
-          "effect": "This ability targets one additional target.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "This ability targets one additional target."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Supernatural Insight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The trickshot ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

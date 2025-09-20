@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Necrotic Eye",
   "level": 6,
   "roles": [
@@ -21,39 +22,42 @@
   "reason": 4,
   "intuition": 1,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Psionic Barrier",
-      "effects": [
-        {
-          "effect": "The necrotic eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Necro Beam",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Psionic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "11 corruption damage",
-          "t2": "17 corruption damage; M < 3 bleeding (save ends)",
-          "t3": "20 corruption damage; M < 4 bleeding (save ends)"
+          "tier1": "11 corruption damage",
+          "tier2": "17 corruption damage; M < 3 bleeding (save ends)",
+          "tier3": "20 corruption damage; M < 4 bleeding (save ends)"
         },
         {
-          "effect": "If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Psionic Barrier",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The necrotic eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Sharpshooter",
   "level": 1,
   "roles": [
@@ -21,39 +22,42 @@
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bolt Launcher",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
         },
         {
-          "effect": "This ability ignores cover and concealment.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This ability ignores cover and concealment."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object."
         }
       ]
     }

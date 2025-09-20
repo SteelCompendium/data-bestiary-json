@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Mummy Lord",
   "level": 4,
   "roles": [
@@ -26,47 +27,37 @@
   "reason": 2,
   "intuition": 4,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Cursed Transference",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        },
-        {
-          "effect": "The effect that is ended is transferred to another creature within 10 squares.",
-          "cost": "5 Malice"
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Accursed Slam",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "10 corruption damage; I < 2 bleeding (save ends)",
-          "t2": "14 corruption damage; I < 3 bleeding (save ends)",
-          "t3": "17 corruption damage; I < 4 bleeding (save ends)"
+          "tier1": "10 corruption damage; I < 2 bleeding (save ends)",
+          "tier2": "14 corruption damage; I < 3 bleeding (save ends)",
+          "tier3": "17 corruption damage; I < 4 bleeding (save ends)"
         },
         {
-          "effect": "While the target is bleeding this way, the potency of any ability used against them increases by 1 for the target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While the target is bleeding this way, the potency of any ability used against them increases by 1 for the target."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Binding Curse",
       "icon": "🏹",
       "cost": "1 Malice",
@@ -74,105 +65,128 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 20",
       "target": "One creature",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "7 corruption damage; I < 2 frightened (save ends)",
-          "t2": "12 corruption damage; I < 3 frightened (save ends)",
-          "t3": "16 corruption damage; I < 4 frightened (save ends)"
+          "tier1": "7 corruption damage; I < 2 frightened (save ends)",
+          "tier2": "12 corruption damage; I < 3 frightened (save ends)",
+          "tier3": "16 corruption damage; I < 4 frightened (save ends)"
         },
         {
-          "effect": "While frightened this way, a target takes 4 psychic damage whenever they use a move action.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While frightened this way, a target takes 4 psychic damage whenever they use a move action."
         },
         {
-          "effect": "This ability targets one additional target for each 2 Malice spent.",
-          "cost": "2+ Malice"
+          "cost": "2+ Malice",
+          "effect": "This ability targets one additional target for each 2 Malice spent."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Summon My Guard",
       "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "Special",
       "trigger": "The mummy lord is made winded for the first time in the encounter.",
       "effects": [
         {
-          "effect": "One mummy or four ghoul cravers appear within distance.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "One mummy or four ghoul cravers appear within distance."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Cursed Transference",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        },
+        {
+          "cost": "5 Malice",
+          "effect": "The effect that is ended is transferred to another creature within 10 squares."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Plague of Flies",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "5 poison damage",
-          "t2": "8 poison damage",
-          "t3": "10 poison damage"
+          "tier1": "5 poison damage",
+          "tier2": "8 poison damage",
+          "tier3": "10 poison damage"
         },
         {
-          "effect": "Each target takes a bane on their next strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target takes a bane on their next strike."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Land's Guardian",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "-"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
           "name": "Effect",
           "effect": "The mummy lord gains a +2 bonus to speed and can automatically burrow at full speed while moving. They can then use the Dig maneuver. The next time the mummy lord breaches the surface, each enemy within 2 squares of the mummy lord makes an **Agility test**.",
-          "t1": "Prone and can't stand (EoT)",
-          "t2": "Prone",
-          "t3": "No effect"
+          "tier1": "Prone and can't stand (EoT)",
+          "tier2": "Prone",
+          "tier3": "No effect"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Unbound Horrors",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "5 corruption damage; I < 2 frightened (save ends)",
-          "t2": "8 corruption damage; I < 3 frightened (save ends)",
-          "t3": "10 corruption damage; I < 4 frightened and restrained (save ends)"
+          "tier1": "5 corruption damage; I < 2 frightened (save ends)",
+          "tier2": "8 corruption damage; I < 3 frightened (save ends)",
+          "tier3": "10 corruption damage; I < 4 frightened and restrained (save ends)"
         }
       ]
     }

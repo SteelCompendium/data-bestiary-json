@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Olothec Malice",
-  "type": "Malice Features",
   "flavor": "At the start of an olothec's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "4 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Writhing Envelopment",
       "icon": "🗡",
       "cost": "4 Malice",
@@ -22,23 +27,25 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 3",
       "target": "One slimed, transformed, or devolved creature",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "11 psychic damage; A < 2 grabbed",
-          "t2": "17 psychic damage; A < 3 grabbed",
-          "t3": "20 psychic damage; A < 4 grabbed"
+          "tier1": "11 psychic damage; A < 2 grabbed",
+          "tier2": "17 psychic damage; A < 3 grabbed",
+          "tier3": "20 psychic damage; A < 4 grabbed"
         },
         {
-          "effect": "The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Memory of Chaos",
       "icon": "❇️",
       "cost": "6 Malice",

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Orc Chainlock",
   "level": 1,
   "roles": [
@@ -19,51 +20,37 @@
   "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Chain Link",
-      "effects": [
-        {
-          "effect": "Whenever the chainlock is force moved by a creature's melee ability, the creature is pulled the same distance toward the chainlock after the forced movement is resolved."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the chainlock is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the chainlock is reduced to 1 Stamina instead."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Hook and Chain",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 3",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage; pull 1; M < 0 the target is hooked (save ends)",
-          "t2": "7 damage; pull 2; M < 1 the target is hooked (save ends)",
-          "t3": "9 damage; pull 3; M < 2 the target is hooked (save ends)"
+          "tier1": "5 damage; pull 1; M < 0 the target is hooked (save ends)",
+          "tier2": "7 damage; pull 2; M < 1 the target is hooked (save ends)",
+          "tier3": "9 damage; pull 3; M < 2 the target is hooked (save ends)"
         },
         {
-          "effect": "A hooked target can't move more than 3 squares away from the chainlock's position when this ability is used.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A hooked target can't move more than 3 squares away from the chainlock's position when this ability is used."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Heavy Crossbolt",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -72,15 +59,37 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage; A < 0 slowed (save ends)",
-          "t2": "7 damage; A < 1 slowed (save ends)",
-          "t3": "9 damage; prone; A < 2 slowed (save ends)"
+          "tier1": "5 damage; A < 0 slowed (save ends)",
+          "tier2": "7 damage; A < 1 slowed (save ends)",
+          "tier3": "9 damage; prone; A < 2 slowed (save ends)"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Chain Link",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Whenever the chainlock is force moved by a creature's melee ability, the creature is pulled the same distance toward the chainlock after the forced movement is resolved."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Relentless",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If the chainlock is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the chainlock is reduced to 1 Stamina instead."
         }
       ]
     }

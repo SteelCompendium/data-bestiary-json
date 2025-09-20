@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Ogre Juggernaut",
   "level": 2,
   "roles": [
@@ -19,59 +20,45 @@
   "reason": -1,
   "intuition": 0,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Destructive Path",
-      "effects": [
-        {
-          "effect": "The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are forced moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less."
-        }
-      ]
-    },
-    {
-      "name": "Defiant Anger",
-      "effects": [
-        {
-          "effect": "While winded, the juggernaut has damage immunity 2."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Pitchfork Catapult",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "7 damage",
-          "t2": "10 damage; A < 1 vertical push 2",
-          "t3": "13 damage; A < 2 vertical slide 3"
+          "tier1": "7 damage",
+          "tier2": "10 damage; A < 1 vertical push 2",
+          "tier3": "13 damage; A < 2 vertical slide 3"
         },
         {
-          "effect": "Each target who has M < 1 is bleeding (save ends).",
-          "cost": "1 Malice"
+          "cost": "1 Malice",
+          "effect": "Each target who has M < 1 is bleeding (save ends)."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Earth-Breaking Jump",
       "icon": "❇️",
       "keywords": [
         "Area",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "3 burst",
       "target": "Each creature in the area",
       "effects": [
@@ -81,49 +68,75 @@
         },
         {
           "roll": "Power Roll + 2",
-          "t1": "4 damage",
-          "t2": "6 damage; push 2; M < 1 prone",
-          "t3": "9 damage; push 4; M < 2 prone"
+          "tier1": "4 damage",
+          "tier2": "6 damage; push 2; M < 1 prone",
+          "tier3": "9 damage; push 4; M < 2 prone"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Horrible Bellow",
       "icon": "❇️",
       "cost": "2 Malice",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "3 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "I < 0 frightened (save ends)",
-          "t2": "I < 1 frightened (save ends)",
-          "t3": "I < 2 frightened (save ends)"
+          "tier1": "I < 0 frightened (save ends)",
+          "tier2": "I < 1 frightened (save ends)",
+          "tier3": "I < 2 frightened (save ends)"
         },
         {
-          "effect": "While a target is frightened this way, any ogre gains an edge on strikes against them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While a target is frightened this way, any ogre gains an edge on strikes against them."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Hrraaaaaagh!",
       "icon": "❗️",
       "keywords": [
         "ree triggered action"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "trigger": "The juggernaut takes damage.",
       "effects": [
         {
-          "effect": "The juggernaut moves up to their speed and can make a free strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The juggernaut moves up to their speed and can make a free strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Destructive Path",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The juggernaut automatically destroys any mundane size 1 objects in their path when they move or are forced moved. They can break through any mundane wall made of wood, stone, or a similarly sturdy material this way as long as the wall is 2 squares thick or less."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Defiant Anger",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While winded, the juggernaut has damage immunity 2."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Hobgoblin Death Captain",
   "level": 4,
   "roles": [
@@ -24,9 +25,62 @@
   "reason": 1,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Blightblade",
+      "icon": "🗡",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "usage": "Main action",
+      "distance": "Melee 1",
+      "target": "One creature or object",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "8 damage",
+          "tier2": "8 damage, 4 corruption damage",
+          "tier3": "8 damage, 7 corruption damage"
+        },
+        {
+          "name": "Effect",
+          "effect": "The next strike made against the target has a double edge."
+        },
+        {
+          "cost": "3 Malice",
+          "effect": "One ally adjacent to the target can use their signature ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "On My Mark!",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged"
+      ],
+      "usage": "Maneuver",
+      "distance": "Ranged 5",
+      "target": "One ally",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The target moves up to their speed and can make a free strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Battle Ready",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike."
@@ -34,58 +88,13 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Infernal Ichor",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "When the death captain is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the death captain takes 3 fire damage."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Blightblade",
-      "icon": "🗡",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Magic",
-        "Melee",
-        "Strike",
-        "Weapon"
-      ],
-      "type": "Main action",
-      "distance": "Melee 1",
-      "target": "One creature or object",
-      "effects": [
-        {
-          "roll": "Power Roll + 3",
-          "t1": "8 damage",
-          "t2": "8 damage, 4 corruption damage",
-          "t3": "8 damage, 7 corruption damage"
-        },
-        {
-          "effect": "The next strike made against the target has a double edge.",
-          "name": "Effect"
-        },
-        {
-          "effect": "One ally adjacent to the target can use their signature ability.",
-          "cost": "3 Malice"
-        }
-      ]
-    },
-    {
-      "name": "On My Mark!",
-      "icon": "🏹",
-      "keywords": [
-        "Ranged"
-      ],
-      "type": "Maneuver",
-      "distance": "Ranged 5",
-      "target": "One ally",
-      "effects": [
-        {
-          "effect": "The target moves up to their speed and can make a free strike.",
-          "name": "Effect"
         }
       ]
     }

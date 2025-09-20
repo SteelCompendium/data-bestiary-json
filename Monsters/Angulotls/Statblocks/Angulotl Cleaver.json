@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Angulotl Cleaver",
   "level": 1,
   "roles": [
@@ -24,39 +25,42 @@
   "reason": 0,
   "intuition": 1,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Toxiferous",
-      "effects": [
-        {
-          "effect": "Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Hop and Chop",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
         },
         {
-          "effect": "The cleaver jumps up to 4 squares before or after making this strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The cleaver jumps up to 4 squares before or after making this strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Toxiferous",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy grabs the cleaver or uses a melee ability against them, that enemy takes 1 poison damage."
         }
       ]
     }

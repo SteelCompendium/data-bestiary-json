@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Devil Adjudicator",
   "level": 6,
   "roles": [
@@ -23,88 +24,78 @@
   "reason": 2,
   "intuition": 1,
   "presence": 3,
-  "traits": [
+  "features": [
     {
-      "name": "Vexatious Litigation",
-      "effects": [
-        {
-          "effect": "Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws."
-        }
-      ]
-    },
-    {
-      "name": "True Name",
-      "effects": [
-        {
-          "effect": "If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Infernal Injunction",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "10 fire damage; I < 1 frightened (save ends)",
-          "t2": "15 fire damage; I < 1 frightened (save ends)",
-          "t3": "18 fire damage; I < 1 frightened (save ends)"
+          "tier1": "10 fire damage; I < 1 frightened (save ends)",
+          "tier2": "15 fire damage; I < 1 frightened (save ends)",
+          "tier3": "18 fire damage; I < 1 frightened (save ends)"
         },
         {
-          "effect": "The adjudicator can slide a target frightened by this ability up to 2 squares.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The adjudicator can slide a target frightened by this ability up to 2 squares."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Adjudicator's Interdiction",
       "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature",
       "effects": [
         {
           "name": "Effect",
           "effect": "The target makes a Presence test",
-          "t1": "The target is slowed, takes a bane on power rolls, and can't regain Stamina (save ends).",
-          "t2": "The target is slowed and takes a bane on power rolls (save ends).",
-          "t3": "Slowed (save ends)"
+          "tier1": "The target is slowed, takes a bane on power rolls, and can't regain Stamina (save ends).",
+          "tier2": "The target is slowed and takes a bane on power rolls (save ends).",
+          "tier3": "Slowed (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Quid Pro Quo",
       "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "One ally or frightened creature",
       "effects": [
         {
-          "effect": "The adjudicator and the target teleport to switch places.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The adjudicator and the target teleport to switch places."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Devilish Charm",
       "icon": "❗️",
       "cost": "2 Malice",
@@ -112,7 +103,7 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 5",
       "target": "The triggering creature",
       "trigger": "A creature targets the adjudicator with a strike.",
@@ -120,9 +111,31 @@
         {
           "name": "Effect",
           "effect": "The target makes a Presence test",
-          "t1": "The adjudicator chooses a new target for the strike.",
-          "t2": "The adjudicator halves the triggering damage.",
-          "t3": "The target takes a bane on the strike."
+          "tier1": "The adjudicator chooses a new target for the strike.",
+          "tier2": "The adjudicator halves the triggering damage.",
+          "tier3": "The target takes a bane on the strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Vexatious Litigation",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "True Name",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their signature ability, and their Devilish Charm ability until the end of the encounter."
         }
       ]
     }

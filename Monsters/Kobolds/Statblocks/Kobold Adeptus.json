@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Kobold Adeptus",
   "level": 1,
   "roles": [
@@ -19,43 +20,37 @@
   "reason": 2,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Shocking Bolt",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 15",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 lightning damage",
-          "t2": "6 lightning damage",
-          "t3": "7 lightning damage"
+          "tier1": "4 lightning damage",
+          "tier2": "6 lightning damage",
+          "tier3": "7 lightning damage"
         },
         {
-          "effect": "While the target is adjacent to any enemy, the adeptus gains an edge on this ability. Each enemy adjacent to the target takes 2 lighting damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While the target is adjacent to any enemy, the adeptus gains an edge on this ability. Each enemy adjacent to the target takes 2 lighting damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Arcane Telum",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -64,19 +59,30 @@
         "Ranged",
         "Strike"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 15",
       "target": "Three creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "3 damage",
-          "t2": "5 damage",
-          "t3": "6 damage"
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "6 damage"
         },
         {
-          "effect": "This ability ignores banes, double banes, and damage immunity.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This ability ignores banes, double banes, and damage immunity."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Shield? Shield!",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

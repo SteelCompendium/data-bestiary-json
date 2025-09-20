@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Orc Terranova",
   "level": 2,
   "roles": [
@@ -20,51 +21,37 @@
   "reason": 0,
   "intuition": 1,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Seismic Step",
-      "effects": [
-        {
-          "effect": "The terranova ignores difficult terrain. Additionally, they don't need line of effect to use abilities against creatures touching the ground."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the terranova is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the terranova is reduced to 1 Stamina instead."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Earth Pillar",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Three creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 damage; A < 0 prone and can't stand (save ends)",
-          "t2": "9 damage; A < 1 prone and can't stand (save ends)",
-          "t3": "12 damage; A < 2 prone and can't stand (save ends)"
+          "tier1": "6 damage; A < 0 prone and can't stand (save ends)",
+          "tier2": "9 damage; A < 1 prone and can't stand (save ends)",
+          "tier3": "12 damage; A < 2 prone and can't stand (save ends)"
         },
         {
-          "effect": "Each target must be on the ground, and the ground in each target's space rises 1 square.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target must be on the ground, and the ground in each target's space rises 1 square."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Sinkhole",
       "icon": "❇️",
       "cost": "3 Malice",
@@ -72,19 +59,41 @@
         "Area",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "3 burst",
       "target": "Each enemy and object in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 damage; M < 0 restrained (save ends)",
-          "t2": "7 damage; M < 1 restrained (save ends)",
-          "t3": "10 damage; M < 2 restrained (save ends)"
+          "tier1": "4 damage; M < 0 restrained (save ends)",
+          "tier2": "7 damage; M < 1 restrained (save ends)",
+          "tier3": "10 damage; M < 2 restrained (save ends)"
         },
         {
-          "effect": "The area is difficult terrain",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The area is difficult terrain"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Seismic Step",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The terranova ignores difficult terrain. Additionally, they don't need line of effect to use abilities against creatures touching the ground."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Relentless",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If the terranova is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the terranova is reduced to 1 Stamina instead."
         }
       ]
     }

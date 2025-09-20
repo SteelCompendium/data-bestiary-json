@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Muceron",
   "level": 3,
   "roles": [
@@ -22,51 +23,37 @@
   "reason": 0,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Lethe",
-      "effects": [
-        {
-          "effect": "While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
-        }
-      ]
-    },
-    {
-      "name": "Soulsight",
-      "effects": [
-        {
-          "effect": "Any creature within 2 squares of the muceron can't be hidden from them."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Barbed Tongues",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage; pull 2",
-          "t2": "7 damage; pull 3",
-          "t3": "8 damage; pull 4"
+          "tier1": "5 damage; pull 2",
+          "tier2": "7 damage; pull 3",
+          "tier3": "8 damage; pull 4"
         },
         {
-          "effect": "If the target is pulled adjacent to the muceron, the muceron can either make a free strike or use the Grab maneuver against them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the target is pulled adjacent to the muceron, the muceron can either make a free strike or use the Grab maneuver against them."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Tongue Pull",
       "icon": "🏹",
       "cost": "2 Malice",
@@ -75,13 +62,35 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 5",
       "target": "Three creatures or objects",
       "effects": [
         {
-          "effect": "The muceron pulls each target up to 5 squares.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The muceron pulls each target up to 5 squares."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Lethe",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While the muceron is winded, they gain an edge on strikes, and any strike made against them gains an edge."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Soulsight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the muceron can't be hidden from them."
         }
       ]
     }

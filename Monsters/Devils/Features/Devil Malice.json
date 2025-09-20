@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Devil Malice",
-  "type": "Malice Features",
   "flavor": "At the start of any devil's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Bureaucratic Tape",
       "icon": "👤",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Underhanded Tactics",
       "icon": "⭐️",
       "cost": "5+ Malice",
@@ -24,6 +29,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Read the Small Print",
       "icon": "🌀",
       "cost": "7 Malice",

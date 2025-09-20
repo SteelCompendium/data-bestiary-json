@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Big Animal A",
   "level": 1,
   "roles": [
@@ -18,71 +19,78 @@
   "reason": -2,
   "intuition": 1,
   "presence": -2,
-  "traits": [
+  "features": [
     {
-      "name": "Nature's Spirit",
-      "effects": [
-        {
-          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Natural Weapon",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 damage",
-          "t2": "9 damage; A < 1 3 damage",
-          "t3": "12 damage; A < 2 3 damage"
+          "tier1": "6 damage",
+          "tier2": "9 damage; A < 1 3 damage",
+          "tier3": "12 damage; A < 2 3 damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Toss",
       "icon": "🗡",
       "keywords": [
         "Melee"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
-          "effect": "The target must be the animal's size or smaller.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "The target must be the animal's size or smaller."
         },
         {
-          "effect": "The target vertical slides up to 3 squares. If the target is an ally, they can make a free strike at the end of the forced movement, then fall without taking damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target vertical slides up to 3 squares. If the target is an ally, they can make a free strike at the end of the forced movement, then fall without taking damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "❗️**Juke**",
       "keywords": [
         "-"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Self",
       "target": "Self",
       "trigger": "The animal is targeted by an area ability.",
       "effects": [
         {
-          "effect": "The animal shifts up to 2 squares before the ability resolves.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The animal shifts up to 2 squares before the ability resolves."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Nature's Spirit",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane."
         }
       ]
     }

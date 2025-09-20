@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Orc Garotter",
   "level": 1,
   "roles": [
@@ -19,43 +20,37 @@
   "reason": 0,
   "intuition": 1,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Dagger Feint",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 damage; the garroter can shift 1 square",
-          "t2": "9 damage; the garroter shifts up to 2 squares",
-          "t3": "12 damage; the garroter shifts up to 3 squares"
+          "tier1": "6 damage; the garroter can shift 1 square",
+          "tier2": "9 damage; the garroter shifts up to 2 squares",
+          "tier3": "12 damage; the garroter shifts up to 3 squares"
         },
         {
-          "effect": "If this ability gains an edge or has a double edge, it deals an extra 4 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If this ability gains an edge or has a double edge, it deals an extra 4 damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Strangle",
       "icon": "🗡",
       "keywords": [
@@ -63,35 +58,48 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "6 damage",
-          "t2": "9 damage; I < 1 dazed (save ends)",
-          "t3": "12 damage; grabbed; I < 2 dazed (save ends)"
+          "tier1": "6 damage",
+          "tier2": "9 damage; I < 1 dazed (save ends)",
+          "tier3": "12 damage; grabbed; I < 2 dazed (save ends)"
         },
         {
-          "effect": "While grabbed this way, a target can't communicate or use magic abilities.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While grabbed this way, a target can't communicate or use magic abilities."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Chroma Cloak",
       "icon": "👤",
       "cost": "1 Malice",
       "keywords": [
         "-"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Melee 1",
       "target": "One creature",
       "effects": [
         {
           "effect": "The garroter turns invisible until the end of their turn. This invisibility ends early if they take damage or use an ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Relentless",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If the garroter is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the garroter is reduced to 1 Stamina instead."
         }
       ]
     }

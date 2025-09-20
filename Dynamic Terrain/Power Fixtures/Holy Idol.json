@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Relic Support",
   "name": "Holy Idol",
-  "type": "Relic Support",
   "level": 5,
   "ev": "7",
   "flavor": "An empowering monument to a higher power enables a villain's machinations.",
@@ -8,6 +9,8 @@
   "size": "2",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
@@ -17,6 +20,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Empowered Will",
       "icon": "⭐️",
       "effects": [

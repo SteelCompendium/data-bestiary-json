@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "High Elf Quiver",
   "level": 1,
   "roles": [
@@ -21,39 +22,42 @@
   "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Heavy Arrow",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
         },
         {
-          "effect": "Each ally adjacent to the target shifts up to 2 squares",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each ally adjacent to the target shifts up to 2 squares"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Otherworldly Grace",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the quiver can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

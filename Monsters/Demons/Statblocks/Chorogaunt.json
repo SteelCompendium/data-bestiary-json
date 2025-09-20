@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Chorogaunt",
   "level": 3,
   "roles": [
@@ -22,9 +23,76 @@
   "reason": 2,
   "intuition": 2,
   "presence": 3,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Agonizing Harmony",
+      "icon": "❇️",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "usage": "Main action",
+      "distance": "5 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "4 psychic damage; I < 1 slowed (save ends)",
+          "tier2": "7 psychic damage; I < 2 slowed (save ends)",
+          "tier3": "10 psychic damage; I < 3 slowed (save ends)"
+        },
+        {
+          "name": "Effect",
+          "effect": "One ally within 10 squares of the chorogaunt shifts up to their speed."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Chaotic Entrancing Harmony",
+      "icon": "❇️",
+      "keywords": [
+        "Area"
+      ],
+      "usage": "Maneuver",
+      "distance": "10 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The chorogaunt slides each target up to 3 squares, ignoring stability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "I Thrive on Pain",
+      "icon": "❗️",
+      "cost": "3 Malice",
+      "keywords": [
+        "Magic"
+      ],
+      "usage": "Triggered action",
+      "distance": "Self",
+      "target": "Self",
+      "trigger": "The chorogaunt is targeted by a strike.",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "End Effect",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
@@ -32,7 +100,10 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Lethe",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "While the chorogaunt is winded, they gain an edge on strikes, and any strike made against them gains an edge."
@@ -40,122 +111,71 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Soulsight",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Any creature within 2 squares of the chorogaunt can't be hidden from them."
         }
       ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Agonizing Harmony",
-      "icon": "❇️",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Area",
-        "Weapon"
-      ],
-      "type": "Main action",
-      "distance": "5 burst",
-      "target": "Each enemy in the area",
-      "effects": [
-        {
-          "roll": "Power Roll + 3",
-          "t1": "4 psychic damage; I < 1 slowed (save ends)",
-          "t2": "7 psychic damage; I < 2 slowed (save ends)",
-          "t3": "10 psychic damage; I < 3 slowed (save ends)"
-        },
-        {
-          "effect": "One ally within 10 squares of the chorogaunt shifts up to their speed.",
-          "name": "Effect"
-        }
-      ]
     },
     {
-      "name": "Chaotic Entrancing Harmony",
-      "icon": "❇️",
-      "keywords": [
-        "Area"
-      ],
-      "type": "Maneuver",
-      "distance": "10 burst",
-      "target": "Each enemy in the area",
-      "effects": [
-        {
-          "effect": "The chorogaunt slides each target up to 3 squares, ignoring stability.",
-          "name": "Effect"
-        }
-      ]
-    },
-    {
-      "name": "I Thrive on Pain",
-      "icon": "❗️",
-      "cost": "3 Malice",
-      "keywords": [
-        "Magic"
-      ],
-      "type": "Triggered action",
-      "distance": "Self",
-      "target": "Self",
-      "trigger": "The chorogaunt is targeted by a strike.",
-      "effects": [
-        {
-          "effect": "Any damage from the strike is halved, and the chorogaunt's abilities deal an extra 3 damage until the end of their next turn.",
-          "name": "Effect"
-        }
-      ]
-    },
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Frightening Tones",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Ranged"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Ranged 10",
       "target": "Three enemies",
       "effects": [
         {
-          "effect": "Each target must choose between taking 5 psychic damage, or being frightened (save ends).",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target must choose between taking 5 psychic damage, or being frightened (save ends)."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bully the Weak",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Ranged 10",
       "target": "One ally",
       "effects": [
         {
-          "effect": "The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains Malice equal to the number of heroes in the encounter."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Running Cacophony",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "Magic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The chorogaunt shifts up to their speed, uses Agonizing Harmony, shifts up to their speed, and then uses Agonizing Harmony again."
         }
       ]
     }

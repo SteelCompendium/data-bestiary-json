@@ -1,10 +1,13 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "+ Malice Features",
   "name": "War Dog Malice",
-  "type": "+ Malice Features",
   "level": 1,
   "flavor": "At the start of any war dog's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Reconstitute",
       "icon": "👤",
       "cost": "3 Malice",
@@ -15,6 +18,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Fire for Effect",
       "icon": "🔳",
       "cost": "5 Malice",
@@ -23,20 +28,22 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "4 cube within 10",
       "target": "Each creature in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "Each target makes an **Agility test**. The same condition is imposed on each affected target.",
-          "t1": "5 fire damage; slowed or weakened (save ends)",
-          "t2": "5 fire damage; slowed or weakened (EoT)",
-          "t3": "5 fire damage"
+          "tier1": "5 fire damage; slowed or weakened (save ends)",
+          "tier2": "5 fire damage; slowed or weakened (EoT)",
+          "tier3": "5 fire damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Fodder Run",
       "icon": "⭐️",
       "cost": "7 Malice",

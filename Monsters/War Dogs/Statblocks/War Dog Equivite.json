@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Equivite",
   "level": 4,
   "roles": [
@@ -19,55 +20,49 @@
   "reason": -1,
   "intuition": -2,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Fuse-Iron Lance",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "6 damage",
-          "t2": "8 damage",
-          "t3": "10 damage; I < 3 frightened (save ends)"
+          "tier1": "6 damage",
+          "tier2": "8 damage",
+          "tier3": "10 damage; I < 3 frightened (save ends)"
         },
         {
-          "effect": "This ability gains an edge while charging.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "This ability gains an edge while charging."
         },
         {
-          "effect": "The ability deals an extra 3 fire damage to the target and each enemy adjacent to the target.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "The ability deals an extra 3 fire damage to the target and each enemy adjacent to the target."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Blazing Charge",
       "icon": "🗡",
       "keywords": [
         "Melee",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Special; see below",
       "target": "Special",
       "effects": [
@@ -77,9 +72,20 @@
         },
         {
           "roll": "Power Roll + 3",
-          "t1": "2 damage; push 1",
-          "t2": "4 damage; push 2",
-          "t3": "5 damage; push 3; M < 3 prone"
+          "tier1": "2 damage; push 1",
+          "tier2": "4 damage; push 2",
+          "tier3": "5 damage; push 3; M < 3 prone"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the equivite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Bugbear Snare",
   "level": 5,
   "roles": [
@@ -22,31 +23,32 @@
   "reason": 0,
   "intuition": 0,
   "presence": 1,
-  "traits": [],
-  "abilities": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Cut 'Em Low!",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "3 damage",
-          "t2": "6 damage",
-          "t3": "7 damage; A < 3 slowed (save ends)"
+          "tier1": "3 damage",
+          "tier2": "6 damage",
+          "tier3": "7 damage; A < 3 slowed (save ends)"
         },
         {
-          "effect": "If the snare started their turn hidden from the target, the target is automatically grabbed. A target grabbed this way or already grabbed by the snare can be vertical pushed up to 4 squares.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the snare started their turn hidden from the target, the target is automatically grabbed. A target grabbed this way or already grabbed by the snare can be vertical pushed up to 4 squares."
         }
       ]
     }

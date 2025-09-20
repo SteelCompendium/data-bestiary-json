@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Bugbear Mob",
   "level": 5,
   "roles": [
@@ -22,39 +23,42 @@
   "reason": 0,
   "intuition": 1,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Swarm",
-      "effects": [
-        {
-          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mug and Tear",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "3 damage; pull 2",
-          "t2": "6 damage; pull 3",
-          "t3": "7 damage; pull 4, grabbed"
+          "tier1": "3 damage; pull 2",
+          "tier2": "6 damage; pull 3",
+          "tier3": "7 damage; pull 4, grabbed"
         },
         {
-          "effect": "If the target is pulled into the mob, that forced movement deals damage only at the Director's determination.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the target is pulled into the mob, that forced movement deals damage only at the Director's determination."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Swarm",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share."
         }
       ]
     }

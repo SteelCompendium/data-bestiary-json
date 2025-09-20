@@ -1,10 +1,13 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "+ Malice Features",
   "name": "Undead Malice",
-  "type": "+ Malice Features",
   "level": 7,
   "flavor": "At the start of any level 7 or higher undead's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Prior Malice Features",
       "icon": "⭐️",
       "cost": "2-7+ Malice",
@@ -15,6 +18,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Necrotic Rupture",
       "icon": "🌀",
       "cost": "5 Malice",

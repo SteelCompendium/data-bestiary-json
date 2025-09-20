@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Minotaur Lackey",
   "level": 8,
   "roles": [
@@ -21,40 +22,43 @@
   "reason": 0,
   "intuition": 1,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Minotaur Sense",
-      "effects": [
-        {
-          "effect": "The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Horn Vault",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Charge",
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "3 damage",
-          "t2": "6 damage; slide 1",
-          "t3": "8 damage; slide 3"
+          "tier1": "3 damage",
+          "tier2": "6 damage; slide 1",
+          "tier3": "8 damage; slide 3"
         },
         {
-          "effect": "A target who is force moved into an obstacle and has M < 3 is bleeding (save ends).",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A target who is force moved into an obstacle and has M < 3 is bleeding (save ends)."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Minotaur Sense",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The lackey can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
         }
       ]
     }

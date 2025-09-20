@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Rival Tactician",
   "level": 2,
   "roles": [
@@ -19,43 +20,37 @@
   "reason": 1,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Dual Targeting Shot",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "7 damage",
-          "t2": "11 damage",
-          "t3": "14 damage"
+          "tier1": "7 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage"
         },
         {
-          "effect": "Two allies within distance can make a free strike against one of the targets.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "Two allies within distance can make a free strike against one of the targets."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "I'll Cover You!",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -64,36 +59,49 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "8 damage; M < 0 weakened (save ends)",
-          "t2": "13 damage; M < 1 weakened (save ends)",
-          "t3": "16 damage; M < 2 weakened (save ends)"
+          "tier1": "8 damage; M < 0 weakened (save ends)",
+          "tier2": "13 damage; M < 1 weakened (save ends)",
+          "tier3": "16 damage; M < 2 weakened (save ends)"
         },
         {
-          "effect": "One ally adjacent to the target regains 5 Stamina.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "One ally adjacent to the target regains 5 Stamina."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Overwatch",
       "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "The triggering enemy",
       "trigger": "An enemy within distance willingly moves.",
       "effects": [
         {
-          "effect": "At any point during the movement, the tactician makes a free strike against the target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "At any point during the movement, the tactician makes a free strike against the target."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Rivalry",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

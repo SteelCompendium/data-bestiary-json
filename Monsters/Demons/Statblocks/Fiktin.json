@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Fiktin",
   "level": 5,
   "roles": [
@@ -22,9 +23,57 @@
   "reason": 2,
   "intuition": 1,
   "presence": 3,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Violent Transformation",
+      "icon": "❇️",
+      "ability_type": "Signature Ability",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "usage": "Main action",
+      "distance": "2 burst",
+      "target": "Each enemy in the area",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 corruption damage",
+          "tier2": "6 corruption damage",
+          "tier3": "7 corruption damage; I < 3 dazed (save ends)"
+        },
+        {
+          "name": "Effect",
+          "effect": "The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
+      "name": "Aggressive Mimicry",
+      "icon": "👤",
+      "cost": "1 Malice",
+      "keywords": [
+        "Magic"
+      ],
+      "usage": "Maneuver",
+      "distance": "Self",
+      "target": "Self",
+      "effects": [
+        {
+          "name": "Effect",
+          "effect": "The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Lethe",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge."
@@ -32,53 +81,13 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Soulsight",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Any creature within 2 squares of the fiktin can't be hidden from them."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
-      "name": "Violent Transformation",
-      "icon": "❇️",
-      "cost": "Signature Ability",
-      "keywords": [
-        "Area",
-        "Magic"
-      ],
-      "type": "Main action",
-      "distance": "2 burst",
-      "target": "Each enemy in the area",
-      "effects": [
-        {
-          "roll": "Power Roll + 3",
-          "t1": "3 corruption damage",
-          "t2": "6 corruption damage",
-          "t3": "7 corruption damage; I < 3 dazed (save ends)"
-        },
-        {
-          "effect": "The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.",
-          "name": "Effect"
-        }
-      ]
-    },
-    {
-      "name": "Aggressive Mimicry",
-      "icon": "👤",
-      "cost": "1 Malice",
-      "keywords": [
-        "Magic"
-      ],
-      "type": "Maneuver",
-      "distance": "Self",
-      "target": "Self",
-      "effects": [
-        {
-          "effect": "The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver.",
-          "name": "Effect"
         }
       ]
     }

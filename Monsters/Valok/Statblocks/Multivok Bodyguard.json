@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Multivok Bodyguard",
   "level": 9,
   "roles": [
@@ -21,55 +22,33 @@
   "reason": -2,
   "intuition": 1,
   "presence": -4,
-  "traits": [
+  "features": [
     {
-      "name": "Multivok Maintenance",
-      "effects": [
-        {
-          "effect": "At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina."
-        }
-      ]
-    },
-    {
-      "name": "Crafted to Perfection",
-      "effects": [
-        {
-          "effect": "The bodyguard's shape can't be changed by any external effect"
-        }
-      ]
-    },
-    {
-      "name": "Valiar Might",
-      "effects": [
-        {
-          "effect": "While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Gatling Bolt Gun",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "13 damage",
-          "t2": "18 damage",
-          "t3": "22 damage; A < 4 bleeding (save ends)"
+          "tier1": "13 damage",
+          "tier2": "18 damage",
+          "tier3": "22 damage; A < 4 bleeding (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Valiar Axe",
       "icon": "🗡",
       "cost": "3 Malice",
@@ -78,56 +57,93 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "15 damage; M < 2 weakened (save ends)",
-          "t2": "21 damage; M < 3 weakened (save ends)",
-          "t3": "26 damage; prone; M < 4 weakened (save ends)"
+          "tier1": "15 damage; M < 2 weakened (save ends)",
+          "tier2": "21 damage; M < 3 weakened (save ends)",
+          "tier3": "26 damage; prone; M < 4 weakened (save ends)"
         },
         {
-          "effect": "The bodyguard has a double edge on this ability if it was previously used against the same target in this encounter.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The bodyguard has a double edge on this ability if it was previously used against the same target in this encounter."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Magnetic Pull",
       "icon": "❇️",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "10 burst",
       "target": "Each enemy and object in the area",
       "effects": [
         {
-          "effect": "This ability targets only metal-clad enemies and metal objects of size 3 or smaller.",
-          "name": "Special"
+          "name": "Special",
+          "effect": "This ability targets only metal-clad enemies and metal objects of size 3 or smaller."
         },
         {
-          "effect": "Each target is pulled up to 8 squares, or if they have M < 3, they are pulled up to 15 squares. The bodyguard can make a free strike against each target who ends this forced movement adjacent to them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target is pulled up to 8 squares, or if they have M < 3, they are pulled up to 15 squares. The bodyguard can make a free strike against each target who ends this forced movement adjacent to them."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Valiar Cloak",
       "icon": "❗️",
       "keywords": [
         "Melee"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Melee 2",
       "target": "Self",
       "trigger": "One ally within distance is targeted by an enemy's ability. The bodyguard can use this ability after seeing the outcome of the power roll.",
       "effects": [
         {
-          "effect": "The bodyguard becomes the triggering ability's target instead.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The bodyguard becomes the triggering ability's target instead."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Multivok Maintenance",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 Stamina."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Crafted to Perfection",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The bodyguard's shape can't be changed by any external effect"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Valiar Might",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While the bodyguard isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action."
         }
       ]
     }

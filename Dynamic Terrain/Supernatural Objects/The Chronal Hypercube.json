@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Relic Controller",
   "name": "The Chronal Hypercube",
-  "type": "Relic Controller",
   "level": 3,
   "ev": "20",
   "flavor": "This unnatural object twists space around it in a reflection of its own unnatural form.",
@@ -8,18 +9,22 @@
   "size": "1M",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
         {
           "effect": "A creature who has the Psionics skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.",
-          "t1": "The creature takes 1d6 psychic damage.",
-          "t2": "The creature fails to deactivate the hypercube.",
-          "t3": "The hypercube teleports adjacent to the creature at the start of the next round and becomes an ally to the creature and their allies."
+          "tier1": "The creature takes 1d6 psychic damage.",
+          "tier2": "The creature fails to deactivate the hypercube.",
+          "tier3": "The hypercube teleports adjacent to the creature at the start of the next round and becomes an ally to the creature and their allies."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Dimensional Flicker",
       "icon": "⭐️",
       "effects": [
@@ -29,6 +34,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Chronal Superhighway",
       "icon": "⭐️",
       "effects": [

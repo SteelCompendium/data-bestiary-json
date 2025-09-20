@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Dorzinuuth the Base",
   "level": 6,
   "roles": [
@@ -24,66 +25,44 @@
   "reason": 1,
   "intuition": 2,
   "presence": 3,
-  "traits": [
+  "features": [
     {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of his turns, Dorzinuuth can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Remember Your Oath",
-      "effects": [
-        {
-          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter."
-        }
-      ]
-    },
-    {
-      "name": "Sheltering Wings",
-      "effects": [
-        {
-          "effect": "While Dorzinuuth isn't flying, strikes made against him take a bane."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Punishing Flail",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "11 damage; M < 2 prone",
-          "t2": "16 damage; M < 3 prone",
-          "t3": "19 damage; M < 4 prone"
+          "tier1": "11 damage; M < 2 prone",
+          "tier2": "16 damage; M < 3 prone",
+          "tier3": "19 damage; M < 4 prone"
         },
         {
-          "effect": "If the target has M < 4, they are also bleeding (save ends).",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "If the target has M < 4, they are also bleeding (save ends)."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "I'll Cut A Path",
       "icon": "🔳",
       "keywords": [
         "Area",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "5 x 2 line within 1",
       "target": "Each enemy in the area",
       "effects": [
@@ -93,85 +72,126 @@
         },
         {
           "roll": "Power Roll + 4",
-          "t1": "7 damage",
-          "t2": "13 damage; M < 3 prone",
-          "t3": "15 damage; M < 4 prone"
+          "tier1": "7 damage",
+          "tier2": "13 damage; M < 3 prone",
+          "tier3": "15 damage; M < 4 prone"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Watch Your Six!",
       "icon": "❗️",
       "keywords": [
         "Melee"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Melee 1",
       "target": "One ally",
       "trigger": "An ally within distance takes damage while Dorzinuuth isn't flying.",
       "effects": [
         {
-          "effect": "Dorzinuuth shields the triggering ally with his wings, halving the damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Dorzinuuth shields the triggering ally with his wings, halving the damage."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "End Effect",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the end of each of his turns, Dorzinuuth can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Remember Your Oath",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a bane on strikes made against that character until the end of the encounter."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Sheltering Wings",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While Dorzinuuth isn't flying, strikes made against him take a bane."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Roaring Gambit",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Area"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.",
-          "t1": "Frightened (save ends)",
-          "t2": "Frightened (EoT)",
-          "t3": "No effect."
+          "tier1": "Frightened (save ends)",
+          "tier2": "Frightened (EoT)",
+          "tier3": "No effect."
         },
         {
-          "effect": "Each ally in the area gains an edge on their next strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each ally in the area gains an edge on their next strike."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Wings of Second Wind",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "Area"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "10 burst",
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Each target shifts or flies up to their speed and regains 10 Stamina.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target shifts or flies up to their speed and regains 10 Stamina."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Snap, Crackle, Pop",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each ally in the area",
       "effects": [
         {
-          "effect": "Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Dorzinuuth covers the targets in an electrifying mesh. Whenever a target takes damage from a melee ability, the attacker takes 6 lightning damage."
         }
       ]
     }

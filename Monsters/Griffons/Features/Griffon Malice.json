@@ -1,39 +1,46 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Griffon Malice",
-  "type": "Malice Features",
   "flavor": "At the start of any griffon's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Swoop",
       "icon": "👤",
       "cost": "3 Malice",
       "keywords": [
         "-"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The griffon flies up to their speed, and can make a free strike against each creature who makes an opportunity attack against them during this movement.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The griffon flies up to their speed, and can make a free strike against each creature who makes an opportunity attack against them during this movement."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Piercing Cry",
       "icon": "❇️",
       "cost": "5 Malice",
       "effects": [
         {
           "effect": "A griffon acting this turn unleashes a hideous screech at one enemy within 5 squares of them, forcing that creature to make an **Intuition test**.",
-          "t1": "Frightened (save ends)",
-          "t2": "Frightened (EoT)",
-          "t3": "No effect."
+          "tier1": "Frightened (save ends)",
+          "tier2": "Frightened (EoT)",
+          "tier3": "No effect."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Wildwinds",
       "icon": "🌀",
       "cost": "10 Malice",

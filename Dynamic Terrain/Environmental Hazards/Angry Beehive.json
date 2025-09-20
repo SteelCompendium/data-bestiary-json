@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Hazard Hexer",
   "name": "Angry Beehive",
-  "type": "Hazard Hexer",
   "level": 2,
   "ev": "2",
   "flavor": "This beehive is full of angry bees who swarm and attack with little provocation.",
@@ -8,6 +9,8 @@
   "size": "1S",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
@@ -17,6 +20,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Activate",
       "icon": "❕",
       "effects": [
@@ -24,24 +29,26 @@
           "effect": "A creature enters the hive's space or an adjacent space without shifting."
         },
         {
-          "effect": "The hive is removed from the encounter map and a swarm of bees is placed in one square of the space of the triggering creature. Any creature who starts their turn in the swarm's space takes 3 poison damage. At the start of each round, the swarm moves 1 square and its size increases by 1 square (to 2 squares by 2 squares, 3 squares by 3 squares, and so forth), preferring squares in a creature's space. After 3 rounds, the swarm dissipates.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The hive is removed from the encounter map and a swarm of bees is placed in one square of the space of the triggering creature. Any creature who starts their turn in the swarm's space takes 3 poison damage. At the start of each round, the swarm moves 1 square and its size increases by 1 square (to 2 squares by 2 squares, 3 squares by 3 squares, and so forth), preferring squares in a creature's space. After 3 rounds, the swarm dissipates."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Upgrades",
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "The hive is hidden until the swarm is unleashed.",
           "name": "Concealed Hive",
-          "cost": "+1 EV"
+          "cost": "+1 EV",
+          "effect": "The hive is hidden until the swarm is unleashed."
         },
         {
-          "effect": "The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature shifts into or while adjacent to it, and the swarm deals 1d6 + 3 poison damage.",
           "name": "Killer Bees",
-          "cost": "+2 EV"
+          "cost": "+2 EV",
+          "effect": "The bees are a particularly aggressive and dangerous species. The hive triggers even if a creature shifts into or while adjacent to it, and the swarm deals 1d6 + 3 poison damage."
         }
       ]
     }

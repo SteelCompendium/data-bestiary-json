@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Lord Syuul",
   "level": 6,
   "roles": [
@@ -23,56 +24,53 @@
   "reason": 4,
   "intuition": 4,
   "presence": 3,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Monster",
+      "icon": "☠️",
       "effects": [
         {
-          "effect": "At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way.",
-          "name": "End Effect"
+          "name": "End Effect",
+          "effect": "At the end of each of his turns, Lord Syuul can take 10 damage to end one effect on him that can be ended by a saving throw. This damage can't be reduced in any way."
         },
         {
-          "effect": "Lord Syuul can take two turns each round. He can't take turns consecutively.",
-          "name": "Solo Turns"
+          "name": "Solo Turns",
+          "effect": "Lord Syuul can take two turns each round. He can't take turns consecutively."
         }
       ]
     },
     {
-      "name": "Mind Over Manners",
-      "effects": [
-        {
-          "effect": "Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Tentacle Grab",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "11 damage; A < 2 grabbed",
-          "t2": "17 damage; A < 3 grabbed",
-          "t3": "20 damage; A < 4 grabbed"
+          "tier1": "11 damage; A < 2 grabbed",
+          "tier2": "17 damage; A < 3 grabbed",
+          "tier3": "20 damage; A < 4 grabbed"
         },
         {
-          "effect": "The distance of this ability increases to melee 10. Each target grabbed by Lord Syuul is pulled up to 10 squares.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "The distance of this ability increases to melee 10. Each target grabbed by Lord Syuul is pulled up to 10 squares."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Dampening Grenade",
       "icon": "🔳",
       "keywords": [
@@ -80,23 +78,25 @@
         "Psionic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "2 cube within 5",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "6 damage; the effect ends after 2 turns",
-          "t2": "10 damage; the effect ends at the end of Lord Syuul's next turn",
-          "t3": "13 damage; the effect lasts until the end of the encounter"
+          "tier1": "6 damage; the effect ends after 2 turns",
+          "tier2": "10 damage; the effect ends at the end of Lord Syuul's next turn",
+          "tier3": "13 damage; the effect lasts until the end of the encounter"
         },
         {
-          "effect": "Any supernatural ability used by a creature in the area has a double bane. All reactive tests made against magic or psionic effects in the area have a double edge.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Any supernatural ability used by a creature in the area has a double bane. All reactive tests made against magic or psionic effects in the area have a double edge."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mind Blown",
       "icon": "🗡",
       "cost": "7 Malice",
@@ -105,29 +105,31 @@
         "Psionic",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One grabbed enemy",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "12 damage",
-          "t2": "20 damage",
-          "t3": "24 damage"
+          "tier1": "12 damage",
+          "tier2": "20 damage",
+          "tier3": "24 damage"
         },
         {
-          "effect": "If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If this action reduces the target to 0 Stamina and they have a brain, their brain explodes, instantly killing them."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "You Come With Me",
       "icon": "👤",
       "keywords": [
         "Psionic"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
@@ -137,81 +139,100 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Adaptability",
       "icon": "❗️",
       "keywords": [
         "Psionic"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Self",
       "target": "Self",
       "trigger": "Lord Syuul takes damage that has a damage type.",
       "effects": [
         {
-          "effect": "Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Until the start of his next turn, Lord Syuul gains immunity 5 to the triggering damage type."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Mind Over Manners",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Whenever Lord Syuul uses a psionic ability, he can do so as if he were in the space of any creature within his line of effect who he has observed using a psionic ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "See Only Me",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Area",
         "Psionic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "10 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "Each target makes an **Intuition test**.",
-          "t1": "16 psychic damage; the target has no line of effect to any creture except Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save ends)",
-          "t2": "13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)",
-          "t3": "7 psychic damage"
+          "tier1": "16 psychic damage; the target has no line of effect to any creture except Lord Syuul, and takes a bane on strikes targeting Lord Syuul (save ends)",
+          "tier2": "13 psychic damage; the target has no line of effect to any creature except Lord Syuul (save ends)",
+          "tier3": "7 psychic damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Phantom Pain",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "Psionic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Lord Syuul becomes invisible, can teleport up to 10 squares, and projects an illusory double within 10 squares. The double can't move or act, but Lord Syuul can use psionic abilities as if he were in its square. Whenever a creature touches or damages the double with a melee strike, they take 10 psychic damage. If Lord Syuul takes damage, his invisibility ends and the double disappears."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mindshatter",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "Area",
         "Psionic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each creature in the area",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "7 psychic damage",
-          "t2": "13 psychic damage",
-          "t3": "16 psychic damage"
+          "tier1": "7 psychic damage",
+          "tier2": "13 psychic damage",
+          "tier3": "16 psychic damage"
         },
         {
-          "effect": "Until the end of the encounter, each target has damage weakness 3.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Until the end of the encounter, each target has damage weakness 3."
         }
       ]
     }

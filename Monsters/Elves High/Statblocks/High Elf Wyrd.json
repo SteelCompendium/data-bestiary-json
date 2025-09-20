@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "High Elf Wyrd",
   "level": 3,
   "roles": [
@@ -23,59 +24,55 @@
   "reason": 2,
   "intuition": -1,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Otherworldly Grace",
-      "effects": [
-        {
-          "effect": "At the start of each of their turns, the wyrd can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Twystrd",
       "icon": "🔳",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "1 cube within 5",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "Vertical push 3",
-          "t2": "Vertical push 5",
-          "t3": "Vertical push 6"
+          "tier1": "Vertical push 3",
+          "tier2": "Vertical push 5",
+          "tier3": "Vertical push 6"
         },
         {
-          "effect": "For each elemental mote adjacent to the wyrd, the size of the cube increases by 1.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "For each elemental mote adjacent to the wyrd, the size of the cube increases by 1."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Summon Elemental",
       "icon": "🏹",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 5",
       "target": "Special",
       "effects": [
         {
-          "effect": "The wyrd summons two elemental motes or two soot crows into unoccupied spaces within distance.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The wyrd summons two elemental motes or two soot crows into unoccupied spaces within distance."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Wyrd Warp",
       "icon": "🔳",
       "cost": "2 Malice",
@@ -83,13 +80,24 @@
         "Area",
         "Magic"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "8 wall within 8",
       "target": "Special",
       "effects": [
         {
-          "effect": "The wyrd shapes the land in the area as if it were loose clay, either raising the ground or pushing it down to create a trench. Any creature in the area moves with the terrain to its new higher elevation, or falls if the ground is lowered beneath them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The wyrd shapes the land in the area as if it were loose clay, either raising the ground or pushing it down to create a trench. Any creature in the area moves with the terrain to its new higher elevation, or falls if the ground is lowered beneath them."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Otherworldly Grace",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the wyrd can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn."
         }
       ]
     }

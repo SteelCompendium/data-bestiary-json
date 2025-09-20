@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Skeleton",
   "level": 1,
   "roles": [
@@ -23,44 +24,38 @@
   "reason": 1,
   "intuition": 0,
   "presence": -1,
-  "traits": [
+  "features": [
     {
-      "name": "Arise",
-      "effects": [
-        {
-          "effect": "The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bone Shards",
       "icon": "⚔️",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1 or ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 damage",
-          "t2": "6 damage",
-          "t3": "7 damage"
+          "tier1": "4 damage",
+          "tier2": "6 damage",
+          "tier3": "7 damage"
         },
         {
-          "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bone Spur",
       "icon": "❇️",
       "cost": "2 Malice",
@@ -68,19 +63,30 @@
         "Area",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "1 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "1 damage; M < 0 bleeding (save ends)",
-          "t2": "2 damage; M < 1 bleeding (save ends)",
-          "t3": "3 damage; M < 2 bleeding (save ends)"
+          "tier1": "1 damage; M < 0 bleeding (save ends)",
+          "tier2": "2 damage; M < 1 bleeding (save ends)",
+          "tier3": "3 damage; M < 2 bleeding (save ends)"
         },
         {
-          "effect": "Each target takes a bane on their next strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target takes a bane on their next strike."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Arise",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The first time the skeleton is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 Stamina and fall prone."
         }
       ]
     }

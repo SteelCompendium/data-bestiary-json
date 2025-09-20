@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Shadow Elf Nightstrike",
   "level": 4,
   "roles": [
@@ -22,39 +23,42 @@
   "reason": 0,
   "intuition": 1,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The nightstrike ignores concealment created by darkness. While the nightstrike is in direct sunlight, they have damage weakness 3. While the nightstrike has concealment, they have damage immunity 3."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Vault",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "3 damage",
-          "t2": "5 damage",
-          "t3": "7 damage"
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "7 damage"
         },
         {
-          "effect": "The nightstrike shifts to leap over the target and into an unoccupied space adjacent to the target, opposite from the nightstrike's original space.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The nightstrike shifts to leap over the target and into an unoccupied space adjacent to the target, opposite from the nightstrike's original space."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Of the Umbra",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The nightstrike ignores concealment created by darkness. While the nightstrike is in direct sunlight, they have damage weakness 3. While the nightstrike has concealment, they have damage immunity 3."
         }
       ]
     }

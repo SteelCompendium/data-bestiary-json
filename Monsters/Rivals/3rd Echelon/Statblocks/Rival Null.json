@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Rival Null",
   "level": 8,
   "roles": [
@@ -19,47 +20,33 @@
   "reason": 3,
   "intuition": 4,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Force Dampener",
-      "effects": [
-        {
-          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it."
-        }
-      ]
-    },
-    {
-      "name": "Rivalry",
-      "effects": [
-        {
-          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Inertial Flow",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "12 damage; the null shifts up to 3 squares; A < 2 8 damage",
-          "t2": "17 damage; the null shifts up to 4 squares; A < 3 13 damage",
-          "t3": "21 damage; the null shifts up to 5 squares; A < 4 17 damage"
+          "tier1": "12 damage; the null shifts up to 3 squares; A < 2 8 damage",
+          "tier2": "17 damage; the null shifts up to 4 squares; A < 3 13 damage",
+          "tier3": "21 damage; the null shifts up to 5 squares; A < 4 17 damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Stun",
       "icon": "🗡",
       "cost": "3 Malice",
@@ -69,15 +56,37 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "12 damage; R < 2 dazed (save ends)",
-          "t2": "17 damage; R < 3 dazed (save ends)",
-          "t3": "21 damage; R < 4 dazed and restrained (save ends)"
+          "tier1": "12 damage; R < 2 dazed (save ends)",
+          "tier2": "17 damage; R < 3 dazed (save ends)",
+          "tier3": "21 damage; R < 4 dazed and restrained (save ends)"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Force Dampener",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The first time each round that the null is targeted by a strike, it takes a bane and the null halves any damage from it."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Rivalry",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the null chooses one creature within their line of effect. Both the null and the creature can add a d3 roll to power rolls they make against each other."
         }
       ]
     }

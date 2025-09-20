@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Manticore",
   "level": 4,
   "roles": [
@@ -20,56 +21,64 @@
   "reason": 0,
   "intuition": 0,
   "presence": -1,
-  "traits": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Monster",
+      "icon": "☠️",
       "effects": [
         {
-          "effect": "At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.",
-          "name": "End Effect"
+          "name": "End Effect",
+          "effect": "At the end of each of their turns, the manticore can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
         },
         {
-          "effect": "The manticore can take two turns each round. They can't take turns consecutively.",
-          "name": "Solo Turns"
+          "name": "Solo Turns",
+          "effect": "The manticore can take two turns each round. They can't take turns consecutively."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Agile Predator",
+      "icon": "⭐️",
       "effects": [
         {
           "effect": "Whenever the manticore deals damage to a creature, they don't provoke opportunity attacks from that creature during that turn."
         }
       ]
-    }
-  ],
-  "abilities": [
+    },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Carnivorous Bite",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "12 damage; A < 2 bleeding (save ends)",
-          "t2": "17 damage; A < 3 bleeding (save ends)",
-          "t3": "21 damage; A < 4 bleeding (save ends)"
+          "tier1": "12 damage; A < 2 bleeding (save ends)",
+          "tier2": "17 damage; A < 3 bleeding (save ends)",
+          "tier3": "21 damage; A < 4 bleeding (save ends)"
         },
         {
-          "effect": "If the target is frightened, this ability gains an edge.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the target is frightened, this ability gains an edge."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Tail Spike",
       "icon": "🏹",
       "keywords": [
@@ -77,23 +86,25 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "6 damage; M < 2 4 poison damage",
-          "t2": "11 damage; M < 3 4 poison damage, weakened (save ends)",
-          "t3": "14 damage; M < 4 8 poison damage, weakened (save ends)"
+          "tier1": "6 damage; M < 2 4 poison damage",
+          "tier2": "11 damage; M < 3 4 poison damage, weakened (save ends)",
+          "tier3": "14 damage; M < 4 8 poison damage, weakened (save ends)"
         },
         {
-          "effect": "While weakened this way, a target takes 1d6 poison dam- age at the start of each of their turns.",
-          "cost": "1 Malice"
+          "cost": "1 Malice",
+          "effect": "While weakened this way, a target takes 1d6 poison dam- age at the start of each of their turns."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Harrying Claws",
       "icon": "🗡",
       "keywords": [
@@ -101,87 +112,95 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Melee 1",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "Slide 1; A < 2 3 damage",
-          "t2": "Slide 2; A < 3 5 damage",
-          "t3": "Slide 4; A < 4 7 damage"
+          "tier1": "Slide 1; A < 2 3 damage",
+          "tier2": "Slide 2; A < 3 5 damage",
+          "tier3": "Slide 4; A < 4 7 damage"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Reflexive Instinct",
       "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "The triggering creature",
       "trigger": "A creature within distance deals damage to the manticore.",
       "effects": [
         {
-          "effect": "The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The manticore shifts up to 5 squares into the air, then can use Tail Spike against the target."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Trumpeting Howl",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "5 burst",
       "target": "Each creature in the area",
       "effects": [
         {
           "roll": "Power Roll + 4",
-          "t1": "Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)",
-          "t2": "Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)",
-          "t3": "Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)"
+          "tier1": "Frightened (EoT); if the target has I < 2 they are instead frightened (save ends)",
+          "tier2": "Frightened (EoT); if the target has I < 3 they are instead frightened (save ends)",
+          "tier3": "Frightened (EoT); if the target has I < 4 they are instead dazed (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Cornered Predator",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "-"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The manticore shifts up to their speed, then can use Tail Spike against each enemy within distance of that ability."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Debilitating Poison",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "-"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against weakened creatures. Additionally, any creature weakened by the manticore's Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns."
         }
       ]
     }

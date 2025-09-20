@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Time Raider Cannonfall",
   "level": 3,
   "roles": [
@@ -22,44 +23,38 @@
   "reason": 2,
   "intuition": 2,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Foresight Squared",
-      "effects": [
-        {
-          "effect": "The cannonfall doesn't take a bane on strikes against creatures with concealment or cover."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Sunderbuss",
       "icon": "🔳",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Area",
         "Psionic",
         "Ranged",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "3 cube within 10",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "4 sonic damage",
-          "t2": "7 sonic damage",
-          "t3": "10 sonic damage; prone; M < 2 slowed (save ends)"
+          "tier1": "4 sonic damage",
+          "tier2": "7 sonic damage",
+          "tier3": "10 sonic damage; prone; M < 2 slowed (save ends)"
         },
         {
-          "effect": "A layer of ground beneath the area that is 1 square deep is destroyed.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A layer of ground beneath the area that is 1 square deep is destroyed."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Buss Buffe",
       "icon": "❗️",
       "cost": "1 Malice",
@@ -67,14 +62,25 @@
         "Area",
         "Psionic"
       ],
-      "type": "Free triggered action",
+      "usage": "Free triggered action",
       "distance": "5 burst",
       "target": "Self and each ally in the area",
       "trigger": "A creature damages the cannonfall with a ranged or area ability.",
       "effects": [
         {
-          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The damage is halved for the cannonfall and each target also affected by the triggering ability"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Foresight Squared",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The cannonfall doesn't take a bane on strikes against creatures with concealment or cover."
         }
       ]
     }

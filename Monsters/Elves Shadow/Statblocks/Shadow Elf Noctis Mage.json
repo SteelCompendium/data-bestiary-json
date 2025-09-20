@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Shadow Elf Noctis Mage",
   "level": 6,
   "roles": [
@@ -21,47 +22,41 @@
   "reason": 3,
   "intuition": 1,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Of the Umbra",
-      "effects": [
-        {
-          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Blotting Bolt",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "9 damage",
-          "t2": "14 damage",
-          "t3": "17 damage"
+          "tier1": "9 damage",
+          "tier2": "14 damage",
+          "tier3": "17 damage"
         },
         {
-          "effect": "The target takes a bane on their next strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target takes a bane on their next strike."
         },
         {
-          "effect": "The target instead has a double bane on the next ability they use.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "The target instead has a double bane on the next ability they use."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Enemies in the Dark",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -70,15 +65,26 @@
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 5",
       "target": "Two enemies",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "8 damage; R < 1 the target makes a free strike against one enemy of the noctis mage's choice.",
-          "t2": "10 damage; R < 2 the target makes a free strike against one enemy of the noctis mage's choice.",
-          "t3": "13 damage; R < 3 the target uses a signature ability against one enemy of the noctis mage's choice."
+          "tier1": "8 damage; R < 1 the target makes a free strike against one enemy of the noctis mage's choice.",
+          "tier2": "10 damage; R < 2 the target makes a free strike against one enemy of the noctis mage's choice.",
+          "tier3": "13 damage; R < 3 the target uses a signature ability against one enemy of the noctis mage's choice."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Of the Umbra",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
         }
       ]
     }

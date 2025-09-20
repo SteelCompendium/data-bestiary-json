@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Fossil Cryptic Malice",
-  "type": "Malice Features",
   "flavor": "At the start of a fossil cryptic's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Floor Mosaic",
       "icon": "🏹",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "5 Malice",
@@ -24,6 +29,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Stone Pillars",
       "icon": "🔳",
       "cost": "5 Malice",
@@ -34,15 +41,17 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Choking Dust",
       "icon": "🌀",
       "cost": "10 Malice",
       "effects": [
         {
           "effect": "The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.",
-          "t1": "Until the end of the enemy's next turn, their stability is reduced to 0, and any forced movement effects targeting them gain a +2 bonus to the distance moved.",
-          "t2": "The enemy's stability is halved (EoT).",
-          "t3": "No effect."
+          "tier1": "Until the end of the enemy's next turn, their stability is reduced to 0, and any forced movement effects targeting them gain a +2 bonus to the distance moved.",
+          "tier2": "The enemy's stability is halved (EoT).",
+          "tier3": "No effect."
         }
       ]
     }

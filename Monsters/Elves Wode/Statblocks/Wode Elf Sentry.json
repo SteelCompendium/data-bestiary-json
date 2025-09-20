@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Wode Elf Sentry",
   "level": 1,
   "roles": [
@@ -20,47 +21,41 @@
   "reason": 0,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Masking Glamor",
-      "effects": [
-        {
-          "effect": "Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Tracer Longbow",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage",
-          "t2": "7 damage",
-          "t3": "9 damage; the target is marked (save ends)"
+          "tier1": "5 damage",
+          "tier2": "7 damage",
+          "tier3": "9 damage; the target is marked (save ends)"
         },
         {
-          "effect": "Allies gain an edge on abilities against a target marked by any wode elf.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Allies gain an edge on abilities against a target marked by any wode elf."
         },
         {
-          "effect": "The sentry targets two additional creatures or objects.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "The sentry targets two additional creatures or objects."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Death Blossom",
       "icon": "❇️",
       "cost": "2 Malice",
@@ -68,13 +63,24 @@
         "Area",
         "Weapon"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "5 burst",
       "target": "Each marked enemy",
       "effects": [
         {
-          "effect": "Each target takes 3 damage.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target takes 3 damage."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Masking Glamor",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead."
         }
       ]
     }

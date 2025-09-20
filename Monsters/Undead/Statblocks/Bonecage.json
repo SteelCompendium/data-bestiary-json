@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Bonecage",
   "level": 10,
   "roles": [
@@ -24,38 +25,41 @@
   "reason": -2,
   "intuition": 3,
   "presence": -1,
-  "traits": [],
-  "abilities": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Ribcage Chomp",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 2",
       "target": "Two creatures or objects",
       "effects": [
         {
           "roll": "Power Roll + 5",
-          "t1": "9 damage; M < 4 grabbed",
-          "t2": "12 damage; M < 5 grabbed",
-          "t3": "14 damage; grabbed"
+          "tier1": "9 damage; M < 4 grabbed",
+          "tier2": "12 damage; M < 5 grabbed",
+          "tier3": "14 damage; grabbed"
         },
         {
-          "effect": "The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The bonecage can have up to four size 1 targets grabbed at once. Any creature grabbed by the bonecage takes a bane on the Escape Grab maneuver, and the bonecage has damage immunity 5 against that creature's abilities. When the bonecage is force moved, any creature or object they have grabbed moves with them."
         },
         {
-          "effect": "While grabbed this way, a target can't teleport or be teleported.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "While grabbed this way, a target can't teleport or be teleported."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Labyrinth of Bone",
       "icon": "🔳",
       "cost": "5 Malice",
@@ -64,20 +68,20 @@
         "Magic",
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Four 10 x 1 lines within 3",
       "target": "Each enemy in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "The bonecage can put up to two 90-degree bends in each of the lines. Each target makes an Agility test.",
-          "t1": "9 damage",
-          "t2": "7 damage",
-          "t3": "4 damage"
+          "tier1": "9 damage",
+          "tier2": "7 damage",
+          "tier3": "4 damage"
         },
         {
-          "effect": "The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The area is difficult terrain for enemies. The effect ends at the end of the encounter or when the bonecage uses this ability again."
         }
       ]
     }

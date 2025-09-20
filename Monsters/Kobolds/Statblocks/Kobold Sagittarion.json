@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Kobold Sagittarion",
   "level": 1,
   "roles": [
@@ -20,39 +21,42 @@
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Shield? Shield!",
-      "effects": [
-        {
-          "effect": "While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Composite Bow",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 damage",
-          "t2": "4 damage",
-          "t3": "5 damage"
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
         },
         {
-          "effect": "While adjacent to any ally, the sagittarion gains an edge on this ability.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While adjacent to any ally, the sagittarion gains an edge on this ability."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Shield? Shield!",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies."
         }
       ]
     }

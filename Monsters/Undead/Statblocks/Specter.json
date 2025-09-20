@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Specter",
   "level": 1,
   "roles": [
@@ -23,55 +24,60 @@
   "reason": 0,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Corruptive Phasing",
-      "effects": [
-        {
-          "effect": "The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being force moved into objects."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Decaying Touch",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Melee",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "3 corruption damage; P < 0 weakened (save ends)",
-          "t2": "4 corruption damage; P < 1 weakened (save ends)",
-          "t3": "5 corruption damage; P < 2 weakened (save ends)"
+          "tier1": "3 corruption damage; P < 0 weakened (save ends)",
+          "tier2": "4 corruption damage; P < 1 weakened (save ends)",
+          "tier3": "5 corruption damage; P < 2 weakened (save ends)"
         },
         {
-          "effect": "The potency increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "The potency increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Hidden Movement",
       "icon": "👤",
       "keywords": [
         "-"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "The specter turns invisible, moves up to their speed, and is visible again.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The specter turns invisible, moves up to their speed, and is visible again."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Corruptive Phasing",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being force moved into objects."
         }
       ]
     }

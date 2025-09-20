@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Skitterling",
   "level": 1,
   "roles": [
@@ -21,30 +22,31 @@
   "reason": -4,
   "intuition": 0,
   "presence": -2,
-  "traits": [],
-  "abilities": [
+  "features": [
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Claws",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "1 poison damage",
-          "t2": "2 poison damage",
-          "t3": "3 poison damage"
+          "tier1": "1 poison damage",
+          "tier2": "2 poison damage",
+          "tier3": "3 poison damage"
         },
         {
-          "effect": "The target takes a bane on their next strike.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target takes a bane on their next strike."
         }
       ]
     }

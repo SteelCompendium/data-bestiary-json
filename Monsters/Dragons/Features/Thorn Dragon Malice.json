@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Thorn Dragon Malice",
-  "type": "Malice Features",
   "flavor": "At the start of a thorn dragon's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Cage of Thorns",
       "icon": "⭐️",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Bramble Barricade",
       "icon": "🔳",
       "cost": "5 Malice",
@@ -24,6 +29,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "5 Malice",
@@ -34,15 +41,17 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Afflictive Overgrowth",
       "icon": "🌀",
       "cost": "7 Malice",
       "effects": [
         {
           "effect": "The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.",
-          "t1": "12 poison damage; restrained (save ends)",
-          "t2": "9 poison damage; bleeding (save ends)",
-          "t3": "5 poison damage; bleeding (EoT)"
+          "tier1": "12 poison damage; restrained (save ends)",
+          "tier2": "9 poison damage; bleeding (save ends)",
+          "tier3": "5 poison damage; bleeding (EoT)"
         }
       ]
     }

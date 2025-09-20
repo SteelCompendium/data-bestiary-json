@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Arixx Malice",
-  "type": "Malice Features",
   "flavor": "At the start of an arixx's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Burning Maw",
       "icon": "👤",
       "cost": "3 Malice",
@@ -14,19 +17,23 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Geyser",
       "icon": "🔳",
       "cost": "5 Malice",
       "effects": [
         {
           "effect": "The arixx's underground tunnels swell with pressure, causing a sudden influx of hot gas to burst from a 3-square-by-3-square area anywhere on the surface. Each enemy in the area makes an **Agility test**.",
-          "t1": "4 damage; vertical push 5",
-          "t2": "4 damage; vertical push 3",
-          "t3": "The target shifts to the nearest unoccupied space outside the area."
+          "tier1": "4 damage; vertical push 5",
+          "tier2": "4 damage; vertical push 3",
+          "tier3": "The target shifts to the nearest unoccupied space outside the area."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Solo Action",
       "icon": "☠️",
       "cost": "5 Malice",
@@ -37,6 +44,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Earth Sink",
       "icon": "🌀",
       "cost": "7 Malice",

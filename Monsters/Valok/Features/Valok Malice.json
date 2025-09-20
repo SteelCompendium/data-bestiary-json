@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Malice Features",
   "name": "Valok Malice",
-  "type": "Malice Features",
   "flavor": "At the start of any valok's turn, you can spend Malice to activate one of the following features.",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Repeater",
       "icon": "👤",
       "cost": "3 Malice",
@@ -14,6 +17,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "I Was Not Commanded to Wait",
       "icon": "🌀",
       "cost": "5 Malice",
@@ -24,6 +29,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Rapid Logic Overdrive",
       "icon": "⭐️",
       "cost": "7 Malice",

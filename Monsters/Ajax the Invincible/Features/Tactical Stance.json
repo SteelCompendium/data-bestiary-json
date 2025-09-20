@@ -1,9 +1,12 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Ajax Feature",
   "name": "Tactical Stance",
-  "type": "Ajax Feature",
   "flavor": "At the start of each round, Ajax chooses a new stance from one of the following options and gains its benefits:",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Insurgent",
       "icon": "⭐️",
       "effects": [
@@ -13,6 +16,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Mastermind",
       "icon": "⭐️",
       "effects": [
@@ -22,6 +27,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Vanguard",
       "icon": "⭐️",
       "effects": [

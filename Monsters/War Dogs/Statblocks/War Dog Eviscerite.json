@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "War Dog Eviscerite",
   "level": 1,
   "roles": [
@@ -20,56 +21,61 @@
   "reason": 0,
   "intuition": 0,
   "presence": 0,
-  "traits": [
+  "features": [
     {
-      "name": "Loyalty Collar",
-      "effects": [
-        {
-          "effect": "When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Chainsaw Whip",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 3",
       "target": "One creature and object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "3 damage",
-          "t2": "4 damage; pull 1",
-          "t3": "5 damage; pull 2"
+          "tier1": "3 damage",
+          "tier2": "4 damage; pull 1",
+          "tier3": "5 damage; pull 2"
         },
         {
-          "effect": "The eviscerite can automatically grab a target pulled adjacent to them this way.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The eviscerite can automatically grab a target pulled adjacent to them this way."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Posthumous Promotion",
       "icon": "🏹",
       "keywords": [
         "Magic",
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 10",
       "target": "One war dog",
       "effects": [
         {
-          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the target has a loyalty collar, they are reduced to 0 Stamina."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Loyalty Collar",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "When the eviscerite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object."
         }
       ]
     }

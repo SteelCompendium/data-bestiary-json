@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Gnoll Bonesplitter",
   "level": 2,
   "roles": [
@@ -19,56 +20,61 @@
   "reason": 0,
   "intuition": 0,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Death Frenzy",
-      "effects": [
-        {
-          "effect": "Whenever a non-minion ally within 5 squares of the bonesplitter is reduced to 0 Stamina, the bonesplitter moves up to their speed and can make a melee free strike."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Three-Tail Flail",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "One creature or object",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "5 damage; push 2",
-          "t2": "6 damage; push 2",
-          "t3": "8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab maneuver"
+          "tier1": "5 damage; push 2",
+          "tier2": "6 damage; push 2",
+          "tier3": "8 damage; grabbed; M < 2 the target takes a bane on the Escape Grab maneuver"
         },
         {
-          "effect": "While the bonesplitter has a target grabbed, they can't use Three-Tail Flail against another target.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "While the bonesplitter has a target grabbed, they can't use Three-Tail Flail against another target."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Bonesplitter's Cackletongue",
       "icon": "❇️",
       "cost": "4 Malice",
       "keywords": [
         "Area"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "2 burst",
       "target": "Self and each ally in the area",
       "effects": [
         {
-          "effect": "Up to three targets can make a free strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Up to three targets can make a free strike. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Death Frenzy",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Whenever a non-minion ally within 5 squares of the bonesplitter is reduced to 0 Stamina, the bonesplitter moves up to their speed and can make a melee free strike."
         }
       ]
     }

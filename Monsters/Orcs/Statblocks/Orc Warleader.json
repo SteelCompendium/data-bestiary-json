@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Orc Warleader",
   "level": 3,
   "roles": [
@@ -19,51 +20,37 @@
   "reason": 1,
   "intuition": 2,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "End Effect",
-      "effects": [
-        {
-          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
-        }
-      ]
-    },
-    {
-      "name": "Relentless",
-      "effects": [
-        {
-          "effect": "If the warleader is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the warleader is reduced to 1 Stamina instead."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Go.",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Ranged"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One ally",
       "effects": [
         {
-          "effect": "The target moves up to their speed and can use a main action.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target moves up to their speed and can use a main action."
         },
         {
-          "effect": "The warleader targets two allies.",
-          "cost": "1 Malice"
+          "cost": "1 Malice",
+          "effect": "The warleader targets two allies."
         },
         {
-          "effect": "The warleader targets one ally and a minion squad.",
-          "cost": "3 Malice"
+          "cost": "3 Malice",
+          "effect": "The warleader targets one ally and a minion squad."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Mace Lariat",
       "icon": "🗡",
       "keywords": [
@@ -71,103 +58,135 @@
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Each enemy",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "7 damage; push 1; M < 1 dazed (save ends)",
-          "t2": "10 damage; push 3; M < 2 dazed (save ends)",
-          "t3": "13 damage; push 5; M < 3 dazed (save ends)"
+          "tier1": "7 damage; push 1; M < 1 dazed (save ends)",
+          "tier2": "10 damage; push 3; M < 2 dazed (save ends)",
+          "tier3": "13 damage; push 5; M < 3 dazed (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Lockdown",
       "icon": "🏹",
       "cost": "3 Malice",
       "keywords": [
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Self and ranged 10",
       "target": "Self and three allies",
       "effects": [
         {
-          "effect": "Each target moves up to their speed and can use the Grab maneuver, which gains an edge.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Each target moves up to their speed and can use the Grab maneuver, which gains an edge."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Courtesy Call",
       "icon": "❗️",
       "keywords": [
         "Ranged"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Ranged 10",
       "target": "One creature",
       "trigger": "The target obtains a tier 1 outcome on one power roll.",
       "effects": [
         {
-          "effect": "The target has a double edge on their next power roll before the end of the encounter.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The target has a double edge on their next power roll before the end of the encounter."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Close In",
       "icon": "☠️",
-      "cost": "Villain Action 1",
+      "ability_type": "Villain Action 1",
       "keywords": [
         "\\\\ Area\\\\"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "10 burst",
       "target": "Each ally in the area",
       "effects": [
         {
           "name": "Effect",
           "effect": "Each target moves up to their speed. Each enemy adjacent to a target after this move makes an Intuition test.",
-          "t1": "Frightened of the warleader (save ends)",
-          "t2": "Frightened of the warleader (EoT)",
-          "t3": "No effect"
+          "tier1": "Frightened of the warleader (save ends)",
+          "tier2": "Frightened of the warleader (EoT)",
+          "tier3": "No effect"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Familial Reinforcements",
       "icon": "☠️",
-      "cost": "Villain Action 2",
+      "ability_type": "Villain Action 2",
       "keywords": [
         "Ranged"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Ranged 10",
       "target": "Self",
       "effects": [
         {
-          "effect": "The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "The warleader shifts up to their speed, and four orc blitzers appear in unoccupied spaces within distance."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "I'll Do This Myself",
       "icon": "☠️",
-      "cost": "Villain Action 3",
+      "ability_type": "Villain Action 3",
       "keywords": [
         "-"
       ],
-      "type": "-",
+      "usage": "-",
       "distance": "Self",
       "target": "Self",
       "effects": [
         {
-          "effect": "Three times in succession, the warleader shifts up to their speed and can use Mace Lariat.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Three times in succession, the warleader shifts up to their speed and can use Mace Lariat."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "End Effect",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Relentless",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "If the warleader is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the warleader is reduced to 1 Stamina instead."
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
+  "type": "featureblock",
+  "featureblock_type": "Hazard Defender",
   "name": "Brambles",
-  "type": "Hazard Defender",
   "level": 1,
   "ev": "1 per 10 x 10 thicket",
   "flavor": "This thicket features close-growing vines tipped with sharp thorns.",
@@ -8,6 +9,8 @@
   "size": "One or more squares of difficult terrain",
   "features": [
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Deactivate",
       "icon": "🌀",
       "effects": [
@@ -17,6 +20,8 @@
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Activate",
       "icon": "❕",
       "effects": [
@@ -24,19 +29,21 @@
           "effect": "A creature enters a square of brambles without shifting."
         },
         {
-          "effect": "A creature takes 1 damage per square of brambles they enter.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "A creature takes 1 damage per square of brambles they enter."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "trait",
       "name": "Upgrade",
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends).",
           "name": "Poisonous Thorns",
-          "cost": "+1 EV"
+          "cost": "+1 EV",
+          "effect": "The brambles are poisonous. Any creature who takes damage from brambles is also bleeding (save ends)."
         }
       ]
     }

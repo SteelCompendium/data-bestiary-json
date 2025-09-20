@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Human Apprentice Mage",
   "level": 2,
   "roles": [
@@ -24,39 +25,42 @@
   "reason": 0,
   "intuition": 0,
   "presence": 2,
-  "traits": [
+  "features": [
     {
-      "name": "Supernatural Insight",
-      "effects": [
-        {
-          "effect": "The apprentice mage ignores concealment if it's granted by a supernatural effect."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Lightning Strike",
       "icon": "🏹",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Magic",
         "Ranged",
         "Strike"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Ranged 10",
       "target": "One creature or object per minion",
       "effects": [
         {
           "roll": "Power Roll + 2",
-          "t1": "2 lightning damage",
-          "t2": "3 lightning damage",
-          "t3": "5 lightning damage"
+          "tier1": "2 lightning damage",
+          "tier2": "3 lightning damage",
+          "tier3": "5 lightning damage"
         },
         {
-          "effect": "If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also slowed (EoT).",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also slowed (EoT)."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Supernatural Insight",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "The apprentice mage ignores concealment if it's granted by a supernatural effect."
         }
       ]
     }

@@ -1,4 +1,5 @@
 {
+  "type": "statblock",
   "name": "Myxovidan the Sintaker",
   "level": 6,
   "roles": [
@@ -24,92 +25,101 @@
   "reason": 2,
   "intuition": 2,
   "presence": 1,
-  "traits": [
+  "features": [
     {
-      "name": "Stench of Death",
-      "effects": [
-        {
-          "effect": "Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina."
-        }
-      ]
-    }
-  ],
-  "abilities": [
-    {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Breaking Palm",
       "icon": "🗡",
-      "cost": "Signature Ability",
+      "ability_type": "Signature Ability",
       "keywords": [
         "Melee",
         "Strike",
         "Weapon"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "Melee 1",
       "target": "Two enemies",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "10 damage; M < 1 weakened (save ends)",
-          "t2": "15 damage; M < 2 weakened (save ends)",
-          "t3": "18 corruption damage; M < 3 weakened (save ends)"
+          "tier1": "10 damage; M < 1 weakened (save ends)",
+          "tier2": "15 damage; M < 2 weakened (save ends)",
+          "tier3": "18 corruption damage; M < 3 weakened (save ends)"
         },
         {
-          "effect": "Myxovidan regains Stamina equal to half the damage dealt.",
-          "cost": "2 Malice"
+          "cost": "2 Malice",
+          "effect": "Myxovidan regains Stamina equal to half the damage dealt."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Expunging Exhalation",
       "icon": "❇️",
       "keywords": [
         "Area",
         "Magic"
       ],
-      "type": "Main action",
+      "usage": "Main action",
       "distance": "2 burst",
       "target": "Each enemy in the area",
       "effects": [
         {
           "roll": "Power Roll + 3",
-          "t1": "7 corruption damage; M < 1 the target has corruption weakness 3 (save ends)",
-          "t2": "12 corruption damage; M < 2 the target has corruption weakness 3 (save ends)",
-          "t3": "15 corruption damage; M < 3 the target has corruption weakness 3 (save ends)"
+          "tier1": "7 corruption damage; M < 1 the target has corruption weakness 3 (save ends)",
+          "tier2": "12 corruption damage; M < 2 the target has corruption weakness 3 (save ends)",
+          "tier3": "15 corruption damage; M < 3 the target has corruption weakness 3 (save ends)"
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Step and Swap",
       "icon": "🏹",
       "keywords": [
         "Ranged"
       ],
-      "type": "Maneuver",
+      "usage": "Maneuver",
       "distance": "Ranged 3",
       "target": "One ally",
       "effects": [
         {
-          "effect": "Myxovidan and the target shift to swap places.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Myxovidan and the target shift to swap places."
         }
       ]
     },
     {
+      "type": "feature",
+      "feature_type": "ability",
       "name": "Anyone Can Do That",
       "icon": "❗️",
       "cost": "2 Malice",
       "keywords": [
         "-"
       ],
-      "type": "Triggered action",
+      "usage": "Triggered action",
       "distance": "Self",
       "target": "Self",
       "trigger": "An adjacent creature damages Myxovidan with a melee ability.",
       "effects": [
         {
-          "effect": "Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice.",
-          "name": "Effect"
+          "name": "Effect",
+          "effect": "Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "feature_type": "trait",
+      "name": "Stench of Death",
+      "icon": "⭐️",
+      "effects": [
+        {
+          "effect": "Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina."
         }
       ]
     }
