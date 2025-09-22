@@ -49,7 +49,7 @@
         },
         {
           "name": "Effect",
-          "effect": "This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic"
+          "effect": "This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic."
         },
         {
           "cost": "2 Malice",
@@ -72,7 +72,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The area is difficult terrain until the end of the encounter"
+          "effect": "The area is difficult terrain until the end of the encounter."
         }
       ]
     },

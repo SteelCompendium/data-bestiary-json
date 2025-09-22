@@ -45,7 +45,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn"
+          "effect": "The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn."
         }
       ]
     },

@@ -73,7 +73,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The area is difficult terrain"
+          "effect": "The area is difficult terrain."
         }
       ]
     },

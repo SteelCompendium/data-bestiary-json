@@ -47,7 +47,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The target can't shift until the end of their next turn"
+          "effect": "The target can't shift until the end of their next turn."
         },
         {
           "cost": "1 Malice",

@@ -122,7 +122,7 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition"
+          "effect": "Each ally within 5 squares of the butcher gains an edge on power rolls against any enemy affected by a condition."
         }
       ]
     },

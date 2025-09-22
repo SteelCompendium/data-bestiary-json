@@ -64,7 +64,7 @@
       "usage": "Triggered action",
       "distance": "Ranged 20",
       "target": "The triggering creature",
-      "trigger": "A creature deals damage to any ally of the armiger who the armiger has line of effect to",
+      "trigger": "A creature deals damage to any ally of the armiger who the armiger has line of effect to.",
       "effects": [
         {
           "roll": "Power Roll + 2",

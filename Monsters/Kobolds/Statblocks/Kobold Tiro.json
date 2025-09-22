@@ -45,7 +45,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The target can't shift until the start of the tiro's next turn"
+          "effect": "The target can't shift until the start of the tiro's next turn."
         }
       ]
     },

@@ -4,7 +4,7 @@
   "name": "Quicksand",
   "level": 3,
   "ev": "3 per 10 x 10 patch",
-  "flavor": "When this patch of sand is stepped on, it is revealed to be a slurry saturated by water-and ready to draw creatures down to their doom.",
+  "flavor": "When this patch of sand is stepped on, it is revealed to be a slurry saturated by water—and ready to draw creatures down to their doom.",
   "stamina": "-",
   "size": "One or more squares",
   "features": [

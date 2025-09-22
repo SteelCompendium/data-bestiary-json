@@ -50,9 +50,6 @@
       "trigger": "A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.",
       "effects": [
         {
-          "effect": "Magic, Melee, Strike Free triggered action"
-        },
-        {
           "roll": "Power Roll + 2",
           "tier1": "M < 0 dazed (save ends)",
           "tier2": "M < 1 dazed (save ends)",

@@ -142,10 +142,6 @@
         },
         {
           "name": "Effect",
-          "effect": "This ability can't be used again until the arrow"
-        },
-        {
-          "name": "Effect",
           "effect": "This ability can't be used again until the arrow launcher is reloaded."
         }
       ]

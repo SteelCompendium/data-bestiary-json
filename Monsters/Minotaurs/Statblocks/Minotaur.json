@@ -46,7 +46,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The minotaur shifts up to 3 squares"
+          "effect": "The minotaur shifts up to 3 squares."
         }
       ]
     },

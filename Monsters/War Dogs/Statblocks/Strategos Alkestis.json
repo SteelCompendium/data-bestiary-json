@@ -68,7 +68,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "Until the start of Alkestis's next turn, any effect that reduces the damage taken by the target has no effect"
+          "effect": "Until the start of Alkestis's next turn, any effect that reduces the damage taken by the target has no effect."
         }
       ]
     },
@@ -96,7 +96,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The area is difficult terrain until the start of the next round"
+          "effect": "The area is difficult terrain until the start of the next round."
         }
       ]
     },

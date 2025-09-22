@@ -116,7 +116,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The goon slides the target up to 5 squares"
+          "effect": "The goon slides the target up to 5 squares."
         }
       ]
     },

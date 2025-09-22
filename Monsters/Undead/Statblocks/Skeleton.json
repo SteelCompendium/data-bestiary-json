@@ -49,7 +49,7 @@
         },
         {
           "name": "Effect",
-          "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn"
+          "effect": "Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn."
         }
       ]
     },

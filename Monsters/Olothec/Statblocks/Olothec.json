@@ -230,7 +230,7 @@
         },
         {
           "name": "Effect",
-          "effect": "While frightened this way, a target can't make saving throws to end any other effects"
+          "effect": "While frightened this way, a target can't make saving throws to end any other effects."
         }
       ]
     },

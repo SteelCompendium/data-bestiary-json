@@ -48,7 +48,7 @@
         },
         {
           "name": "Effect",
-          "effect": "The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw"
+          "effect": "The vampire regains Stamina equal to half the damage dealt, and can end one effect on them that can be ended by a saving throw."
         },
         {
           "cost": "2+ Malice",
@@ -175,7 +175,7 @@
         },
         {
           "name": "Effect",
-          "effect": "Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action",
+          "effect": "Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice villain action.",
           "tier1": "11 corruption damage",
           "tier2": "8 corruption damage",
           "tier3": "2 corruption damage"

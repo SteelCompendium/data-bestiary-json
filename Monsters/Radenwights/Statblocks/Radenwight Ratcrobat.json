@@ -63,7 +63,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The ratcrobat slides the target up to 3 squares, then can shift into any square the target left"
+          "effect": "The ratcrobat slides the target up to 3 squares, then can shift into any square the target left."
         }
       ]
     },

@@ -84,7 +84,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The talent halves the damage and shifts up to 2 squares"
+          "effect": "The talent halves the damage and shifts up to 2 squares."
         }
       ]
     },

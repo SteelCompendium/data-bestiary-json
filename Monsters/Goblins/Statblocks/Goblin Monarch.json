@@ -84,7 +84,7 @@
       "effects": [
         {
           "name": "Effect",
-          "effect": "The ally is the target of the triggering strike instead"
+          "effect": "The ally is the target of the triggering strike instead."
         }
       ]
     },

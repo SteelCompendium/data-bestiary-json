@@ -46,7 +46,7 @@
         },
         {
           "name": "Effect",
-          "effect": "Each enemy adjacent to the target before the forced movement takes 5 fire damage"
+          "effect": "Each enemy adjacent to the target before the forced movement takes 5 fire damage."
         }
       ]
     },

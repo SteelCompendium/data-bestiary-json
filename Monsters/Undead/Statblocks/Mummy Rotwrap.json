@@ -52,7 +52,7 @@
         },
         {
           "name": "Effect",
-          "effect": "Each ally gains an edge on strikes made against the target until the end of the round"
+          "effect": "Each ally gains an edge on strikes made against the target until the end of the round."
         }
       ]
     }

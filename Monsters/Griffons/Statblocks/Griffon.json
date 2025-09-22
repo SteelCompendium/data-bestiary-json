@@ -46,7 +46,7 @@
         },
         {
           "name": "Effect",
-          "effect": "If this ability is used as part of the Charge main action, the griffon can grab one of the targets"
+          "effect": "If this ability is used as part of the Charge main action, the griffon can grab one of the targets."
         }
       ]
     },
@@ -116,11 +116,11 @@
       "usage": "Triggered action",
       "distance": "Self",
       "target": "Self",
-      "trigger": "The griffon takes damage",
+      "trigger": "The griffon takes damage.",
       "effects": [
         {
           "name": "Effect",
-          "effect": "The griffon halves the damage, ignores any nondamaging effects associated with it, and shifts up to 2 squares"
+          "effect": "The griffon halves the damage, ignores any nondamaging effects associated with it, and shifts up to 2 squares."
         }
       ]
     },

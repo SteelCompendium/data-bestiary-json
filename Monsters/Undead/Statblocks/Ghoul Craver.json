@@ -61,7 +61,7 @@
       "icon": "⭐️",
       "effects": [
         {
-          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift"
+          "effect": "Any enemy adjacent to three or more ghoul cravers can't shift."
         }
       ]
     },
