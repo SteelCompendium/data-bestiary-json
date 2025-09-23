@@ -138,6 +138,8 @@
     {
       "type": "feature",
       "feature_type": "ability",
+      "name": "Necrotic Form",
+      "icon": "👤",
       "keywords": [
         "-"
       ],
