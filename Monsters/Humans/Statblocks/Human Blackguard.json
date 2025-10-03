@@ -40,7 +40,7 @@
       "target": "Each enemy in the area",
       "effects": [
         {
-          "roll": "Power Roll + 2",
+          "roll": "Power Roll + 3",
           "tier1": "3 damage; M < 1 slowed (save ends)",
           "tier2": "6 damage; M < 2 slowed (save ends)",
           "tier3": "8 damage; M < 3 slowed (save ends)"

@@ -6,7 +6,8 @@
     "Leader"
   ],
   "ancestry": [
-    "Undead"
+    "Undead",
+    "Vampire"
   ],
   "ev": "36",
   "stamina": "200",

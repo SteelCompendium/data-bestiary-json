@@ -65,7 +65,7 @@
       "target": "One grabbed creature or object",
       "effects": [
         {
-          "roll": "Power Roll + 2",
+          "roll": "Power Roll + 3",
           "tier1": "8 damage; M < 1 dazed (save ends)",
           "tier2": "12 damage; M < 2 dazed (save ends)",
           "tier3": "15 damage; M < 3 dazed (save ends)"
