@@ -165,7 +165,7 @@
           "effect": "The chimera shifts up to 5 squares. If they end this shift within distance of the target, make a power roll."
         },
         {
-          "effect": "**Power Roll + 3**",
+          "roll": "Power Roll + 3",
           "tier1": "6 damage; M < 1 slowed (save ends)",
           "tier2": "8 damage; prone; M < 2 slowed (save ends)",
           "tier3": "10 damage; prone; M < 3 slowed (save ends)"

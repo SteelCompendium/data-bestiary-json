@@ -67,7 +67,7 @@
       "target": "Two creatures",
       "effects": [
         {
-          "effect": "**Power Roll + 4**",
+          "roll": "Power Roll + 4",
           "tier1": "I < 2 the target is charmed (save ends)",
           "tier2": "I < 3 the target is charmed (save ends)",
           "tier3": "I < 4 the target is charmed (save ends)"
