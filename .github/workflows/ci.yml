@@ -3,8 +3,7 @@ name: Build and Release
 on:
   push:
     branches:
-      - backer
-      - patron
+      - v3
       - main
 
 permissions:
